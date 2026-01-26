@@ -350,9 +350,6 @@ class CardGallery {
             <div class="player-card-stats"></div>
             ${card.field ? '<div class="player-card-field-cell"></div>' : ''}
             ${!card.animalHolder ? '' : '<div class="resource-holder resource-holder-update animal-holder" data-n="0"></div>'}
-            <div class="help-marker">
-                <svg><use href="#help-marker-svg"></use></svg>
-            </div>
         `;
         
         div.innerHTML = html;
