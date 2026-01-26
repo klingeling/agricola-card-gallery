@@ -376,9 +376,8 @@ class CardGallery {
                 const meepleClass = `meeple-${resource.toLowerCase()}`;
                 return `
                     <div class="meeple-container">
-                        <div class="agricola-meeple ${meepleClass}"></div>
+                        ${amount}<div class="agricola-meeple ${meepleClass}"></div>
                     </div>
-                    <span>${amount}</span>
                 `;
             }).join('');
             
