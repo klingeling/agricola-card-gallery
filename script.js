@@ -52,7 +52,9 @@ class CardGallery {
             this.cards = Object.values(cardsData).map(card => ({
                 ...card,
                 originalName: card.name,  // 保留英文原名
-                name: this.getChineseName(card.name)  // 应用中文翻译
+                name: this.getChinese(card.name),  // 应用中文翻译
+                prerequisite: this.getChinese(card.prerequisite),  // 应用中文翻译
+                costText: this.getChinese(card.costText)  // 应用中文翻译
             }));
 
             console.log(`成功加载 ${this.cards.length} 张卡牌`);
@@ -63,7 +65,7 @@ class CardGallery {
         }
     }
 
-    getChineseName(englishName) {
+    getChinese(englishName) {
         // 如果有中文翻译，使用中文，否则使用英文
         return this.translationMap[englishName] || englishName;
     }
