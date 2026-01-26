@@ -4750,6 +4750,41 @@
         "description": "<div>当你打出本卡牌时，立即获得1<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-grain\">\n</div>\n</div>。在每次收成的收割步骤中，你可以从你的每个谷物农田上额外收获1<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-grain\">\n</div>\n</div>。</div>",
         "mini": false
     },
+    "A113_HeresyTeacher": {
+        "id": "A113_HeresyTeacher",
+        "pId": 84603229,
+        "name": "Heresy Teacher",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "A",
+        "players": "1+",
+        "desc": [
+            "Each time you use a __Lessons__ action space, you get 1 <VEGETABLE> in each of your fields with at least 3 <GRAIN> and no <VEGETABLE>. Place the <VEGETABLE> below the  <GRAIN>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "CropCategory",
+        "numbering": "A113",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每当你使用一个<span class=\"action-card-name-reference\">“职业训练”</span>行动格时，你每拥有一个至少3<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-grain\">\n</div>\n</div>且没有<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-vegetable\">\n</div>\n</div>的农田，你获得1<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-vegetable\">\n</div>\n</div>。将该<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-vegetable\">\n</div>\n</div>放在对应<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-grain\">\n</div>\n</div>下面。</div>",
+        "mini": false
+    },
     "A114_SeasonalWorker": {
         "id": "A114_SeasonalWorker",
         "pId": 84603229,

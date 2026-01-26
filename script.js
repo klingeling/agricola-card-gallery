@@ -10,6 +10,7 @@ class CardGallery {
             search: '',
             players: 'all'
         };
+        this.translationMap = {}; // 新增：存储中英文映射
 
         this.init();
     }
@@ -30,7 +31,7 @@ class CardGallery {
 
     async loadCards() {
         try {
-            // 从本地JSON文件加载数据
+            // 从本地JSON文件加载卡牌数据
             const response = await fetch('cards.json');
             if (!response.ok) {
                 throw new Error('无法加载卡牌数据');
@@ -38,8 +39,21 @@ class CardGallery {
 
             const cardsData = await response.json();
 
-            // 转换为数组并格式化数据
-            this.cards = Object.values(cardsData);
+            // 从本地加载中文翻译文件
+            const translationResponse = await fetch('agricola-zh.json');
+            if (!translationResponse.ok) {
+                console.warn('无法加载中文翻译文件，将显示英文名称');
+            }
+
+            this.translationMap = translationResponse.ok ?
+                await translationResponse.json() : {};
+
+            // 转换为数组并格式化数据，应用中文翻译
+            this.cards = Object.values(cardsData).map(card => ({
+                ...card,
+                originalName: card.name,  // 保留英文原名
+                name: this.getChineseName(card.name)  // 应用中文翻译
+            }));
 
             console.log(`成功加载 ${this.cards.length} 张卡牌`);
 
@@ -47,6 +61,11 @@ class CardGallery {
             console.error('加载卡牌数据失败:', error);
             this.showErrorMessage('加载卡牌数据失败，请刷新页面重试。');
         }
+    }
+
+    getChineseName(englishName) {
+        // 如果有中文翻译，使用中文，否则使用英文
+        return this.translationMap[englishName] || englishName;
     }
 
     formatCategory(category) {
@@ -223,10 +242,12 @@ class CardGallery {
             if (this.filters.search) {
                 const searchLower = this.filters.search.toLowerCase();
                 const nameMatch = card.name.toLowerCase().includes(searchLower);
+                const originalNameMatch = card.originalName ?
+                    card.originalName.toLowerCase().includes(searchLower) : false;
                 const numberMatch = card.numbering.toLowerCase().includes(searchLower);
                 const descMatch = card.description.toLowerCase().includes(searchLower);
 
-                if (!nameMatch && !numberMatch && !descMatch) {
+                if (!nameMatch && !originalNameMatch && !numberMatch && !descMatch) {
                     return false;
                 }
             }
@@ -248,12 +269,8 @@ class CardGallery {
         this.filteredCards.sort((a, b) => {
             switch (sortBy) {
                 case 'name':
-                    return a.name.localeCompare(b.name);
-                // case 'deck':
-                //     return a.deck.localeCompare(b.deck) ||
-                //         a.numbering.localeCompare(b.numbering);
-                // case 'vp':
-                //     return (b.vp || 0) - (a.vp || 0);
+                    // 按中文名称排序
+                    return a.name.localeCompare(b.name, 'zh');
                 default: // numbering
                     return a.numbering.localeCompare(b.numbering);
             }
