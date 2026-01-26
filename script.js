@@ -39,12 +39,7 @@ class CardGallery {
             const cardsData = await response.json();
             
             // 转换为数组并格式化数据
-            this.cards = Object.values(cardsData).map(card => ({
-                ...card,
-                vp: parseInt(card.vp) || 0,
-                // 添加分类处理
-                categoryDisplay: this.formatCategory(card.category)
-            }));
+            this.cards = Object.values(cardsData);
             
             console.log(`成功加载 ${this.cards.length} 张卡牌`);
             
@@ -79,9 +74,6 @@ class CardGallery {
         
         // 初始化排序
         this.initSortControls();
-        
-        // 初始化模态框
-        this.initModal();
     }
     
     initFilters() {
@@ -99,7 +91,7 @@ class CardGallery {
         
         // 分类筛选
         const categorySelect = document.getElementById('categoryFilter');
-        const categories = [...new Set(this.cards.map(card => card.categoryDisplay))].sort();
+        const categories = [...new Set(this.cards.map(card => this.formatCategory(card.category)))].sort();
         
         categories.forEach(category => {
             const option = document.createElement('option');
@@ -153,23 +145,6 @@ class CardGallery {
         });
     }
     
-    initModal() {
-        const modal = document.getElementById('cardModal');
-        const closeBtn = document.querySelector('.close-modal');
-        
-        // 点击关闭按钮关闭模态框
-        closeBtn.addEventListener('click', () => {
-            modal.style.display = 'none';
-        });
-        
-        // 点击模态框外部关闭
-        window.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.style.display = 'none';
-            }
-        });
-    }
-    
     applyFilters() {
         this.filteredCards = this.cards.filter(card => {
             // 类型筛选
@@ -183,7 +158,7 @@ class CardGallery {
             }
             
             // 分类筛选
-            if (this.filters.category !== 'all' && card.categoryDisplay !== this.filters.category) {
+            if (this.filters.category !== 'all' && this.formatCategory(card.category) !== this.filters.category) {
                 return false;
             }
             
@@ -283,14 +258,13 @@ class CardGallery {
             return;
         }
         
-        const cardsHTML = this.filteredCards.map(card => this.createCardHTML(card)).join('');
-        container.innerHTML = cardsHTML;
+        // 清空容器
+        container.innerHTML = '';
         
-        // 为每张卡牌添加点击事件
-        document.querySelectorAll('.card-item').forEach((cardElement, index) => {
-            cardElement.addEventListener('click', () => {
-                this.showCardDetail(this.filteredCards[index]);
-            });
+        // 创建卡牌并添加到容器
+        this.filteredCards.forEach(card => {
+            const cardElement = this.createAgricolaCardHTML(card);
+            container.appendChild(cardElement);
         });
     }
     
@@ -315,36 +289,159 @@ class CardGallery {
         
         const listHTML = this.filteredCards.map(card => this.createListCardHTML(card)).join('');
         container.innerHTML = listHTML;
-        
-        // 为每行添加点击事件
-        document.querySelectorAll('.card-list-item').forEach((row, index) => {
-            row.addEventListener('click', () => {
-                this.showCardDetail(this.filteredCards[index]);
-            });
-        });
     }
     
-    createCardHTML(card) {
-        const typeText = card.type === 'occupation' ? '职业卡' : '次要改进卡';
-        const vpDisplay = card.vp > 0 ? `+${card.vp} VP` : '0 VP';
+    // 根据Cards.js中的tplPlayerCard函数创建Agricola风格的卡牌
+    createAgricolaCardHTML(card) {
+        const div = document.createElement('div');
+        
+        // 基础样式类
+        const typeClass = card.type || 'minor';
+        const classes = [
+            'player-card',
+            typeClass,
+            'tooltipable',
+            'selectable'
+        ].filter(c => c).join(' ');
+        
+        // 设置数据属性
+        div.id = card.id;
+        div.className = classes;
+        div.setAttribute('data-id', card.id);
+        div.setAttribute('data-numbering', card.numbering);
+        div.setAttribute('data-cook', card.cook || 'false');
+        div.setAttribute('data-bread', card.bread || 'false');
+        div.setAttribute('data-state', card.state || '0');
+        
+        // 创建卡牌内部结构
+        const html = `
+            <div class="player-card-resizable">
+                <div class="player-card-inner">
+                    <div class="card-frame"></div>
+                    ${card.passing !== true ? '<div class="card-frame-left-leaves"></div><div class="card-frame-right-leaves"></div>' : ''}
+                    <div class="card-icon"></div>
+                    <div class="card-title">
+                        ${card.name || ''}
+                    </div>
+                    <div class="card-numbering">${card.numbering || ''}</div>
+                    <div class="card-bonus-vp-counter">${card.bonusVp || ''}</div>
+                    ${card.players ? `<div class="card-players" data-n="${card.players}"></div>` : ''}
+                    ${card.deck ? `<div class="card-deck" data-deck="${card.deck}"></div>` : ''}
+                    ${card.vp != 0 ? `<div class="card-score" data-score="${card.vp}">${card.vp}</div>` : ''}
+                    ${card.extraVp ? '<div class="card-extra-score"></div>' : ''}
+                    ${card.category ? `<div class="card-category" data-category="${card.category}"></div>` : ''}
+                    <div class="card-cost">
+                        ${this.formatCardCostHTML(card)}
+                    </div>
+                    ${this.formatPrerequisiteHTML(card)}
+                    <div class="card-desc">
+                        <div class="card-desc-scroller">
+                            ${this.formatCardDescription(card)}
+                        </div>
+                    </div>
+                    <div class="card-bottom-left-corner"></div>
+                    <div class="card-bottom-right-corner"></div>
+                    ${card.holder ? this.createHolderHTML(card) : ''}
+                </div>
+                <div class="player-card-zoom">
+                    <svg><use href="#zoom-svg"></use></svg>
+                </div>
+            </div>
+            <div class="player-card-stats"></div>
+            ${card.field ? '<div class="player-card-field-cell"></div>' : ''}
+            ${!card.animalHolder ? '' : '<div class="resource-holder resource-holder-update animal-holder" data-n="0"></div>'}
+            <div class="help-marker">
+                <svg><use href="#help-marker-svg"></use></svg>
+            </div>
+        `;
+        
+        div.innerHTML = html;
+        return div;
+    }
+    
+    formatCardCostHTML(card) {
+        // 根据Cards.js中的formatCardCost函数实现
+        if (!card.costs) return '';
+        
+        // 处理费用文本
+        let html = '';
+        if (card.costText && card.costText !== '') {
+            html += `<div class="card-cost-text">${card.costText}</div>`;
+        }
+        
+        // 处理具体费用
+        const costs = Array.isArray(card.costs) ? card.costs : [card.costs];
+        
+        costs.forEach((cost, index) => {
+            if (Object.keys(cost).length === 0) return;
+            
+            const costItems = Object.entries(cost).map(([resource, amount]) => {
+                const meepleClass = `meeple-${resource.toLowerCase()}`;
+                return `
+                    <div class="meeple-container">
+                        <div class="agricola-meeple ${meepleClass}"></div>
+                    </div>
+                    <span>${amount}</span>
+                `;
+            }).join('');
+            
+            html += `<div class="card-cost-item">${costItems}</div>`;
+            
+            // 添加分隔符（除了最后一个）
+            if (index < costs.length - 1) {
+                html += '<div class="card-cost-separator"></div>';
+            }
+        });
+        
+        // 处理额外费用
+        if (card.fee) {
+            const feeItems = Object.entries(card.fee).map(([resource, amount]) => {
+                const meepleClass = `meeple-${resource.toLowerCase()}`;
+                return `
+                    <div class="meeple-container">
+                        <div class="agricola-meeple ${meepleClass}"></div>
+                    </div>
+                    <span>${amount}</span>
+                `;
+            }).join('');
+            
+            html = `
+                <div class="card-fee">${feeItems}</div>
+                <div class="card-cost-fee-separator">+</div>
+                ${html}
+            `;
+        }
+        
+        return html;
+    }
+    
+    formatPrerequisiteHTML(card) {
+        if (!card.prerequisite || card.prerequisite === '') return '';
         
         return `
-            <div class="card-item" data-id="${card.id}">
-                <div class="card-header">
-                    <div class="card-number">${card.numbering}</div>
-                    <div class="card-name">${card.name}</div>
-                    <div class="card-type">${typeText}</div>
-                </div>
-                <div class="card-body">
-                    <div class="card-description">${this.sanitizeDescription(card.description)}</div>
-                    <div class="card-category-badge">${card.categoryDisplay}</div>
-                </div>
-                <div class="card-footer">
-                    <div class="card-vp">${vpDisplay}</div>
-                    <div class="card-players">
-                        <i class="fas fa-users"></i> ${card.players || '1+'} 人
-                    </div>
-                </div>
+            <div class="card-prerequisite">
+                <div class="prerequisite-text">${card.prerequisite}</div>
+            </div>
+        `;
+    }
+    
+    formatCardDescription(card) {
+        // 直接从card对象获取描述
+        return card.description || card.desc || '';
+    }
+    
+    createHolderHTML(card) {
+        let subHolders = '';
+        if (card.id === "D75_WoodField") {
+            subHolders = '<div class="subholder" data-x="0"></div><div class="subholder" data-x="-1"></div>';
+        }
+        if (card.id === "E80_RockGarden") {
+            subHolders = '<div class="subholder" data-x="0"></div><div class="subholder" data-x="-1"></div><div class="subholder" data-x="-2"></div>';
+        }
+        
+        return `
+            <div class="resource-holder farmer-holder resource-holder-update ${card.actionCard ? 'actionCard' : ''}">
+                ${subHolders}
             </div>
         `;
     }
@@ -361,112 +458,6 @@ class CardGallery {
                 <div class="list-card-vp">${vpDisplay} VP</div>
             </div>
         `;
-    }
-    
-    sanitizeDescription(description) {
-        // 移除HTML标签，保留文本内容
-        return description.replace(/<[^>]*>/g, '').substring(0, 150) + '...';
-    }
-    
-    showCardDetail(card) {
-        const modal = document.getElementById('cardModal');
-        const modalName = document.getElementById('modalCardName');
-        const modalContent = document.getElementById('modalCardContent');
-        
-        modalName.textContent = card.name;
-        modalContent.innerHTML = this.createCardDetailHTML(card);
-        
-        modal.style.display = 'block';
-    }
-    
-    createCardDetailHTML(card) {
-        const typeText = card.type === 'occupation' ? '职业卡' : '次要改进卡';
-        const deckText = this.getDeckName(card.deck);
-        const vpDisplay = card.vp > 0 ? `+${card.vp} 胜利分数` : '无胜利分数';
-        
-        return `
-            <div class="card-detail">
-                <div class="card-detail-header">
-                    <div class="detail-numbering">${card.numbering} | ${deckText}</div>
-                    <div class="detail-name">${card.name}</div>
-                    <div class="detail-meta">
-                        <span class="detail-type">
-                            <i class="fas fa-tag"></i> ${typeText}
-                        </span>
-                        <span class="detail-deck">
-                            <i class="fas fa-layer-group"></i> ${deckText}扩展包
-                        </span>
-                        <span class="detail-players">
-                            <i class="fas fa-users"></i> ${card.players || '1+'} 人游戏
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-detail-body">
-                    <div class="detail-description">
-                        ${card.description}
-                    </div>
-                    
-                    ${this.renderCardCosts(card)}
-                </div>
-                
-                <div class="card-detail-footer">
-                    <div class="detail-vp">${vpDisplay}</div>
-                    <div class="detail-category">${card.categoryDisplay}</div>
-                </div>
-            </div>
-        `;
-    }
-    
-    renderCardCosts(card) {
-        if ((!card.costs || card.costs.length === 0 || (card.costs.length === 1 && Object.keys(card.costs[0]).length === 0)) && 
-            !card.costText && !card.fee) {
-            return '';
-        }
-        
-        let costsHTML = '<div class="detail-costs">';
-        
-        // 显示费用文本
-        if (card.costText) {
-            costsHTML += `<div class="cost-text">费用: ${card.costText}</div>`;
-        }
-        
-        // 显示具体资源费用
-        if (card.costs && card.costs.length > 0) {
-            card.costs.forEach(cost => {
-                if (Object.keys(cost).length > 0) {
-                    costsHTML += '<div class="costs-group">';
-                    Object.entries(cost).forEach(([resource, amount]) => {
-                        costsHTML += `
-                            <div class="cost-item">
-                                <div class="meeple-container">
-                                    <div class="agricola-meeple meeple-${resource.toLowerCase()}"></div>
-                                </div>
-                                <span>${amount}</span>
-                            </div>
-                        `;
-                    });
-                    costsHTML += '</div>';
-                }
-            });
-        }
-        
-        costsHTML += '</div>';
-        return costsHTML;
-    }
-    
-    getDeckName(deck) {
-        const deckNames = {
-            'A': '基础A套',
-            'B': '基础B套',
-            'C': '基础C套',
-            'D': '基础D套',
-            'E': '基础E套',
-            'F': '基础F套',
-            'G': '基础G套'
-        };
-        
-        return deckNames[deck] || deck;
     }
     
     updateStats() {

@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>农场主 Agricola - 卡牌图鉴</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- 引入 Agricola 的 CSS -->
+    <link rel="stylesheet" href="agricola.css">
+    <!-- 我们的自定义样式 -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -15,11 +20,11 @@
         </header>
 
         <div class="main-content">
-            <!-- 筛选侧边栏 -->
+            <!-- 筛选侧边栏保持不变 -->
             <aside class="filters-sidebar">
                 <div class="filter-section">
                     <h3><i class="fas fa-filter"></i> 筛选条件</h3>
-                    
+
                     <div class="filter-group">
                         <label for="cardType"><i class="fas fa-tag"></i> 卡牌类型</label>
                         <select id="cardType" class="filter-select">
@@ -31,7 +36,7 @@
                     </div>
 
                     <div class="filter-group">
-                        <label for="deckFilter"><i class="fas fa-layer-group"></i> 扩展</label>
+                        <label for="deckFilter"><i class="fas fa-layer-group"></i> 扩展包</label>
                         <select id="deckFilter" class="filter-select">
                             <option value="all">全部扩展</option>
                             <option value="A">A</option>
@@ -103,8 +108,9 @@
                     </div>
                 </div>
 
-                <div id="cardsGrid" class="cards-grid">
-                    <!-- 卡牌会在这里动态加载 -->
+                <!-- 使用和Agricola相同的容器结构 -->
+                <div id="cardsGrid" class="cards-grid agricola-style">
+                    <!-- 卡牌会在这里动态加载，使用Agricola的card样式 -->
                     <div class="loading">
                         <i class="fas fa-spinner fa-spin"></i> 加载卡牌中...
                     </div>
@@ -114,23 +120,11 @@
                     <!-- 列表视图会在这里显示 -->
                 </div>
             </main>
-
-            <!-- 卡牌详情模态框 -->
-            <div id="cardModal" class="modal">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 id="modalCardName"></h2>
-                        <span class="close-modal">&times;</span>
-                    </div>
-                    <div class="modal-body">
-                        <div id="modalCardContent"></div>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <footer>
-            <p>基于 <a href="https://boardgamearena.com/gamepanel?game=agricola" target="_blank">BGA Agricola</a> 实现 | 仅供学习参考</p>
+            <p>基于 <a href="https://boardgamearena.com/gamepanel?game=agricola" target="_blank">BGA Agricola</a> 实现 |
+                仅供学习参考</p>
             <p class="github-link">
                 <a href="https://github.com/klingeling/agricola-card-gallery" target="_blank">
                     <i class="fab fa-github"></i> GitHub 项目
@@ -139,6 +133,21 @@
         </footer>
     </div>
 
+    <!-- SVG图标，从Agricola复制 -->
+    <svg style="display: none;">
+        <symbol id="zoom-svg" viewBox="0 0 24 24">
+            <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
+            </path>
+        </symbol>
+        <symbol id="help-marker-svg" viewBox="0 0 24 24">
+            <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H8c0-2.21 1.79-4 4-4s4 1.79 4 4c0 .88-.36 1.68-.93 2.25z">
+            </path>
+        </symbol>
+    </svg>
+
     <script src="script.js"></script>
 </body>
+
 </html>
