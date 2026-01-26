@@ -54,12 +54,69 @@ class CardGallery {
 
         // 简化分类显示
         const categoryMap = {
-            'BUILDING_RESOURCES_-_ALL': '建造资源',
-            'FARM_SPACE_ACTIONS': '农场行动',
-            'FOOD_GENERATION': '食物生成',
-            'ANIMAL_ACTIONS': '动物行动',
-            'FIELD_ACTIONS': '田地行动',
-            'FAMILY_ACTIONS': '家庭行动'
+            'FarmCategory': '农场规划',
+            'BoosterCategory': '行动增强',
+            'PointsCategory': '分数奖励',
+            'GoodsCategory': '货物奖励',
+            'FoodCategory': '食物奖励',
+            'CropCategory': '作物奖励',
+            'ResourceCategory': '建造资源奖励',
+            'LivestockCategory': '动物奖励',
+            // 扩展类别
+            'ACTION_-_BAKE': '行动增强-烤面包',
+            'ACTION_-_FAMILY_GROWTH': '行动增强-家庭成长',
+            'ACTION_-_FENCE': '行动增强-栅栏',
+            'ACTION_-_GUEST': '行动增强-访客',
+            'ACTION_-_IMPROVEMENT': '行动增强-发展',
+            'ACTION_-_MAJOR_IMPROVEMENT': '行动增强-主要发展',
+            'ACTION_-_MINOR_IMPROVEMENT': '行动增强-次要发展',
+            'ACTION_-_OCCUPATION': '行动增强-职业卡牌',
+            'ACTION_-_PLOW': '行动增强-耕种',
+            'ACTION_-_RENOVATION': '行动增强-翻新',
+            'ACTION_-_ROOM': '行动增强-房间',
+            'ACTION_-_SOW': '行动增强-播种',
+            'ACTION_-_STABLE': '行动-畜棚',
+            'ACTION': '行动增强',
+            'ANIMAL_-_CATTLE': '动物奖励-牛',
+            'ANIMAL_-_PIG': '动物奖励-野猪',
+            'ANIMAL_-_SHEEP': '动物奖励-羊',
+            'ANIMAL_': '动物奖励',
+            'BONUS_POINTS_-_GET': '奖励分数-获得',
+            'BONUS_POINTS': '奖励分数',
+            'BUILDING_RESOURCES_-_ALL': '建造资源-所有',
+            'BUILDING_RESOURCES_-_CLAY_(AND_WOOD)': '建造资源-黏土(和木材)',
+            'BUILDING_RESOURCES_-_CLAY_AND/OR_STONE': '建造资源-黏土和/或石材',
+            'BUILDING_RESOURCES_-_CLAY': '建造资源-黏土',
+            'BUILDING_RESOURCES_-_REED': '建造资源-芦苇',
+            'BUILDING_RESOURCES_-_STONE': '建造资源-石材',
+            'BUILDING_RESOURCES_-_WOOD_(AND_CLAY)': '建造资源-木材(和黏土)',
+            'BUILDING_RESOURCES_-_WOOD_OR_CLAY': '建造资源-木材或黏土',
+            'BUILDING_RESOURCES_-_WOOD': '建造资源-木材',
+            'CROPS_-_GRAIN_AND_VEGETABLE': '作物奖励-谷物和蔬菜',
+            'CROPS_-_GRAIN': '作物奖励-谷物',
+            'CROPS_-_SOWING': '作物奖励-播种',
+            'CROPS_-_VEGETABLE': '作物奖励-蔬菜',
+            'FARMYARD_-__FENCING_OR_STABLE_BUILDING': '农场规划-栅栏或畜棚',
+            'FARMYARD_-_FENCING': '农场规划-栅栏',
+            'FARMYARD_-_HOUSE_BUILDING_OR_RENOVATION': '农场规划-建造房屋或翻新',
+            'FARMYARD_-_PLACE_FOR_ANIMALS': '农场规划-安置动物',
+            'FARMYARD_-_PLACE_FOR_PERSON': '农场规划-安置家庭成员',
+            'FARMYARD_-_PLOWING': '农场规划-耕种',
+            'FARMYARD_-_STABLE_BUILDING': '农场规划-畜棚',
+            'FIELD_-_GRAIN': '农田-谷物',
+            'FIELD_-_VEGETABLE': '农田-蔬菜',
+            'FOOD_-_CONVERSION': '食物-转换',
+            'FOOD_-_COOKING': '食物-烹饪',
+            'FOOD_-_FUTURE_ROUND_SPACES': '食物-之后轮次格',
+            'food': '食物奖励',
+            'GOODS_-_GET': '货物-获得',
+            'PASSING_-_ACTION_-_FARMYARD': '传递-行动-农场规划',
+            'PASSING_-_ANIMAL': '传递-动物奖励',
+            'PASSING_-_BUILDING_RESOURCES_': '传递-建造资源奖励',
+            'PASSING_-_CROP': '食物-作物奖励',
+            'PASSING_-_FARMYARD': '食物-农场规划',
+            'PASSING_-_FOOD': '食物-食物奖励',
+            'PASSING_-_IMPROVEMENT/OCC_-_WOOD': '食物-发展/职业-木材',
         };
 
         return categoryMap[category] || category.replace(/_/g, ' ');
@@ -174,15 +231,8 @@ class CardGallery {
                 }
             }
 
-            // 玩家人数筛选
-            if (this.filters.players !== 'all') {
-                const playersStr = card.players || '';
-                if (this.filters.players === '1-4' && playersStr.includes('5+')) {
-                    return false;
-                }
-                if (this.filters.players === '5-7' && !playersStr.includes('5+')) {
-                    return false;
-                }
+            if (this.filters.players !== 'all' && card.players !== this.filters.players) {
+                return false;
             }
 
             return true;
@@ -199,11 +249,11 @@ class CardGallery {
             switch (sortBy) {
                 case 'name':
                     return a.name.localeCompare(b.name);
-                case 'deck':
-                    return a.deck.localeCompare(b.deck) ||
-                        a.numbering.localeCompare(b.numbering);
-                case 'vp':
-                    return (b.vp || 0) - (a.vp || 0);
+                // case 'deck':
+                //     return a.deck.localeCompare(b.deck) ||
+                //         a.numbering.localeCompare(b.numbering);
+                // case 'vp':
+                //     return (b.vp || 0) - (a.vp || 0);
                 default: // numbering
                     return a.numbering.localeCompare(b.numbering);
             }
