@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>农场主 Agricola - 卡牌图鉴</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-seedling"></i> 农场主 Agricola - 卡牌图鉴</h1>
+            <p class="subtitle">查看所有职业卡牌和发展卡牌</p>
+        </header>
+
+        <div class="main-content">
+            <!-- 筛选侧边栏 -->
+            <aside class="filters-sidebar">
+                <div class="filter-section">
+                    <h3><i class="fas fa-filter"></i> 筛选条件</h3>
+                    
+                    <div class="filter-group">
+                        <label for="cardType"><i class="fas fa-tag"></i> 卡牌类型</label>
+                        <select id="cardType" class="filter-select">
+                            <option value="all">全部类型</option>
+                            <option value="major">主要发展卡牌</option>
+                            <option value="minor">次要发展卡牌</option>
+                            <option value="occupation">职业卡牌</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="deckFilter"><i class="fas fa-layer-group"></i> 扩展</label>
+                        <select id="deckFilter" class="filter-select">
+                            <option value="all">全部扩展</option>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="E">E</option>
+                            <option value="I">I</option>
+                            <option value="K">K</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="categoryFilter"><i class="fas fa-star"></i> 分类</label>
+                        <select id="categoryFilter" class="filter-select">
+                            <option value="all">全部分类</option>
+                            <!-- 选项会在JS中动态生成 -->
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="searchInput"><i class="fas fa-search"></i> 搜索卡牌</label>
+                        <input type="text" id="searchInput" placeholder="输入卡牌名称或编号..." class="search-input">
+                    </div>
+
+                    <div class="filter-group">
+                        <label for="playersFilter"><i class="fas fa-users"></i> 玩家人数</label>
+                        <select id="playersFilter" class="filter-select">
+                            <option value="all">全部人数</option>
+                            <option value="1+">1+</option>
+                            <option value="3+">3+</option>
+                            <option value="4+">4+</option>
+                        </select>
+                    </div>
+
+                    <button id="resetFilters" class="reset-btn">
+                        <i class="fas fa-redo"></i> 重置筛选
+                    </button>
+
+                    <div class="stats">
+                        <p><i class="fas fa-chart-bar"></i> 统计</p>
+                        <div class="stat-numbers">
+                            <div>总数: <span id="totalCards">0</span></div>
+                            <div>显示: <span id="showingCards">0</span></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- 卡牌展示区 -->
+            <main class="cards-container">
+                <div class="cards-header">
+                    <div class="view-controls">
+                        <button class="view-btn active" data-view="grid">
+                            <i class="fas fa-th"></i> 网格视图
+                        </button>
+                        <button class="view-btn" data-view="list">
+                            <i class="fas fa-list"></i> 列表视图
+                        </button>
+                    </div>
+                    <div class="sort-controls">
+                        <label for="sortSelect">排序:</label>
+                        <select id="sortSelect" class="sort-select">
+                            <option value="numbering">按编号</option>
+                            <option value="name">按名称</option>
+                            <option value="deck">按扩展</option>
+                            <option value="vp">按分数</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="cardsGrid" class="cards-grid">
+                    <!-- 卡牌会在这里动态加载 -->
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i> 加载卡牌中...
+                    </div>
+                </div>
+
+                <div id="cardsList" class="cards-list" style="display: none;">
+                    <!-- 列表视图会在这里显示 -->
+                </div>
+            </main>
+
+            <!-- 卡牌详情模态框 -->
+            <div id="cardModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 id="modalCardName"></h2>
+                        <span class="close-modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <div id="modalCardContent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>基于 <a href="https://boardgamearena.com/gamepanel?game=agricola" target="_blank">BGA Agricola</a> 实现 | 仅供学习参考</p>
+            <p class="github-link">
+                <a href="https://github.com/klingeling/agricola-card-gallery" target="_blank">
+                    <i class="fab fa-github"></i> GitHub 项目
+                </a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
