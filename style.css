@@ -27,7 +27,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(135deg, #f5f5dc 0%, #e6e6d6 100%);
     color: var(--dark-color);
-    line-height: 1.6;
+    /* line-height: 1.6; */
     min-height: 100vh;
 }
 
@@ -309,11 +309,11 @@ footer {
     .main-content {
         grid-template-columns: 1fr;
     }
-    
+
     .filters-sidebar {
         position: static;
     }
-    
+
     .cards-grid.agricola-style {
         grid-template-columns: repeat(auto-fill, minmax(calc(var(--agricolaCardWidth) * var(--agricolaCardScale) * 0.9), 1fr));
     }
@@ -323,17 +323,17 @@ footer {
     .container {
         padding: 15px;
     }
-    
+
     header h1 {
         font-size: 2rem;
     }
-    
+
     .cards-header {
         flex-direction: column;
         gap: 15px;
         align-items: flex-start;
     }
-    
+
     .cards-grid.agricola-style {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -341,13 +341,14 @@ footer {
 }
 
 @media (max-width: 480px) {
+
     .filter-group,
     .view-controls,
     .sort-controls {
         flex-direction: column;
         gap: 10px;
     }
-    
+
     .view-btn,
     .sort-select {
         width: 100%;
