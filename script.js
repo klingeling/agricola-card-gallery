@@ -375,8 +375,8 @@ class CardGallery {
             const costItems = Object.entries(cost).map(([resource, amount]) => {
                 const meepleClass = `meeple-${resource.toLowerCase()}`;
                 return `
-                    <div class="meeple-container">
-                        ${amount}<div class="agricola-meeple ${meepleClass}"></div>
+                    ${amount}<div class="meeple-container">
+                        <div class="agricola-meeple ${meepleClass}"></div>
                     </div>
                 `;
             }).join('');
