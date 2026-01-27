@@ -28198,5 +28198,40 @@
         "marked": false,
         "description": "<div>每次在工作阶段你的回合中，如果有一个或多个累积格上有5+个货物且你不使用其中任何一个时，你获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-vegetable\">\n        </div>\n      </div>。</div>",
         "mini": false
+    },
+    "B157_Salter": {
+        "id": "B157_Salter",
+        "pId": 93733243,
+        "name": "Salter",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "B",
+        "players": "4+",
+        "desc": [
+            "At any time, you can pay 1 <SHEEP>/<PIG>/<CATTLE> from your farm. If you do, place 1 <FOOD> on each of the next 3/5/7 round spaces. At the start of these rounds, you get the <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FoodCategory",
+        "numbering": "B157",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>在任何时候，你可以从你的农场支付1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-pig\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div> 。如果你这么做，在接下来的3/5/7轮的轮次格上各放置1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。在这些轮开始时，你从该轮格子上拿取放置的<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。</div>",
+        "mini": false
     }
 }
