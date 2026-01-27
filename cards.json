@@ -30473,5 +30473,42 @@
         "marked": false,
         "description": "<div>在任何时候，你可以将1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>转化成3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。任何其他玩家都可以通过用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>向你购买该<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>来阻止本效果。如果多位玩家想要购买，你选择一位。</div>",
         "mini": true
+    },
+    "D161_CabbageBuyer": {
+        "id": "D161_CabbageBuyer",
+        "pId": 85093237,
+        "name": "Cabbage Buyer",
+        "location": "inPlay",
+        "state": "2",
+        "tooltip": [],
+        "deck": "D",
+        "players": "4+",
+        "desc": [
+            "Each time any player (including you) renovates and the builds no/ 1 minor/ 1 major improvement, you can buy 1 <VEGETABLE> for 3/2/1 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "CropCategory",
+        "numbering": "D161",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gaingrain": 1
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每次有任意玩家<i>(包括你自己)</i>翻新并建造0个/1个次要/1个主要发展时，你可以用3/2/1/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。</div>",
+        "mini": true
     }
 }
