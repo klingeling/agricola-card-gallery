@@ -17,6 +17,7 @@ class CardGallery {
     
     // <div class=\\"meeple-container\\">\\n<div class=\\"agricola-meeple meeple-(\w+)\\">\\n</div>\\n</div>
     // <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-$1\"></div></div>
+    // JSON.stringify(Object.values(gameui._cardStorage).sort((a,b)=>a.numbering.localeCompare(b.numbering)).reduce((obj,card)=>{obj[card.id]=card;return obj;},{}))
     async init() {
         // 加载卡牌数据
         await this.loadCards();
