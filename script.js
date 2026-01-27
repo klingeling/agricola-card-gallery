@@ -14,7 +14,9 @@ class CardGallery {
         this.initialized = false; // 新增：初始化状态标志
         this.init();
     }
-
+    
+    // <div class=\\"meeple-container\\">\\n<div class=\\"agricola-meeple meeple-(\w+)\\">\\n</div>\\n</div>
+    // <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-$1\"></div></div>
     async init() {
         // 加载卡牌数据
         await this.loadCards();
