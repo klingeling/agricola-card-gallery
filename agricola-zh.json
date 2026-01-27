@@ -2345,7 +2345,7 @@
     "You can plow one field": "你可以犁一块田",
     "You can plow one field and then immediately sow grain or vegetables in all of your empty fields, including the one you just plowed": "你可以犁一块田然后立即在你所有的闲置农田上播种谷物或蔬菜，包括刚才犁的新农田",
     "You can renovate your wooden house directly to stone without renovating it to clay first.": "当你翻新时，可以直接将木造房间翻新为石造房间，无需先将其翻新为砖土房间。",
-    "You can sow crops in pastures covering 1 or 2 farmyard spaces. If you do, these pastures are also considered fields and hold 1 and 2 animals less, respectively.": "",
+    "You can sow crops in pastures covering 1 or 2 farmyard spaces. If you do, these pastures are also considered fields and hold 1 and 2 animals less, respectively.": "你可以在覆盖1或2个农场格子的牧场中播种作物。如果你这么做，这些牧场也视为农田，且分别少容纳1或2个动物。",
     "You can use an action space providing both stone and a different building resource even if it is occupied by another player. Stone rooms cost you 2 <STONE> less each.": "你可以使用一个提供石材和另一种建造资源的行动格，即使该格已被其他玩家占据。每个石造房间少花费你2<STONE>。",
     "You can use any __Wish for Children__ action space even if it is occupied by one other player's person.": "你可以使用任何一个__“增加家庭成员”__行动格，即便该格上已有其他玩家的家庭成员。",
     "You can use any __Wish for Children__ action space, even if it is occupied by another player's person.": "你可以使用任何一个__“增加家庭成员”__行动格，即使该格上已有其他玩家的家庭成员。",

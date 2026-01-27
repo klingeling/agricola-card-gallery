@@ -6566,7 +6566,7 @@
     "B30_WoodPalisades": {
         "id": "B30_WoodPalisades",
         "pId": 84603229,
-        "name": "WoodPalisades",
+        "name": "Wood Palisades",
         "location": "draft",
         "state": "0",
         "tooltip": [],
@@ -8239,6 +8239,44 @@
         "bread": false,
         "passing": false,
         "description": "<div>当你打出本卡牌时，如果已完成的收成次数和你打出的职业卡牌数量相等，你立刻获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。</div>",
+        "mini": false
+    },
+    "B72_LoveforAgriculture": {
+        "id": "B72_LoveforAgriculture",
+        "pId": 84603229,
+        "name": "Love for Agriculture",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "B",
+        "players": null,
+        "desc": [
+            "You can sow crops in pastures covering 1 or 2 farmyard spaces. If you do, these pastures are also considered fields and hold 1 and 2 animals less, respectively."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "CropCategory",
+        "numbering": "B072",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你可以在覆盖1或2个农场格子的牧场中播种作物。如果你这么做，这些牧场也视为农田，且分别少容纳1或2个动物。</div>",
         "mini": false
     },
     "B73_GiftBasket": {
