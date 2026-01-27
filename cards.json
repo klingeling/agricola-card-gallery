@@ -27639,5 +27639,40 @@
         "marked": false,
         "description": "<div>你每次翻新或建造房间时，你可以用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>替代需要花费的1或2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>。</div>",
         "mini": false
+    },
+    "A136_DrudgeryReeve": {
+        "id": "A136_DrudgeryReeve",
+        "pId": 84486909,
+        "name": "Drudgery Reeve",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "A",
+        "players": "3+",
+        "desc": [
+            "If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 <WOOD>. During scoring, each player with 1+/2+/3+ building resources of each type gets 1/3/5 bonus <SCORE>."
+        ],
+        "vp": 0,
+        "extraVp": true,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "PointsCategory",
+        "numbering": "A136",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>如果距离游戏结束仍然有3/6/9个未进行的完整轮次，你立刻获得2/3/4 <div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>。<br>游戏结束计分时，每种建造资源都拥有1+/2+/3+的每位玩家获得1/3/5点奖励<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-score\">\n        </div>\n      </div>。</div>",
+        "mini": false
     }
 }
