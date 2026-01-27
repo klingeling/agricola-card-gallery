@@ -20832,6 +20832,44 @@
         "description": "<div>每次你在行动格上获得一个<span class=\"action-card-name-reference\">“次要发展”</span>行动时，你可以不打出一个次要发展，改为建造一个主要发展。</div>",
         "mini": false
     },
+    "E25_BumperCrop": {
+        "id": "E25_BumperCrop",
+        "pId": 84603229,
+        "name": "Bumper Crop",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "E",
+        "players": null,
+        "desc": [
+            "When you play this card, immediately play the field phase of the harvest on your farmyard only."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Grain Fields",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "ACTION",
+        "numbering": "E025",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>当你打出本卡牌时，立即只在你的农场中执行收成的收割步骤。。</div>",
+        "mini": false
+    },
     "E26_Sundial": {
         "id": "E26_Sundial",
         "pId": 84603229,
