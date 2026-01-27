@@ -12334,7 +12334,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当你打出本卡牌时，将你供应堆中正好3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>从游戏中移除，来建造一个覆盖2个农场格子的牧场。你只需要为这些栅栏支付总计2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
+        "description": "<div>当你打出本卡牌时，将你供应堆中正好3个畜棚从游戏中移除，来建造一个覆盖2个农场格子的牧场。你只需要为这些栅栏支付总计2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
         "mini": true
     },
     "B150_LargeScaleFarmer": {
@@ -25976,7 +25976,7 @@
         "costText": "",
         "fee": null,
         "type": "minor",
-        "category": "BoosterCategory",
+        "category": "FarmCategory",
         "numbering": "E010",
         "holder": false,
         "animalHolder": false,
@@ -26453,7 +26453,7 @@
         "costText": "",
         "fee": null,
         "type": "minor",
-        "category": "FarmCategory",
+        "category": "BoosterCategory",
         "numbering": "E022",
         "holder": true,
         "animalHolder": false,
@@ -28595,7 +28595,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>当你打出本卡牌时，你可以立即从你的农场版图上将3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>归还到你的供应堆中，每归还一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
+        "description": "<div>当你打出本卡牌时，你可以立即从你的农场版图上将3个畜棚归还到你的供应堆中，每归还一个畜棚获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
         "mini": false
     },
     "E77_Mattock": {
@@ -31127,41 +31127,6 @@
         "description": "<div>在每次收成开始时，如果你有1个/2个/3+个牧场内畜棚，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>。</div>",
         "mini": true
     },
-    "E161_ElderBaker": {
-        "id": "E161_ElderBaker",
-        "pId": 84486909,
-        "name": "ElderBaker",
-        "location": "draft",
-        "state": "0",
-        "tooltip": [],
-        "deck": "E",
-        "players": "4+",
-        "desc": [
-            "This card is an action space for you only. When you use it, you get 3 <GRAIN>. You can build the __Stone Oven__ major improvement even when taking a __Minor Improvement__ action."
-        ],
-        "vp": 0,
-        "extraVp": false,
-        "bonusVp": "",
-        "prerequisite": "",
-        "costs": [
-            []
-        ],
-        "conditionalCost": null,
-        "costText": "",
-        "fee": null,
-        "type": "occupation",
-        "category": "GoodsCategory",
-        "numbering": "E147",
-        "holder": false,
-        "animalHolder": false,
-        "field": false,
-        "actionCard": false,
-        "stats": [],
-        "infobox": null,
-        "marked": false,
-        "description": "<div>本卡牌是1个只有你能使用的行动格。当你使用此行动格时，你获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。你在执行<span class=\"action-card-name-reference\">“次要发展”</span>行动时，可以建造<span class=\"action-card-name-reference\">“石造烤炉”</span>主要发展。</div>",
-        "mini": false
-    },
     "E148_Lazybones": {
         "id": "E148_Lazybones",
         "pId": 90835302,
@@ -31194,7 +31159,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在<span class=\"action-card-name-reference\">“谷物种子”</span>、<span class=\"action-card-name-reference\">“犁田”</span>、<span class=\"action-card-name-reference\">“临时工”</span>和<span class=\"action-card-name-reference\">“农场扩建”</span>上各放置<i>(最多)</i>1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>。当其他玩家使用该行动格时，免费建造该格上的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>。</div>",
+        "description": "<div>在<span class=\"action-card-name-reference\">“谷物种子”</span>、<span class=\"action-card-name-reference\">“犁田”</span>、<span class=\"action-card-name-reference\">“临时工”</span>和<span class=\"action-card-name-reference\">“农场扩建”</span>上各放置<i>(最多)</i>1个畜棚。当其他玩家使用该行动格时，免费建造该格上的畜棚。</div>",
         "mini": true
     },
     "E149_MidnightFencer": {
@@ -31620,6 +31585,41 @@
         "infobox": null,
         "marked": false,
         "description": "<div>每当其他玩家使用<span class=\"action-card-name-reference\">“钓鱼”</span>累积格时，其获得额外1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>，并且你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。</div>",
+        "mini": false
+    },
+    "E161_ElderBaker": {
+        "id": "E161_ElderBaker",
+        "pId": 84486909,
+        "name": "Elder Baker",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "E",
+        "players": "4+",
+        "desc": [
+            "This card is an action space for you only. When you use it, you get 3 <GRAIN>. You can build the __Stone Oven__ major improvement even when taking a __Minor Improvement__ action."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "CropCategory",
+        "numbering": "E161",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>本卡牌是1个只有你能使用的行动格。当你使用此行动格时，你获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。你在执行<span class=\"action-card-name-reference\">“次要发展”</span>行动时，可以建造<span class=\"action-card-name-reference\">“石造烤炉”</span>主要发展。</div>",
         "mini": false
     },
     "E162_Entrepreneur": {
