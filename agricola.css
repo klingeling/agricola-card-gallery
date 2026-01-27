@@ -714,6 +714,7 @@ html {
 }
 
 .player-card[data-id="A60_OrientalFireplace"] .player-card-resizable .card-frame,
+.player-card[data-id="D25_WitchesDanceFloor"] .player-card-resizable .card-frame,
 .player-card[data-id="D59_EarthOven"] .player-card-resizable .card-frame,
 .player-card[data-id="D60_LargePottery"] .player-card-resizable .card-frame {
   background-image: url(img/card_frame_major_minor.png);
@@ -721,6 +722,7 @@ html {
 }
 
 .player-card[data-id="A60_OrientalFireplace"] .player-card-resizable .card-icon,
+.player-card[data-id="D25_WitchesDanceFloor"] .player-card-resizable .card-icon,
 .player-card[data-id="D59_EarthOven"] .player-card-resizable .card-icon,
 .player-card[data-id="D60_LargePottery"] .player-card-resizable .card-icon {
   height: 192px;
@@ -730,12 +732,14 @@ html {
 }
 
 .player-card[data-id="A60_OrientalFireplace"] .player-card-resizable .card-frame-left-leaves,
+.player-card[data-id="D25_WitchesDanceFloor"] .player-card-resizable .card-frame-left-leaves,
 .player-card[data-id="D59_EarthOven"] .player-card-resizable .card-frame-left-leaves,
 .player-card[data-id="D60_LargePottery"] .player-card-resizable .card-frame-left-leaves {
   left: 1px;
 }
 
 .player-card[data-id="A60_OrientalFireplace"] .player-card-resizable .card-frame-right-leaves,
+.player-card[data-id="D25_WitchesDanceFloor"] .player-card-resizable .card-frame-right-leaves,
 .player-card[data-id="D59_EarthOven"] .player-card-resizable .card-frame-right-leaves,
 .player-card[data-id="D60_LargePottery"] .player-card-resizable .card-frame-right-leaves {
   background-image: url(img/card_frame_major_minor.png);
@@ -752,6 +756,7 @@ html {
 }
 
 .player-card[data-id="A60_OrientalFireplace"][data-cook="true"] .card-desc:before,
+.player-card[data-id="D25_WitchesDanceFloor"][data-cook="true"] .card-desc:before,
 .player-card[data-id="D59_EarthOven"][data-cook="true"] .card-desc:before {
   background-image: url(img/minor_left_corner.png);
   background-position: 0 0;
