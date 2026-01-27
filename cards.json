@@ -29878,5 +29878,75 @@
         "marked": false,
         "description": "<div>你每次使用货物数量正好相同的2个同类货物累积格之一时，你还可以用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>购买1点奖励<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-score\">\n        </div>\n      </div>。</div>",
         "mini": false
+    },
+    "C138_AnimalFeeder": {
+        "id": "C138_AnimalFeeder",
+        "pId": 84603229,
+        "name": "Animal Feeder",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "3+",
+        "desc": [
+            "On the __Day Laborer__ action space, you also get your choice of 1 <SHEEP> or 1 <GRAIN>. Instead of that good, you can buy 1 <PIG> for 1 <FOOD> or 1 <CATTLE> for 2 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "GoodsCategory",
+        "numbering": "C138",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>在<span class=\"action-card-name-reference\">“临时工”</span>行动格上，你还可以获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>或1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-grain\">\n        </div>\n      </div>。或者，你可以用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>购买1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-pig\">\n        </div>\n      </div>或用2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>购买1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>。</div>",
+        "mini": false
+    },
+    "C158_ForestCampaigner": {
+        "id": "C158_ForestCampaigner",
+        "pId": 84486909,
+        "name": "Forest Campaigner",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "4+",
+        "desc": [
+            "Each time before you place a person, if there are at least 8 <WOOD> total on accumulation spaces, you get 1 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FoodCategory",
+        "numbering": "C158",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你每次放置1名家庭成员前，如果所有累积格上总共有至少8<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>，获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。</div>",
+        "mini": false
     }
 }
