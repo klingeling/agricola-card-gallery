@@ -10,9 +10,8 @@ class CardGallery {
             search: '',
             players: 'all'
         };
-        this.translationMap = {}; // 新增：存储中英文映射
-
-        this.init();
+        this.translationMap = {};
+        this.initialized = false; // 新增：初始化状态标志
     }
 
     async init() {
@@ -22,11 +21,16 @@ class CardGallery {
         // 初始化UI
         this.initUI();
 
+        // 应用默认筛选（新增这行）
+        this.applyFilters();
+
         // 渲染卡牌
         this.renderCards();
 
         // 更新统计数据
         this.updateStats();
+
+        this.initialized = true; // 标记为已初始化
     }
 
     async loadCards() {
@@ -152,6 +156,46 @@ class CardGallery {
 
         // 初始化排序
         this.initSortControls();
+
+        // 新增：监听筛选器变化，避免在初始化前应用筛选
+        this.initFilterListeners();
+    }
+
+    // 新增方法：初始化筛选器监听器
+    initFilterListeners() {
+        // 卡牌类型筛选
+        document.getElementById('cardType').addEventListener('change', (e) => {
+            if (!this.initialized) return; // 避免在初始化前触发
+            this.filters.type = e.target.value;
+            this.applyFilters();
+        });
+
+        // 扩展包筛选
+        document.getElementById('deckFilter').addEventListener('change', (e) => {
+            if (!this.initialized) return; // 避免在初始化前触发
+            this.filters.deck = e.target.value;
+            this.applyFilters();
+        });
+
+        // 搜索框
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            if (!this.initialized) return; // 避免在初始化前触发
+            this.filters.search = e.target.value.toLowerCase();
+            this.applyFilters();
+        });
+
+        // 玩家人数筛选
+        document.getElementById('playersFilter').addEventListener('change', (e) => {
+            if (!this.initialized) return; // 避免在初始化前触发
+            this.filters.players = e.target.value;
+            this.applyFilters();
+        });
+
+        // 重置按钮
+        document.getElementById('resetFilters').addEventListener('click', () => {
+            if (!this.initialized) return; // 避免在初始化前触发
+            this.resetFilters();
+        });
     }
 
     initFilters() {
@@ -224,6 +268,9 @@ class CardGallery {
     }
 
     applyFilters() {
+        if (this.cards.length === 0) {
+            return;
+        }
         this.filteredCards = this.cards.filter(card => {
             // 类型筛选
             if (this.filters.type !== 'all' && card.type !== this.filters.type) {
@@ -297,10 +344,22 @@ class CardGallery {
         };
 
         // 重新应用筛选
-        this.applyFilters();
+        if (this.initialized) {
+            this.applyFilters();
+        }
     }
 
     renderCards() {
+        if (this.cards.length === 0) {
+            const container = document.getElementById('cardsGrid');
+            container.innerHTML = `
+                <div class="empty-state">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <h3>正在加载卡牌数据...</h3>
+                </div>
+            `;
+            return;
+        }
         if (this.currentView === 'grid') {
             this.renderGridView();
         } else {
@@ -513,7 +572,7 @@ class CardGallery {
     }
 
     createListCardHTML(card) {
-        const typeText = card.type === 'occupation' ? '职业卡' : '次要改进卡';
+        const typeText = card.type === 'occupation' ? '职业卡牌' : '发展卡牌';
         const vpDisplay = card.vp > 0 ? `+${card.vp}` : '0';
 
         return `

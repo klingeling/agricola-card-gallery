@@ -8081,12 +8081,12 @@
         "vp": 0,
         "extraVp": false,
         "bonusVp": "",
-        "prerequisite": "",
+        "prerequisite": "5 Clay in Your Supply",
         "costs": [
             []
         ],
         "conditionalCost": null,
-        "costText": "5 Clay in Your Supply",
+        "costText": "",
         "fee": null,
         "type": "minor",
         "category": "ResourceCategory",
