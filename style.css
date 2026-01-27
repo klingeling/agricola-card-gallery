@@ -553,3 +553,9 @@ footer {
     line-height: 12px !important;
     letter-spacing: -0.1em;
 }
+
+.player-card[data-id="A20_DoubleTurnPlow"] .card-cost .card-cost-conditional {
+    white-space: nowrap;
+    font-size: 24px;
+    letter-spacing: -0.1em;
+}
