@@ -12,6 +12,7 @@ class CardGallery {
         };
         this.translationMap = {};
         this.initialized = false; // 新增：初始化状态标志
+        this.init();
     }
 
     async init() {
