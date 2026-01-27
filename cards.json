@@ -29808,5 +29808,75 @@
         "marked": false,
         "description": "<div>当你建造你的第2/3/4个畜棚时，你立即获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-pig\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>，即使是在同一回合建造<span class=\"action-card-name-reference\">(不追溯)</span>。</div>",
         "mini": false
+    },
+    "C164_GermanHeathKeeper": {
+        "id": "C164_GermanHeathKeeper",
+        "pId": 84486909,
+        "name": "German Heath Keeper",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "4+",
+        "desc": [
+            "Each time any player (including you) uses the __Pig Market__ accumulation space, you get 1 <SHEEP> from the general supply."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "LivestockCategory",
+        "numbering": "C164",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每次有任意一位玩家<span class=\"action-card-name-reference\">(包括你自己)</span>使用<span class=\"action-card-name-reference\">“猪市”</span>累积格时，你从公共供应堆中获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div> 。</div>",
+        "mini": false
+    },
+    "C154_TwinResearcher": {
+        "id": "C154_TwinResearcher",
+        "pId": 93733243,
+        "name": "Twin Researcher",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "4+",
+        "desc": [
+            "Each time you use one of the two accumulation spaces for the same type of good containing exactly the same number of goods, you can also buy 1 bonus <SCORE> for 1 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": true,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "PointsCategory",
+        "numbering": "C154",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你每次使用货物数量正好相同的2个同类货物累积格之一时，你还可以用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>购买1点奖励<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-score\">\n        </div>\n      </div>。</div>",
+        "mini": false
     }
 }
