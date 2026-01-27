@@ -13084,6 +13084,46 @@
         "description": "<div>在每次收成的繁殖步骤中，如果你还获得了至少2种新生动物，你还获得一次<span class=\"action-card-name-reference\">“播种”</span>行动。</div>",
         "mini": false
     },
+    "C72_HarvestFestivalPlanning": {
+        "id": "C72_HarvestFestivalPlanning",
+        "pId": 84603229,
+        "name": "Harvest Festival Planning",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": null,
+        "desc": [
+            "When you play this card, immediately carry out the field phase of the harvest. Afterwards, you get a __Major or Minor Improvement__ action."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Occupations",
+        "costs": [
+            {
+                "food": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "CropCategory",
+        "numbering": "C072",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>当你打出本卡牌时，立即执行收成的收割步骤。然后你获得一次<span class=\"action-card-name-reference\">“主要或次要发展”</span>行动。</div>",
+        "mini": false
+    },
     "C73_SeaweedFertilizer": {
         "id": "C73_SeaweedFertilizer",
         "pId": 84603229,
