@@ -27534,5 +27534,110 @@
         "marked": false,
         "description": "<div>当你打出本卡牌时，你可以支付2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>来获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>、1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-pig\">\n        </div>\n      </div>，和1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>，但你的农场必须能圈养这三个动物。</div>",
         "mini": false
+    },
+    "B127_Seducer": {
+        "id": "B127_Seducer",
+        "pId": 84603229,
+        "name": "Seducer",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "B",
+        "players": "3+",
+        "desc": [
+            "When you play this card in round 5 or later, you can immediately pay 1 <STONE>, 1 <GRAIN>, 1 <VEGETABLE>, and 1 <SHEEP> to take a __Family Growth Even without Room__ action."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FarmCategory",
+        "numbering": "B127",
+        "holder": true,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你在第5轮或之后打出本卡牌时，你可以立刻支付1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stone\">\n        </div>\n      </div>、1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-grain\">\n        </div>\n      </div>、1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-vegetable\">\n        </div>\n      </div>和1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>来执行一个<span class=\"action-card-name-reference\">“无需空房间的家庭增长”</span>行动。</div>",
+        "mini": false
+    },
+    "B128_Plumber": {
+        "id": "B128_Plumber",
+        "pId": 84603229,
+        "name": "Plumber",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "B",
+        "players": "3+",
+        "desc": [
+            "Each time after you use the __Major Improvement__ action space, you can take a __Renovation__ action, paying 2 <CLAY> or 2 <STONE> less for the renovation."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FarmCategory",
+        "numbering": "B128",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每当你使用一个<span class=\"action-card-name-reference\">“主要发展”</span>行动格之后，你可以执行一个<span class=\"action-card-name-reference\">“翻新”</span>行动，并在该翻新中少支付2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-clay\">\n        </div>\n      </div>或2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stone\">\n        </div>\n      </div>。</div>",
+        "mini": false
+    },
+    "B145_BrushwoodCollector": {
+        "id": "B145_BrushwoodCollector",
+        "pId": 93733243,
+        "name": "Brushwood Collector",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "B",
+        "players": "3+",
+        "desc": [
+            "Each time you renovate or build a room, you can replace the required 1 or 2 <REED> with a total of 1 <WOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "ResourceCategory",
+        "numbering": "B145",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你每次翻新或建造房间时，你可以用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>替代需要花费的1或2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>。</div>",
+        "mini": false
     }
 }
