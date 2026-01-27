@@ -354,3 +354,202 @@ footer {
         width: 100%;
     }
 }
+
+@font-face {
+    font-display: swap;
+    font-family: AgricolaCustom;
+    font-style: normal;
+    font-weight: 400;
+    src: url(img/fonts/Agricola-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: AgricolaCustomTemp;
+    font-style: normal;
+    font-weight: 400;
+    src: url(img/fonts/Agricola-Medium-Temp.ttf) format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: AgricolaCustomMedium;
+    font-style: normal;
+    font-weight: 400;
+    src: url(img/fonts/Agricola-Medium.ttf) format("truetype");
+}
+
+#draft-wrapper .draft-title h4 {
+    font-family: "AgricolaCustomMedium";
+    font-size: 26px;
+    letter-spacing: -0.08em;
+}
+
+#popin_showScores #popin_showScores_contents table {
+    font-family: "AgricolaCustomMedium";
+    font-size: 20px;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-title {
+    font-family: "AgricolaCustomMedium";
+    font-size: 21px !important;
+    letter-spacing: -0.08em;
+}
+
+.player-card[data-id=A21_FamilyFriendHome] .player-card-resizable .player-card-inner .card-title {
+    font-size: 21px;
+}
+
+.player-card[data-id=A59_PotatoRidger] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=B67_HandTruck] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=C66_EternalRyeCultivation] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=C78_ReedHattedToad] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=C84_PerennialRye] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=D60_LargePottery] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=D79_CarrotMuseum] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=E11_PettingZoo] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=E13_StoneHouseReconstruction] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=E81_AlchemistsLab] .player-card-resizable .player-card-inner .card-title {
+    white-space: nowrap !important;
+    font-size: 20px !important;
+    letter-spacing: -0.2em !important;
+}
+
+.player-card[data-id=B8_MarketStall] .player-card-resizable .player-card-inner .card-title {
+    visibility: hidden;
+    position: relative;
+}
+
+.player-card[data-id=B8_MarketStall] .player-card-resizable .player-card-inner .card-title::after {
+    content: "集市";
+    visibility: visible;
+    word-wrap: anywhere;
+    align-items: center;
+    position: absolute;
+    left: 30px;
+    top: 13px;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container {
+    vertical-align: bottom;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-arrow {
+    height: .6em;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-begging {
+    height: .7em;
+    width: .7em;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-bake {
+    height: .7em;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-cook {
+    background-position: 13.3132% 26.2165%;
+    background-size: 3150.77%;
+    height: 0.8em;
+    width: 1.0em
+}
+
+.player-card[data-id=B82_ValueAssets] .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-empty,
+.player-card[data-id=C103_GreenGrocer] .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-empty,
+.player-card[data-id=D1_ZigzagHarrow] .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-empty {
+    visibility: hidden;
+}
+
+.player-card[data-id=C103_GreenGrocer] .player-card-resizable .player-card-inner .card-desc .card-desc-scroller div b {
+    font-family: CalibriB;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-desc {
+    font-family: "AgricolaCustomTemp";
+    font-size: 19px !important;
+    letter-spacing: 0em;
+}
+
+.player-card[data-id=A25_Bassinet] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=B76_Ceilings] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=C22_BasketChair] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=C46_Mandoline] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=E38_RodCollection] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=E81_AlchemistsLab] .player-card-resizable .player-card-inner .card-desc {
+    font-size: 16px !important;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
+    font-family: "AgricolaCustomMedium";
+    font-size: 15px !important;
+    line-height: 16px !important;
+    letter-spacing: -0.08em;
+}
+
+.player-card[data-id=A13_RenovationCompany] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=A36_FacadesCarving] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=A40_PottersYard] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=A61_WinnowingFan] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=A8_FoodBasket] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=B18_GrasslandHarrow] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=B37_Grange] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=C81_MaterialHub] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=D22_WorkPermit] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=D7_Trident] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=D8_FernSeeds] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=E3_TeaTime] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
+    font-size: 12px !important;
+    line-height: 12px !important;
+    letter-spacing: -0.1em;
+}
+
+.player-card[data-id=D1_ZigzagHarrow] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
+    visibility: hidden;
+    position: relative;
+}
+
+.player-card[data-id=D1_ZigzagHarrow] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text::after {
+    content: "L形状的3块农田";
+    visibility: visible;
+    word-wrap: anywhere;
+    align-items: center;
+    position: absolute;
+    left: 5px;
+    top: 15px;
+    height: 86%;
+    justify-content: center;
+    padding: 2px 15px 2px 6px;
+    text-align: left;
+}
+
+.player-card[data-id=C52_HuntsmansHat] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
+    font-size: 15px !important;
+    line-height: 12px !important;
+    letter-spacing: -0.25em;
+}
+
+.player-card[data-id=C52_HuntsmansHat] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text .meeple-container .agricola-meeple.meeple-cook {
+    height: 0.8em;
+    width: 1.0em
+}
+
+.player-card[data-id=E62_SourDough] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
+    font-size: 13px !important;
+    line-height: 13px !important;
+    display: block;
+    position: absolute;
+    top: 15px;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-cost .card-cost-text {
+    font-family: "AgricolaCustomMedium";
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: -0.08em;
+}
+
+.player-card[data-id=B56_Brook] .player-card-resizable .player-card-inner .card-cost .card-cost-text {
+    font-size: 12px !important;
+    line-height: 12px !important;
+    letter-spacing: -0.1em;
+}
