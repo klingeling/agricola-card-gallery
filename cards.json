@@ -29948,5 +29948,110 @@
         "marked": false,
         "description": "<div>你每次放置1名家庭成员前，如果所有累积格上总共有至少8<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>，获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。</div>",
         "mini": false
+    },
+    "C130_OutskirtsDirector": {
+        "id": "C130_OutskirtsDirector",
+        "pId": 84486909,
+        "name": "Outskirts Director",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "3+",
+        "desc": [
+            "Each time you use the __Grove__ or __Hollow__ accumulation space, you can place 2 <REED> from the general supply on the other space. If you do, you can immediately place another person."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "BoosterCategory",
+        "numbering": "C130",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“树林”</span>或<span class=\"action-card-name-reference\">“泥坑”</span>累积格之一时，你可以从公共供应堆中拿取2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>，放置到另外那个格子上。如果你这么做，你可以立即放置另一名家庭成员。</div>",
+        "mini": false
+    },
+    "C129_SecondSpouse": {
+        "id": "C129_SecondSpouse",
+        "pId": 99193284,
+        "name": "Second Spouse",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "3+",
+        "desc": [
+            "You can use the __Urgent Wish for Children__ action space (from round 12-13) even if it is occupied by the first person another player placed."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "BoosterCategory",
+        "numbering": "C129",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你可以使用<span class=\"action-card-name-reference\">“渴望增加家庭成员”</span>行动格<span class=\"action-card-name-reference\">(在第12或13轮中出现)</span>，即使该行动格已经被其他玩家在该轮放置的第一名家庭成员占据。</div>",
+        "mini": false
+    },
+    "C143_StoneBuyer": {
+        "id": "C143_StoneBuyer",
+        "pId": 84486909,
+        "name": "Stone Buyer",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "3+",
+        "desc": [
+            "When you play this card, you can immediately buy exactly 2 <STONE> for 1 <FOOD>. From the next round on, once per round, you can buy 1 <STONE> for 2 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "BoosterCategory",
+        "numbering": "C143",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你打出本卡牌时，你可以立即用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>购买正好2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stone\">\n        </div>\n      </div>。从下一轮开始，每轮仅限一次，你可以用2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>购买1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stone\">\n        </div>\n      </div>。</div>",
+        "mini": false
     }
 }
