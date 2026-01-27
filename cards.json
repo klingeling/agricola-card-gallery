@@ -31566,5 +31566,40 @@
         "marked": false,
         "description": "<div>每当你使用<span class=\"action-card-name-reference\">“卖艺”</span>或<span class=\"action-card-name-reference\">“钓鱼”</span>累积格时，你可以从该格子上移动正好1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>到另外那个格子上，来获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>。</div>",
         "mini": false
+    },
+    "E138_LivestockExpert": {
+        "id": "E138_LivestockExpert",
+        "pId": 84486909,
+        "name": "Livestock Expert",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "E",
+        "players": "3+",
+        "desc": [
+            "If you play this card in round 11 or before, choose an animal type: you immediately get a number of animals of that type equal to the number you already have on your farm."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "GOODS_-_GET",
+        "numbering": "E137",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>如果你在第11轮或之前打出本卡牌，选择一个动物种类：你立即获得该种动物，数量等于你在自己农场中已有的该种动物数量。</div>",
+        "mini": false
     }
 }
