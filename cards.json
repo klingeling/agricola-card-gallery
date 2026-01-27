@@ -30403,5 +30403,40 @@
         "marked": false,
         "description": "<div>你每次使用动物累积格时，然后如果你的房屋内没有动物，你还获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>。</div>",
         "mini": false
+    },
+    "D145_RoofExaminer": {
+        "id": "D145_RoofExaminer",
+        "pId": 99193284,
+        "name": "Roof Examiner",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "D",
+        "players": "3+",
+        "desc": [
+            "When you play this card, if you have 1/2/3/4 major improvements, you immediately get 2/3/4/5 <REED>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "ResourceCategory",
+        "numbering": "D145",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你打出本卡牌时，如果你有1/2/3/4个主要发展，你立即获得2/3/4/5<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>。</div>",
+        "mini": false
     }
 }
