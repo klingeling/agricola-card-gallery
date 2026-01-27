@@ -560,8 +560,7 @@ footer {
     letter-spacing: -0.1em;
 }
 
-.player-card[data-id="A20_DoubleTurnPlow"] .card-cost .meeple-container .agricola-meeple.meeple-stable {
-    background-image: url(img/stables.png);
-    height: 31px;
-    width: 24px;
+.player-card[data-id="C54_MarketStall"] .card-cost .meeple-container .agricola-meeple.meeple-stable {
+    transform: rotateY(180deg);
+    background-position-x: 100%;
 }
