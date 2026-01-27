@@ -26519,41 +26519,6 @@
         "description": "<div>一旦你是唯一一个只有2个房间的玩家，立即获得3<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-wood\">\n</div>\n</div>、2<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-clay\">\n</div>\n</div>、1<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-reed\">\n</div>\n</div>和1<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-stone\">\n</div>\n</div><span class=\"action-card-name-reference\">(仅限一次)</span>。</div>",
         "mini": false
     },
-    "A139_HollowWarden": {
-        "id": "A139_HollowWarden",
-        "pId": 84486909,
-        "name": "Hollow Warden",
-        "location": "draft",
-        "state": "0",
-        "tooltip": [],
-        "deck": "A",
-        "players": "3+",
-        "desc": [
-            "When you play this card, you immediately get a __Major Improvement__ action to build a Fireplace. Each time you use the __Hollow__ accumulation space, you also get 1 <FOOD>."
-        ],
-        "vp": 0,
-        "extraVp": false,
-        "bonusVp": "",
-        "prerequisite": "",
-        "costs": [
-            []
-        ],
-        "conditionalCost": null,
-        "costText": "",
-        "fee": null,
-        "type": "occupation",
-        "category": "FoodCategory",
-        "numbering": "A139",
-        "holder": false,
-        "animalHolder": false,
-        "field": false,
-        "actionCard": false,
-        "stats": [],
-        "infobox": null,
-        "marked": false,
-        "description": "<div>当你打出本卡牌时，你立刻获得一个用于建造火炉的<span class=\"action-card-name-reference\">“主要发展”</span>行动。每当你使用<span class=\"action-card-name-reference\">“泥坑”</span>累积格时，你还获得1<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-food\">\n</div>\n</div>。</div>",
-        "mini": false
-    },
     "B138_ForestGuardian": {
         "id": "B138_ForestGuardian",
         "pId": 84486909,
