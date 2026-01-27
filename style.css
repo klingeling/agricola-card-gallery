@@ -559,3 +559,9 @@ footer {
     font-size: 24px;
     letter-spacing: -0.1em;
 }
+
+.player-card[data-id="A20_DoubleTurnPlow"] .card-cost .meeple-container .agricola-meeple.meeple-stable {
+    background-image: url(img/stables.png);
+    height: 31px;
+    width: 24px;
+}
