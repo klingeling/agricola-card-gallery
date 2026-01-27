@@ -6563,6 +6563,46 @@
         "description": "<div>每当你在同一个回合中使用一个<span class=\"action-card-name-reference\">“职业训练”</span>行动格和一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cook\"></div></div>发展，你获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。</div>",
         "mini": false
     },
+    "B30_WoodPalisades": {
+        "id": "B30_WoodPalisades",
+        "pId": 84603229,
+        "name": "WoodPalisades",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "B",
+        "players": null,
+        "desc": [
+            "Instead of a fence piece, you can place 2 <WOOD> from your supply on the fence spaces at the edge of your farmyard. These fence spaces with 2 <WOOD> are worth 1 bonus <SCORE>."
+        ],
+        "vp": 0,
+        "extraVp": true,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "food": "1"
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "PointsCategory",
+        "numbering": "B030",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你可以从你的供应堆中放置2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>到你农场边缘的栅栏空间上来代替1个栅栏配件。这种拥有2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>的栅栏空间价值1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。</div>",
+        "mini": false
+    },
     "B31_PotteryYard": {
         "id": "B31_PotteryYard",
         "pId": 84603229,
