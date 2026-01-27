@@ -12392,7 +12392,7 @@
         ],
         "conditionalCost": null,
         "costText": "",
-        "fee": null,
+        "fee": "(从你供应堆中支付)",
         "type": "minor",
         "category": "FoodCategory",
         "numbering": "C054",
