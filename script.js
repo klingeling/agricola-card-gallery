@@ -14,7 +14,7 @@ class CardGallery {
         this.initialized = false; // 新增：初始化状态标志
         this.init();
     }
-    
+
     // <div class=\\"meeple-container\\">\\n<div class=\\"agricola-meeple meeple-(\w+)\\">\\n</div>\\n</div>
     // <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-$1\"></div></div>
     // JSON.stringify(Object.values(gameui._cardStorage).sort((a,b)=>a.numbering.localeCompare(b.numbering)).reduce((obj,card)=>{obj[card.id]=card;return obj;},{}))
@@ -489,61 +489,66 @@ class CardGallery {
     }
 
     formatCardCostHTML(card) {
-        // 根据Cards.js中的formatCardCost函数实现
-        if (!card.costs) return '';
+        // 直接复制自Cards.js的formatCardCost方法逻辑
+        let formatArray = (arr) => {
+            return Object.keys(arr)
+                .map((res) => {
+                    const amount = arr[res];
+                    const meepleClass = `meeple-${res.toLowerCase()}`;
+                    return `<div>${amount}<div class="meeple-container">
+                    <div class="agricola-meeple ${meepleClass}"></div>
+                </div></div>`;
+                })
+                .join('');
+        };
 
-        // 处理费用文本
-        let html = '';
-        if (card.costText && card.costText !== '') {
-            html += `<div class="card-cost-text">${card.costText}</div>`;
+        let formatConditionalCost = (arr) => {
+            return Object.keys(arr)
+                .map((res) => {
+                    const amount = arr[res];
+                    const meepleClass = `meeple-${res.toLowerCase()}`;
+                    return `<div>(+${amount}<div class="meeple-container">
+                    <div class="agricola-meeple ${meepleClass}"></div>
+                </div>)</div>`;
+                })
+                .join('');
+        };
+
+        // 特殊卡牌处理（直接从Cards.js复制）
+        if (card.id === 'C40_CanvasSack') {
+            card.costs = [{ grain: 1 }, { reed: 1 }];
         }
 
-        // 处理具体费用
-        const costs = Array.isArray(card.costs) ? card.costs : [card.costs];
+        if (card.id === 'B65_GrainDepot') {
+            card.costs = [{ wood: 2 }, { clay: 2 }, { stone: 2 }];
+        }
 
-        costs.forEach((cost, index) => {
-            if (Object.keys(cost).length === 0) return;
+        // 确保costs是数组
+        const costs = Array.isArray(card.costs) ? card.costs : [card.costs || {}];
 
-            const costItems = Object.entries(cost).map(([resource, amount]) => {
-                const meepleClass = `meeple-${resource.toLowerCase()}`;
-                return `<div>
-                    ${amount}<div class="meeple-container">
-                        <div class="agricola-meeple ${meepleClass}"></div>
-                    </div>
-                    </div>
-                `;
-            }).join('');
+        // 构建完整的HTML（完全按照Cards.js的逻辑）
+        let html = '';
 
-            html += `${costItems}`;
+        // 1. 处理fee（额外费用）
+        if (card.fee != null && Object.keys(card.fee).length > 0) {
+            html += formatArray(card.fee) + '<div class="card-cost-fee-separator">+</div>';
+        }
 
-            // 添加分隔符（除了最后一个）
-            if (index < costs.length - 1) {
-                html += '<div class="card-cost-separator"></div>';
-            }
-        });
+        // 2. 处理主要费用
+        const costItems = costs
+            .filter(cost => cost && Object.keys(cost).length > 0)
+            .map(cost => formatArray(cost))
+            .join('<div class="card-cost-separator"></div>');
 
-        // 处理额外费用
-        if (card.fee) {
-            const feeItems = Object.entries(card.fee).map(([resource, amount]) => {
-                const meepleClass = `meeple-${resource.toLowerCase()}`;
-                return `
-                    <div class="meeple-container">
-                        <div class="agricola-meeple ${meepleClass}"></div>
-                    </div>
-                    <span>${amount}</span>
-                `;
-            }).join('');
+        html += costItems;
 
-            html = `
-                <div class="card-fee">${feeItems}</div>
-                <div class="card-cost-fee-separator">+</div>
-                ${html}
-            `;
+        // 3. 处理条件费用
+        if (card.conditionalCost != null && Object.keys(card.conditionalCost).length > 0) {
+            html += '<div class="card-cost-conditional">' + formatConditionalCost(card.conditionalCost) + '</div>';
         }
 
         return html;
     }
-
     formatPrerequisiteHTML(card) {
         if (!card.prerequisite || card.prerequisite === '') return '';
 
