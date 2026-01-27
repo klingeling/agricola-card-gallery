@@ -5240,6 +5240,41 @@
         "description": "<div>每当你使用第1/2/3/4轮的轮次格上的行动格卡牌前，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。</div>",
         "mini": false
     },
+    "A127_Lodger": {
+        "id": "A127_Lodger",
+        "pId": 84486909,
+        "name": "Lodger",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "A",
+        "players": "3+",
+        "desc": [
+            "This card provides room for one person, but only until the returning home phase of round 9. If, by then, there is no room elsewhere for that person, remove it from play."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FarmCategory",
+        "numbering": "A127",
+        "holder": true,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>直到第9轮的回家阶段之前，本卡牌为一个家庭成员提供房间。如果在那时，没有其他房间各纳该家庭成员，将该家庭成员从游戏中移除。</div>",
+        "mini": false
+    },
     "A128_RiparianBuilder": {
         "id": "A128_RiparianBuilder",
         "pId": 84603229,
@@ -24930,6 +24965,41 @@
         "description": "<div>每当你从食物累积格中拿取正好2/3/4/5<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-food\">\n</div>\n</div>时，你还获得1<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-stone\">\n</div>\n</div>/<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-reed\">\n</div>\n</div>/<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-clay\">\n</div>\n</div>/<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-wood\">\n</div>\n</div>。<br><span class=\"action-card-name-reference\">(如果你拿取了6个或更多食物，你不能获得奖励货物。)</span></div>",
         "mini": false
     },
+    "A158_CulinaryArtist": {
+        "id": "A158_CulinaryArtist",
+        "pId": 84603229,
+        "name": "Culinary Artist",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "A",
+        "players": "4+",
+        "desc": [
+            "Each time another player uses the __Traveling Players__ accumulation space, you can exchange your choice of 1 <GRAIN>/<SHEEP>/<VEGETABLE> for 4/5/7 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FoodCategory",
+        "numbering": "A158",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每当其他玩家使用<span class=\"action-card-name-reference\">“卖艺”</span>累积格时，你可以选择用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-grain\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-vegetable\">\n        </div>\n      </div>交换4/5/7<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。</div>",
+        "mini": false
+    },
     "A166_Haydryer": {
         "id": "A166_Haydryer",
         "pId": 84486909,
@@ -26659,6 +26729,41 @@
         "description": "<div>如果距离游戏结束仍然有1/3/6/9个未进行的完整轮次，你立刻获得1/2/3/4<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-wood\">\n</div>\n</div>。<br>游戏结束计分时，每种动物都拥有2+/3+/4+的每位玩家获得1/3/5点奖励<div class=\"meeple-container\">\n<div class=\"agricola-meeple meeple-score\">\n</div>\n</div>。</div>",
         "mini": false
     },
+    "A144_Sequestrator": {
+        "id": "A144_Sequestrator",
+        "pId": 93733243,
+        "name": "Sequestrator",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "A",
+        "players": "3+",
+        "desc": [
+            "Place 3 <REED> and 4 <CLAY> on this card. The next player to have 3 pastures/5 field tiles gets the 3 <REED>/4 <CLAY> (not retroactively)."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "ResourceCategory",
+        "numbering": "A144",
+        "holder": true,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>在本卡牌上放置3<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>和4<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-clay\">\n        </div>\n      </div>。下一位拥有3个牧场/5个农田板块的玩家将获得这3<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>/4<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-clay\">\n        </div>\n      </div><span class=\"action-card-name-reference\">(不追溯)</span>。</div>",
+        "mini": false
+    },
     "A145_Ropemaker": {
         "id": "A145_Ropemaker",
         "pId": 99193284,
@@ -27777,6 +27882,111 @@
         "infobox": null,
         "marked": false,
         "description": "<div>如果游戏还有完整的1/3/6/9轮尚未进行，你立即获得1/2/3/4<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>。<br>游戏结束计分时，有最多房间的每一位玩家获得3点奖励<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-score\">\n        </div>\n      </div>。</div>",
+        "mini": false
+    },
+    "A152_NightSchoolStudent": {
+        "id": "A152_NightSchoolStudent",
+        "pId": 93733243,
+        "name": "Night-School Student",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "A",
+        "players": "4+",
+        "desc": [
+            "Each returning home phase in which no player returns a person from a __Lessons__ action space, you can play an occupation for an occupation cost of 1 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "BoosterCategory",
+        "numbering": "A152",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>在回家阶段，如果没有任何玩家的家庭成员从<span class=\"action-card-name-reference\">“职业训练”</span>行动格回家，你可以以1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>的职业花费打出一张职业卡牌。</div>",
+        "mini": false
+    },
+    "A164_WoodWorker": {
+        "id": "A164_WoodWorker",
+        "pId": 93733243,
+        "name": "Wood Worker",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "A",
+        "players": "4+",
+        "desc": [
+            "Each time you take <WOOD> from an accumulation space, you can exchange 1 <WOOD> for 1 <SHEEP>. Place the <WOOD> on the accumulation space."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "LivestockCategory",
+        "numbering": "A164",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每当你从累积格拿取<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>时，你可以用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>交换1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>。将用于交换的<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>放在该累积格上。</div>",
+        "mini": false
+    },
+    "A132_Publican": {
+        "id": "A132_Publican",
+        "pId": 84603229,
+        "name": "Publican",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "A",
+        "players": "3+",
+        "desc": [
+            "Each time before another player takes an unconditional __Sow__ action, you can give them 1 <GRAIN> from your supply to get 1 bonus <SCORE>."
+        ],
+        "vp": 0,
+        "extraVp": true,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "PointsCategory",
+        "numbering": "A132",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每当在其他玩家执行一个无条件的<span class=\"action-card-name-reference\">“播种”</span>行动前，你可以从你的供应堆中给其1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>来获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。</div>",
         "mini": false
     }
 }
