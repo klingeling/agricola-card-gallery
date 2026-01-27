@@ -899,7 +899,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>你的每个牧场<span class=\"action-card-name-reference\">(无论是否有畜棚)</span>可以额外容纳至多2只动物。</div>",
+        "description": "<div>你的每个牧场<i>(无论是否有畜棚)</i>可以额外容纳至多2只动物。</div>",
         "mini": false
     },
     "A13_RenovationCompany": {
@@ -1057,7 +1057,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>当你打出本卡牌时，立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。当你建造栅栏时，可以支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>或<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><span class=\"action-card-name-reference\">(支付时可以混搭)</span>。</div>",
+        "description": "<div>当你打出本卡牌时，立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。当你建造栅栏时，可以支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>或<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><i>(支付时可以混搭)</i>。</div>",
         "mini": false
     },
     "A17_ReclamationPlow": {
@@ -1419,7 +1419,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在每个工作阶段，你都可以在第一个由任意玩家<span class=\"action-card-name-reference\">(包括你自己)</span>使用的非累积行动格中放置一个(不同的)家庭成员，只要该格中只有一个家庭成员。<span class=\"action-card-name-reference\">(“广场”中永远不能有2个家庭成员。)</span></div>",
+        "description": "<div>在每个工作阶段，你都可以在第一个由任意玩家<i>(包括你自己)</i>使用的非累积行动格中放置一个(不同的)家庭成员，只要该格中只有一个家庭成员。<i>(“广场”中永远不能有2个家庭成员。)</i></div>",
         "mini": false
     },
     "A26_SleepingCorner": {
@@ -2051,7 +2051,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每当你将一个火炉升级成灶台，你立刻获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><span class=\"action-card-name-reference\">(不追溯)</span>。</div>",
+        "description": "<div>每当你将一个火炉升级成灶台，你立刻获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><i>(不追溯)</i>。</div>",
         "mini": false
     },
     "A42_ForestLakeHut": {
@@ -2409,7 +2409,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每当任意玩家<span class=\"action-card-name-reference\">(包括你)</span>使用<span class=\"action-card-name-reference\">“牛市”</span>累积格时，你获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>，每位其他玩家获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>每当任意玩家<i>(包括你)</i>使用<span class=\"action-card-name-reference\">“牛市”</span>累积格时，你获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>，每位其他玩家获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "A51_DriftNetBoat": {
@@ -2609,7 +2609,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>你每次建造一个发展之后<span class=\"action-card-name-reference\">(包括本卡牌)</span>，获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>你每次建造一个发展之后<i>(包括本卡牌)</i>，获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "A56_Basket": {
@@ -2851,7 +2851,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在每次收成的收割步骤后，你可以使用一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-bake\"></div></div>发展，但只能将正好1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>转化为<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。<span class=\"action-card-name-reference\">(这不被视为一个“烤面包”行动)</span></div>",
+        "description": "<div>在每次收成的收割步骤后，你可以使用一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-bake\"></div></div>发展，但只能将正好1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>转化为<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。<i>(这不被视为一个“烤面包”行动)</i></div>",
         "mini": false
     },
     "A62_BeerKeg": {
@@ -3213,7 +3213,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在每个不以收成结束的轮次结束时，你可以将1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>从你的农田移动到你的供应堆。<span class=\"action-card-name-reference\">(这不被视为一个收割步骤。)</span></div>",
+        "description": "<div>在每个不以收成结束的轮次结束时，你可以将1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>从你的农田移动到你的供应堆。<i>(这不被视为一个收割步骤。)</i></div>",
         "mini": false
     },
     "A71_ClearingSpade": {
@@ -3489,7 +3489,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>当你打出本卡牌时，你立刻获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。每当任何玩家<span class=\"action-card-name-reference\">(包括你)</span>使用<span class=\"action-card-name-reference\">“猪市”</span>累积格，你立刻获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。</div>",
+        "description": "<div>当你打出本卡牌时，你立刻获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。每当任何玩家<i>(包括你)</i>使用<span class=\"action-card-name-reference\">“猪市”</span>累积格，你立刻获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。</div>",
         "mini": false
     },
     "A78_Canoe": {
@@ -3942,7 +3942,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>将目前的轮数加上3、6、9，你可以在每个对应轮次格放置1个畜棚。在这些轮开始时<span class=\"action-card-name-reference\">(不能提早)</span>，你可以无需花费建造该畜棚。</div>",
+        "description": "<div>将目前的轮数加上3、6、9，你可以在每个对应轮次格放置1个畜棚。在这些轮开始时<i>(不能提早)</i>，你可以无需花费建造该畜棚。</div>",
         "mini": false
     },
     "A90_PlowDriver": {
@@ -4117,7 +4117,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每当你在你的回合内拒绝一个无条件的<span class=\"action-card-name-reference\">“播种”</span>行动，你可以立刻放置另一个家庭成员到一个你选择的行动格中<span class=\"action-card-name-reference\">(即使该行动格已经被占据)</span>。</div>",
+        "description": "<div>每当你在你的回合内拒绝一个无条件的<span class=\"action-card-name-reference\">“播种”</span>行动，你可以立刻放置另一个家庭成员到一个你选择的行动格中<i>(即使该行动格已经被占据)</i>。</div>",
         "mini": false
     },
     "A95_Angler": {
@@ -4222,7 +4222,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每当你获得一个<span class=\"action-card-name-reference\">“烤面包”</span>行动，你可以不执行该行动，改为不支付职业花费打出一张职业卡牌<span class=\"action-card-name-reference\">(每轮仅限一次)</span>。</div>",
+        "description": "<div>每当你获得一个<span class=\"action-card-name-reference\">“烤面包”</span>行动，你可以不执行该行动，改为不支付职业花费打出一张职业卡牌<i>(每轮仅限一次)</i>。</div>",
         "mini": false
     },
     "A98_StableArchitect": {
@@ -4362,7 +4362,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>游戏结束计分时，你每拥有一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cook\"></div></div>发展，你获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。<span class=\"action-card-name-reference\">(烤炉不被视为<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cook\"></div></div>发展。)</span></div>",
+        "description": "<div>游戏结束计分时，你每拥有一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cook\"></div></div>发展，你获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。<i>(烤炉不被视为<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cook\"></div></div>发展。)</i></div>",
         "mini": false
     },
     "A102_Grocer": {
@@ -4397,7 +4397,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>如图所示，将货物按顺序<span class=\"action-card-name-reference\">(从下往上)</span>叠在本卡牌上。<br>(<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>)<br>你在任何时候都可以花费1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买顶上的1个货物。</div>",
+        "description": "<div>如图所示，将货物按顺序<i>(从下往上)</i>叠在本卡牌上。<br>(<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>)<br>你在任何时候都可以花费1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买顶上的1个货物。</div>",
         "mini": false
     },
     "A103_Portmonger": {
@@ -5492,7 +5492,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你立即将一个农场格子圈成牧场，不需要支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。<span class=\"action-card-name-reference\">(如果你的农场版图已有牧场，必须将新的牧场放在其相邻格子上。)</span></div>",
+        "description": "<div>你立即将一个农场格子圈成牧场，不需要支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。<i>(如果你的农场版图已有牧场，必须将新的牧场放在其相邻格子上。)</i></div>",
         "mini": false
     },
     "B3_Moonshine": {
@@ -5724,7 +5724,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。<span class=\"action-card-name-reference\">(此卡牌效果等同用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>交换1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。)</span></div>",
+        "description": "<div>你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。<i>(此卡牌效果等同用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>交换1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。)</i></div>",
         "mini": false
     },
     "B9_BeatingRod": {
@@ -5885,7 +5885,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>本卡牌可以容纳最多3个相同种类的动物。<span class=\"action-card-name-reference\">(本卡牌不视为牧场。)</span></div>",
+        "description": "<div>本卡牌可以容纳最多3个相同种类的动物。<i>(本卡牌不视为牧场。)</i></div>",
         "mini": false
     },
     "B13_CarpentersParlor": {
@@ -6006,7 +6006,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每当你使用一个木材累积格后，你可以立刻使用<span class=\"action-card-name-reference\">(且只使用)</span>所获得的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>来建造正好1个牧场。如果你这么做，其中一个栅栏免费。</div>",
+        "description": "<div>每当你使用一个木材累积格后，你可以立刻使用<i>(且只使用)</i>所获得的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>来建造正好1个牧场。如果你这么做，其中一个栅栏免费。</div>",
         "mini": false
     },
     "B16_MiningHammer": {
@@ -6086,7 +6086,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每当你使用一个木材累积格时，你可以支付2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>来犁1块田。将支付的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>放在该累积格上<span class=\"action-card-name-reference\">(给下一位来访者)</span>。</div>",
+        "description": "<div>每当你使用一个木材累积格时，你可以支付2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>来犁1块田。将支付的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>放在该累积格上<i>(给下一位来访者)</i>。</div>",
         "mini": false
     },
     "B18_GrasslandHarrow": {
@@ -6598,7 +6598,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>游戏结束计分时，如果你的农场里至少有2个相邻的未使用的格子，你获得2点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。<span class=\"action-card-name-reference\">(对于那些未使用的格子，你仍然会失去分数。)</span></div>",
+        "description": "<div>游戏结束计分时，如果你的农场里至少有2个相邻的未使用的格子，你获得2点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。<i>(对于那些未使用的格子，你仍然会失去分数。)</i></div>",
         "mini": false
     },
     "B32_Kettle": {
@@ -8476,7 +8476,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每当任何玩家<span class=\"action-card-name-reference\">(包括你)</span>从一个累积格上拿取至少3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>时，你从公共供应堆获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。</div>",
+        "description": "<div>每当任何玩家<i>(包括你)</i>从一个累积格上拿取至少3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>时，你从公共供应堆获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。</div>",
         "mini": false
     },
     "B80_HardPorcelain": {
@@ -8634,7 +8634,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>将<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><span class=\"action-card-name-reference\">(从下往上)</span>叠在本卡牌上。你在任何时候都可以支付1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>来拿取顶上的货物。</div>",
+        "description": "<div>将<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><i>(从下往上)</i>叠在本卡牌上。你在任何时候都可以支付1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>来拿取顶上的货物。</div>",
         "mini": false
     },
     "B84_AcornsBasket": {
@@ -9269,7 +9269,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每次收成时，如果任何玩家<span class=\"action-card-name-reference\">(包括你)</span>拥有木工坊或其升级，你可以用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买正好1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。</div>",
+        "description": "<div>每次收成时，如果任何玩家<i>(包括你)</i>拥有木工坊或其升级，你可以用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买正好1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。</div>",
         "mini": false
     },
     "B102_Consultant": {
@@ -9619,7 +9619,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>你每建造1个砖土房间，你获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>和1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。<span class=\"action-card-name-reference\">(这个效果不适用于石造房屋和翻新木造房间。)</span></div>",
+        "description": "<div>你每建造1个砖土房间，你获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>和1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。<i>(这个效果不适用于石造房屋和翻新木造房间。)</i></div>",
         "mini": false
     },
     "B112_Silokeeper": {
@@ -9724,7 +9724,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在每轮开始时，如果你有至少3个房间但只有2名家庭成员，获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>和1个作物<span class=\"action-card-name-reference\">(<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>或<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>)</span></div>",
+        "description": "<div>在每轮开始时，如果你有至少3个房间但只有2名家庭成员，获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>和1个作物<i>(<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>或<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>)</i></div>",
         "mini": false
     },
     "B115_TinsmithMaster": {
@@ -10074,7 +10074,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在每个工作阶段，在你围了至少一个农场格子之后，你获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。<span class=\"action-card-name-reference\">(分割一个已存在的牧场不算。)</span></div>",
+        "description": "<div>在每个工作阶段，在你围了至少一个农场格子之后，你获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。<i>(分割一个已存在的牧场不算。)</i></div>",
         "mini": false
     },
     "B125_EstateWorker": {
@@ -10144,7 +10144,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每个新建的房间只需花费3个对应资源和2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><span class=\"action-card-name-reference\">(例如：建造一个木造房间，只需支付3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>和2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>)</span>。</div>",
+        "description": "<div>每个新建的房间只需花费3个对应资源和2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><i>(例如：建造一个木造房间，只需支付3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>和2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>)</i>。</div>",
         "mini": false
     },
     "B135_NutritionExpert": {
@@ -10219,7 +10219,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>立刻拆除你的所有栅栏，从你的供应堆中加入最多3个栅栏然后重建它们<span class=\"action-card-name-reference\">(过程中你不会失去任何动物)</span>。</div>",
+        "description": "<div>立刻拆除你的所有栅栏，从你的供应堆中加入最多3个栅栏然后重建它们<i>(过程中你不会失去任何动物)</i>。</div>",
         "mini": false
     },
     "C2_Stable": {
@@ -10259,7 +10259,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>立即建造1个畜棚<span class=\"action-card-name-reference\">(该畜棚无需任何花费，但你必须支付本卡牌上显示的花费)</span>。</div>",
+        "description": "<div>立即建造1个畜棚<i>(该畜棚无需任何花费，但你必须支付本卡牌上显示的花费)</i>。</div>",
         "mini": false
     },
     "C3_CarriageTrip": {
@@ -10457,7 +10457,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你立即选择获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>或获得与你拥有的羊数量相同的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><span class=\"action-card-name-reference\">(保留羊)</span>。</div>",
+        "description": "<div>你立即选择获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>或获得与你拥有的羊数量相同的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><i>(保留羊)</i>。</div>",
         "mini": false
     },
     "C8_PlantFertilizer": {
@@ -10771,7 +10771,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每次你使用<span class=\"action-card-name-reference\">“猪市”</span>累积格前，你可以执行1次<span class=\"action-card-name-reference\">“建造栅栏”</span>行动<span class=\"action-card-name-reference\">(你必须如常为栅栏支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>)</span>。</div>",
+        "description": "<div>每次你使用<span class=\"action-card-name-reference\">“猪市”</span>累积格前，你可以执行1次<span class=\"action-card-name-reference\">“建造栅栏”</span>行动<i>(你必须如常为栅栏支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>)</i>。</div>",
         "mini": false
     },
     "C16_FieldFences": {
@@ -11047,7 +11047,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当你打出本卡牌时，你可以立即将你在本工作阶段放置的第1名家庭成员<span class=\"action-card-name-reference\">(除非该家庭成员在“广场”行动格上)</span>移动到本卡牌上。如果你这么做，然后你可以立即放置另一名家庭成员。</div>",
+        "description": "<div>当你打出本卡牌时，你可以立即将你在本工作阶段放置的第1名家庭成员<i>(除非该家庭成员在“广场”行动格上)</i>移动到本卡牌上。如果你这么做，然后你可以立即放置另一名家庭成员。</div>",
         "mini": false
     },
     "C23_JobContract": {
@@ -11085,7 +11085,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>如果<span class=\"action-card-name-reference\">“临时工”</span>和相邻的<span class=\"action-card-name-reference\">“职业训练”</span>行动格都未被占据，你可以只用一名家庭成员使用这两个行动格<span class=\"action-card-name-reference\">(按该顺序)</span>。然后，两个格子都视为被占据。</div>",
+        "description": "<div>如果<span class=\"action-card-name-reference\">“临时工”</span>和相邻的<span class=\"action-card-name-reference\">“职业训练”</span>行动格都未被占据，你可以只用一名家庭成员使用这两个行动格<i>(按该顺序)</i>。然后，两个格子都视为被占据。</div>",
         "mini": false
     },
     "C24_BedintheGrainField": {
@@ -11446,7 +11446,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>当任意玩家<span class=\"action-card-name-reference\">(包括你自己)</span>面前有5张或更多卡牌时，你无法再打出本卡牌。</div>",
+        "description": "<div>当任意玩家<i>(包括你自己)</i>面前有5张或更多卡牌时，你无法再打出本卡牌。</div>",
         "mini": false
     },
     "C33_GreeningPlan": {
@@ -11722,7 +11722,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“卖艺”</span>累积格时，还获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。1-3位玩家的游戏中，本卡牌视为“卖艺”<span class=\"action-card-name-reference\">(与“钓鱼”效果相同)</span>。</div>",
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“卖艺”</span>累积格时，还获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。1-3位玩家的游戏中，本卡牌视为“卖艺”<i>(与“钓鱼”效果相同)</i>。</div>",
         "mini": false
     },
     "C40_CanvasSack": {
@@ -12328,7 +12328,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在每次收成的收割步骤后，你可以用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>加上1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fence_icon\"></div></div><span class=\"action-card-name-reference\">(皆需从你的供应堆中)</span>交换5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>在每次收成的收割步骤后，你可以用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>加上1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fence_icon\"></div></div><i>(皆需从你的供应堆中)</i>交换5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "C55_Studio": {
@@ -13283,7 +13283,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>你每次犁1块田时<span class=\"action-card-name-reference\">(板块或卡牌)</span>，你还可以用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。</div>",
+        "description": "<div>你每次犁1块田时<i>(板块或卡牌)</i>，你还可以用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。</div>",
         "mini": false
     },
     "C81_MaterialHub": {
@@ -13324,7 +13324,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>立即在本卡牌上放置每种建造资源各2个。当任意一位玩家<span class=\"action-card-name-reference\">(包括你自己)</span>拿取至少5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>或3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>时，你从本卡牌上获得1个相应建造资源。</div>",
+        "description": "<div>立即在本卡牌上放置每种建造资源各2个。当任意一位玩家<i>(包括你自己)</i>拿取至少5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>或3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>时，你从本卡牌上获得1个相应建造资源。</div>",
         "mini": false
     },
     "C82_HardwareStore": {
@@ -13443,7 +13443,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每个不以收成结束的轮，你可以支付1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>来繁殖正好1种动物<span class=\"action-card-name-reference\">(这不视为繁殖步骤)</span>。</div>",
+        "description": "<div>每个不以收成结束的轮，你可以支付1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>来繁殖正好1种动物<i>(这不视为繁殖步骤)</i>。</div>",
         "mini": false
     },
     "C85_DenBuilder": {
@@ -13513,7 +13513,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当你打出本卡牌时，立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。你供应堆中的每个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>可以容纳1个任意种类的动物。<span class=\"action-card-name-reference\">(这些动物算作圈养在你农场内)</span>。</div>",
+        "description": "<div>当你打出本卡牌时，立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。你供应堆中的每个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>可以容纳1个任意种类的动物。<i>(这些动物算作圈养在你农场内)</i>。</div>",
         "mini": false
     },
     "C87_Mason": {
@@ -14283,7 +14283,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当你打出本卡牌时，你必须跳过下次收成<span class=\"action-card-name-reference\">(且在该收成中你无需供养你的家庭成员)</span>。</div>",
+        "description": "<div>当你打出本卡牌时，你必须跳过下次收成<i>(且在该收成中你无需供养你的家庭成员)</i>。</div>",
         "mini": false
     },
     "C109_SchnappsDistiller": {
@@ -14388,7 +14388,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在每轮开始时，如果你拥有的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>不小于目前的轮数<span class=\"action-card-name-reference\">(示例：第8轮时<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>为8+)</span>，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>在每轮开始时，如果你拥有的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>不小于目前的轮数<i>(示例：第8轮时<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>为8+)</i>，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "C112_Thresher": {
@@ -14878,7 +14878,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在每个工作阶段开始前，你可以将一个家庭成员放置到你供应堆中没有的建造资源的累积格上<span class=\"action-card-name-reference\">(然后从起始玩家开始)</span>。</div>",
+        "description": "<div>在每个工作阶段开始前，你可以将一个家庭成员放置到你供应堆中没有的建造资源的累积格上<i>(然后从起始玩家开始)</i>。</div>",
         "mini": false
     },
     "C126_Excavator": {
@@ -15267,7 +15267,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>。<span class=\"action-card-name-reference\">(此卡牌效果等同于用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>交换1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>。)</span></div>",
+        "description": "<div>你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>。<i>(此卡牌效果等同于用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>交换1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>。)</i></div>",
         "mini": false
     },
     "D10_StorksNest": {
@@ -15345,7 +15345,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>你的大小为1的牧场可以容纳最多3个相同种类的动物。<span class=\"action-card-name-reference\">(如有畜棚，其可以容纳最多6个相同种类的动物。)</span></div>",
+        "description": "<div>你的大小为1的牧场可以容纳最多3个相同种类的动物。<i>(如有畜棚，其可以容纳最多6个相同种类的动物。)</i></div>",
         "mini": false
     },
     "D12_MilkingPlace": {
@@ -15385,7 +15385,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在每次收成的供养步骤中，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。你无法再在你的房屋中容纳动物<span class=\"action-card-name-reference\">(即使有其他卡牌效果允许)</span>。</div>",
+        "description": "<div>在每次收成的供养步骤中，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。你无法再在你的房屋中容纳动物<i>(即使有其他卡牌效果允许)</i>。</div>",
         "mini": false
     },
     "D13_Trowel": {
@@ -16185,7 +16185,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>游戏结束计分时，如果你住在石造房屋，你房屋旁每有1个竖直或水平相邻的未使用的农场格，获得2点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div><span class=\"action-card-name-reference\">(你仍然会因这些未使用的格子失去分数)</span>。</div>",
+        "description": "<div>游戏结束计分时，如果你住在石造房屋，你房屋旁每有1个竖直或水平相邻的未使用的农场格，获得2点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div><i>(你仍然会因这些未使用的格子失去分数)</i>。</div>",
         "mini": false
     },
     "D34_LuxuriousHostel": {
@@ -16543,7 +16543,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>本局游戏中，在你打出第1/2/3/4/5/6张职业卡牌后，立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-field_icon\"></div></div><span class=\"action-card-name-reference\">(不追溯)</span>。</div>",
+        "description": "<div>本局游戏中，在你打出第1/2/3/4/5/6张职业卡牌后，立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-field_icon\"></div></div><i>(不追溯)</i>。</div>",
         "mini": false
     },
     "D43_Hutch": {
@@ -16746,7 +16746,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在剩余每个轮次格中各放置2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。在这些轮开始时，你从该轮格子上拿取放置的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><span class=\"action-card-name-reference\">(*职业卡牌和发展卡牌)</span>。</div>",
+        "description": "<div>在剩余每个轮次格中各放置2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。在这些轮开始时，你从该轮格子上拿取放置的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><i>(*职业卡牌和发展卡牌)</i>。</div>",
         "mini": false
     },
     "D48_CivicFacade": {
@@ -16826,7 +16826,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>你每次打出职业卡牌前<span class=\"action-card-name-reference\">(甚至在支付职业花费前)</span>，立即获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>你每次打出职业卡牌前<i>(甚至在支付职业花费前)</i>，立即获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "D50_ForeignAid": {
@@ -16982,7 +16982,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每轮一次，你可以跳过放置你的第2名家庭成员，改为获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><span class=\"action-card-name-reference\">(你可以在该轮中稍后放置这名家庭成员)</span>。</div>",
+        "description": "<div>每轮一次，你可以跳过放置你的第2名家庭成员，改为获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><i>(你可以在该轮中稍后放置这名家庭成员)</i>。</div>",
         "mini": false
     },
     "D54_TroutPool": {
@@ -17184,7 +17184,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>你每个在农田播种蔬菜的行动结束时，你可以获得和你拥有的蔬菜农田数量等量的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><span class=\"action-card-name-reference\">(包括新的蔬菜农田)</span>。</div>",
+        "description": "<div>你每个在农田播种蔬菜的行动结束时，你可以获得和你拥有的蔬菜农田数量等量的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><i>(包括新的蔬菜农田)</i>。</div>",
         "mini": false
     },
     "D59_EarthOven": {
@@ -17816,7 +17816,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在你每个使用了<span class=\"action-card-name-reference\">“农场扩建”</span>行动格或建造发展的回合结束时，你取回这些行动中<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>花费的一半<span class=\"action-card-name-reference\">(向下取整)</span>。</div>",
+        "description": "<div>在你每个使用了<span class=\"action-card-name-reference\">“农场扩建”</span>行动格或建造发展的回合结束时，你取回这些行动中<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>花费的一半<i>(向下取整)</i>。</div>",
         "mini": false
     },
     "D75_WoodField": {
@@ -17936,7 +17936,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每次任意一位玩家<span class=\"action-card-name-reference\">(包括你自己)</span>翻新至石造时，你获得和新翻新房间数量相等的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。</div>",
+        "description": "<div>每次任意一位玩家<i>(包括你自己)</i>翻新至石造时，你获得和新翻新房间数量相等的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。</div>",
         "mini": false
     },
     "D78_ReedPond": {
@@ -18252,7 +18252,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>只要你面前有6张职业卡牌<span class=\"action-card-name-reference\">(包括本卡牌)</span>，本卡牌为一名家庭成员提供房间。在轮抽变体中，你需要7张职业卡牌来打出本卡牌。</div>",
+        "description": "<div>只要你面前有6张职业卡牌<i>(包括本卡牌)</i>，本卡牌为一名家庭成员提供房间。在轮抽变体中，你需要7张职业卡牌来打出本卡牌。</div>",
         "mini": false
     },
     "D86_SheepAgent": {
@@ -18287,7 +18287,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>你面前的每张职业卡牌<span class=\"action-card-name-reference\">(包括本卡牌)</span>上可以容纳1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>，除非其已经能够容纳动物。</div>",
+        "description": "<div>你面前的每张职业卡牌<i>(包括本卡牌)</i>上可以容纳1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>，除非其已经能够容纳动物。</div>",
         "mini": false
     },
     "D87_MasterBuilder": {
@@ -18777,7 +18777,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>游戏结束计分时，你每有1个计分类型获得了最高分4分，你获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div><span class=\"action-card-name-reference\">(4个牧场内畜棚也会获得奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>)</span>。</div>",
+        "description": "<div>游戏结束计分时，你每有1个计分类型获得了最高分4分，你获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div><i>(4个牧场内畜棚也会获得奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>)</i>。</div>",
         "mini": false
     },
     "D101_SugarBaker": {
@@ -18812,7 +18812,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“谷物运用”</span>行动格后，你可以用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。将该<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>放置在该行动格上<span class=\"action-card-name-reference\">(下一位使用者可获得)</span>。</div>",
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“谷物运用”</span>行动格后，你可以用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。将该<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>放置在该行动格上<i>(下一位使用者可获得)</i>。</div>",
         "mini": false
     },
     "D102_SampleStableMaker": {
@@ -19617,7 +19617,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在任何时候，你可以从你的供应堆中拿取1个货物，放置在本卡牌上来获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。在本卡牌上你必须放置不同的货物<span class=\"action-card-name-reference\">(<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>也被视为货物)</span>。</div>",
+        "description": "<div>在任何时候，你可以从你的供应堆中拿取1个货物，放置在本卡牌上来获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。在本卡牌上你必须放置不同的货物<i>(<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>也被视为货物)</i>。</div>",
         "mini": false
     },
     "D125_ForestTrader": {
@@ -19727,7 +19727,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你可以立即免费建造最多3个畜棚。<span class=\"action-card-name-reference\">(但你必须支付本卡牌的花费。)</span></div>",
+        "description": "<div>你可以立即免费建造最多3个畜棚。<i>(但你必须支付本卡牌的花费。)</i></div>",
         "mini": false
     },
     "E2_RenovationMaterials": {
@@ -19768,7 +19768,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>立即免费翻新为砖土。<span class=\"action-card-name-reference\">(但你必须支付本卡牌的花费。)</span></div>",
+        "description": "<div>立即免费翻新为砖土。<i>(但你必须支付本卡牌的花费。)</i></div>",
         "mini": false
     },
     "E3_TeaTime": {
@@ -19964,7 +19964,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你立即获得4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。<span class=\"action-card-name-reference\">(此卡牌效果等同于将1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>转化为4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。)</span></div>",
+        "description": "<div>你立即获得4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。<i>(此卡牌效果等同于将1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>转化为4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。)</i></div>",
         "mini": false
     },
     "E8_FarmersMarket": {
@@ -20004,7 +20004,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div> 。<span class=\"action-card-name-reference\">(此卡牌效果等同于用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。)</span></div>",
+        "description": "<div>你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div> 。<i>(此卡牌效果等同于用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。)</i></div>",
         "mini": false
     },
     "E9_BarteringHut": {
@@ -20160,7 +20160,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>你可以在自己的每个牧场外畜棚中额外安置1个<span class=\"action-card-name-reference\">(相同种类的)</span>动物，并在每个有畜棚的牧场中额外安置2个<span class=\"action-card-name-reference\">(相同种类的)</span>动物。</div>",
+        "description": "<div>你可以在自己的每个牧场外畜棚中额外安置1个<i>(相同种类的)</span>动物，并在每个有畜棚的牧场中额外安置2个<span class=\"action-card-name-reference\">(相同种类的)</i>动物。</div>",
         "mini": false
     },
     "E13_StoneHouseReconstruction": {
@@ -20200,7 +20200,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在任何时候，你可以将自己的砖土房屋翻新为石造房屋且无需放置家庭成员。<span class=\"action-card-name-reference\">(你必须支付正常的翻新花费。)</span></div>",
+        "description": "<div>在任何时候，你可以将自己的砖土房屋翻新为石造房屋且无需放置家庭成员。<i>(你必须支付正常的翻新花费。)</i></div>",
         "mini": false
     },
     "E14_WoodSaw": {
@@ -20280,7 +20280,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每次你使用木材累积格后，你可以从你供应堆中将1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>放置在该格上<span class=\"action-card-name-reference\">(给下一位来访者)</span>，来执行一次<span class=\"action-card-name-reference\">“建造栅栏”</span>行动。</div>",
+        "description": "<div>每次你使用木材累积格后，你可以从你供应堆中将1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>放置在该格上<i>(给下一位来访者)</i>，来执行一次<span class=\"action-card-name-reference\">“建造栅栏”</span>行动。</div>",
         "mini": false
     },
     "E16_BriarHedge": {
@@ -20713,7 +20713,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在每个工作阶段结束时，你可以在本卡牌上放置1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><span class=\"action-card-name-reference\">(无法再取回)</span>。在任何时候，你都可以从本卡牌上丢弃6<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>来免费建造一个主要发展。</div>",
+        "description": "<div>在每个工作阶段结束时，你可以在本卡牌上放置1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><i>(无法再取回)</i>。在任何时候，你都可以从本卡牌上丢弃6<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>来免费建造一个主要发展。</div>",
         "mini": false
     },
     "E28_Bookmark": {
@@ -20791,7 +20791,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div><span class=\"action-card-name-reference\">(本卡牌没有额外效果。)</span></div>",
+        "description": "<div><i>(本卡牌没有额外效果。)</i></div>",
         "mini": false
     },
     "E30_ChildsToy": {
@@ -20872,7 +20872,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在打出本卡牌后，每当你建造或打出一个发展时，你可以在本卡牌上放置1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><span class=\"action-card-name-reference\">(无法再取回)</span>来获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>，数量最多等于你房屋中房间的数量。</div>",
+        "description": "<div>在打出本卡牌后，每当你建造或打出一个发展时，你可以在本卡牌上放置1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><i>(无法再取回)</i>来获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>，数量最多等于你房屋中房间的数量。</div>",
         "mini": false
     },
     "E32_Nave": {
@@ -21147,7 +21147,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每当你使用<span class=\"action-card-name-reference\">“钓鱼”</span>时，你可以在本卡牌上放置最多2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div><span class=\"action-card-name-reference\">(无法再取回)</span>。游戏结束计分时，除放置的第1、第4、第7和第10<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>外，每个此类<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>价值1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。</div>",
+        "description": "<div>每当你使用<span class=\"action-card-name-reference\">“钓鱼”</span>时，你可以在本卡牌上放置最多2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div><i>(无法再取回)</i>。游戏结束计分时，除放置的第1、第4、第7和第10<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>外，每个此类<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>价值1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。</div>",
         "mini": false
     },
     "E39_Paintbrush": {
@@ -21227,7 +21227,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>将<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><span class=\"action-card-name-reference\">(从下往上)</span>叠放在本卡牌上。你每次使用<span class=\"action-card-name-reference\">“临时工”</span>行动格时，你获得本卡牌最顶上的一个货物。</div>",
+        "description": "<div>将<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><i>(从下往上)</i>叠放在本卡牌上。你每次使用<span class=\"action-card-name-reference\">“临时工”</span>行动格时，你获得本卡牌最顶上的一个货物。</div>",
         "mini": false
     },
     "E41_MuddyWaters": {
@@ -21581,7 +21581,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每次在任意玩家<span class=\"action-card-name-reference\">(包括你自己)</span>建造至少1个木造房间后，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>每次在任意玩家<i>(包括你自己)</i>建造至少1个木造房间后，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "E50_WildGreens": {
@@ -22021,7 +22021,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>当你打出本卡牌时，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。每当你支付职业花费时，你可以支付任意1个建造资源来代替<span class=\"action-card-name-reference\">(最多)</span>2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>当你打出本卡牌时，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。每当你支付职业花费时，你可以支付任意1个建造资源来代替<i>(最多)</i>2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "E61_RaisedBed": {
@@ -22262,7 +22262,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>每当其他玩家<span class=\"action-card-name-reference\">(或在单人游戏中，你)</span> 使用<span class=\"action-card-name-reference\">“森林”</span>累积格，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。</div>",
+        "description": "<div>每当其他玩家<i>(或在单人游戏中，你)</i> 使用<span class=\"action-card-name-reference\">“森林”</span>累积格，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。</div>",
         "mini": false
     },
     "E67_GrainBag": {
@@ -22572,7 +22572,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>当你打出本卡牌时，立即从你的供应堆中放置<span class=\"action-card-name-reference\">(最多)</span>5个栅栏到本卡牌上。当你建造栅栏时，从本卡牌上拿取的栅栏无需花费。</div>",
+        "description": "<div>当你打出本卡牌时，立即从你的供应堆中放置<i>(最多)</i>5个栅栏到本卡牌上。当你建造栅栏时，从本卡牌上拿取的栅栏无需花费。</div>",
         "mini": false
     },
     "E75_StoneAxe": {
@@ -23028,7 +23028,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在任何时候，你可以将你供应堆中的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>放置在本卡牌上<span class=\"action-card-name-reference\">(无法再取回)</span>。你可以在本卡牌上安置任何种类的动物，数量等于本卡牌上<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>数量的两倍。</div>",
+        "description": "<div>在任何时候，你可以将你供应堆中的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>放置在本卡牌上<i>(无法再取回)</i>。你可以在本卡牌上安置任何种类的动物，数量等于本卡牌上<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>数量的两倍。</div>",
         "mini": false
     },
     "E87_MasterRenovator": {
@@ -23133,7 +23133,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在你打出你的第2张、第3张、第5张和第7张职业卡牌后<span class=\"action-card-name-reference\">(包括本卡牌)</span>，你可以免费建造1个畜棚。</div>",
+        "description": "<div>在你打出你的第2张、第3张、第5张和第7张职业卡牌后<i>(包括本卡牌)</i>，你可以免费建造1个畜棚。</div>",
         "mini": false
     },
     "E90_DungCollector": {
@@ -23308,7 +23308,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当你打出本卡牌时，立即执行一次<span class=\"action-card-name-reference\">“翻新”</span>行动。然后，你可以执行一次<span class=\"action-card-name-reference\">“建造栅栏”</span>行动。<span class=\"action-card-name-reference\">(这两个行动都需要支付通常的花费。)</span></div>",
+        "description": "<div>当你打出本卡牌时，立即执行一次<span class=\"action-card-name-reference\">“翻新”</span>行动。然后，你可以执行一次<span class=\"action-card-name-reference\">“建造栅栏”</span>行动。<i>(这两个行动都需要支付通常的花费。)</i></div>",
         "mini": false
     },
     "E95_Miller": {
@@ -23378,7 +23378,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在第1轮的工作阶段开始时，你可以打出本卡牌，无需放置家庭成员。<br><span class=\"action-card-name-reference\">(本卡牌没有效果，仅算作一张打出的职业卡牌。)</span></div>",
+        "description": "<div>在第1轮的工作阶段开始时，你可以打出本卡牌，无需放置家庭成员。<br><i>(本卡牌没有效果，仅算作一张打出的职业卡牌。)</i></div>",
         "mini": false
     },
     "E97_Beneficiary": {
@@ -23448,7 +23448,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>如果这是你的第1张职业卡牌，你每拥有一个发展，你立即获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。<span class=\"action-card-name-reference\">(本效果不适用于在本卡牌之后打出的发展。)</span></div>",
+        "description": "<div>如果这是你的第1张职业卡牌，你每拥有一个发展，你立即获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。<i>(本效果不适用于在本卡牌之后打出的发展。)</i></div>",
         "mini": false
     },
     "E99_UncaringParents": {
@@ -23623,7 +23623,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>将<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><span class=\"action-card-name-reference\">(从下往上)</span>叠在本卡牌上。每当你获得一个和本卡牌最顶上货物种类相同的货物时，你可以将本卡牌最顶上的货物移动到你的供应堆中并获得1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>。</div>",
+        "description": "<div>将<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><i>(从下往上)</i>叠在本卡牌上。每当你获得一个和本卡牌最顶上货物种类相同的货物时，你可以将本卡牌最顶上的货物移动到你的供应堆中并获得1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>。</div>",
         "mini": false
     },
     "E104_SpiceTrader": {
@@ -23870,7 +23870,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在每次收成开始时，你可以将你供应堆中的1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>放置在本卡牌上<span class=\"action-card-name-reference\">(无法再取回)</span>。在每个供养步骤中，本卡牌上每有一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>在每次收成开始时，你可以将你供应堆中的1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>放置在本卡牌上<i>(无法再取回)</i>。在每个供养步骤中，本卡牌上每有一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "E111_Recluse": {
@@ -24010,7 +24010,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当你建造你的第1个和第2个畜棚时，你获得1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。当你建造你的第3个和第4个畜棚时，你获得1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。<span class=\"action-card-name-reference\">(本效果不适用于你已建造的畜棚。)</span></div>",
+        "description": "<div>当你建造你的第1个和第2个畜棚时，你获得1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。当你建造你的第3个和第4个畜棚时，你获得1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。<i>(本效果不适用于你已建造的畜棚。)</i></div>",
         "mini": false
     },
     "E115_SeedServant": {
@@ -24325,7 +24325,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>按本卡牌所示<span class=\"action-card-name-reference\">(从下往上)</span>叠放资源。在建造房间、打出/建造发展或翻新时，你可以使用最顶上的一个或多个资源。<br><br><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div>",
+        "description": "<div>按本卡牌所示<i>(从下往上)</i>叠放资源。在建造房间、打出/建造发展或翻新时，你可以使用最顶上的一个或多个资源。<br><br><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div>",
         "mini": false
     },
     "E124_MayorCandidate": {
@@ -24570,7 +24570,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每当你使用<span class=\"action-card-name-reference\">“农场扩建”</span>或<span class=\"action-card-name-reference\">“谷物种子”</span>行动格之一后，你可以立刻用同一个家庭成员再使用另外那个格子<br><span class=\"action-card-name-reference\">(即使该格子已经被占据)</span>。</div>",
+        "description": "<div>每当你使用<span class=\"action-card-name-reference\">“农场扩建”</span>或<span class=\"action-card-name-reference\">“谷物种子”</span>行动格之一后，你可以立刻用同一个家庭成员再使用另外那个格子<br><i>(即使该格子已经被占据)</i>。</div>",
         "mini": false
     },
     "B134_HousebookMaster": {
@@ -24892,7 +24892,7 @@
         },
         "infobox": null,
         "marked": false,
-        "description": "<div>每次有任意一位玩家<span class=\"action-card-name-reference\">(包括你自己)</span>使用未被占据的<span class=\"action-card-name-reference\">“树林”</span>或<span class=\"action-card-name-reference\">“森林”</span>累积格之一且另外那个格子被占据时，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。</div>",
+        "description": "<div>每次有任意一位玩家<i>(包括你自己)</i>使用未被占据的<span class=\"action-card-name-reference\">“树林”</span>或<span class=\"action-card-name-reference\">“森林”</span>累积格之一且另外那个格子被占据时，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。</div>",
         "mini": true
     },
     "A142_Cordmaker": {
@@ -24927,7 +24927,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每当任何玩家<span class=\"action-card-name-reference\">(包括你)</span>从<span class=\"action-card-name-reference\">“芦苇池”</span>累积格中拿取了至少2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>，你可以选择拿取1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>或用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。</div>",
+        "description": "<div>每当任何玩家<i>(包括你)</i>从<span class=\"action-card-name-reference\">“芦苇池”</span>累积格中拿取了至少2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>，你可以选择拿取1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>或用2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。</div>",
         "mini": false
     },
     "A146_StorehouseSteward": {
@@ -24962,7 +24962,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每当你从食物累积格中拿取正好2/3/4/5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>时，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。<br><span class=\"action-card-name-reference\">(如果你拿取了6个或更多食物，你不能获得奖励货物。)</span></div>",
+        "description": "<div>每当你从食物累积格中拿取正好2/3/4/5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>时，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。<br><i>(如果你拿取了6个或更多食物，你不能获得奖励货物。)</i></div>",
         "mini": false
     },
     "A158_CulinaryArtist": {
@@ -25032,7 +25032,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在每次收成之前，你可以立即用X<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>，其中X为4减去你拥有的牧场数量。<span class=\"action-card-name-reference\">(最小花费是0。)</span></div>",
+        "description": "<div>在每次收成之前，你可以立即用X<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>，其中X为4减去你拥有的牧场数量。<i>(最小花费是0。)</i></div>",
         "mini": false
     },
     "B137_Wholesaler": {
@@ -25421,7 +25421,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在最后一次收成开始时，你可以从其他每位玩家处各拿取最多2个未建造的栅栏，并免费将它们建造在你的农场中。<span class=\"action-card-name-reference\">(此后你的农场可以拥有超过15个栅栏。)</span></div>",
+        "description": "<div>在最后一次收成开始时，你可以从其他每位玩家处各拿取最多2个未建造的栅栏，并免费将它们建造在你的农场中。<i>(此后你的农场可以拥有超过15个栅栏。)</i></div>",
         "mini": true
     },
     "E156_ClaypitOwner": {
@@ -25718,7 +25718,7 @@
         },
         "infobox": null,
         "marked": false,
-        "description": "<div>每次有任意一位玩家<span class=\"action-card-name-reference\">(包括你自己)</span>使用<span class=\"action-card-name-reference\">“羊市”</span>累积格时，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。</div>",
+        "description": "<div>每次有任意一位玩家<i>(包括你自己)</i>使用<span class=\"action-card-name-reference\">“羊市”</span>累积格时，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。</div>",
         "mini": true
     },
     "D160_Midwife": {
@@ -26079,7 +26079,7 @@
         },
         "infobox": null,
         "marked": false,
-        "description": "<div>当你将本卡牌作为你的第一张职业卡牌打出时，场上每有一张(任意玩家的)其他职业卡牌，你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><span class=\"action-card-name-reference\">(最多7<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>)</span>。</div>",
+        "description": "<div>当你将本卡牌作为你的第一张职业卡牌打出时，场上每有一张(任意玩家的)其他职业卡牌，你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><i>(最多7<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>)</i>。</div>",
         "mini": true
     },
     "A155_Conjurer": {
@@ -26516,7 +26516,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在<span class=\"action-card-name-reference\">“谷物种子”</span>、<span class=\"action-card-name-reference\">“犁田”</span>、<span class=\"action-card-name-reference\">“临时工”</span>和<span class=\"action-card-name-reference\">“农场扩建”</span>上各放置<span class=\"action-card-name-reference\">(最多)</span>1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>。当其他玩家使用该行动格时，免费建造该格上的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>。</div>",
+        "description": "<div>在<span class=\"action-card-name-reference\">“谷物种子”</span>、<span class=\"action-card-name-reference\">“犁田”</span>、<span class=\"action-card-name-reference\">“临时工”</span>和<span class=\"action-card-name-reference\">“农场扩建”</span>上各放置<i>(最多)</i>1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>。当其他玩家使用该行动格时，免费建造该格上的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stable\"></div></div>。</div>",
         "mini": true
     },
     "B133_VillagePeasant": {
@@ -26586,7 +26586,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>一旦你是唯一一个只有2个房间的玩家，立即获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><span class=\"action-card-name-reference\">(仅限一次)</span>。</div>",
+        "description": "<div>一旦你是唯一一个只有2个房间的玩家，立即获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><i>(仅限一次)</i>。</div>",
         "mini": false
     },
     "B138_ForestGuardian": {
@@ -26761,7 +26761,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在本卡牌上放置3<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-reed\">        </div>      </div>和4<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-clay\">        </div>      </div>。下一位拥有3个牧场/5个农田板块的玩家将获得这3<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-reed\">        </div>      </div>/4<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-clay\">        </div>      </div><span class=\"action-card-name-reference\">(不追溯)</span>。</div>",
+        "description": "<div>在本卡牌上放置3<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-reed\">        </div>      </div>和4<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-clay\">        </div>      </div>。下一位拥有3个牧场/5个农田板块的玩家将获得这3<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-reed\">        </div>      </div>/4<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-clay\">        </div>      </div><i>(不追溯)</i>。</div>",
         "mini": false
     },
     "A145_Ropemaker": {
@@ -26901,7 +26901,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当你打出本卡牌时，立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>。你的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>将在第12轮结束时繁殖一次<span class=\"action-card-name-reference\">(如果当时你有空间容纳新的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>)</span>。</div>",
+        "description": "<div>当你打出本卡牌时，立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>。你的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>将在第12轮结束时繁殖一次<i>(如果当时你有空间容纳新的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>)</i>。</div>",
         "mini": false
     },
     "A167_BreederBuyer": {
@@ -27426,7 +27426,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每轮仅限一次，当你本轮已经放置了2个家庭成员后，你要放置家庭成员时，你可以将其与第二个家庭成员放在同一个行动格中，并再次使用该格子。<span class=\"action-card-name-reference\">(标记这个行动格。)</span></div>",
+        "description": "<div>每轮仅限一次，当你本轮已经放置了2个家庭成员后，你要放置家庭成员时，你可以将其与第二个家庭成员放在同一个行动格中，并再次使用该格子。<i>(标记这个行动格。)</i></div>",
         "mini": false
     },
     "A147_AnimalDealer": {
@@ -28301,7 +28301,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>你每次使用最近揭示的行动格卡牌<span class=\"action-card-name-reference\">(在其被放置到轮次格上后)</span>上的行动格前，你获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-grain\">        </div>      </div>。</div>",
+        "description": "<div>你每次使用最近揭示的行动格卡牌<i>(在其被放置到轮次格上后)</i>上的行动格前，你获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-grain\">        </div>      </div>。</div>",
         "mini": false
     },
     "D135_GardeningHeadOfficial": {
@@ -28406,7 +28406,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>游戏结束计分时，你的农场中<span class=\"action-card-name-reference\">(包括房间)</span>每有1个容纳了至少1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-cattle\">        </div>      </div>的格子，获得1点奖励<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-score\">        </div>      </div>。</div>",
+        "description": "<div>游戏结束计分时，你的农场中<i>(包括房间)</i>每有1个容纳了至少1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-cattle\">        </div>      </div>的格子，获得1点奖励<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-score\">        </div>      </div>。</div>",
         "mini": false
     },
     "C140_PackagingArtist": {
@@ -28581,7 +28581,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每次有任意一位玩家<span class=\"action-card-name-reference\">(包括你自己)</span>打出或建造<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-bake\">        </div>      </div>发展，你获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>和1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>。</div>",
+        "description": "<div>每次有任意一位玩家<i>(包括你自己)</i>打出或建造<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-bake\">        </div>      </div>发展，你获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>和1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>。</div>",
         "mini": false
     },
     "C150_ParrotBreeder": {
@@ -28616,7 +28616,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>在你的回合，如果你支付1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-grain\">        </div>      </div>至公共供应堆，你可以使用你右手边玩家刚刚在其回合使用过的同一个行动格<span class=\"action-card-name-reference\">(不追溯)</span>。</div>",
+        "description": "<div>在你的回合，如果你支付1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-grain\">        </div>      </div>至公共供应堆，你可以使用你右手边玩家刚刚在其回合使用过的同一个行动格<i>(不追溯)</i>。</div>",
         "mini": false
     },
     "C157_ResourceAnalyzer": {
@@ -28791,7 +28791,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>你立即获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>。每个不以收成结束的轮次结束后，你可以使正好1种动物进行繁殖。<span class=\"action-card-name-reference\">(这不视为繁殖步骤)</span>。</div>",
+        "description": "<div>你立即获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>。每个不以收成结束的轮次结束后，你可以使正好1种动物进行繁殖。<i>(这不视为繁殖步骤)</i>。</div>",
         "mini": false
     },
     "D134_OysterEater": {
@@ -28826,7 +28826,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每当<span class=\"action-card-name-reference\">“钓鱼”</span>累积格被使用时，你获得1点奖励<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-score\">        </div>      </div>且在该轮中你必须跳过放置你的下一名家庭成员<span class=\"action-card-name-reference\">(你可以在之后的回合放置该家庭成员)</span>。</div>",
+        "description": "<div>每当<span class=\"action-card-name-reference\">“钓鱼”</span>累积格被使用时，你获得1点奖励<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-score\">        </div>      </div>且在该轮中你必须跳过放置你的下一名家庭成员<i>(你可以在之后的回合放置该家庭成员)</i>。</div>",
         "mini": false
     },
     "D157_PartyOrganizer": {
@@ -28861,7 +28861,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当除了你之外的下一位玩家获得第五个家庭成员时，你立即获得8<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div><span class=\"action-card-name-reference\">(不追溯)</span>。<br>游戏结束计分时，如果只有你拥有5个家庭成员，你获得3点奖励<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-score\">        </div>      </div>。</div>",
+        "description": "<div>当除了你之外的下一位玩家获得第五个家庭成员时，你立即获得8<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div><i>(不追溯)</i>。<br>游戏结束计分时，如果只有你拥有5个家庭成员，你获得3点奖励<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-score\">        </div>      </div>。</div>",
         "mini": false
     },
     "C151_SowingDirector": {
@@ -28931,7 +28931,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每次有任意一位玩家<span class=\"action-card-name-reference\">(包括你自己)</span>累积格拿取5/6/7/8+个货物时，你从公共供应堆中获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-clay\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-reed\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-stone\">        </div>      </div>。</div>",
+        "description": "<div>每次有任意一位玩家<i>(包括你自己)</i>累积格拿取5/6/7/8+个货物时，你从公共供应堆中获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-clay\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-reed\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-stone\">        </div>      </div>。</div>",
         "mini": false
     },
     "D139_Chairman": {
@@ -28966,7 +28966,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每次有其他玩家使用<span class=\"action-card-name-reference\">“广场”</span>行动格时，你和该玩家获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div><span class=\"action-card-name-reference\">(在执行行动之前)</span>。如果你使用<span class=\"action-card-name-reference\">“广场”</span>，你获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>。</div>",
+        "description": "<div>每次有其他玩家使用<span class=\"action-card-name-reference\">“广场”</span>行动格时，你和该玩家获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div><i>(在执行行动之前)</i>。如果你使用<span class=\"action-card-name-reference\">“广场”</span>，你获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>。</div>",
         "mini": false
     },
     "C132_TimberShingleMaker": {
@@ -29036,7 +29036,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每次你使用<span class=\"action-card-name-reference\">“牛市”</span>累积格<span class=\"action-card-name-reference\">(在第10或11轮时出现)</span>时，额外获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-cattle\">        </div>      </div>。</div>",
+        "description": "<div>每次你使用<span class=\"action-card-name-reference\">“牛市”</span>累积格<i>(在第10或11轮时出现)</i>时，额外获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-cattle\">        </div>      </div>。</div>",
         "mini": false
     },
     "C153_PatternMaker": {
@@ -29211,7 +29211,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每次收成中，如果你的供应堆中有至少5<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>，你可以丢弃<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>至5个来执行1次<span class=\"action-card-name-reference\">“建造畜棚”</span>或<span class=\"action-card-name-reference\">“建造木造房间”</span>行动<br><span class=\"action-card-name-reference\">(需支付正常花费)</span>。</div>",
+        "description": "<div>每次收成中，如果你的供应堆中有至少5<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>，你可以丢弃<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>至5个来执行1次<span class=\"action-card-name-reference\">“建造畜棚”</span>或<span class=\"action-card-name-reference\">“建造木造房间”</span>行动<br><i>(需支付正常花费)</i>。</div>",
         "mini": false
     },
     "D130_RecreationalCarpenter": {
@@ -29561,7 +29561,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每次有其他玩家建造1个或更多房间后，你可以给他们1个<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>来为你自己建造正好1个房间<span class=\"action-card-name-reference\">(你必须支付房间的建造费用)</span>。</div>",
+        "description": "<div>每次有其他玩家建造1个或更多房间后，你可以给他们1个<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>来为你自己建造正好1个房间<i>(你必须支付房间的建造费用)</i>。</div>",
         "mini": false
     },
     "D141_SeedSeller": {
@@ -29701,7 +29701,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>打出本卡牌后，你每次打出职业卡牌前<span class=\"action-card-name-reference\">(甚至在支付职业花费前)</span>，你立即获得2<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>。</div>",
+        "description": "<div>打出本卡牌后，你每次打出职业卡牌前<i>(甚至在支付职业花费前)</i>，你立即获得2<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>。</div>",
         "mini": false
     },
     "D144_WaterWorker": {
@@ -29806,7 +29806,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>当你建造你的第2/3/4个畜棚时，你立即获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-cattle\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-pig\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-sheep\">        </div>      </div>，即使是在同一回合建造<span class=\"action-card-name-reference\">(不追溯)</span>。</div>",
+        "description": "<div>当你建造你的第2/3/4个畜棚时，你立即获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-cattle\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-pig\">        </div>      </div>/<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-sheep\">        </div>      </div>，即使是在同一回合建造<i>(不追溯)</i>。</div>",
         "mini": false
     },
     "C164_GermanHeathKeeper": {
@@ -29841,7 +29841,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>每次有任意一位玩家<span class=\"action-card-name-reference\">(包括你自己)</span>使用<span class=\"action-card-name-reference\">“猪市”</span>累积格时，你从公共供应堆中获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-sheep\">        </div>      </div> 。</div>",
+        "description": "<div>每次有任意一位玩家<i>(包括你自己)</i>使用<span class=\"action-card-name-reference\">“猪市”</span>累积格时，你从公共供应堆中获得1<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-sheep\">        </div>      </div> 。</div>",
         "mini": false
     },
     "C154_TwinResearcher": {
@@ -30016,7 +30016,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>你可以使用<span class=\"action-card-name-reference\">“渴望增加家庭成员”</span>行动格<span class=\"action-card-name-reference\">(在第12或13轮中出现)</span>，即使该行动格已经被其他玩家在该轮放置的第一名家庭成员占据。</div>",
+        "description": "<div>你可以使用<span class=\"action-card-name-reference\">“渴望增加家庭成员”</span>行动格<i>(在第12或13轮中出现)</i>，即使该行动格已经被其他玩家在该轮放置的第一名家庭成员占据。</div>",
         "mini": false
     },
     "C146_ActionsBooster": {
@@ -30156,7 +30156,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>本卡牌是1个只有你能使用的行动格。如果其他每个玩家拥有的房间都比你多，本卡牌提供<span class=\"action-card-name-reference\">“临时工”</span>、<span class=\"action-card-name-reference\">“建造房间”</span>和<span class=\"action-card-name-reference\">“主要发展”</span>行动<span class=\"action-card-name-reference\">(共计三个)</span>。</div>",
+        "description": "<div>本卡牌是1个只有你能使用的行动格。如果其他每个玩家拥有的房间都比你多，本卡牌提供<span class=\"action-card-name-reference\">“临时工”</span>、<span class=\"action-card-name-reference\">“建造房间”</span>和<span class=\"action-card-name-reference\">“主要发展”</span>行动<i>(共计三个)</i>。</div>",
         "mini": false
     },
     "D131_CraftsmanshipPromoter": {
@@ -30296,7 +30296,7 @@
         "stats": [],
         "infobox": null,
         "marked": false,
-        "description": "<div>你每次使用提供至少3个同类货物(除<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>外)的累积格时，你获得额外1个<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div><span class=\"action-card-name-reference\">(<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>也被视为货物)</span>。</div>",
+        "description": "<div>你每次使用提供至少3个同类货物(除<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div>外)的累积格时，你获得额外1个<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-wood\">        </div>      </div><i>(<div class=\"meeple-container\">        <div class=\"agricola-meeple meeple-food\">        </div>      </div>也被视为货物)</i>。</div>",
         "mini": false
     },
     "D165_PigStalker": {
