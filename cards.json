@@ -12607,6 +12607,46 @@
         "description": "<div>在每个供养步骤中，你可以使用本卡牌，将正好1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>转化为5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。游戏结束计分时，你的第5和第6<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>各获得1点奖励<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>。</div>",
         "mini": false
     },
+    "C60_SmallPottersOven": {
+        "id": "C60_SmallPottersOven",
+        "pId": 84603229,
+        "name": "Small Potter's Oven",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": null,
+        "desc": [
+            "When you play this card, you immediately get 5 <FOOD>. Each time before you get a __Bake Bread__ action, you can build the __Clay Oven__ or __stone Oven__ major improvement."
+        ],
+        "vp": 5,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Return the Clay/Stone Oven",
+        "costs": [
+            {
+                "clay": "2"
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FoodCategory",
+        "numbering": "C060",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>当你打出本卡牌时，立即获得5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。你每次获得<span class=\"action-card-name-reference\">“烤面包”</span>行动前，你可以建造<span class=\"action-card-name-reference\">“砖土烤炉”</span>或<span class=\"action-card-name-reference\">“石造烤炉”</span>主要发展。</div>",
+        "mini": false
+    },
     "C61_BeerStein": {
         "id": "C61_BeerStein",
         "pId": 84603229,
