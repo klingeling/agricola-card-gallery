@@ -30019,6 +30019,41 @@
         "description": "<div>你可以使用<span class=\"action-card-name-reference\">“渴望增加家庭成员”</span>行动格<span class=\"action-card-name-reference\">(在第12或13轮中出现)</span>，即使该行动格已经被其他玩家在该轮放置的第一名家庭成员占据。</div>",
         "mini": false
     },
+    "C146_ActionsBooster": {
+        "id": "C146_ActionsBooster",
+        "pId": 84486909,
+        "name": "Actions Booster",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "3+",
+        "desc": [
+            "Place a unique pair of different building resources on each of your improvements. Each time another player renovates, you may move one such pair to your supply."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "ResourceCategory",
+        "numbering": "C146",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>在你的每个发展上各放置一对不同的建造资源，任意两个发展上放置的组合不能相同。每次另一位玩家翻新时，你可以移动其中一对至你的供应堆。</div>",
+        "mini": false
+    },
     "C143_StoneBuyer": {
         "id": "C143_StoneBuyer",
         "pId": 84486909,
@@ -30052,6 +30087,41 @@
         "infobox": null,
         "marked": false,
         "description": "<div>当你打出本卡牌时，你可以立即用1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>购买正好2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stone\">\n        </div>\n      </div>。从下一轮开始，每轮仅限一次，你可以用2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>购买1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stone\">\n        </div>\n      </div>。</div>",
+        "mini": false
+    },
+    "C156_HoofCaregiver": {
+        "id": "C156_HoofCaregiver",
+        "pId": 84486909,
+        "name": "Hoof Caregiver",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "C",
+        "players": "4+",
+        "desc": [
+            "Immediately add 1 <CATTLE> from the general supply to the __Cattle Market__ accumulation space. Afterward, for each cattle on __Cattle Market__, you get 1 <GRAIN> plus 1 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "GoodsCategory",
+        "numbering": "C156",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>立即从公共供应堆中拿取1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>，加入到<span class=\"action-card-name-reference\">“牛市”</span>累积格中。然后，<span class=\"action-card-name-reference\">“牛市”</span>上每有1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>，你获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-grain\">\n        </div>\n      </div>和1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div> 。</div>",
         "mini": false
     }
 }
