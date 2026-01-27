@@ -25792,5 +25792,697 @@
         "marked": false,
         "description": "<div>从现在起，在第1到5轮中/第6和7轮中/第8轮及之后，木造房间的花费为1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>以及5/4/3<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>。</div>",
         "mini": true
+    },
+    "A150_Stagehand": {
+        "id": "A150_Stagehand",
+        "pId": 98572937,
+        "name": "Stagehand",
+        "location": "inPlay",
+        "state": "7",
+        "tooltip": [],
+        "deck": "A",
+        "players": "4+",
+        "desc": [
+            "Each time another player uses the __Traveling Players__ accumulation space, you can take your choice of a __Build Fences__, __Build Stables__, or __Build Rooms__ action."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "BoosterCategory",
+        "numbering": "A150",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每当其他玩家使用<span class=\"action-card-name-reference\">“卖艺”</span>累积格，你可以选择执行一个<span class=\"action-card-name-reference\">“建造栅栏”</span>、<span class=\"action-card-name-reference\">“建造畜棚”</span>，或<span class=\"action-card-name-reference\">“建造房间”</span>行动。</div>",
+        "mini": true
+    },
+    "B132_EstateMaster": {
+        "id": "B132_EstateMaster",
+        "pId": 96286370,
+        "name": "Estate Master",
+        "location": "inPlay",
+        "state": "8",
+        "tooltip": [],
+        "deck": "B",
+        "players": "3+",
+        "desc": [
+            "Once you have no unused farmyard spaces left, you get 1 bonus <SCORE> for each <VEGETABLE> that you harvest."
+        ],
+        "vp": 0,
+        "extraVp": true,
+        "bonusVp": 4,
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "PointsCategory",
+        "numbering": "B132",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>一旦你没有剩下任何未使用的农场格子，你每收成1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-vegetable\">\n        </div>\n      </div>，你获得1点奖励<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-score\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "C136_RanchProvost": {
+        "id": "C136_RanchProvost",
+        "pId": 98572937,
+        "name": "Ranch Provost",
+        "location": "inPlay",
+        "state": "2",
+        "tooltip": [],
+        "deck": "C",
+        "players": "3+",
+        "desc": [
+            "If there are still 3/6/9 complete rounds left to play, you immediately get 2/3/4 <WOOD>. During scoring, each player with a pasture of highest capacity gets 3 bonus <SCORE>."
+        ],
+        "vp": 0,
+        "extraVp": true,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "PointsCategory",
+        "numbering": "C136",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gainwood": 4
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>如果游戏还有完整的3/6/9轮尚未进行，你立即获得2/3/4<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>。游戏结束计分时每位牧场容量最大的玩家获得3点奖励<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-score\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "C139_BasketmakersWife": {
+        "id": "C139_BasketmakersWife",
+        "pId": 98572937,
+        "name": "Basketmaker's Wife",
+        "location": "inPlay",
+        "state": "5",
+        "tooltip": [],
+        "deck": "C",
+        "players": "3+",
+        "desc": [
+            "When you play this card, you immediately get 1 <REED> and 1 <FOOD>. At any time, you can turn 1 <REED> into 2 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FoodCategory",
+        "numbering": "C139",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gainfood": 1,
+            "gainreed": 1
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你打出本卡牌时，你立即获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>和1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。在任何时候，你可以将1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>转化成2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "C161_PotatoDigger": {
+        "id": "C161_PotatoDigger",
+        "pId": 96286370,
+        "name": "Potato Digger",
+        "location": "inPlay",
+        "state": "7",
+        "tooltip": [],
+        "deck": "C",
+        "players": "4+",
+        "desc": [
+            "When you play this card, if you have at least 2/4/5 unplanted field tiles, you immediately get 1/2/3 <VEGETABLE>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "CropCategory",
+        "numbering": "C161",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gainvegetable": 3
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你打出本卡牌时，如果你有至少2/4/5块未播种的农田板块，立即获得1/2/3<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-vegetable\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "E157_Usufructuary": {
+        "id": "E157_Usufructuary",
+        "pId": 96286370,
+        "name": "Usufructuary",
+        "location": "inPlay",
+        "state": "2",
+        "tooltip": [],
+        "deck": "E",
+        "players": "4+",
+        "desc": [
+            "When you play this card as your first occupation, you immediately get 1 <FOOD> for every other occupation in play (by any player), up to a maximum of 7 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "food",
+        "numbering": "E157",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gainfood": 7
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你将本卡牌作为你的第一张职业卡牌打出时，场上每有一张(任意玩家的)其他职业卡牌，你立即获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div><span class=\"action-card-name-reference\">(最多7<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>)</span>。</div>",
+        "mini": true
+    },
+    "A155_Conjurer": {
+        "id": "A155_Conjurer",
+        "pId": 98829626,
+        "name": "Conjurer",
+        "location": "inPlay",
+        "state": "2",
+        "tooltip": [],
+        "deck": "A",
+        "players": "4+",
+        "desc": [
+            "Each time you use the __Traveling Players__ accumulation space, you get an additional 1 <WOOD> and 1 <GRAIN>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "GoodsCategory",
+        "numbering": "A155",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gainwood": 2,
+            "gaingrain": 2
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“卖艺”</span>累积格时，额外获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>和1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-grain\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "B162_ForestClearer": {
+        "id": "B162_ForestClearer",
+        "pId": 92683390,
+        "name": "Forest Clearer",
+        "location": "inPlay",
+        "state": "11",
+        "tooltip": [],
+        "deck": "B",
+        "players": "4+",
+        "desc": [
+            "Each time you obtain exactly 2/3/4 <WOOD> from a wood accumulation space, you get 1 additional <WOOD> and 1/0/1 <FOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "ResourceCategory",
+        "numbering": "B162",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gainfood": 1,
+            "gainwood": 1
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>每当你从一个木材累积格上获得正好2/3/4<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>时，你额外获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>和1/0/1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "C135_Constable": {
+        "id": "C135_Constable",
+        "pId": 92683390,
+        "name": "Constable",
+        "location": "inPlay",
+        "state": "5",
+        "tooltip": [],
+        "deck": "C",
+        "players": "3+",
+        "desc": [
+            "If there are still 1/3/6/9 complete rounds left to play, you immediately get 1/2/3/4 <WOOD>. During scoring, each player with no negative points in any scoring line gets 3 bonus <SCORE>."
+        ],
+        "vp": 0,
+        "extraVp": true,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "PointsCategory",
+        "numbering": "C135",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gainwood": 4
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>如果距离游戏结束仍然有1/3/6/9个未进行的完整轮次，你立即获得1/2/3/4<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>。游戏结束计分时，每位没有失去任何分数的玩家获得3点奖励<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-score\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "C148_MudWallower": {
+        "id": "C148_MudWallower",
+        "pId": 92683390,
+        "name": "Mud Wallower",
+        "location": "inPlay",
+        "state": "9",
+        "tooltip": [],
+        "deck": "C",
+        "players": "4+",
+        "desc": [
+            "Every fourth time you use an accumulation space, you get 1 <PIG>, held by this card."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FarmCategory",
+        "numbering": "C148",
+        "holder": false,
+        "animalHolder": true,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": "2 / 4",
+        "marked": false,
+        "description": "<div>你每次使用累积格时，从公共供应堆中拿取1个<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-clay\">\n        </div>\n      </div>，放置在本卡牌上。你必须立即用本卡牌上的4<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-clay\">\n        </div>\n      </div>交换1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-pig\">\n        </div>\n      </div>，由本卡牌容纳。</div>",
+        "mini": true
+    },
+    "C162_ForestOwner": {
+        "id": "C162_ForestOwner",
+        "pId": 96837791,
+        "name": "Forest Owner",
+        "location": "inPlay",
+        "state": "1",
+        "tooltip": [],
+        "deck": "C",
+        "players": "4+",
+        "desc": [
+            "This card is an action space for all. If another player uses it, they get 3 <WOOD> and must give you 1 <WOOD> from the general supply. If you use it, you get 4 <WOOD>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "BoosterCategory",
+        "numbering": "C162",
+        "holder": true,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": true,
+        "stats": {
+            "gainwood": 4
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>本卡牌是一个所有玩家都能使用的行动格。如果另一位玩家使用本卡牌，其获得3<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>且必须从公共供应堆中给予你1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>。如果你使用本卡牌，你获得4<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "D148_DomesticianExpert": {
+        "id": "D148_DomesticianExpert",
+        "pId": 84053048,
+        "name": "Domestician Expert",
+        "location": "inPlay",
+        "state": "1",
+        "tooltip": [],
+        "deck": "D",
+        "players": "4+",
+        "desc": [
+            "You can keep 2 sheep on the border between each pair of orthogonally adjacent rooms."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FarmCategory",
+        "numbering": "D148",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你可以在每对竖直或水平相邻的房间中间的边线处容纳2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "A156_Buyer": {
+        "__sentry_instrumentation_handlers__": {
+            "click": {
+                "refCount": 1
+            }
+        },
+        "stats": {
+            "gainpig": 4,
+            "gainreed": 1,
+            "gainsheep": 3,
+            "gainstone": 2,
+            "receivedPaymentfood": 10
+        },
+        "actionCard": false,
+        "category": "GoodsCategory",
+        "costText": "",
+        "costs": [
+            []
+        ],
+        "deck": "A",
+        "desc": [
+            "Each time another player uses a reed, stone, sheep, or wild boar accumulation space, you can pay them 1 <FOOD> to get 1 good of the respective type from the general supply."
+        ],
+        "extraVp": false,
+        "fee": null,
+        "field": false,
+        "holder": false,
+        "animalHolder": false,
+        "name": "Buyer",
+        "numbering": "A156",
+        "players": "4+",
+        "prerequisite": "",
+        "tooltip": [],
+        "type": "occupation",
+        "vp": 0
+    },
+    "B149_OpenAirFarmer": {
+        "id": "B149_OpenAirFarmer",
+        "pId": 90526944,
+        "name": "Open Air Farmer",
+        "location": "inPlay",
+        "state": "12",
+        "tooltip": [],
+        "deck": "B",
+        "players": "4+",
+        "desc": [
+            "When you play this card, you remove exactly 3 <STABLE> in your supply from play to build a pasture covering 2 farmyard spaces. You only need to pay a total of 2 <WOOD> for fences"
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FarmCategory",
+        "numbering": "B149",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你打出本卡牌时，将你供应堆中正好3<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stable\">\n        </div>\n      </div>从游戏中移除，来建造一个覆盖2个农场格子的牧场。你只需要为这些栅栏支付总计2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-wood\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "C165_GameCatcher": {
+        "id": "C165_GameCatcher",
+        "pId": 84944145,
+        "name": "Game Catcher",
+        "location": "inPlay",
+        "state": "8",
+        "tooltip": [],
+        "deck": "C",
+        "players": "4+",
+        "desc": [
+            "When you play this card, pay 1 <FOOD> for each remaining harvest to immediately get 1 <CATTLE> and 1 <PIG>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "LivestockCategory",
+        "numbering": "C165",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你打出本卡牌时，支付与剩余收成次数相同数量的食物来立即获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>和1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-pig\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "D142_PotatoPlanter": {
+        "id": "D142_PotatoPlanter",
+        "pId": 84944145,
+        "name": "Potato Planter",
+        "location": "inPlay",
+        "state": "7",
+        "tooltip": [],
+        "deck": "D",
+        "players": "3+",
+        "desc": [
+            "At the end of each work phase in which you occupy the __Clay Pit__ or __Reed Bank__ accumulation space while the respective other is unoccupied, you get 1 <VEGETABLE>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "CropCategory",
+        "numbering": "D142",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gainvegetable": 3
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>在每个你占用<span class=\"action-card-name-reference\">“黏土坑”</span>或<span class=\"action-card-name-reference\">“芦苇池”</span>累积格之一且另一个未被占据的工作阶段结束时，你获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-vegetable\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "E141_VegetableVendor": {
+        "id": "E141_VegetableVendor",
+        "pId": 90526944,
+        "name": "Vegetable Vendor",
+        "location": "inPlay",
+        "state": "6",
+        "tooltip": [],
+        "deck": "E",
+        "players": "3+",
+        "desc": [
+            "Each time you use the __Major Improvement__ or __Vegetable Seeds__ action space, you also get 1 <VEGETABLE> or a __Major or Minor Improvement__ action, respectively."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "CROPS",
+        "numbering": "E141",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "used": 2,
+            "gainvegetable": 2
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“主要发展”</span>或<span class=\"action-card-name-reference\">“蔬菜种子”</span>行动格时，你还相应地获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-vegetable\">\n        </div>\n      </div>或一次<span class=\"action-card-name-reference\">“主要或次要发展”</span>行动。</div>",
+        "mini": true
+    },
+    "E147_AnimalDriver": {
+        "id": "E147_AnimalDriver",
+        "pId": 97824054,
+        "name": "Animal Driver",
+        "location": "inPlay",
+        "state": "10",
+        "tooltip": [],
+        "deck": "E",
+        "players": "3+",
+        "desc": [
+            "At the start of each harvest, if you have 1/2/3+ fenced stables, you get 1 <SHEEP>/<PIG>/<CATTLE>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "ANIMALS_-_ALL",
+        "numbering": "E147",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": {
+            "gaincattle": 1
+        },
+        "infobox": null,
+        "marked": false,
+        "description": "<div>在每次收成开始时，如果你有1个/2个/3+个牧场内畜棚，你获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-pig\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>。</div>",
+        "mini": true
+    },
+    "E148_Lazybones": {
+        "id": "E148_Lazybones",
+        "pId": 90835302,
+        "name": "Lazybones",
+        "location": "inPlay",
+        "state": "1",
+        "tooltip": [],
+        "deck": "E",
+        "players": "4+",
+        "desc": [
+            "Place (up to) 1 <STABLE> each on __Grain Seeds__, __Farmland__, __Day Laborer__, and __Farm Expansion__. Build the <STABLE> at no cost when another player uses that action space."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "FARMYARD_-_PLACE_FOR_ANIMALS",
+        "numbering": "E148",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>在<span class=\"action-card-name-reference\">“谷物种子”</span>、<span class=\"action-card-name-reference\">“犁田”</span>、<span class=\"action-card-name-reference\">“临时工”</span>和<span class=\"action-card-name-reference\">“农场扩建”</span>上各放置<span class=\"action-card-name-reference\">(最多)</span>1个<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stable\">\n        </div>\n      </div>。当其他玩家使用该行动格时，免费建造该格上的<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stable\">\n        </div>\n      </div>。</div>",
+        "mini": true
     }
 }
