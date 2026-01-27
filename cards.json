@@ -29703,5 +29703,110 @@
         "marked": false,
         "description": "<div>打出本卡牌后，你每次打出职业卡牌前<span class=\"action-card-name-reference\">(甚至在支付职业花费前)</span>，你立即获得2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-food\">\n        </div>\n      </div>。</div>",
         "mini": false
+    },
+    "D144_WaterWorker": {
+        "id": "D144_WaterWorker",
+        "pId": 99193284,
+        "name": "Water Worker",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "D",
+        "players": "3+",
+        "desc": [
+            "Each time after you use any of the __Fishing__, __Reed Bank__, __Day Laborer__ spaces or the action space of round 4, you get 1 additional <REED>."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "ResourceCategory",
+        "numbering": "D144",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“钓鱼”</span>累积格或其3个竖直或水平相邻的行动格之一时，你获得额外1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-reed\">\n        </div>\n      </div>。</div>",
+        "mini": false
+    },
+    "D154_ChimneySweep": {
+        "id": "D154_ChimneySweep",
+        "pId": 93733243,
+        "name": "Chimney Sweep",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "D",
+        "players": "4+",
+        "desc": [
+            "Renovating to stone costs you 2 <STONE> less. During scoring, you get 1 bonus <SCORE> for each other player living in a stone house."
+        ],
+        "vp": 0,
+        "extraVp": true,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "PointsCategory",
+        "numbering": "D154",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>翻新到石造时，你少花费2<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-stone\">\n        </div>\n      </div>。游戏结束计分时，每有一个其他玩家住在石造房屋内，你获得1点奖励<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-score\">\n        </div>\n      </div>。</div>",
+        "mini": false
+    },
+    "D168_Stockman": {
+        "id": "D168_Stockman",
+        "pId": 93733243,
+        "name": "Stockman",
+        "location": "draft",
+        "state": "0",
+        "tooltip": [],
+        "deck": "D",
+        "players": "4+",
+        "desc": [
+            "When you build your 2nd/3rd/4th stable, you immediately get 1 <CATTLE>/<PIG>/<SHEEP>, even if built on the same turn (but not retroactively)."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "occupation",
+        "category": "LivestockCategory",
+        "numbering": "D168",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "description": "<div>当你建造你的第2/3/4个畜棚时，你立即获得1<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-cattle\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-pig\">\n        </div>\n      </div>/<div class=\"meeple-container\">\n        <div class=\"agricola-meeple meeple-sheep\">\n        </div>\n      </div>，即使是在同一回合建造<span class=\"action-card-name-reference\">(不追溯)</span>。</div>",
+        "mini": false
     }
 }
