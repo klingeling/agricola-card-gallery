@@ -12391,8 +12391,8 @@
             }
         ],
         "conditionalCost": null,
-        "costText": "",
-        "fee": "(从你供应堆中支付)",
+        "costText": "(从你供应堆中支付)",
+        "fee": "",
         "type": "minor",
         "category": "FoodCategory",
         "numbering": "C054",
