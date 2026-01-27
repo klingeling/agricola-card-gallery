@@ -25,7 +25,6 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #f5f5dc 0%, #e6e6d6 100%);
     color: var(--dark-color);
     /* line-height: 1.6; */
     min-height: 100vh;
@@ -147,7 +146,8 @@ header .subtitle {
 
 /* 卡牌展示区样式 */
 .cards-container {
-    background: white;
+    /* background: white; */
+    background: linear-gradient(135deg, #f5f5dc 0%, #e6e6d6 100%);
     padding: 25px;
     border-radius: var(--radius);
     box-shadow: var(--shadow);
