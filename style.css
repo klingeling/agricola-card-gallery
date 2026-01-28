@@ -585,3 +585,10 @@ footer {
     height: 0.8em;
     width: 0.8em;
 }
+
+.agricola-calibriB {
+    font-family: CalibriB;
+    font-size: 26px;
+    font-weight: bolder;
+    text-shadow: -1px 0 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, 0 1px 0 #fff;
+}

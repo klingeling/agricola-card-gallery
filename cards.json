@@ -30316,7 +30316,7 @@
         "marked": false,
         "cook": false,
         "bread": false,
-        "description": "<div><span class=\"text\">收成：</span></div><div>1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div><div>当你建造本发展时，立即获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div><div>当你建造本发展时，立即获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "M006_HeatingOven": {
