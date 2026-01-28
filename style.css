@@ -592,3 +592,7 @@ footer {
     font-weight: bolder;
     text-shadow: -1px 0 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, 0 1px 0 #fff;
 }
+
+.agricola-meeple.meeple-arrow-1x {
+    height: 0.8em;
+}

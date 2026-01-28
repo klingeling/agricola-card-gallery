@@ -14321,7 +14321,7 @@
             }
         ],
         "conditionalCost": null,
-        "costText": "(从你供应堆中支付)",
+        "costText": "",
         "fee": "",
         "type": "minor",
         "category": "FoodCategory",
@@ -30393,6 +30393,123 @@
         "cook": false,
         "bread": false,
         "description": "<div>你永远不用支付超过1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>来供暖你的房屋。</div>",
+        "mini": false
+    },
+    "M008_FurnitureStall": {
+        "id": "M008_FurnitureStall",
+        "name": "Furniture Stall",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "[Anytime]",
+            "1<WOOD> <ARROW> 1<CLAY>"
+        ],
+        "vp": 2,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Starts under the Joinery",
+        "costs": [
+            {
+                "wood": 1,
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "ResourceCategory",
+        "numbering": "M008",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div>",
+        "mini": false
+    },
+    "M009_CeramicsStall": {
+        "id": "M009_CeramicsStall",
+        "name": "Ceramics Stall",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "[Anytime]",
+            "1<CLAY> <ARROW> 1<WOOD>"
+        ],
+        "vp": 2,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Starts under the Pottery",
+        "costs": [
+            {
+                "clay": 1,
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "ResourceCategory",
+        "numbering": "M009",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div></div>",
+        "mini": false
+    },
+    "M010_BasketStall": {
+        "id": "M010_BasketStall",
+        "name": "Basket Stall",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "[Anytime]",
+            "1<REED> <ARROW> 1<WOOD>/<CLAY>/<STONE>"
+        ],
+        "vp": 2,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Starts under the Basketmaker's Workshop",
+        "costs": [
+            {
+                "reed": 1,
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "ResourceCategory",
+        "numbering": "M010",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div></div>",
         "mini": false
     }
 }
