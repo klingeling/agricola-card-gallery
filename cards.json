@@ -30594,5 +30594,87 @@
         "bread": false,
         "description": "<div><span class=\"text\"><span class=\"action-card-name-reference\">“伐木”</span>特殊行动：</span></div><div><span class=\"agricola-calibriB\">+1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>如果你有正好0个马</div><div><span class=\"agricola-calibriB\">+2</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>如果你有至少1个马</div><div><span class=\"text\">游戏结束计分时：</span></div><div><span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>每个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-forest\"></div></div></div>",
         "mini": false
+    },
+    "M013_MuseumoftheMoors": {
+        "id": "M013_MuseumoftheMoors",
+        "name": "Museum of the Moors",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "[These major improvements cost you 1 building resource less:]",
+            "Well 1<STONE> Clay Oven 1<CLAY>",
+            "Joinery 1<WOOD> Stone Oven 1<STONE>",
+            "Pottery 1<CLAY> Forester's Lodge 1<CLAY>",
+            "Basketmaker's Workshop 1<REED>"
+        ],
+        "vp": 3,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Starts under the Peat Charcoal Kiln",
+        "costs": [
+            {
+                "clay": 1,
+                "reed": 1,
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "ResourceCategory",
+        "numbering": "M013",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "description": "<div><span class=\"text\">这些主要发展少花费你1个建造资源：</span></div><div>井<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div> 砖土烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div><div>木工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div> 石造烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div></div><div>陶器工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div> 护理员屋<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div><div>制篮工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div></div>",
+        "mini": false
+    },
+    "M014_RidingStables": {
+        "id": "M014_RidingStables",
+        "name": "Riding Stables",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Place 1 <FOOD> on each remaining round space. At the start of these rounds, if you then have at least 2 horses, you get the <FOOD>."
+        ],
+        "vp": 3,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Starts under the Forester's Lodge",
+        "costs": [
+            {
+                "wood": 2,
+                "clay": 1,
+                "reed": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "FoodCategory",
+        "numbering": "M014",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "description": "<div>在剩余的每个轮次格上各放置1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。在这些轮开始时，如果你在那时至少有2个马，你从该轮格子上拿取放置的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "mini": false
     }
 }
