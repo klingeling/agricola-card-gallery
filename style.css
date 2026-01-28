@@ -695,4 +695,9 @@ footer {
     background-position-y: 0;
     background-size: 100% 100%;
     clip-path: none;
+    transform: rotate(-0.3deg);
+    height: 156.1px;
+    left: 36.3px;
+    top: 54.35px;
+    width: 159.75px;
 }
