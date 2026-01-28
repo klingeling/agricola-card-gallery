@@ -30128,7 +30128,7 @@
         "vp": 2,
         "extraVp": false,
         "bonusVp": "",
-        "prerequisite": "",
+        "prerequisite": "Starts under a Fireplace",
         "costs": [
             {
                 "clay": 1,
@@ -30170,7 +30170,7 @@
         "vp": 2,
         "extraVp": false,
         "bonusVp": "",
-        "prerequisite": "",
+        "prerequisite": "Starts under a Fireplace",
         "costs": [
             {
                 "clay": 1,

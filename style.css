@@ -564,3 +564,12 @@ footer {
     transform: rotateY(180deg);
     background-position-x: 100%;
 }
+
+.player-card .player-card-resizable .player-card-inner .card-deck[data-deck="E"] {
+  background-image: url(img/deckM/deckM.png);
+  background-size: contain;
+}
+
+.agricola-meeple.meeple-horse {
+  background-image: url(img/horse.png);
+}
