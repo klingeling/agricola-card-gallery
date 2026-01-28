@@ -587,6 +587,14 @@ footer {
     width: 0.8em;
 }
 
+.agricola-meeple.meeple-forest {
+    background-image: url(img/forest.png);
+    background-position: 0% 0%;
+    background-size: contain;
+    height: 0.8em;
+    width: 0.8em;
+}
+
 .agricola-calibriB {
     font-family: CalibriB;
     font-size: 20px;
