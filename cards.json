@@ -30110,5 +30110,89 @@
         "marked": false,
         "description": "<div>在每轮开始时，你的房屋中每有一个未被占据的木造/砖土/石造房间，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>。</div>",
         "mini": false
+    },
+    "M001_HorseSlaughterhouses1": {
+        "id": "M001_HorseSlaughterhouses1",
+        "name": "Horse Slaughterhouses",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "[Anytime]",
+            "<SHEEP> <ARROW> 1<FOOD>",
+            "<PIG> <ARROW> 1<FOOD>",
+            "<CATTLE> <ARROW> 2<FOOD>",
+            "<HORSE> <ARROW> 2<FOOD>"
+        ],
+        "vp": 2,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "clay": 1,
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "FoodCategory",
+        "numbering": "M001",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": true,
+        "bread": false,
+        "description": "<div><span class=\"text\">在任何时候：</span></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div>",
+        "mini": false
+    },
+    "M002_HorseSlaughterhouses2": {
+        "id": "M002_HorseSlaughterhouses2",
+        "name": "Horse Slaughterhouses",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "[Anytime]",
+            "<SHEEP> <ARROW> 1<FOOD>",
+            "<PIG> <ARROW> 1<FOOD>",
+            "<CATTLE> <ARROW> 2<FOOD>",
+            "<HORSE> <ARROW> 2<FOOD>"
+        ],
+        "vp": 2,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "clay": 1,
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "FoodCategory",
+        "numbering": "M001",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": true,
+        "bread": false,
+        "description": "<div><span class=\"text\">在任何时候：</span></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div>",
+        "mini": false
     }
 }

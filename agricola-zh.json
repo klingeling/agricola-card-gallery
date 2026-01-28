@@ -1,6 +1,5 @@
 {
     " / 4": " / 4",
-    "When you play this card, immediately carry out the field phase of the harvest. Afterwards, you get a __Major or Minor Improvement__ action.": "当你打出本卡牌时，立即执行收成的收割步骤。然后你获得一次__“主要或次要发展”__行动。",
     " The new room gets immediatelyoccupied by the person who did not have a room of its own yet.": " 新的房间会立即被没有独立房间的家庭成员占据。",
     "\"Baking bread\" (see page 10 of the rule book) means turning grain in your supply (and not from your fields) into 2 and 3 food using a Fireplace and Cooking Hearth, respectively.": "“烤面包”<i>(见规则手册第10页)</i>意思是能将你供应堆中的谷物<i>(不是你农田上的)</i>通过火炉和灶台分别转化为2个食物和3个食物。",
     "${actplayer} can't take the mandatory action and must restart his turn or exchange/cook": "${actplayer}无法执行强制行动，必须重新开始其回合或者交换/烹饪",
@@ -1212,6 +1211,7 @@
     "Homekeeper": "看家人",
     "Hoof Caregiver": "蹄子护理员",
     "Hook Knife": "钩形刀",
+    "Horse Slaughterhouses": "屠马场",
     "Horse-Drawn Boat": "马拉船",
     "House Artist": "房屋艺术家",
     "House Redevelopment": "房屋改建",
@@ -2181,6 +2181,7 @@
     "When you play this card, if you would score the maximum 4 points in 3 scoring categories (including fenced stables), you can extend your house by 1 room at no cost.": "当你打出本卡牌时，如果你将要在3个计分项目中__(包括牧场内畜棚)__都得最多的4分，你可以免费将自己的房屋扩建1个房间。",
     "When you play this card, immediately build a major improvement. When paying its cost, you can replace up to 1 building resource of each type with 1 <FOOD> each.": "当你打出本卡牌时，立即建造1个主要发展。当支付该主要发展的费用时，每种建造资源中，你都可以用1<FOOD>来代替最多1个建造资源。",
     "When you play this card, immediately build the __Basketmaker's Workshop__ major improvement for 1 <STONE> and 1 <REED>.": "当你打出本卡牌时，立即用1<STONE>和1<REED>，建造__“制篮工坊”__主要发展。",
+    "When you play this card, immediately carry out the field phase of the harvest. Afterwards, you get a __Major or Minor Improvement__ action.": "当你打出本卡牌时，立即执行收成的收割步骤。然后你获得一次__“主要或次要发展”__行动。",
     "When you play this card, immediately get 1 <WOOD>. Once you live in a stone house, at the start of each round, you can build exactly 1 stable for 1 <WOOD>.": "当你打出本卡牌时，立即获得1<WOOD>。一旦你住进石造房屋，在每轮开始时，你可以支付1<WOOD>来建造正好1个畜棚。",
     "When you play this card, immediately pay an amount of <FOOD> equal to the number of complete rounds left to play to take a __Family Growth Even without Room__ action.": "当你打出本卡牌时，立即支付等于剩余完整轮次数量的<FOOD>来执行1次__“无需空房间的家庭增长”__行动。",
     "When you play this card, immediately place (up to) 5 fences from your supply on it. When you build fences, fences taken from this card cost you nothing.": "当你打出本卡牌时，立即从你的供应堆中放置__(最多)__5个栅栏到本卡牌上。当你建造栅栏时，从本卡牌上拿取的栅栏无需花费。",
