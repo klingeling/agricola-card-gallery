@@ -324,6 +324,9 @@ class CardGallery {
                 case 'name':
                     // 按中文名称排序
                     return a.name.localeCompare(b.name, 'zh');
+                case 'type':
+                    // 按中文名称排序
+                    return a.name.localeCompare(b.type);
                 default: // numbering
                     return a.numbering.localeCompare(b.numbering);
             }
