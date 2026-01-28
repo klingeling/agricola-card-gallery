@@ -30111,8 +30111,8 @@
         "description": "<div>在每轮开始时，你的房屋中每有一个未被占据的木造/砖土/石造房间，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>。</div>",
         "mini": false
     },
-    "M001_HorseSlaughterhouse1": {
-        "id": "M001_HorseSlaughterhouse1",
+    "M1_HorseSlaughterhouse1": {
+        "id": "M1_HorseSlaughterhouse1",
         "name": "Horse Slaughterhouse",
         "state": "0",
         "tooltip": [],
@@ -30153,8 +30153,8 @@
         "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div>",
         "mini": false
     },
-    "M002_HorseSlaughterhouse2": {
-        "id": "M002_HorseSlaughterhouse2",
+    "M2_HorseSlaughterhouse2": {
+        "id": "M2_HorseSlaughterhouse2",
         "name": "Horse Slaughterhouse",
         "state": "0",
         "tooltip": [],
@@ -30195,8 +30195,8 @@
         "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div>",
         "mini": false
     },
-    "M003_Cookhouse1": {
-        "id": "M003_Cookhouse1",
+    "M3_Cookhouse1": {
+        "id": "M3_Cookhouse1",
         "name": "Cookhouse",
         "state": "0",
         "tooltip": [],
@@ -30237,8 +30237,8 @@
         "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\"><span class=\"action-card-name-reference\">“烤面包”</span>行动：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div>",
         "mini": false
     },
-    "M004_Cookhouse2": {
-        "id": "M004_Cookhouse2",
+    "M4_Cookhouse2": {
+        "id": "M4_Cookhouse2",
         "name": "Cookhouse",
         "state": "0",
         "tooltip": [],
@@ -30279,8 +30279,8 @@
         "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\"><span class=\"action-card-name-reference\">“烤面包”</span>行动：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div>",
         "mini": false
     },
-    "M005_VillageChurch": {
-        "id": "M005_VillageChurch",
+    "M5_VillageChurch": {
+        "id": "M5_VillageChurch",
         "name": "Village Church",
         "state": "0",
         "tooltip": [],
@@ -30319,8 +30319,8 @@
         "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div><div>当你建造本发展时，立即获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
-    "M006_HeatingOven": {
-        "id": "M006_HeatingOven",
+    "M6_HeatingOven": {
+        "id": "M6_HeatingOven",
         "name": "Heating Oven",
         "state": "0",
         "tooltip": [],
@@ -30357,8 +30357,8 @@
         "description": "<div>当你建造本发展时，立即获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>。<br>当你供暖你的房屋时，你少供暖1个房间。</div>",
         "mini": false
     },
-    "M007_TiledOven": {
-        "id": "M007_TiledOven",
+    "M7_TiledOven": {
+        "id": "M7_TiledOven",
         "name": "Tiled Oven",
         "state": "0",
         "tooltip": [],
@@ -30395,8 +30395,8 @@
         "description": "<div>你永远不用支付超过1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>来供暖你的房屋。</div>",
         "mini": false
     },
-    "M008_FurnitureStall": {
-        "id": "M008_FurnitureStall",
+    "M8_FurnitureStall": {
+        "id": "M8_FurnitureStall",
         "name": "Furniture Stall",
         "state": "0",
         "tooltip": [],
@@ -30434,8 +30434,8 @@
         "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div>",
         "mini": false
     },
-    "M009_CeramicsStall": {
-        "id": "M009_CeramicsStall",
+    "M9_CeramicsStall": {
+        "id": "M9_CeramicsStall",
         "name": "Ceramics Stall",
         "state": "0",
         "tooltip": [],
@@ -30473,8 +30473,8 @@
         "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div></div>",
         "mini": false
     },
-    "M010_BasketStall": {
-        "id": "M010_BasketStall",
+    "M10_BasketStall": {
+        "id": "M10_BasketStall",
         "name": "Basket Stall",
         "state": "0",
         "tooltip": [],
@@ -30512,8 +30512,8 @@
         "description": "<div><span class=\"text\">在任何时候：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>/<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div></div>",
         "mini": false
     },
-    "M011_PeatCharcoalKiln": {
-        "id": "M011_PeatCharcoalKiln",
+    "M11_PeatCharcoalKiln": {
+        "id": "M11_PeatCharcoalKiln",
         "name": "Peat Charcoal Kiln",
         "state": "0",
         "tooltip": [],
@@ -30553,8 +30553,8 @@
         "description": "<div><span class=\"text\"><span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动：</span></div><div><span class=\"agricola-calibriB\">+1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>如果你有正好0个马</div><div><span class=\"agricola-calibriB\">+2</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>如果你有至少1个马</div><div><span class=\"text\">游戏结束计分时：</span></div><div class=\"agricola-calibriB\">3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>/5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>/2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div>",
         "mini": false
     },
-    "M012_ForestersLodge": {
-        "id": "M012_ForestersLodge",
+    "M12_ForestersLodge": {
+        "id": "M12_ForestersLodge",
         "name": "Forester’s Lodge",
         "state": "0",
         "tooltip": [],
@@ -30595,8 +30595,8 @@
         "description": "<div><span class=\"text\"><span class=\"action-card-name-reference\">“伐木”</span>特殊行动：</span></div><div><span class=\"agricola-calibriB\">+1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>如果你有正好0个马</div><div><span class=\"agricola-calibriB\">+2</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>如果你有至少1个马</div><div><span class=\"text\">游戏结束计分时：</span></div><div><span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>每个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-forest\"></div></div></div>",
         "mini": false
     },
-    "M013_MuseumoftheMoors": {
-        "id": "M013_MuseumoftheMoors",
+    "M13_MuseumoftheMoors": {
+        "id": "M13_MuseumoftheMoors",
         "name": "Museum of the Moors",
         "state": "0",
         "tooltip": [],
@@ -30638,8 +30638,8 @@
         "description": "<div><span class=\"text\">这些主要发展少花费你1个建造资源：</span></div><div>井<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div> 砖土烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div><div>木工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div> 石造烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div></div><div>陶器工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div> 护理员屋<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div><div>制篮工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div></div>",
         "mini": false
     },
-    "M014_RidingStables": {
-        "id": "M014_RidingStables",
+    "M14_RidingStables": {
+        "id": "M14_RidingStables",
         "name": "Riding Stables",
         "state": "0",
         "tooltip": [],

@@ -609,20 +609,20 @@ footer {
     height: 0.8em;
 }
 
-.player-card[data-id="M001_HorseSlaughterhouse1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M002_HorseSlaughterhouse2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M003_Cookhouse1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M004_Cookhouse2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M005_VillageChurch"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M006_HeatingOven"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M007_TiledOven"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M008_FurnitureStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M009_CeramicsStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M010_BasketStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M011_PeatCharcoalKiln"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M012_ForestersLodge"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M013_MuseumoftheMoors"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
-.player-card[data-id="M014_RidingStables"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M1_HorseSlaughterhouse1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M2_HorseSlaughterhouse2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M3_Cookhouse1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M4_Cookhouse2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M5_VillageChurch"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M6_HeatingOven"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M7_TiledOven"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M8_FurnitureStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M9_CeramicsStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M10_BasketStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M11_PeatCharcoalKiln"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M12_ForestersLodge"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M13_MuseumoftheMoors"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M14_RidingStables"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
 .player-card[data-id="Major_Fireplace1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
 .player-card[data-id="Major_Fireplace2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
 .player-card[data-id="Major_CookingHearth1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
@@ -637,8 +637,8 @@ footer {
     height: auto;
 }
 
-.player-card[data-id="M011_PeatCharcoalKiln"] .card-desc:before,
-.player-card[data-id="M012_ForestersLodge"] .card-desc:before {
+.player-card[data-id="M11_PeatCharcoalKiln"] .card-desc:before,
+.player-card[data-id="M12_ForestersLodge"] .card-desc:before {
     background-image: url(img/meeples.png);
     background-position: 82.0225% 21.6886%;
     background-size: 2275.56%;
@@ -651,7 +651,7 @@ footer {
     width: 29px;
 }
 
-.player-card[data-id="M011_PeatCharcoalKiln"] .card-bottom-left-corner {
+.player-card[data-id="M11_PeatCharcoalKiln"] .card-bottom-left-corner {
     background-image: url(img/cut_peat.png);
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -663,7 +663,7 @@ footer {
     width: 19px;
 }
 
-.player-card[data-id="M012_ForestersLodge"] .card-bottom-left-corner {
+.player-card[data-id="M12_ForestersLodge"] .card-bottom-left-corner {
     background-image: url(img/fell_trees.png);
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -675,7 +675,7 @@ footer {
     width: 19px;
 }
 
-.player-card.major[data-id="M007_TiledOven"] .card-icon {
+.player-card.major[data-id="M7_TiledOven"] .card-icon {
     position: absolute;
     background-image: url(img/deckM/M007.png);
     background-position-x: 0;
@@ -683,7 +683,7 @@ footer {
     background-size: 100% 100%;
 }
 
-.player-card.major[data-id="M009_CeramicsStall"] .card-icon {
+.player-card.major[data-id="M9_CeramicsStall"] .card-icon {
     position: absolute;
     background-image: url(img/deckM/M009.png);
     background-position-x: 0;
