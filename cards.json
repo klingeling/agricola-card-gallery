@@ -319,7 +319,7 @@
         "marked": false,
         "cook": false,
         "bread": false,
-        "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\">计分：</span></div><div>3/5/7<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1/2/3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div>",
+        "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\">计分：</span></div><div class=\"agricola-calibriB\">3/5/7<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1/2/3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div>",
         "mini": false
     },
     "Major_Pottery": {
@@ -360,7 +360,7 @@
         "marked": false,
         "cook": false,
         "bread": false,
-        "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\">计分：</span></div><div>3/5/7<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1/2/3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div>",
+        "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\">计分：</span></div><div class=\"agricola-calibriB\">3/5/7<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1/2/3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div>",
         "mini": false
     },
     "Major_Basket": {
@@ -401,7 +401,7 @@
         "marked": false,
         "cook": false,
         "bread": false,
-        "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\">计分：</span></div><div>2/4/5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1/2/3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div>",
+        "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\">计分：</span></div><div class=\"agricola-calibriB\">2/4/5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1/2/3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div>",
         "mini": false
     },
     "A1_Shelter": {
