@@ -30329,7 +30329,7 @@
         "desc": [
             "When you build this improvement, you immediately get 2 <FUEL>. When heating your house, you heat 1 room less."
         ],
-        "vp": 4,
+        "vp": 1,
         "extraVp": false,
         "bonusVp": "",
         "prerequisite": "Starts under the Clay Oven",
