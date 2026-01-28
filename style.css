@@ -675,8 +675,87 @@ footer {
     width: 19px;
 }
 
+.player-card.major[data-id="M1_HorseSlaughterhouse1"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M001.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    height: 182.1px;
+    left: 21.3px;
+    top: 45.35px;
+    width: 192.75px;
+}
+
+.player-card.major[data-id="M2_HorseSlaughterhouse2"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M002.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    height: 182.1px;
+    left: 21.3px;
+    top: 45.35px;
+    width: 192.75px;
+}
+
+.player-card.major[data-id="M3_Cookhouse1"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M003.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    height: 182.1px;
+    left: 21.3px;
+    top: 45.35px;
+    width: 192.75px;
+}
+
+.player-card.major[data-id="M4_Cookhouse2"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M004.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    height: 182.1px;
+    left: 21.3px;
+    top: 45.35px;
+    width: 192.75px;
+}
+
+.player-card.major[data-id="M5_VillageChurch"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M005.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    height: 182.1px;
+    left: 21.3px;
+    top: 45.35px;
+    width: 192.75px;
+}
+
+.player-card.major[data-id="M6_HeatingOven"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M006.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    height: 182.1px;
+    left: 21.3px;
+    top: 45.35px;
+    width: 192.75px;
+}
+
 .player-card.major[data-id="M7_TiledOven"] .card-icon {
     position: absolute;
+    clip-path: none;
     background-image: url(img/deckM/M007.png);
     background-position-x: 0;
     background-position-y: 0;
@@ -685,16 +764,98 @@ footer {
     left: 21.3px;
     top: 45.35px;
     width: 192.75px;
+}
+
+.player-card.major[data-id="M8_FurnitureStall"] .card-icon {
+    position: absolute;
     clip-path: none;
+    background-image: url(img/deckM/M008.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    height: 182.1px;
+    left: 21.3px;
+    top: 45.35px;
+    width: 192.75px;
 }
 
 .player-card.major[data-id="M9_CeramicsStall"] .card-icon {
     position: absolute;
+    clip-path: none;
     background-image: url(img/deckM/M009.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
+    transform: rotate(-0.3deg);
+    height: 156.1px;
+    left: 36.3px;
+    top: 54.35px;
+    width: 159.75px;
+}
+
+.player-card.major[data-id="M10_BasketStall"] .card-icon {
+    position: absolute;
     clip-path: none;
+    background-image: url(img/deckM/M010.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(-0.3deg);
+    height: 156.1px;
+    left: 36.3px;
+    top: 54.35px;
+    width: 159.75px;
+}
+
+.player-card.major[data-id="M11_PeatCharcoalKiln"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M011.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(-0.3deg);
+    height: 156.1px;
+    left: 36.3px;
+    top: 54.35px;
+    width: 159.75px;
+}
+
+.player-card.major[data-id="M12_ForestersLodge"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M012.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(-0.3deg);
+    height: 156.1px;
+    left: 36.3px;
+    top: 54.35px;
+    width: 159.75px;
+}
+
+.player-card.major[data-id="M13_MuseumoftheMoors"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M013.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(-0.3deg);
+    height: 156.1px;
+    left: 36.3px;
+    top: 54.35px;
+    width: 159.75px;
+}
+
+.player-card.major[data-id="M14_RidingStables"] .card-icon {
+    position: absolute;
+    clip-path: none;
+    background-image: url(img/deckM/M014.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
     transform: rotate(-0.3deg);
     height: 156.1px;
     left: 36.3px;
