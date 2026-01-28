@@ -566,11 +566,14 @@ footer {
 }
 
 .player-card .player-card-resizable .player-card-inner .card-deck[data-deck="M"] {
-  background-image: url(img/deckM/deckM.png);
-  background-size: contain;
+    background-image: url(img/deckM/deckM.png);
+    background-size: contain;
 }
 
 .agricola-meeple.meeple-horse {
-  background-image: url(img/horse.png);
-  background-size: contain;
+    background-image: url(img/horse.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    height: 1.4em;
+    width: 1.6em;
 }
