@@ -30356,5 +30356,43 @@
         "bread": false,
         "description": "<div>当你建造本发展时，立即获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>。<br>当你供暖你的房屋时，你少供暖1个房间。</div>",
         "mini": false
+    },
+    "M007_TiledOven": {
+        "id": "M007_TiledOven",
+        "name": "Tiled Oven",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You never have to pay more than 1 <FUEL> to heat your house."
+        ],
+        "vp": 1,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Starts under the Stone Oven",
+        "costs": [
+            {
+                "clay": 2,
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "GoodsCategory",
+        "numbering": "M007",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "description": "<div>你永远不用支付超过1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>来供暖你的房屋。</div>",
+        "mini": false
     }
 }
