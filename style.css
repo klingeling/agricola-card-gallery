@@ -577,3 +577,11 @@ footer {
     height: 1.2em;
     width: 1.5em;
 }
+
+.agricola-meeple.meeple-fuel {
+    background-image: url(img/fuel.png);
+    background-position: 0% 0%;
+    background-size: contain;
+    height: 1em;
+    width: 1em;
+}
