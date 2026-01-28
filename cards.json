@@ -30278,5 +30278,45 @@
         "bread": true,
         "description": "<div><span class=\"text\">在任何时候：</span></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\"><span class=\"action-card-name-reference\">“烤面包”</span>行动：</span></div><div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> 3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div>",
         "mini": false
+    },
+    "M005_VillageChurch": {
+        "id": "M005_VillageChurch",
+        "name": "Village Church",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "[Harvest]",
+            "1<FUEL> <ARROW-1X> 2<SCORE>",
+            "When you build this improvement, you immediately get 2 food."
+        ],
+        "vp": 4,
+        "extraVp": true,
+        "bonusVp": "",
+        "prerequisite": "Starts under the Well",
+        "costs": [
+            {
+                "wood": 2,
+                "stone": 4
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "major",
+        "category": "PointsCategory",
+        "numbering": "M005",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "description": "<div><span class=\"text\">收成：</span></div><div>1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div> 1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div>当你建造本发展时，立即获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "mini": false
     }
 }
