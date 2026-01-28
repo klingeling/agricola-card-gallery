@@ -435,7 +435,8 @@ footer {
 }
 
 .player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-arrow {
-    height: .6em;
+    height: .7em;
+    width: .6em;
 }
 
 .player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container .agricola-meeple.meeple-begging {
@@ -588,7 +589,7 @@ footer {
 
 .agricola-calibriB {
     font-family: CalibriB;
-    font-size: 21px;
+    font-size: 20px;
     font-weight: bolder;
 }
 
