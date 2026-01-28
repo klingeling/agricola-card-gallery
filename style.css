@@ -588,13 +588,18 @@ footer {
 
 .agricola-calibriB {
     font-family: CalibriB;
-    font-size: 26px;
+    font-size: 21px;
     font-weight: bolder;
 }
 
 .agricola-meeple.meeple-arrow-1x {
     height: 0.8em;
 }
+
+.agricola-meeple.meeple-arrow-2x {
+    height: 0.8em;
+}
+
 .player-card[data-id="M001_HorseSlaughterhouse1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
 .player-card[data-id="M002_HorseSlaughterhouse2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
 .player-card[data-id="M003_Cookhouse1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
