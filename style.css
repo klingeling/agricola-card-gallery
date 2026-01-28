@@ -636,3 +636,17 @@ footer {
 .player-card[data-id="Major_Basket"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
     height: auto;
 }
+
+.player-card[data-id="M011_PeatCharcoalKiln"] .card-desc:before,
+.player-card[data-id="M012_ForestersLodge"] .card-desc:before {
+    background-image: url(img/meeples.png);
+    background-position: 82.0225% 21.6886%;
+    background-size: 2275.56%;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 29px;
+}
