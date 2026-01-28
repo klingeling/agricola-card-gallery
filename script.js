@@ -445,58 +445,63 @@ class CardGallery {
         div.setAttribute('data-bread', card.bread || 'false');
         div.setAttribute('data-state', card.state || '0');
 
+        // 获取card-cost-text和prerequisite
+        const costText = card.costText ? card.costText : '';
+        const prerequisite = card.prerequisite ? card.prerequisite : '';
+
         // 创建卡牌内部结构
         const html = `
-            <div class="player-card-resizable">
-                <div class="player-card-inner">
-                    <div class="card-frame"></div>
-                    ${card.passing !== true ? '<div class="card-frame-left-leaves"></div><div class="card-frame-right-leaves"></div>' : ''}
-                    <div class="card-icon"></div>
-                    <div class="card-title">
-                        ${card.name || ''}
-                    </div>
-                    <div class="card-numbering">${card.numbering || ''}</div>
-                    <div class="card-bonus-vp-counter">${card.bonusVp || ''}</div>
-                    ${card.players ? `<div class="card-players" data-n="${card.players}"></div>` : ''}
-                    ${card.deck ? `<div class="card-deck" data-deck="${card.deck}"></div>` : ''}
-                    ${card.vp != 0 ? `<div class="card-score" data-score="${card.vp}">${card.vp}</div>` : ''}
-                    ${card.extraVp ? '<div class="card-extra-score"></div>' : ''}
-                    ${card.category ? `<div class="card-category" data-category="${card.category}"></div>` : ''}
-                    <div class="card-cost">
-                        ${this.formatCardCostHTML(card)}
-                    </div>
-                    ${this.formatPrerequisiteHTML(card)}
-                    <div class="card-desc">
-                        <div class="card-desc-scroller">
-                            ${this.formatCardDescription(card)}
-                        </div>
-                    </div>
-                    <div class="card-bottom-left-corner"></div>
-                    <div class="card-bottom-right-corner"></div>
-                    ${card.holder ? this.createHolderHTML(card) : ''}
+        <div class="player-card-resizable">
+            <div class="player-card-inner">
+                <div class="card-frame"></div>
+                ${card.passing !== true ? '<div class="card-frame-left-leaves"></div><div class="card-frame-right-leaves"></div>' : ''}
+                <div class="card-icon"></div>
+                <div class="card-title">
+                    ${card.name || ''}
                 </div>
-                <div class="player-card-zoom">
-                    <svg><use href="#zoom-svg"></use></svg>
+                <div class="card-numbering">${card.numbering || ''}</div>
+                <div class="card-bonus-vp-counter">${card.bonusVp || ''}</div>
+                ${card.players ? `<div class="card-players" data-n="${card.players}"></div>` : ''}
+                ${card.deck ? `<div class="card-deck" data-deck="${card.deck}"></div>` : ''}
+                ${card.vp != 0 ? `<div class="card-score" data-score="${card.vp}">${card.vp}</div>` : ''}
+                ${card.extraVp ? '<div class="card-extra-score"></div>' : ''}
+                ${card.category ? `<div class="card-category" data-category="${card.category}"></div>` : ''}
+                <div class="card-cost">
+                    ${costText !== '' ? `<div class="card-cost-text">${costText}</div>` : ''}
+                    ${this.formatCardCostHTML(card)}
                 </div>
+                ${prerequisite !== '' ? `<div class="card-prerequisite"><div class="prerequisite-text">${prerequisite}</div></div>` : ''}
+                <div class="card-desc">
+                    <div class="card-desc-scroller">
+                        ${this.formatCardDescription(card)}
+                    </div>
+                </div>
+                <div class="card-bottom-left-corner"></div>
+                <div class="card-bottom-right-corner"></div>
+                ${card.holder ? this.createHolderHTML(card) : ''}
             </div>
-            <div class="player-card-stats"></div>
-            ${card.field ? '<div class="player-card-field-cell"></div>' : ''}
-            ${!card.animalHolder ? '' : '<div class="resource-holder resource-holder-update animal-holder" data-n="0"></div>'}
-        `;
+            <div class="player-card-zoom">
+                <svg><use href="#zoom-svg"></use></svg>
+            </div>
+        </div>
+        <div class="player-card-stats"></div>
+        ${card.field ? '<div class="player-card-field-cell"></div>' : ''}
+        ${!card.animalHolder ? '' : '<div class="resource-holder resource-holder-update animal-holder" data-n="0"></div>'}
+    `;
 
         div.innerHTML = html;
         return div;
     }
-
     formatCardCostHTML(card) {
-        // 直接复制自Cards.js的formatCardCost方法逻辑
+        // 严格按照Cards.js中的formatCardCost方法实现
         let formatArray = (arr) => {
             return Object.keys(arr)
                 .map((res) => {
                     const amount = arr[res];
-                    const meepleClass = `meeple-${res.toLowerCase()}`;
+                    const resourceUpper = res.toUpperCase();
+                    // 调用formatStringMeeples模拟函数
                     return `<div>${amount}<div class="meeple-container">
-                    <div class="agricola-meeple ${meepleClass}"></div>
+                    <div class="agricola-meeple meeple-${res.toLowerCase()}"></div>
                 </div></div>`;
                 })
                 .join('');
@@ -506,9 +511,10 @@ class CardGallery {
             return Object.keys(arr)
                 .map((res) => {
                     const amount = arr[res];
-                    const meepleClass = `meeple-${res.toLowerCase()}`;
+                    const resourceUpper = res.toUpperCase();
+                    // 注意这里是(+资源)的格式
                     return `<div>(+${amount}<div class="meeple-container">
-                    <div class="agricola-meeple ${meepleClass}"></div>
+                    <div class="agricola-meeple meeple-${res.toLowerCase()}"></div>
                 </div>)</div>`;
                 })
                 .join('');
@@ -523,18 +529,21 @@ class CardGallery {
             card.costs = [{ wood: 2 }, { clay: 2 }, { stone: 2 }];
         }
 
-        // 确保costs是数组
-        const costs = Array.isArray(card.costs) ? card.costs : [card.costs || {}];
-
-        // 构建完整的HTML（完全按照Cards.js的逻辑）
+        // 构建完整的HTML（严格按照Cards.js的逻辑）
         let html = '';
 
-        // 1. 处理fee（额外费用）
+        // 1. 处理card-cost-text（如果有）
+        if (card.costText && card.costText !== '') {
+            html += `<div class="card-cost-text">${card.costText}</div>`;
+        }
+
+        // 2. 处理fee（额外费用）
         if (card.fee != null && Object.keys(card.fee).length > 0) {
             html += formatArray(card.fee) + '<div class="card-cost-fee-separator">+</div>';
         }
 
-        // 2. 处理主要费用
+        // 3. 处理主要费用
+        const costs = Array.isArray(card.costs) ? card.costs : [card.costs || {}];
         const costItems = costs
             .filter(cost => cost && Object.keys(cost).length > 0)
             .map(cost => formatArray(cost))
@@ -542,7 +551,7 @@ class CardGallery {
 
         html += costItems;
 
-        // 3. 处理条件费用
+        // 4. 处理条件费用
         if (card.conditionalCost != null && Object.keys(card.conditionalCost).length > 0) {
             html += '<div class="card-cost-conditional">' + formatConditionalCost(card.conditionalCost) + '</div>';
         }
