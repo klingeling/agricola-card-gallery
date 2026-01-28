@@ -676,13 +676,17 @@ footer {
 }
 
 .player-card.major[data-id="M007_TiledOven"] .card-icon {
+    position: absolute;
     background-image: url(img/deckM/M007.png);
     background-position-x: 0;
     background-position-y: 0;
+    background-size: 100% 100%;
 }
 
 .player-card.major[data-id="M009_CeramicsStall"] .card-icon {
+    position: absolute;
     background-image: url(img/deckM/M009.png);
     background-position-x: 0;
     background-position-y: 0;
+    background-size: 100% 100%;
 }
