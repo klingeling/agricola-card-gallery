@@ -17487,9 +17487,9 @@
         "description": "<div>每次有任意一位玩家<i>(包括你自己)</i>使用未被占据的<span class=\"action-card-name-reference\">“树林”</span>或<span class=\"action-card-name-reference\">“森林”</span>累积格之一且另外那个格子被占据时，你获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。</div>",
         "mini": false
     },
-    "C146_ActionsBooster": {
-        "id": "C146_ActionsBooster",
-        "name": "Actions Booster",
+    "C146_WorkshopAssistant": {
+        "id": "C146_WorkshopAssistant",
+        "name": "Workshop Assistant",
         "state": "0",
         "tooltip": [],
         "deck": "C",
