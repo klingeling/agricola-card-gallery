@@ -467,7 +467,6 @@ class CardGallery {
                 ${card.extraVp ? '<div class="card-extra-score"></div>' : ''}
                 ${card.category ? `<div class="card-category" data-category="${card.category}"></div>` : ''}
                 <div class="card-cost">
-                    ${costText !== '' ? `${costText}` : ''}
                     ${this.formatCardCostHTML(card)}
                 </div>
                 ${prerequisite !== '' ? `<div class="card-prerequisite"><div class="prerequisite-text">${prerequisite}</div></div>` : ''}
