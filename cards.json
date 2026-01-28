@@ -30592,7 +30592,7 @@
         "marked": false,
         "cook": false,
         "bread": false,
-        "description": "<div><span class=\"text\"><span class=\"action-card-name-reference\">“伐木”</span>特殊行动：</span></div><div><span class=\"agricola-calibriB\">+1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>如果你有正好0个马</div><div><span class=\"agricola-calibriB\">+2</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>如果你有至少1个马</div><div><span class=\"text\">游戏结束计分时：</span></div><div>1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>每个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div></div>",
+        "description": "<div><span class=\"text\"><span class=\"action-card-name-reference\">“伐木”</span>特殊行动：</span></div><div><span class=\"agricola-calibriB\">+1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>如果你有正好0个马</div><div><span class=\"agricola-calibriB\">+2</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>如果你有至少1个马</div><div><span class=\"text\">游戏结束计分时：</span></div><div><span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div>每个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-forest\"></div></div></div>",
         "mini": false
     }
 }
