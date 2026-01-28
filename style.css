@@ -565,7 +565,7 @@ footer {
     background-position-x: 100%;
 }
 
-.player-card .player-card-resizable .player-card-inner .card-deck[data-deck="E"] {
+.player-card .player-card-resizable .player-card-inner .card-deck[data-deck="M"] {
   background-image: url(img/deckM/deckM.png);
   background-size: contain;
 }
