@@ -572,8 +572,8 @@ footer {
 
 .agricola-meeple.meeple-horse {
     background-image: url(img/horse.png);
-    background-position: 50% 50%;
+    background-position: 100% 100%;
     background-size: contain;
-    height: 1.4em;
-    width: 1.6em;
+    height: 1.2em;
+    width: 1.5em;
 }
