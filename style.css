@@ -682,10 +682,10 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    height: 182.1px;
-    left: 21.3px;
-    top: 45.35px;
-    width: 192.75px;
+    height: 163.1px;
+    left: 30.3px;
+    top: 52.35px;
+    width: 173.75px;
 }
 
 .player-card.major[data-id="M2_HorseSlaughterhouse2"] .card-icon {
@@ -695,10 +695,11 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    height: 182.1px;
-    left: 21.3px;
+    height: 174.1px;
+    left: 37.3px;
     top: 45.35px;
-    width: 192.75px;
+    width: 161.75px;
+    transform: rotate(0.2deg)
 }
 
 .player-card.major[data-id="M3_Cookhouse1"] .card-icon {
@@ -708,10 +709,10 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    height: 182.1px;
-    left: 21.3px;
-    top: 45.35px;
-    width: 192.75px;
+    height: 165.1px;
+    left: 27.3px;
+    top: 52.35px;
+    width: 180.75px;
 }
 
 .player-card.major[data-id="M4_Cookhouse2"] .card-icon {
@@ -721,10 +722,10 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    height: 182.1px;
-    left: 21.3px;
-    top: 45.35px;
-    width: 192.75px;
+    height: 165.1px;
+    left: 28.3px;
+    top: 49.35px;
+    width: 175.75px;
 }
 
 .player-card.major[data-id="M5_VillageChurch"] .card-icon {
@@ -734,10 +735,10 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    height: 182.1px;
-    left: 21.3px;
-    top: 45.35px;
-    width: 192.75px;
+    height: 166.1px;
+    left: 20.3px;
+    top: 46.35px;
+    width: 193.75px;
 }
 
 .player-card.major[data-id="M6_HeatingOven"] .card-icon {
@@ -747,10 +748,10 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    height: 182.1px;
-    left: 21.3px;
-    top: 45.35px;
-    width: 192.75px;
+    height: 168.1px;
+    left: 32.3px;
+    top: 50.35px;
+    width: 169.75px;
 }
 
 .player-card.major[data-id="M7_TiledOven"] .card-icon {
@@ -773,10 +774,10 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    height: 182.1px;
-    left: 21.3px;
-    top: 45.35px;
-    width: 192.75px;
+    height: 173.1px;
+    left: 31.3px;
+    top: 46.35px;
+    width: 173.75px;
 }
 
 .player-card.major[data-id="M9_CeramicsStall"] .card-icon {
@@ -790,7 +791,7 @@ footer {
     height: 156.1px;
     left: 36.3px;
     top: 54.35px;
-    width: 159.75px;
+    width: 160.75px;
 }
 
 .player-card.major[data-id="M10_BasketStall"] .card-icon {
@@ -801,10 +802,10 @@ footer {
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(-0.3deg);
-    height: 156.1px;
-    left: 36.3px;
-    top: 54.35px;
-    width: 159.75px;
+    height: 163.1px;
+    left: 22.3px;
+    top: 52.35px;
+    width: 189.75px;
 }
 
 .player-card.major[data-id="M11_PeatCharcoalKiln"] .card-icon {
@@ -814,11 +815,11 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(-0.3deg);
-    height: 156.1px;
-    left: 36.3px;
-    top: 54.35px;
-    width: 159.75px;
+    transform: rotate(0deg);
+    height: 168.1px;
+    left: 32.3px;
+    top: 46.35px;
+    width: 170.75px;
 }
 
 .player-card.major[data-id="M12_ForestersLodge"] .card-icon {
@@ -828,11 +829,11 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(-0.3deg);
-    height: 156.1px;
-    left: 36.3px;
-    top: 54.35px;
-    width: 159.75px;
+    transform: rotate(-0.2deg);
+    height: 167.1px;
+    left: 31.3px;
+    top: 51.35px;
+    width: 171.75px;
 }
 
 .player-card.major[data-id="M13_MuseumoftheMoors"] .card-icon {
@@ -842,11 +843,11 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(-0.3deg);
-    height: 156.1px;
-    left: 36.3px;
-    top: 54.35px;
-    width: 159.75px;
+    transform: rotate(0deg);
+    height: 170.1px;
+    left: 25.3px;
+    top: 48.35px;
+    width: 184.75px;
 }
 
 .player-card.major[data-id="M14_RidingStables"] .card-icon {
@@ -856,9 +857,9 @@ footer {
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(-0.3deg);
-    height: 156.1px;
-    left: 36.3px;
-    top: 54.35px;
-    width: 159.75px;
+    transform: rotate(0.2deg);
+    height: 175.1px;
+    left: 12.3px;
+    top: 47.35px;
+    width: 208.75px;
 }
