@@ -650,3 +650,25 @@ footer {
     position: absolute;
     width: 29px;
 }
+
+.player-card[data-id="M011_PeatCharcoalKiln"] .card-bottom-left-corner {
+    background-image: url(img/cut_peat.png);
+    background-position: 0% 0%;
+    background-size: 100%;
+    bottom: 8px;
+    height: 17px;
+    left: 9px;
+    position: absolute;
+    width: 24px;
+}
+
+.player-card[data-id="M012_ForestersLodge"] .card-bottom-left-corner {
+    background-image: url(img/fell_trees.png);
+    background-position: 0% 0%;
+    background-size: 100%;
+    bottom: 8px;
+    height: 17px;
+    left: 9px;
+    position: absolute;
+    width: 24px;
+}
