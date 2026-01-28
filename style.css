@@ -590,9 +590,35 @@ footer {
     font-family: CalibriB;
     font-size: 26px;
     font-weight: bolder;
-    text-shadow: -1px 0 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, 0 1px 0 #fff;
 }
 
 .agricola-meeple.meeple-arrow-1x {
     height: 0.8em;
+}
+.player-card[data-id="M001_HorseSlaughterhouse1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M002_HorseSlaughterhouse2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M003_Cookhouse1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M004_Cookhouse2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M005_VillageChurch"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M006_HeatingOven"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M007_TiledOven"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M008_FurnitureStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M009_CeramicsStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M010_BasketStall"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M011_PeatCharcoalKiln"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M012_ForestersLodge"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M013_MuseumoftheMoors"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="M014_RidingStables"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_Fireplace1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_Fireplace2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_CookingHearth1"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_CookingHearth2"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_Well"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_ClayOven"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_StoneOven"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_Joinery"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_Pottery"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_Basket"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller,
+.player-card[data-id="Major_Basket"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
+    height: auto;
 }
