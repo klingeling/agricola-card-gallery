@@ -706,12 +706,17 @@ footer {
 }
 
 .player-card[data-cook="true"] .card-desc:before {
-    border-top-right-radius: 16px;
+    border-top-right-radius: 11px;
 }
 
 .player-card[data-bread="true"] .card-desc:after {
     border-top-left-radius: 11px;
 }
+
+.player-card[data-id="D25_WitchesDanceFloor"][data-cook="true"] .card-desc:before {
+    border-top-right-radius: 16px;
+}
+
 
 .player-card.major[data-id="M1_HorseSlaughterhouse1"] .card-icon {
     position: absolute;
