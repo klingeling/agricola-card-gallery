@@ -393,6 +393,9 @@ footer {
 .player-card .player-card-resizable .player-card-inner .card-title {
     font-family: "AgricolaCustomMedium";
     font-size: 22px !important;
+    left: 28%;
+    right: 28%;
+    height: 40px;
     letter-spacing: -0.08em;
 }
 
