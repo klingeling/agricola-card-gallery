@@ -674,6 +674,21 @@ footer {
     position: absolute;
     width: 19px;
 }
+.player-card[data-id="B68_Beanfield"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="B113_PatchCaregiver"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="B141_FieldCaretaker"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="C70_LettucePatch"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="D25_WitchesDanceFloor"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="D75_WoodField"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="E68_CherryOrchard"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="E69_MelonPatch"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="E70_CropRotationField"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="E72_ArtichokeField"] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id="E80_RockGarden"] .player-card-resizable .player-card-inner .card-desc {
+    background: linear-gradient(rgb(217, 215, 120, 0.6)), url(img/field.png);
+    background-position: 47.0791% 41.7325%;
+    background-size: 109% 138%;
+}
 
 .player-card.major[data-id="M1_HorseSlaughterhouse1"] .card-icon {
     position: absolute;

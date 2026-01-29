@@ -30676,5 +30676,41 @@
         "bread": false,
         "description": "<div>在剩余的每个轮次格上各放置1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。在这些轮开始时，如果你在那时至少有2个马，你从该轮格子上拿取放置的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
+    },
+    "M95_FallowFields": {
+        "id": "M95_FallowFields",
+        "name": "Fallow Fields",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Place 2 food from the general supply on each of up to 3 empty fields. You cannot harvest the food. You receive it when you sow in the fields."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FoodCategory",
+        "numbering": "M015",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>在你至多3块闲置农田上各放置2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。你不能收割这些食物。当你播种这些农田时，你才获得这些食物。</div>",
+        "mini": false
     }
 }
