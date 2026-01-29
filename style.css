@@ -951,268 +951,218 @@ footer {
     width: 208.75px;
 }
 
-.player-card.major[data-id="M15_PeatBurnoff"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M15_PeatBurnoff"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M015.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    transform: rotate(0.1deg);
+    height: 171px;
+    left: 36.3px;
+    top: 46.35px;
+    width: 162.75px;
 }
 
-.player-card.major[data-id="M16_ClearFelling"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M16_ClearFelling"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M016.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 183.1px;
+    left: 27.3px;
+    top: 42.35px;
+    width: 178.75px;
 }
 
-.player-card.major[data-id="M17_Reforestation"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M17_Reforestation"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M017.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    transform: rotate(0.2deg);
+    height: 186.7px;
+    left: 27.3px;
+    top: 37.75px;
+    width: 182.45px;
 }
 
-.player-card.major[data-id="M18_RegisterofCraftsmen"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M18_RegisterofCraftsmen"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M018.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 181px;
+    left: 27.8px;
+    top: 43.65px;
+    width: 175.95px;
 }
 
-.player-card.major[data-id="M19_LawnTurf"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M19_LawnTurf"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M019.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 187.7px;
+    left: 30.3px;
+    top: 41.65px;
+    width: 181.75px;
 }
 
-.player-card.major[data-id="M20_PeatPellets"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M20_PeatPellets"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M020.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 165.1px;
+    left: 38.2px;
+    top: 52.35px;
+    width: 158.05px;
 }
 
-.player-card.major[data-id="M21_PeatcuttingExpedition"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M21_PeatcuttingExpedition"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M021.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 176.1px;
+    left: 31.8px;
+    top: 44.25px;
+    width: 170.75px;
 }
 
-.player-card.major[data-id="M22_EcologicalNiche"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M22_EcologicalNiche"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M022.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 165.4px;
+    left: 39.8px;
+    top: 47.15px;
+    width: 160.05px;
 }
 
-.player-card.major[data-id="M23_EdgeoftheForest"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M23_EdgeoftheForest"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M023.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    transform: rotate(0.1deg);
+    height: 171.1px;
+    left: 37.3px;
+    top: 47.35px;
+    width: 165.45px;
 }
 
-.player-card.major[data-id="M24_BasicSupplies"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M24_BasicSupplies"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M024.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    transform: rotate(0.3deg);
+    height: 164.1px;
+    left: 38.5px;
+    top: 49.35px;
+    width: 157.75px;
 }
 
-.player-card.major[data-id="M25_HouseholdInventory"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M25_HouseholdInventory"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M025.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 166.8px;
+    left: 38.5px;
+    top: 49.35px;
+    width: 159.75px;
 }
 
-.player-card.major[data-id="M26_ChimneyHood"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M26_ChimneyHood"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M026.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 164.9px;
+    left: 38.3px;
+    top: 51.05px;
+    width: 158.05px;
 }
 
-.player-card.major[data-id="M27_ForestPath"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M27_ForestPath"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M027.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 165.1px;
+    left: 38.9px;
+    top: 49.35px;
+    width: 158.75px;
 }
 
-.player-card.major[data-id="M28_OutontheWallaby"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M28_OutontheWallaby"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M028.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 164.7px;
+    left: 38.6px;
+    top: 49.85px;
+    width: 157.65px;
 }
 
-.player-card.major[data-id="M29_Tinker"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M29_Tinker"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M029.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 171.8px;
+    left: 34.9px;
+    top: 44.85px;
+    width: 165.15px;
 }
 
-.player-card.major[data-id="M30_LargeLivestockMarket"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M30_LargeLivestockMarket"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M030.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 172.4px;
+    left: 38.8px;
+    top: 43.25px;
+    width: 158.85px;
 }
 
-.player-card.major[data-id="M31_LivestockMarket"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M31_LivestockMarket"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M031.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    height: 160.5px;
+    left: 34.7px;
+    top: 50.95px;
+    width: 164.45px;
 }
 
-.player-card.major[data-id="M32_PeatHut"] .card-icon {
-    position: absolute;
-    clip-path: none;
+.player-card.minor[data-id="M32_PeatHut"] .player-card-resizable .player-card-inner .card-icon {
     background-image: url(img/deckM/M032.png);
     background-position-x: 0;
     background-position-y: 0;
     background-size: 100% 100%;
-    transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
-}
-
-.player-card.major[data-id=""] .card-icon {
-    position: absolute;
-    clip-path: none;
-    background-image: url(img/deckM/M033.png);
-    background-position-x: 0;
-    background-position-y: 0;
-    background-size: 100% 100%;
-    transform: rotate(0deg);
-    height: 170.1px;
-    left: 25.3px;
-    top: 48.35px;
-    width: 184.75px;
+    transform: rotate(-0.2deg);
+    height: 163px;
+    left: 39.5px;
+    top: 50.35px;
+    width: 158.25px;
 }
