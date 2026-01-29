@@ -695,6 +695,20 @@ footer {
     background-size: 109% 138%;
 }
 
+.player-card[data-id="M1_HorseSlaughterhouse1"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M2_HorseSlaughterhouse2"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M3_Cookhouse1"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M4_Cookhouse2"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M5_VillageChurch"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M6_HeatingOven"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M7_TiledOven"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M8_FurnitureStall"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M9_CeramicsStall"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M10_BasketStall"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M11_PeatCharcoalKiln"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M12_ForestersLodge"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M13_MuseumoftheMoors"] .player-card-resizable .card-prerequisite,
+.player-card[data-id="M14_RidingStables"] .player-card-resizable .card-prerequisite,
 .player-card[data-id="D25_WitchesDanceFloor"] .player-card-resizable .card-prerequisite {
     background-image: url(img/minor_major_prerequisite.png);
     background-position: 46% 0;
