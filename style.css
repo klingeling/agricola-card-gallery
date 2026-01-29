@@ -480,6 +480,11 @@ footer {
     font-size: 16px !important;
 }
 
+.player-card[data-id=M22_EcologicalNiche] .player-card-resizable .player-card-inner .card-desc {
+    font-size: 16px !important;
+    line-height: 17px;
+}
+
 .player-card .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
     font-family: "AgricolaCustomMedium";
     font-size: 15px !important;
