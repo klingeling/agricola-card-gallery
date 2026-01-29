@@ -393,6 +393,11 @@ footer {
 .player-card .player-card-resizable .player-card-inner .card-title {
     font-family: "AgricolaCustomMedium";
     font-size: 22px !important;
+}
+
+.player-card.minor .player-card-resizable .player-card-inner .card-title {
+    font-family: "AgricolaCustomMedium";
+    font-size: 22px !important;
     left: 28%;
     right: 28%;
     height: 40px;
@@ -403,7 +408,12 @@ footer {
     font-size: 21px;
 }
 
-.player-card[data-id=A59_PotatoRidger] .player-card-resizable .player-card-inner .card-title,
+.player-card[data-id=A59_PotatoRidger] .player-card-resizable .player-card-inner .card-title {
+    left: 25%;
+    right: 28%;
+    letter-spacing: -0.22em !important;
+}
+
 .player-card[data-id=B67_HandTruck] .player-card-resizable .player-card-inner .card-title,
 .player-card[data-id=C66_EternalRyeCultivation] .player-card-resizable .player-card-inner .card-title,
 .player-card[data-id=C78_ReedHattedToad] .player-card-resizable .player-card-inner .card-title,
