@@ -674,6 +674,11 @@ footer {
     position: absolute;
     width: 19px;
 }
+
+.player-card .resource-holder {
+    display: none !important;
+}
+
 .player-card[data-id="B68_Beanfield"] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id="B113_PatchCaregiver"] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id="B141_FieldCaretaker"] .player-card-resizable .player-card-inner .card-desc,
@@ -688,6 +693,12 @@ footer {
     background: linear-gradient(rgb(217, 215, 120, 0.6)), url(img/field.png);
     background-position: 47.0791% 41.7325%;
     background-size: 109% 138%;
+}
+
+.player-card[data-id="D25_WitchesDanceFloor"] .player-card-resizable .card-prerequisite {
+  background-image: url(img/minor_major_prerequisite.png);
+  background-position: 34% 0;
+  background-size: 144% auto;
 }
 
 .player-card.major[data-id="M1_HorseSlaughterhouse1"] .card-icon {
