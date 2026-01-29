@@ -659,6 +659,10 @@ footer {
     height: auto;
 }
 
+.player-card[data-id="M31_LivestockMarket"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
+    overflow-y: unset;
+}
+
 .player-card[data-id="M31_LivestockMarket"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller .agricola-calibriB {
     font-size: 19px;
 }
