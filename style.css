@@ -696,9 +696,13 @@ footer {
 }
 
 .player-card[data-id="D25_WitchesDanceFloor"] .player-card-resizable .card-prerequisite {
-  background-image: url(img/minor_major_prerequisite.png);
-  background-position: 34% 0;
-  background-size: 144% auto;
+    background-image: url(img/minor_major_prerequisite.png);
+    background-position: 46% 0;
+    background-size: 147% auto;
+    height: 96.35px;
+    left: 1.8%;
+    right: 70%;
+    top: 6.225px;
 }
 
 .player-card.major[data-id="M1_HorseSlaughterhouse1"] .card-icon {
