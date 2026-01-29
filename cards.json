@@ -31342,6 +31342,154 @@
         "description": "<div>本卡牌为一个家庭成员提供房间。在每次收成的供养步骤中，你必须用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>为它供暖。无需<span class=\"action-card-name-reference\">“翻新”</span>行动，你可以将本卡牌从游戏中移除，并免费增加1个木造房间到你的木造房屋中。</div>",
         "mini": false
     },
+    "M33_NightPasture": {
+        "id": "M33_NightPasture",
+        "name": "Night Pasture",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You can keep 3 animals of your choice on this card, and other players can keep 1. All the animals on this card count as yours when animals breed. You are always the last to play during the breeding phase."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "clay": 2
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M033",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你可以在本卡牌上安置至多3个任意种类的动物；其他每位玩家可以在本卡牌上安置额外1个动物。当动物繁殖时，本卡牌上的动物仅算作是你的。在繁殖步骤中，你总是最后一位进行动物繁殖的玩家。</div>",
+        "mini": false
+    },
+    "M34_HomeWood": {
+        "id": "M34_HomeWood",
+        "name": "Home Wood",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "With this improvement, you can keep 1 animal (except a sheep) on each of your forest tiles."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "3 Improvements",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M034",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你可以在每个至少含有1个森林的农场格子上安置正好1个动物(除了<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>)。</div>",
+        "mini": false
+    },
+    "M35_HorseTrough": {
+        "id": "M35_HorseTrough",
+        "name": "Horse Trough",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You can keep up to 2 horses in an unused farmyard space adjacent to your home."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M035",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你可以在与你房屋相邻的一个未使用农场格子中安置至多2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>。即使你这么做，该农场格子依然视为未使用。用哪个农场格子安置这些马可以任你改变。</div>",
+        "mini": false
+    },
+    "M36_PeatMoss": {
+        "id": "M36_PeatMoss",
+        "name": "Peat Moss",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You require 2 less wood to build wood rooms."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "No Moor",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M036",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>每个木造房间只需花费你3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。</div>",
+        "mini": false
+    },
     "M95_FallowFields": {
         "id": "M95_FallowFields",
         "name": "Fallow Fields",

@@ -496,6 +496,7 @@ footer {
     font-size: 16px !important;
 }
 
+.player-card[data-id=M33_NightPasture] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=M22_EcologicalNiche] .player-card-resizable .player-card-inner .card-desc {
     font-size: 16px !important;
     line-height: 17px;
@@ -761,6 +762,21 @@ footer {
     border-top-right-radius: 16px;
 }
 
+.player-card[data-id="M27_ForestPath"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
+    display: block;
+    height: 105px;
+}
+
+.player-card[data-id="M27_ForestPath"] .card-bottom-right-corner {
+    position: absolute;
+    background-image: url(img/ForestPath.png);
+    background-position: 0 0;
+    background-size: 100%;
+    bottom: 22px;
+    height: 48px;
+    right: 23px;
+    width: 44px;
+}
 
 .player-card.major[data-id="M1_HorseSlaughterhouse1"] .card-icon {
     position: absolute;
