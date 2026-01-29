@@ -519,7 +519,8 @@ footer {
 .player-card[data-id=D22_WorkPermit] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
 .player-card[data-id=D7_Trident] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
 .player-card[data-id=D8_FernSeeds] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
-.player-card[data-id=E3_TeaTime] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
+.player-card[data-id=E3_TeaTime] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
+.player-card[data-id=M25_HouseholdInventory] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
     font-size: 12px !important;
     line-height: 12px !important;
     letter-spacing: -0.1em;
