@@ -31003,6 +31003,44 @@
         "description": "<div>你每有一个在森林和农田之间的栅栏空间，你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>；你每有一个在森林和沼泽之间的栅栏空间，你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>。</div>",
         "mini": false
     },
+    "M24_BasicSupplies": {
+        "id": "M24_BasicSupplies",
+        "name": "Basic Supplies",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Immediately take goods and tokens from the general supply until you have at least 1 fuel, 1 food, 1 wood, 1 clay, 1 reed, 1 stone, and 1 grain in your personal supply."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "vegetable": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "GoodsCategory",
+        "numbering": "M024",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": true,
+        "description": "<div>你立即获得货物，直到你供应堆中有至少1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。</div>",
+        "mini": false
+    },
     "M95_FallowFields": {
         "id": "M95_FallowFields",
         "name": "Fallow Fields",

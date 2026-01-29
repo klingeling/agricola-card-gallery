@@ -392,7 +392,7 @@ footer {
 
 .player-card .player-card-resizable .player-card-inner .card-title {
     font-family: "AgricolaCustomMedium";
-    font-size: 21px !important;
+    font-size: 22px !important;
     letter-spacing: -0.08em;
 }
 
@@ -410,9 +410,9 @@ footer {
 .player-card[data-id=E11_PettingZoo] .player-card-resizable .player-card-inner .card-title,
 .player-card[data-id=E13_StoneHouseReconstruction] .player-card-resizable .player-card-inner .card-title,
 .player-card[data-id=E81_AlchemistsLab] .player-card-resizable .player-card-inner .card-title {
-    white-space: nowrap !important;
-    font-size: 20px !important;
-    letter-spacing: -0.2em !important;
+    /* white-space: nowrap !important; */
+    font-size: 22px !important;
+    /* letter-spacing: -0.2em !important; */
 }
 
 .player-card[data-id=B8_MarketStall] .player-card-resizable .player-card-inner .card-title {
