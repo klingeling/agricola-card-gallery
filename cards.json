@@ -31264,7 +31264,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你可以立即将正好2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>交换为1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>。<i>(你不能只用1个羊交换。)</i></div>",
+        "description": "<div>你可以立即将正好2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>交换为1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>。<i>(你不能只用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>交换。)</i></div>",
         "mini": false
     },
     "M31_LivestockMarket": {
@@ -31300,7 +31300,7 @@
         "cook": false,
         "bread": false,
         "passing": true,
-        "description": "<div>你可以立即同时交换最多3个动物<i>(任意种类)</i>，只要你能圈养它们：<br></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div></div>",
+        "description": "<div>你可以立即同时交换最多3个动物<i>(任意种类)</i>，只要你能圈养它们：<br></div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div></div>",
         "mini": false
     },
     "M32_PeatHut": {
