@@ -31079,6 +31079,230 @@
         "description": "<div>你立即获得货物，直到你供应堆中有至少1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。</div>",
         "mini": false
     },
+    "M26_ChimneyHood": {
+        "id": "M26_ChimneyHood",
+        "name": "Chimney Hood",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You immediately receive as much food as you would receive from one of your baking improvements if you baked 1 grain into bread."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "clay": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FoodCategory",
+        "numbering": "M026",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": true,
+        "description": "<div>你立即获得与你如果用一个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-bake\"></div></div>发展烤1个<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>会获得的相同数量的<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "mini": false
+    },
+    "M27_ForestPath": {
+        "id": "M27_ForestPath",
+        "name": "Forest Path",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You immediately receive 3 wood. Once this card has been passed, the player who has it at the end of the game receives -1 point."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "At Least 1 Forest",
+        "costs": [
+            {
+                "clay": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "ResourceCategory",
+        "numbering": "M027",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": true,
+        "description": "<div>你立即获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。你左手边的玩家必须立即将“花园小径”标记放在其面前。</div>",
+        "mini": false
+    },
+    "M28_OutontheWallaby": {
+        "id": "M28_OutontheWallaby",
+        "name": "Out on the Wallaby",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You receive goods if you own craftman’s buildings. Joinery: 3 wood; Pottery: 3 clay; Basketmaker’s Workshop: 2 reeds."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "ResourceCategory",
+        "numbering": "M028",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": true,
+        "description": "<div>你每有一个工艺建筑，你立即获得对应货物：木工坊为3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、陶器工坊为3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、制篮工坊为2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。</div>",
+        "mini": false
+    },
+    "M29_Tinker": {
+        "id": "M29_Tinker",
+        "name": "Tinker",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "If you have at least one of the Joinery A7, Pottery A8, or Basketmaker’s Workshop A9 major improvements, you immediately receive 1 wood, 1 clay, 1 reed, and 1 stone."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "3 Major Improvements",
+        "costs": [
+            {
+                "food": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "ResourceCategory",
+        "numbering": "M029",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": true,
+        "description": "<div>如果你至少有“木工坊”、“陶器工坊”、“制篮工坊”主要发展其中之一，你立即获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。</div>",
+        "mini": false
+    },
+    "M30_LargeLivestockMarket": {
+        "id": "M30_LargeLivestockMarket",
+        "name": "Large Livestock Market",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You can immediately exchange 2 sheep for 1 cattle and 1 horse."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "food": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "LivestockCategory",
+        "numbering": "M030",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": true,
+        "description": "<div>你可以立即将正好2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div>交换为1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>。<i>(你不能只用1个羊交换。)</i></div>",
+        "mini": false
+    },
+    "M31_LivestockMarket": {
+        "id": "M31_LivestockMarket",
+        "name": "Livestock Market",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You can immediately exchange up to 3 animals for the next most valuable animal. You must swap them al at the same time, and you can only take the new animals if you have room for all of them on your farm."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "5 Animals",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "LivestockCategory",
+        "numbering": "M031",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": true,
+        "description": "<div>你可以立即同时交换最多3个动物<i>(任意种类)</i>，只要你能圈养它们：</div><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-sheep\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div> <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div></div>",
+        "mini": false
+    },
     "M95_FallowFields": {
         "id": "M95_FallowFields",
         "name": "Fallow Fields",
