@@ -31490,6 +31490,344 @@
         "description": "<div>每个木造房间只需花费你3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。</div>",
         "mini": false
     },
+    "M37_BuildingPlan": {
+        "id": "M37_BuildingPlan",
+        "name": "Building Plan",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Whenever you build 2 rooms at once with the __Build rooms__ action, you can immediately build 2 stables from your personal supply."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "food": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M037",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>每当你一次性建造至少2个房间后，你可以建造至多2个畜棚，无需支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
+        "mini": false
+    },
+    "M38_NatureReserve": {
+        "id": "M38_NatureReserve",
+        "name": "Nature Reserve",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Immediately fence 1 farmyard space which contains a forest or moor tile. You do not pay any wood for these fences. Once there are no tiles left on the space, it becomes a pasture."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "1 Pasture",
+        "costs": [
+            {
+                "food": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M038",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你立即将一个与牧场相邻，且含有至少1个森林或沼泽的农场格子用栅栏围住，无需为栅栏支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。一旦该围住区域中没有剩下任何板块，该农场格子成为一个牧场。</div>",
+        "mini": false
+    },
+    "M39_SpecialPasture": {
+        "id": "M39_SpecialPasture",
+        "name": "Special Pasture",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Immediately fence 1 empty farmyard space (or a farmyard space with a stable) with 4 fences. You need not pay wood for these. The fenced space may not border your existing pastures."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "1 Pasture",
+        "costs": [
+            {
+                "wood": 2
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M039",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你立即将一个未与已存在的牧场相邻的农场格子圈成牧场，无需为栅栏支付<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。稍后你可以将其与其他牧场连接。所有未来的牧场必须与至少一个已存在的牧场相邻。</div>",
+        "mini": false
+    },
+    "M40_Moorfire": {
+        "id": "M40_Moorfire",
+        "name": "Moor fire",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Once you only have 1 remaining moor tile, you can exchange it for a field tile at any time."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Moors",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M040",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>一旦你只有1个剩余的沼泽，在任何时候，你可以用其交换1个农田板块。</div>",
+        "mini": false
+    },
+    "M41_CattleCollar": {
+        "id": "M41_CattleCollar",
+        "name": "Cattle Collar",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Whenever you use the __Plough field__ action or the __Slash and Burn__ special action, you can immediately place 1 additional field tile on an empty farmyard space. To do this, you must have at least 1 cattle in your farm."
+        ],
+        "vp": 1,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Play in Round 8 or Later",
+        "costs": [
+            {
+                "wood": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M041",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“犁田”</span>或<span class=\"action-card-name-reference\">“耕种”</span>行动格后，或进行<span class=\"action-card-name-reference\">“刀耕火种”</span>特殊行动后，如果你有至少1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>，你可以额外犁1块田。</div>",
+        "mini": false
+    },
+    "M42_DeepPlough": {
+        "id": "M42_DeepPlough",
+        "name": "Deep Plough",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Immediately place 1 moor tile on an empty space in your farmyard. Whenever you use a person to take the __Farmland__ or __Cultivation__ action, you can also exchange one moor tile for 1 field tile."
+        ],
+        "vp": 2,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Improvements",
+        "costs": [
+            {
+                "wood": 3
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M042",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你可以立即将1个沼泽放在一个未使用的农场格子上。你每次使用<span class=\"action-card-name-reference\">“犁田”</span>或<span class=\"action-card-name-reference\">“耕种”</span>行动格时，你还可以用1个沼泽交换1个农田板块。</div>",
+        "mini": false
+    },
+    "M43_Wildfields": {
+        "id": "M43_Wildfields",
+        "name": "Wild fields",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You can immediately place up to 2 field tiles on empty spaces in your farmyard—on the condition that neither tile borders any other field at the time when it is placed."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Fields",
+        "costs": [
+            {
+                "food": 2
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M043",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你可以立即将至多2个农田板块依次放到未与已存在的农田相邻的未使用农场格子上。稍后你可以将其与其他农田连接。所有未来的农田必须与至少一个已存在的农田相邻。</div>",
+        "mini": false
+    },
+    "M44_Swamp": {
+        "id": "M44_Swamp",
+        "name": "Swamp",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Place 1 moor tile on the space for round 12. At the start of this round, you can take the tile and place it on an empty space in your farmyard."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Play in Round 4 or Before",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M044",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>将1个沼泽放置在第12轮的轮次格上。在该轮开始时，你可以将该沼泽放在一个未使用的农场格子上。</div>",
+        "mini": false
+    },
+    "M45_TreeNursery": {
+        "id": "M45_TreeNursery",
+        "name": "Tree Nursery",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Place 1 forest tile on the spaces for rounds 12 and 13. At the start of these rounds, you can take the tile and place it on an empty space in your farmyard."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "No Improvement",
+        "costs": [
+            {
+                "wood": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M045",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>在第12和第13轮的轮次格上各放置1个森林。在这些轮开始时，你可以将该森林放在一个未使用的农场格子上。</div>",
+        "mini": false
+    },
     "M95_FallowFields": {
         "id": "M95_FallowFields",
         "name": "Fallow Fields",

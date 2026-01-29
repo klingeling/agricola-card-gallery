@@ -504,9 +504,35 @@ footer {
 
 .player-card .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
     font-family: "AgricolaCustomMedium";
-    font-size: 15px !important;
+    font-size: 14px !important;
     line-height: 16px !important;
     letter-spacing: -0.08em;
+}
+
+.player-card[data-id="M41_CattleCollar"] .player-card-resizable .player-card-inner .card-desc:before {
+    border-top-right-radius: 16px;
+    background-image: url(img/minor_left_corner.png);
+    background-position: 0 0;
+    background-size: 100%;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 29px;
+}
+
+.player-card[data-id="M41_CattleCollar"] .card-bottom-left-corner {
+    background-image: url(img/slash_and_burn.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100%;
+    bottom: 9px;
+    height: 17px;
+    left: 14px;
+    position: absolute;
+    width: 17px;
 }
 
 .player-card[data-id=A13_RenovationCompany] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
