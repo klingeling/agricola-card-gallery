@@ -39,16 +39,41 @@
                     </div>
 
                     <div class="filter-group">
-                        <label for="deckFilter"><i class="fas fa-layer-group"></i> 扩展包</label>
-                        <select id="deckFilter" class="filter-select">
-                            <option value="all">全部扩展</option>
-                            <option value="A">工匠牌库(A)</option>
-                            <option value="B">牛倌牌库(B)</option>
-                            <option value="C">篮匠牌库(C)</option>
-                            <option value="D">糖商牌库(D)</option>
-                            <option value="E">马鞍牌库(E)</option>
-                            <option value="M">沼泽农夫(M)</option>
-                        </select>
+                        <label><i class="fas fa-layer-group"></i> 扩展包</label>
+                        <div class="checkbox-group" id="deckFilterGroup">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deck-all" value="all" checked>
+                                <label for="deck-all">全部</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deck-Base" value="Base" checked>
+                                <label for="deck-Base">基础</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deck-A" value="A" checked>
+                                <label for="deck-A">工匠牌库(A)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deck-B" value="B" checked>
+                                <label for="deck-B">牛倌牌库(B)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deck-C" value="C" checked>
+                                <label for="deck-C">篮匠牌库(C)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deck-D" value="D" checked>
+                                <label for="deck-D">糖商牌库(D)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deck-E" value="E" checked>
+                                <label for="deck-E">马鞍牌库(E)</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="deck-M" value="M" checked>
+                                <label for="deck-M">沼泽农夫(M)</label>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="filter-group">

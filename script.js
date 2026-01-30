@@ -5,64 +5,43 @@ class CardGallery {
         this.currentView = 'grid';
         this.filters = {
             type: 'all',
-            deck: 'all',
+            deck: [], // 空的数组表示显示全部（不进行筛选）
             category: 'all',
             search: '',
             players: 'all'
         };
         this.translationMap = {};
-        this.initialized = false; // 新增：初始化状态标志
+        this.initialized = false;
         this.init();
     }
 
-    // <div class=\\"meeple-container\\">\\n<div class=\\"agricola-meeple meeple-(\w+)\\">\\n</div>\\n</div>
-    // <div class=\"meeple-container\"><div class=\"agricola-meeple meeple-$1\"></div></div>
-    // JSON.stringify(Object.values(gameui._cardStorage).sort((a,b)=>a.numbering.localeCompare(b.numbering)).reduce((obj,card)=>{obj[card.id]=card;return obj;},{}))
     async init() {
-        // 加载卡牌数据
         await this.loadCards();
-
-        // 初始化UI
         this.initUI();
-
-        // 应用默认筛选（新增这行）
         this.applyFilters();
-
-        // 渲染卡牌
         this.renderCards();
-
-        // 更新统计数据
         this.updateStats();
-
-        this.initialized = true; // 标记为已初始化
+        this.initialized = true;
     }
 
     async loadCards() {
         try {
-            // 从本地JSON文件加载卡牌数据
             const response = await fetch('cards.json');
-            if (!response.ok) {
-                throw new Error('无法加载卡牌数据');
-            }
+            if (!response.ok) throw new Error('无法加载卡牌数据');
 
             const cardsData = await response.json();
 
-            // 从本地加载中文翻译文件
             const translationResponse = await fetch('agricola-zh.json');
-            if (!translationResponse.ok) {
-                console.warn('无法加载中文翻译文件，将显示英文名称');
-            }
-
             this.translationMap = translationResponse.ok ?
                 await translationResponse.json() : {};
 
-            // 转换为数组并格式化数据，应用中文翻译
             this.cards = Object.values(cardsData).map(card => ({
                 ...card,
-                originalName: card.name,  // 保留英文原名
-                name: this.getChinese(card.name),  // 应用中文翻译
-                prerequisite: this.getChinese(card.prerequisite),  // 应用中文翻译
-                costText: this.getChinese(card.costText)  // 应用中文翻译
+                originalName: card.name,
+                name: this.getChinese(card.name),
+                prerequisite: this.getChinese(card.prerequisite),
+                costText: this.getChinese(card.costText),
+                deck: !card.deck || card.deck.trim() === '' ? 'Base' : card.deck
             }));
 
             console.log(`成功加载 ${this.cards.length} 张卡牌`);
@@ -73,15 +52,460 @@ class CardGallery {
         }
     }
 
+    initUI() {
+        this.initFilters();
+        this.initViewControls();
+        this.initSortControls();
+    }
+
+    initFilters() {
+        // 卡牌类型筛选
+        document.getElementById('cardType').addEventListener('change', (e) => {
+            this.filters.type = e.target.value;
+            this.applyFilters();
+        });
+
+        // 扩展包筛选 - 多选checkbox
+        const deckCheckboxes = document.querySelectorAll('#deckFilterGroup input[type="checkbox"]');
+        deckCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', (e) => {
+                this.handleDeckFilterChange(e.target);
+            });
+        });
+
+        // 设置初始状态：所有都不选中
+        this.resetDeckFiltersToAll();
+
+        // 分类筛选
+        const categorySelect = document.getElementById('categoryFilter');
+        const categories = [...new Set(this.cards.map(card => this.formatCategory(card.category)))].sort();
+
+        categories.forEach(category => {
+            const option = document.createElement('option');
+            option.value = category;
+            option.textContent = category;
+            categorySelect.appendChild(option);
+        });
+
+        categorySelect.addEventListener('change', (e) => {
+            this.filters.category = e.target.value;
+            this.applyFilters();
+        });
+
+        // 搜索框
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            this.filters.search = e.target.value.toLowerCase();
+            this.applyFilters();
+        });
+
+        // 玩家人数筛选
+        document.getElementById('playersFilter').addEventListener('change', (e) => {
+            this.filters.players = e.target.value;
+            this.applyFilters();
+        });
+
+        // 重置按钮
+        document.getElementById('resetFilters').addEventListener('click', () => {
+            this.resetFilters();
+        });
+    }
+
+    resetDeckFiltersToAll() {
+        // 初始状态：所有checkbox都不选中
+        const allCheckboxes = document.querySelectorAll('#deckFilterGroup input[type="checkbox"]');
+        allCheckboxes.forEach(checkbox => {
+            checkbox.checked = false;
+        });
+
+        // 清空筛选条件，显示全部卡牌
+        this.filters.deck = [];
+    }
+
+    handleDeckFilterChange(checkbox) {
+        const value = checkbox.value;
+        const isChecked = checkbox.checked;
+
+        if (value === 'all') {
+            // 处理"全部"checkbox
+            const otherCheckboxes = document.querySelectorAll('#deckFilterGroup input[type="checkbox"]:not([value="all"])');
+
+            if (isChecked) {
+                // 选中"全部"：选中所有扩展包
+                otherCheckboxes.forEach(cb => {
+                    cb.checked = true;
+                });
+                this.filters.deck = Array.from(otherCheckboxes).map(cb => cb.value);
+            } else {
+                // 取消"全部"：取消所有扩展包的选中
+                otherCheckboxes.forEach(cb => {
+                    cb.checked = false;
+                });
+                this.filters.deck = []; // 清空筛选条件
+            }
+        } else {
+            // 处理单个扩展包checkbox
+            const otherCheckboxes = document.querySelectorAll('#deckFilterGroup input[type="checkbox"]:not([value="all"])');
+            const allCheckbox = document.getElementById('deck-all');
+
+            // 更新当前checkbox状态
+            checkbox.checked = isChecked;
+
+            // 获取所有选中的扩展包
+            const selectedDecks = Array.from(otherCheckboxes)
+                .filter(cb => cb.checked)
+                .map(cb => cb.value);
+
+            // 更新筛选条件
+            this.filters.deck = selectedDecks.length > 0 ? selectedDecks : [];
+
+            // 更新"全部"checkbox的状态
+            const allSelected = Array.from(otherCheckboxes).every(cb => cb.checked);
+            const noneSelected = selectedDecks.length === 0;
+
+            if (allSelected) {
+                allCheckbox.checked = true;
+                allCheckbox.indeterminate = false;
+            } else if (noneSelected) {
+                allCheckbox.checked = false;
+                allCheckbox.indeterminate = false;
+            } else {
+                allCheckbox.checked = false;
+                allCheckbox.indeterminate = true; // 部分选中状态
+            }
+        }
+
+        this.applyFilters();
+    }
+
+    initViewControls() {
+        const viewBtns = document.querySelectorAll('.view-btn');
+        viewBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                viewBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                this.currentView = btn.dataset.view;
+                this.renderCards();
+            });
+        });
+    }
+
+    initSortControls() {
+        document.getElementById('sortSelect').addEventListener('change', (e) => {
+            this.sortCards(e.target.value);
+            this.renderCards();
+        });
+    }
+
+    applyFilters() {
+        if (this.cards.length === 0) return;
+
+        this.filteredCards = this.cards.filter(card => {
+            // 类型筛选
+            if (this.filters.type !== 'all' && card.type !== this.filters.type) return false;
+
+            // 扩展包筛选 - 空数组表示显示全部
+            if (this.filters.deck.length > 0 && !this.filters.deck.includes(card.deck)) return false;
+
+            // 分类筛选
+            if (this.filters.category !== 'all' && this.formatCategory(card.category) !== this.filters.category) return false;
+
+            // 搜索筛选
+            if (this.filters.search) {
+                const searchLower = this.filters.search.toLowerCase();
+                const nameMatch = card.name.toLowerCase().includes(searchLower);
+                const originalNameMatch = card.originalName ?
+                    card.originalName.toLowerCase().includes(searchLower) : false;
+                const numberMatch = card.numbering.toLowerCase().includes(searchLower);
+                const descMatch = card.description.toLowerCase().includes(searchLower);
+
+                if (!nameMatch && !originalNameMatch && !numberMatch && !descMatch) return false;
+            }
+
+            if (this.filters.players !== 'all' && card.players !== this.filters.players) return false;
+
+            return true;
+        });
+
+        this.sortCards('numbering');
+        this.renderCards();
+        this.updateStats();
+    }
+
+    sortCards(sortBy) {
+        this.filteredCards.sort((a, b) => {
+            switch (sortBy) {
+                case 'name':
+                    return a.name.localeCompare(b.name, 'zh');
+                case 'type':
+                    return a.type.localeCompare(b.type);
+                default:
+                    return a.numbering.localeCompare(b.numbering);
+            }
+        });
+    }
+
+    resetFilters() {
+        // 重置筛选器UI
+        document.getElementById('cardType').value = 'all';
+
+        // 重置扩展包checkbox到初始状态（都不选中）
+        this.resetDeckFiltersToAll();
+        const allCheckboxes = document.querySelectorAll('#deckFilterGroup input[type="checkbox"]');
+        allCheckboxes.forEach(checkbox => {
+            checkbox.checked = false;
+            // 清除indeterminate状态
+            checkbox.indeterminate = false;
+        });
+        document.getElementById('categoryFilter').value = 'all';
+        document.getElementById('searchInput').value = '';
+        document.getElementById('playersFilter').value = 'all';
+
+        // 重置筛选状态
+        this.filters = {
+            type: 'all',
+            deck: [], // 显示全部
+            category: 'all',
+            search: '',
+            players: 'all'
+        };
+
+        if (this.initialized) {
+            this.applyFilters();
+        }
+    }
+
+    renderCards() {
+        if (this.cards.length === 0) {
+            const container = document.getElementById('cardsGrid');
+            container.innerHTML = `
+                <div class="empty-state">
+                    <i class="fas fa-spinner fa-spin"></i>
+                    <h3>正在加载卡牌数据...</h3>
+                </div>
+            `;
+            return;
+        }
+
+        this.currentView === 'grid' ? this.renderGridView() : this.renderListView();
+    }
+
+    renderGridView() {
+        const container = document.getElementById('cardsGrid');
+        const listContainer = document.getElementById('cardsList');
+
+        container.style.display = 'grid';
+        listContainer.style.display = 'none';
+
+        if (this.filteredCards.length === 0) {
+            container.innerHTML = `
+                <div class="empty-state">
+                    <i class="far fa-folder-open"></i>
+                    <h3>没有找到匹配的卡牌</h3>
+                    <p>尝试调整筛选条件或搜索关键词</p>
+                </div>
+            `;
+            return;
+        }
+
+        container.innerHTML = '';
+        this.filteredCards.forEach(card => {
+            const cardElement = this.createAgricolaCardHTML(card);
+            container.appendChild(cardElement);
+        });
+    }
+
+    renderListView() {
+        const container = document.getElementById('cardsList');
+        const gridContainer = document.getElementById('cardsGrid');
+
+        container.style.display = 'block';
+        gridContainer.style.display = 'none';
+
+        if (this.filteredCards.length === 0) {
+            container.innerHTML = `
+                <div class="empty-state">
+                    <i class="far fa-folder-open"></i>
+                    <h3>没有找到匹配的卡牌</h3>
+                    <p>尝试调整筛选条件或搜索关键词</p>
+                </div>
+            `;
+            return;
+        }
+
+        container.innerHTML = this.filteredCards.map(card => this.createListCardHTML(card)).join('');
+    }
+
+    createAgricolaCardHTML(card) {
+        const div = document.createElement('div');
+        const typeClass = card.type || 'minor';
+        const classes = ['player-card', typeClass, 'tooltipable', 'selectable'].filter(c => c).join(' ');
+
+        div.id = card.id;
+        div.className = classes;
+        div.setAttribute('data-id', card.id);
+        div.setAttribute('data-numbering', card.numbering);
+        div.setAttribute('data-cook', card.cook || 'false');
+        div.setAttribute('data-bread', card.bread || 'false');
+        div.setAttribute('data-state', card.state || '0');
+
+        const costText = card.costText ? card.costText : '';
+        const prerequisite = card.prerequisite ? card.prerequisite : '';
+
+        const html = `
+        <div class="player-card-resizable">
+            <div class="player-card-inner">
+                <div class="card-frame"></div>
+                ${card.passing !== true ? '<div class="card-frame-left-leaves"></div><div class="card-frame-right-leaves"></div>' : ''}
+                <div class="card-icon"></div>
+                <div class="card-title">
+                    ${card.name || ''}
+                </div>
+                <div class="card-numbering">${card.numbering || ''}</div>
+                <div class="card-bonus-vp-counter">${card.bonusVp || ''}</div>
+                ${card.players ? `<div class="card-players" data-n="${card.players}"></div>` : ''}
+                ${card.deck ? `<div class="card-deck" data-deck="${card.deck}"></div>` : ''}
+                ${card.vp != 0 ? `<div class="card-score" data-score="${card.vp}">${card.vp}</div>` : ''}
+                ${card.extraVp ? '<div class="card-extra-score"></div>' : ''}
+                ${card.category ? `<div class="card-category" data-category="${card.category}"></div>` : ''}
+                <div class="card-cost">
+                    ${this.formatCardCostHTML(card)}
+                </div>
+                ${prerequisite !== '' ? `<div class="card-prerequisite"><div class="prerequisite-text">${prerequisite}</div></div>` : ''}
+                <div class="card-desc">
+                    <div class="card-desc-scroller">
+                        ${this.formatCardDescription(card)}
+                    </div>
+                </div>
+                <div class="card-bottom-left-corner"></div>
+                <div class="card-bottom-right-corner"></div>
+                ${card.holder ? this.createHolderHTML(card) : ''}
+            </div>
+            <div class="player-card-zoom">
+                <svg><use href="#zoom-svg"></use></svg>
+            </div>
+        </div>
+        <div class="player-card-stats"></div>
+        ${card.field ? '<div class="player-card-field-cell"></div>' : ''}
+        ${!card.animalHolder ? '' : '<div class="resource-holder resource-holder-update animal-holder" data-n="0"></div>'}
+    `;
+
+        div.innerHTML = html;
+        return div;
+    }
+
+    formatCardCostHTML(card) {
+        let formatArray = (arr) => {
+            return Object.keys(arr)
+                .map((res) => {
+                    const amount = arr[res];
+                    return `<div>${amount}<div class="meeple-container">
+                    <div class="agricola-meeple meeple-${res.toLowerCase()}"></div>
+                </div></div>`;
+                })
+                .join('');
+        };
+
+        let formatConditionalCost = (arr) => {
+            return Object.keys(arr)
+                .map((res) => {
+                    const amount = arr[res];
+                    return `<div>(+${amount}<div class="meeple-container">
+                    <div class="agricola-meeple meeple-${res.toLowerCase()}"></div>
+                </div>)</div>`;
+                })
+                .join('');
+        };
+
+        if (card.id === 'C40_CanvasSack') {
+            card.costs = [{ grain: 1 }, { reed: 1 }];
+        }
+
+        if (card.id === 'B65_GrainDepot') {
+            card.costs = [{ wood: 2 }, { clay: 2 }, { stone: 2 }];
+        }
+
+        let html = '';
+
+        if (card.costText && card.costText !== '') {
+            html += `<div class="card-cost-text">${card.costText}</div>`;
+        }
+
+        if (card.fee != null && Object.keys(card.fee).length > 0) {
+            html += formatArray(card.fee) + '<div class="card-cost-fee-separator">+</div>';
+        }
+
+        const costs = Array.isArray(card.costs) ? card.costs : [card.costs || {}];
+        const costItems = costs
+            .filter(cost => cost && Object.keys(cost).length > 0)
+            .map(cost => formatArray(cost))
+            .join('<div class="card-cost-separator"></div>');
+
+        html += costItems;
+
+        if (card.conditionalCost != null && Object.keys(card.conditionalCost).length > 0) {
+            html += '<div class="card-cost-conditional">' + formatConditionalCost(card.conditionalCost) + '</div>';
+        }
+
+        return html;
+    }
+
+    formatCardDescription(card) {
+        return card.description || card.desc || '';
+    }
+
+    createHolderHTML(card) {
+        let subHolders = '';
+        if (card.id === "D75_WoodField") {
+            subHolders = '<div class="subholder" data-x="0"></div><div class="subholder" data-x="-1"></div>';
+        }
+        if (card.id === "E80_RockGarden") {
+            subHolders = '<div class="subholder" data-x="0"></div><div class="subholder" data-x="-1"></div><div class="subholder" data-x="-2"></div>';
+        }
+
+        return `
+            <div class="resource-holder farmer-holder resource-holder-update ${card.actionCard ? 'actionCard' : ''}">
+                ${subHolders}
+            </div>
+        `;
+    }
+
+    createListCardHTML(card) {
+        const typeText = card.type === 'occupation' ? '职业卡牌' : '发展卡牌';
+        const vpDisplay = card.vp > 0 ? `+${card.vp}` : '0';
+
+        return `
+            <div class="card-list-item" data-id="${card.id}">
+                <div class="list-card-number">${card.numbering}</div>
+                <div class="list-card-name">${card.name}</div>
+                <div class="list-card-type">${typeText}</div>
+                <div class="list-card-vp">${vpDisplay} VP</div>
+            </div>
+        `;
+    }
+
+    updateStats() {
+        document.getElementById('totalCards').textContent = this.cards.length;
+        document.getElementById('showingCards').textContent = this.filteredCards.length;
+    }
+
+    showErrorMessage(message) {
+        const container = document.getElementById('cardsGrid');
+        container.innerHTML = `
+            <div class="empty-state">
+                <i class="fas fa-exclamation-triangle"></i>
+                <h3>加载失败</h3>
+                <p>${message}</p>
+            </div>
+        `;
+    }
+
     getChinese(englishName) {
-        // 如果有中文翻译，使用中文，否则使用英文
         return this.translationMap[englishName] || englishName;
     }
 
     formatCategory(category) {
         if (!category) return '其他';
 
-        // 简化分类显示
         const categoryMap = {
             'FarmCategory': '农场规划',
             'BoosterCategory': '行动增强',
@@ -91,7 +515,6 @@ class CardGallery {
             'CropCategory': '作物奖励',
             'ResourceCategory': '建造资源奖励',
             'LivestockCategory': '动物奖励',
-            // 扩展类别
             'ACTION_-_BAKE': '行动增强-烤面包',
             'ACTION_-_FAMILY_GROWTH': '行动增强-家庭成长',
             'ACTION_-_FENCE': '行动增强-栅栏',
@@ -150,482 +573,9 @@ class CardGallery {
 
         return categoryMap[category] || category.replace(/_/g, ' ');
     }
-
-    initUI() {
-        // 初始化筛选器
-        this.initFilters();
-
-        // 初始化视图切换
-        this.initViewControls();
-
-        // 初始化排序
-        this.initSortControls();
-
-        // 新增：监听筛选器变化，避免在初始化前应用筛选
-        this.initFilterListeners();
-    }
-
-    // 新增方法：初始化筛选器监听器
-    initFilterListeners() {
-        // 卡牌类型筛选
-        document.getElementById('cardType').addEventListener('change', (e) => {
-            if (!this.initialized) return; // 避免在初始化前触发
-            this.filters.type = e.target.value;
-            this.applyFilters();
-        });
-
-        // 扩展包筛选
-        document.getElementById('deckFilter').addEventListener('change', (e) => {
-            if (!this.initialized) return; // 避免在初始化前触发
-            this.filters.deck = e.target.value;
-            this.applyFilters();
-        });
-
-        // 搜索框
-        document.getElementById('searchInput').addEventListener('input', (e) => {
-            if (!this.initialized) return; // 避免在初始化前触发
-            this.filters.search = e.target.value.toLowerCase();
-            this.applyFilters();
-        });
-
-        // 玩家人数筛选
-        document.getElementById('playersFilter').addEventListener('change', (e) => {
-            if (!this.initialized) return; // 避免在初始化前触发
-            this.filters.players = e.target.value;
-            this.applyFilters();
-        });
-
-        // 重置按钮
-        document.getElementById('resetFilters').addEventListener('click', () => {
-            if (!this.initialized) return; // 避免在初始化前触发
-            this.resetFilters();
-        });
-    }
-
-    initFilters() {
-        // 卡牌类型筛选
-        document.getElementById('cardType').addEventListener('change', (e) => {
-            this.filters.type = e.target.value;
-            this.applyFilters();
-        });
-
-        // 扩展包筛选
-        document.getElementById('deckFilter').addEventListener('change', (e) => {
-            this.filters.deck = e.target.value;
-            this.applyFilters();
-        });
-
-        // 分类筛选
-        const categorySelect = document.getElementById('categoryFilter');
-        const categories = [...new Set(this.cards.map(card => this.formatCategory(card.category)))].sort();
-
-        categories.forEach(category => {
-            const option = document.createElement('option');
-            option.value = category;
-            option.textContent = category;
-            categorySelect.appendChild(option);
-        });
-
-        categorySelect.addEventListener('change', (e) => {
-            this.filters.category = e.target.value;
-            this.applyFilters();
-        });
-
-        // 搜索框
-        document.getElementById('searchInput').addEventListener('input', (e) => {
-            this.filters.search = e.target.value.toLowerCase();
-            this.applyFilters();
-        });
-
-        // 玩家人数筛选
-        document.getElementById('playersFilter').addEventListener('change', (e) => {
-            this.filters.players = e.target.value;
-            this.applyFilters();
-        });
-
-        // 重置按钮
-        document.getElementById('resetFilters').addEventListener('click', () => {
-            this.resetFilters();
-        });
-    }
-
-    initViewControls() {
-        const viewBtns = document.querySelectorAll('.view-btn');
-        viewBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                // 移除所有按钮的active类
-                viewBtns.forEach(b => b.classList.remove('active'));
-                // 为点击的按钮添加active类
-                btn.classList.add('active');
-
-                this.currentView = btn.dataset.view;
-                this.renderCards();
-            });
-        });
-    }
-
-    initSortControls() {
-        document.getElementById('sortSelect').addEventListener('change', (e) => {
-            this.sortCards(e.target.value);
-            this.renderCards();
-        });
-    }
-
-    applyFilters() {
-        if (this.cards.length === 0) {
-            return;
-        }
-        this.filteredCards = this.cards.filter(card => {
-            // 类型筛选
-            if (this.filters.type !== 'all' && card.type !== this.filters.type) {
-                return false;
-            }
-
-            // 扩展包筛选
-            if (this.filters.deck !== 'all' && card.deck !== this.filters.deck) {
-                return false;
-            }
-
-            // 分类筛选
-            if (this.filters.category !== 'all' && this.formatCategory(card.category) !== this.filters.category) {
-                return false;
-            }
-
-            // 搜索筛选
-            if (this.filters.search) {
-                const searchLower = this.filters.search.toLowerCase();
-                const nameMatch = card.name.toLowerCase().includes(searchLower);
-                const originalNameMatch = card.originalName ?
-                    card.originalName.toLowerCase().includes(searchLower) : false;
-                const numberMatch = card.numbering.toLowerCase().includes(searchLower);
-                const descMatch = card.description.toLowerCase().includes(searchLower);
-
-                if (!nameMatch && !originalNameMatch && !numberMatch && !descMatch) {
-                    return false;
-                }
-            }
-
-            if (this.filters.players !== 'all' && card.players !== this.filters.players) {
-                return false;
-            }
-
-            return true;
-        });
-
-        // 默认按编号排序
-        this.sortCards('numbering');
-        this.renderCards();
-        this.updateStats();
-    }
-
-    sortCards(sortBy) {
-        this.filteredCards.sort((a, b) => {
-            switch (sortBy) {
-                case 'name':
-                    // 按中文名称排序
-                    return a.name.localeCompare(b.name, 'zh');
-                case 'type':
-                    // 按中文名称排序
-                    return a.name.localeCompare(b.type);
-                default: // numbering
-                    return a.numbering.localeCompare(b.numbering);
-            }
-        });
-    }
-
-    resetFilters() {
-        // 重置筛选器UI
-        document.getElementById('cardType').value = 'all';
-        document.getElementById('deckFilter').value = 'all';
-        document.getElementById('categoryFilter').value = 'all';
-        document.getElementById('searchInput').value = '';
-        document.getElementById('playersFilter').value = 'all';
-
-        // 重置筛选状态
-        this.filters = {
-            type: 'all',
-            deck: 'all',
-            category: 'all',
-            search: '',
-            players: 'all'
-        };
-
-        // 重新应用筛选
-        if (this.initialized) {
-            this.applyFilters();
-        }
-    }
-
-    renderCards() {
-        if (this.cards.length === 0) {
-            const container = document.getElementById('cardsGrid');
-            container.innerHTML = `
-                <div class="empty-state">
-                    <i class="fas fa-spinner fa-spin"></i>
-                    <h3>正在加载卡牌数据...</h3>
-                </div>
-            `;
-            return;
-        }
-        if (this.currentView === 'grid') {
-            this.renderGridView();
-        } else {
-            this.renderListView();
-        }
-    }
-
-    renderGridView() {
-        const container = document.getElementById('cardsGrid');
-        const listContainer = document.getElementById('cardsList');
-
-        // 显示网格容器，隐藏列表容器
-        container.style.display = 'grid';
-        listContainer.style.display = 'none';
-
-        if (this.filteredCards.length === 0) {
-            container.innerHTML = `
-                <div class="empty-state">
-                    <i class="far fa-folder-open"></i>
-                    <h3>没有找到匹配的卡牌</h3>
-                    <p>尝试调整筛选条件或搜索关键词</p>
-                </div>
-            `;
-            return;
-        }
-
-        // 清空容器
-        container.innerHTML = '';
-
-        // 创建卡牌并添加到容器
-        this.filteredCards.forEach(card => {
-            const cardElement = this.createAgricolaCardHTML(card);
-            container.appendChild(cardElement);
-        });
-    }
-
-    renderListView() {
-        const container = document.getElementById('cardsList');
-        const gridContainer = document.getElementById('cardsGrid');
-
-        // 显示列表容器，隐藏网格容器
-        container.style.display = 'block';
-        gridContainer.style.display = 'none';
-
-        if (this.filteredCards.length === 0) {
-            container.innerHTML = `
-                <div class="empty-state">
-                    <i class="far fa-folder-open"></i>
-                    <h3>没有找到匹配的卡牌</h3>
-                    <p>尝试调整筛选条件或搜索关键词</p>
-                </div>
-            `;
-            return;
-        }
-
-        const listHTML = this.filteredCards.map(card => this.createListCardHTML(card)).join('');
-        container.innerHTML = listHTML;
-    }
-
-    // 根据Cards.js中的tplPlayerCard函数创建Agricola风格的卡牌
-    createAgricolaCardHTML(card) {
-        const div = document.createElement('div');
-
-        // 基础样式类
-        const typeClass = card.type || 'minor';
-        const classes = [
-            'player-card',
-            typeClass,
-            'tooltipable',
-            'selectable'
-        ].filter(c => c).join(' ');
-
-        // 设置数据属性
-        div.id = card.id;
-        div.className = classes;
-        div.setAttribute('data-id', card.id);
-        div.setAttribute('data-numbering', card.numbering);
-        div.setAttribute('data-cook', card.cook || 'false');
-        div.setAttribute('data-bread', card.bread || 'false');
-        div.setAttribute('data-state', card.state || '0');
-
-        // 获取card-cost-text和prerequisite
-        const costText = card.costText ? card.costText : '';
-        const prerequisite = card.prerequisite ? card.prerequisite : '';
-
-        // 创建卡牌内部结构
-        const html = `
-        <div class="player-card-resizable">
-            <div class="player-card-inner">
-                <div class="card-frame"></div>
-                ${card.passing !== true ? '<div class="card-frame-left-leaves"></div><div class="card-frame-right-leaves"></div>' : ''}
-                <div class="card-icon"></div>
-                <div class="card-title">
-                    ${card.name || ''}
-                </div>
-                <div class="card-numbering">${card.numbering || ''}</div>
-                <div class="card-bonus-vp-counter">${card.bonusVp || ''}</div>
-                ${card.players ? `<div class="card-players" data-n="${card.players}"></div>` : ''}
-                ${card.deck ? `<div class="card-deck" data-deck="${card.deck}"></div>` : ''}
-                ${card.vp != 0 ? `<div class="card-score" data-score="${card.vp}">${card.vp}</div>` : ''}
-                ${card.extraVp ? '<div class="card-extra-score"></div>' : ''}
-                ${card.category ? `<div class="card-category" data-category="${card.category}"></div>` : ''}
-                <div class="card-cost">
-                    ${this.formatCardCostHTML(card)}
-                </div>
-                ${prerequisite !== '' ? `<div class="card-prerequisite"><div class="prerequisite-text">${prerequisite}</div></div>` : ''}
-                <div class="card-desc">
-                    <div class="card-desc-scroller">
-                        ${this.formatCardDescription(card)}
-                    </div>
-                </div>
-                <div class="card-bottom-left-corner"></div>
-                <div class="card-bottom-right-corner"></div>
-                ${card.holder ? this.createHolderHTML(card) : ''}
-            </div>
-            <div class="player-card-zoom">
-                <svg><use href="#zoom-svg"></use></svg>
-            </div>
-        </div>
-        <div class="player-card-stats"></div>
-        ${card.field ? '<div class="player-card-field-cell"></div>' : ''}
-        ${!card.animalHolder ? '' : '<div class="resource-holder resource-holder-update animal-holder" data-n="0"></div>'}
-    `;
-
-        div.innerHTML = html;
-        return div;
-    }
-    formatCardCostHTML(card) {
-        // 严格按照Cards.js中的formatCardCost方法实现
-        let formatArray = (arr) => {
-            return Object.keys(arr)
-                .map((res) => {
-                    const amount = arr[res];
-                    const resourceUpper = res.toUpperCase();
-                    // 调用formatStringMeeples模拟函数
-                    return `<div>${amount}<div class="meeple-container">
-                    <div class="agricola-meeple meeple-${res.toLowerCase()}"></div>
-                </div></div>`;
-                })
-                .join('');
-        };
-
-        let formatConditionalCost = (arr) => {
-            return Object.keys(arr)
-                .map((res) => {
-                    const amount = arr[res];
-                    const resourceUpper = res.toUpperCase();
-                    // 注意这里是(+资源)的格式
-                    return `<div>(+${amount}<div class="meeple-container">
-                    <div class="agricola-meeple meeple-${res.toLowerCase()}"></div>
-                </div>)</div>`;
-                })
-                .join('');
-        };
-
-        // 特殊卡牌处理（直接从Cards.js复制）
-        if (card.id === 'C40_CanvasSack') {
-            card.costs = [{ grain: 1 }, { reed: 1 }];
-        }
-
-        if (card.id === 'B65_GrainDepot') {
-            card.costs = [{ wood: 2 }, { clay: 2 }, { stone: 2 }];
-        }
-
-        // 构建完整的HTML（严格按照Cards.js的逻辑）
-        let html = '';
-
-        // 1. 处理card-cost-text（如果有）
-        if (card.costText && card.costText !== '') {
-            html += `<div class="card-cost-text">${card.costText}</div>`;
-        }
-
-        // 2. 处理fee（额外费用）
-        if (card.fee != null && Object.keys(card.fee).length > 0) {
-            html += formatArray(card.fee) + '<div class="card-cost-fee-separator">+</div>';
-        }
-
-        // 3. 处理主要费用
-        const costs = Array.isArray(card.costs) ? card.costs : [card.costs || {}];
-        const costItems = costs
-            .filter(cost => cost && Object.keys(cost).length > 0)
-            .map(cost => formatArray(cost))
-            .join('<div class="card-cost-separator"></div>');
-
-        html += costItems;
-
-        // 4. 处理条件费用
-        if (card.conditionalCost != null && Object.keys(card.conditionalCost).length > 0) {
-            html += '<div class="card-cost-conditional">' + formatConditionalCost(card.conditionalCost) + '</div>';
-        }
-
-        return html;
-    }
-    formatPrerequisiteHTML(card) {
-        if (!card.prerequisite || card.prerequisite === '') return '';
-
-        return `
-            <div class="card-prerequisite">
-                <div class="prerequisite-text">${card.prerequisite}</div>
-            </div>
-        `;
-    }
-
-    formatCardDescription(card) {
-        // 直接从card对象获取描述
-        return card.description || card.desc || '';
-    }
-
-    createHolderHTML(card) {
-        let subHolders = '';
-        if (card.id === "D75_WoodField") {
-            subHolders = '<div class="subholder" data-x="0"></div><div class="subholder" data-x="-1"></div>';
-        }
-        if (card.id === "E80_RockGarden") {
-            subHolders = '<div class="subholder" data-x="0"></div><div class="subholder" data-x="-1"></div><div class="subholder" data-x="-2"></div>';
-        }
-
-        return `
-            <div class="resource-holder farmer-holder resource-holder-update ${card.actionCard ? 'actionCard' : ''}">
-                ${subHolders}
-            </div>
-        `;
-    }
-
-    createListCardHTML(card) {
-        const typeText = card.type === 'occupation' ? '职业卡牌' : '发展卡牌';
-        const vpDisplay = card.vp > 0 ? `+${card.vp}` : '0';
-
-        return `
-            <div class="card-list-item" data-id="${card.id}">
-                <div class="list-card-number">${card.numbering}</div>
-                <div class="list-card-name">${card.name}</div>
-                <div class="list-card-type">${typeText}</div>
-                <div class="list-card-vp">${vpDisplay} VP</div>
-            </div>
-        `;
-    }
-
-    updateStats() {
-        document.getElementById('totalCards').textContent = this.cards.length;
-        document.getElementById('showingCards').textContent = this.filteredCards.length;
-    }
-
-    showErrorMessage(message) {
-        const container = document.getElementById('cardsGrid');
-        container.innerHTML = `
-            <div class="empty-state">
-                <i class="fas fa-exclamation-triangle"></i>
-                <h3>加载失败</h3>
-                <p>${message}</p>
-            </div>
-        `;
-    }
 }
 
-// 页面加载完成后初始化应用
 document.addEventListener('DOMContentLoaded', () => {
     const gallery = new CardGallery();
-
-    // 将实例附加到window对象，方便调试
     window.cardGallery = gallery;
 });
