@@ -24,6 +24,12 @@ class CardGallery {
         this.initialized = true;
     }
 
+    specialTranslations = {
+        "C54_MarketStall": "集市摊",
+        "M82_Firewood": "木柴垛",
+        "M125_HardwareStore": "五金铺"
+    };
+
     async loadCards() {
         try {
             const response = await fetch('cards.json');
@@ -38,7 +44,7 @@ class CardGallery {
             this.cards = Object.values(cardsData).map(card => ({
                 ...card,
                 originalName: card.name,
-                name: this.getChinese(card.name),
+                name: this.specialTranslations[card.id] || this.getChinese(card.name),
                 prerequisite: this.getChinese(card.prerequisite),
                 costText: this.getChinese(card.costText),
                 deck: !card.deck || card.deck.trim() === '' ? 'Base' : card.deck

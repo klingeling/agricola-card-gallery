@@ -491,21 +491,6 @@ footer {
     /* letter-spacing: -0.2em !important; */
 }
 
-.player-card[data-id=B8_MarketStall] .player-card-resizable .player-card-inner .card-title {
-    visibility: hidden;
-    position: relative;
-}
-
-.player-card[data-id=B8_MarketStall] .player-card-resizable .player-card-inner .card-title::after {
-    content: "集市";
-    visibility: visible;
-    word-wrap: anywhere;
-    align-items: center;
-    position: absolute;
-    left: 30px;
-    top: 13px;
-}
-
 .player-card .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
     padding: 2px 9px 2px 5px;
 }
@@ -562,6 +547,17 @@ footer {
     font-size: 16px !important;
 }
 
+.player-card[data-id=M75_FuelStorage] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=M78_Barge] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=M83_CoalSeam] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=M70_MoorArchaeology] .player-card-resizable .player-card-inner .card-desc {
+    font-size: 18px !important;
+}
+
+.player-card[data-id=M77_DryingField] .player-card-resizable .player-card-inner .card-desc {
+    letter-spacing: -0.02em;
+}
+
 .player-card[data-id=M33_NightPasture] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=M22_EcologicalNiche] .player-card-resizable .player-card-inner .card-desc {
     font-size: 16px !important;
@@ -582,6 +578,8 @@ footer {
 .player-card[data-id=M56_PeatCuttingRights] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M58_PeatFertilizer] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M59_NaturesFertilizer] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M105_OpenGrill] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M106_HorseButchery] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:before {
     border-top-right-radius: 15px;
     background-image: url(img/minor_left_corner.png);
@@ -590,10 +588,10 @@ footer {
     bottom: 0;
     content: "";
     display: block;
-    height: 20px;
+    height: 23px;
     left: 0;
     position: absolute;
-    width: 29px;
+    width: 30px;
 }
 
 .player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:after,
@@ -605,10 +603,10 @@ footer {
     bottom: 0;
     content: "";
     display: block;
-    height: 20px;
+    height: 23px;
     position: absolute;
     right: 0;
-    width: 29px;
+    width: 30px;
 }
 
 .player-card[data-id=M53_ForestHut] .card-bottom-right-corner {
@@ -618,9 +616,9 @@ footer {
     background-position: 0% 0%;
     background-size: 100%;
     bottom: 9px;
-    height: 17px;
+    height: 20px;
     right: 14px;
-    width: 17px;
+    width: 20px;
 }
 
 .player-card[data-id=M55_ToolShed] .card-bottom-right-corner {
@@ -630,9 +628,9 @@ footer {
     background-position: 0% 0%;
     background-size: 100%;
     bottom: 9px;
-    height: 17px;
+    height: 20px;
     right: 14px;
-    width: 17px;
+    width: 20px;
 }
 
 .player-card[data-id=M55_ToolShed] .card-bottom-left-corner,
@@ -643,10 +641,10 @@ footer {
     background-position: 0% 0%;
     background-size: 100%;
     bottom: 9px;
-    height: 17px;
+    height: 20px;
     left: 14px;
     position: absolute;
-    width: 17px;
+    width: 20px;
 }
 
 .player-card[data-id=A13_RenovationCompany] .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text,
@@ -800,12 +798,13 @@ footer {
     height: auto;
 }
 
-.player-card[data-id="M31_LivestockMarket"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
+.player-card[data-id=M31_LivestockMarket] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
     overflow-y: unset;
 }
 
-.player-card[data-id="M31_LivestockMarket"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller .agricola-calibriB {
-    font-size: 19px;
+.player-card[data-id=M31_LivestockMarket] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller .agricola-calibriB,
+.player-card[data-id=M81_PeatBoat] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller .agricola-calibriB {
+    font-size: 18px;
 }
 
 .player-card[data-id="M11_PeatCharcoalKiln"] .card-desc:before,
@@ -831,10 +830,10 @@ footer {
     background-position: 0% 0%;
     background-size: 100%;
     bottom: 9px;
-    height: 17px;
+    height: 20px;
     left: 14px;
     position: absolute;
-    width: 17px;
+    width: 20px;
 }
 
 .player-card[data-id="M53_ForestHut"] .card-bottom-left-corner,
@@ -844,10 +843,10 @@ footer {
     background-position: 0% 0%;
     background-size: 100%;
     bottom: 9px;
-    height: 17px;
+    height: 20px;
     left: 14px;
     position: absolute;
-    width: 17px;
+    width: 20px;
 }
 
 .player-card .resource-holder {
@@ -896,10 +895,14 @@ footer {
 
 .player-card[data-cook="true"] .card-desc:before {
     border-top-right-radius: 11px;
+    height: 23px;
+    width: 30px;
 }
 
 .player-card[data-bread="true"] .card-desc:after {
     border-top-left-radius: 11px;
+    height: 23px;
+    width: 30px;
 }
 
 .player-card[data-id="D25_WitchesDanceFloor"][data-cook="true"] .card-desc:before {
@@ -922,7 +925,7 @@ footer {
     width: 44px;
 }
 
-.player-card[data-id="M50_FarmExtension"] .player-card-resizable .player-card-inner .card-numbering {
+.player-card[data-id=M50_FarmExtension] .player-card-resizable .player-card-inner .card-numbering {
     align-items: center;
     background-image: url(img/M050.png);
     background-position: 3px 0;
@@ -940,14 +943,14 @@ footer {
     font-weight: bold;
 }
 
-.player-card[data-id="M50_FarmExtension"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
+.player-card[data-id=M50_FarmExtension] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
     display: block;
     height: 135px;
     font-size: 18px;
 }
 
 
-.player-card[data-id="M50_FarmExtension"] .card-bottom-right-corner {
+.player-card[data-id=M50_FarmExtension] .card-bottom-right-corner {
     position: absolute;
     background-repeat: no-repeat;
     background-image: url(img/M50_FarmExtension.png);
@@ -959,7 +962,7 @@ footer {
     width: 80px;
 }
 
-.player-card[data-id="M51_MoorEnclosures"] .player-card-resizable .player-card-inner .card-numbering {
+.player-card[data-id=M51_MoorEnclosures] .player-card-resizable .player-card-inner .card-numbering {
     align-items: center;
     background-image: url(img/M051.png);
     background-position: 0 0;
@@ -977,7 +980,7 @@ footer {
     font-weight: bold;
 }
 
-.player-card[data-id="M51_MoorEnclosures"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
+.player-card[data-id=M51_MoorEnclosures] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
     display: block;
     height: 133px;
     line-height: 1;
@@ -985,7 +988,7 @@ footer {
 }
 
 
-.player-card[data-id="M51_MoorEnclosures"] .card-bottom-right-corner {
+.player-card[data-id=M51_MoorEnclosures] .card-bottom-right-corner {
     position: absolute;
     background-repeat: no-repeat;
     background-image: url(img/M51_MoorEnclosures.png);
@@ -995,6 +998,45 @@ footer {
     height: 42px;
     right: 33%;
     width: 80px;
+}
+
+.player-card[data-id=M68_Church] .player-card-resizable .card-frame,
+.player-card[data-id=M85_OvenInstallation] .player-card-resizable .card-frame,
+.player-card[data-id=M106_HorseButchery] .player-card-resizable .card-frame,
+.player-card[data-id=M113_LivingHistoryMuseum] .player-card-resizable .card-frame,
+.player-card[data-id=M105_OpenGrill] .player-card-resizable .card-frame {
+    background-image: url(img/card_frame_major_minor.png);
+    background-size: 104%;
+}
+
+.player-card[data-id=M68_Church] .player-card-resizable .card-cost .card-cost-text,
+.player-card[data-id=M85_OvenInstallation] .player-card-resizable .card-cost .card-cost-text,
+.player-card[data-id=M106_HorseButchery] .player-card-resizable .card-cost .card-cost-text,
+.player-card[data-id=M113_LivingHistoryMuseum] .player-card-resizable .card-cost .card-cost-text,
+.player-card[data-id=M105_OpenGrill] .player-card-resizable .card-cost .card-cost-text {
+    background-image: url(img/minor_major_costtext.png);
+    background-position: 34% 0;
+    background-size: 144% auto;
+}
+
+.player-card[data-id=M68_Church] .player-card-resizable .card-category,
+.player-card[data-id=M85_OvenInstallation] .player-card-resizable .card-category,
+.player-card[data-id=M106_HorseButchery] .player-card-resizable .card-category,
+.player-card[data-id=M113_LivingHistoryMuseum] .player-card-resizable .card-category,
+.player-card[data-id=M105_OpenGrill] .player-card-resizable .card-category {
+    filter: invert(85%);
+    left: 73%;
+}
+
+.player-card[data-id=M85_OvenInstallation] .player-card-resizable .card-score,
+.player-card[data-id=M80_AdvancePayment] .player-card-resizable .card-score {
+    background-image: url(img/negativeVP.png);
+    background-position: 0 0;
+    background-size: 100%;
+    color: beige;
+    display: flex;
+    font-size: 26px;
+    overflow: hidden;
 }
 
 /* M系列 */
