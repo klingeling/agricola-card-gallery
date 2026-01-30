@@ -31678,9 +31678,9 @@
         "description": "<div>你每次使用<span class=\"action-card-name-reference\">“犁田”</span>或<span class=\"action-card-name-reference\">“耕种”</span>行动格后，或进行<span class=\"action-card-name-reference\">“刀耕火种”</span>特殊行动后，如果你有至少1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>，你可以额外犁1块田。</div>",
         "mini": false
     },
-    "M42_DeepPlough": {
-        "id": "M42_DeepPlough",
-        "name": "Deep Plough",
+    "M42_DeepPlow": {
+        "id": "M42_DeepPlow",
+        "name": "Deep Plow",
         "state": "0",
         "tooltip": [],
         "deck": "M",
@@ -32127,6 +32127,229 @@
         "bread": false,
         "passing": false,
         "description": "<div>从你供应堆拿取1个家庭成员，放置到一个森林上。一旦你移除该森林，你可以在该轮放置该家庭成员。在该轮的回家阶段，将该家庭成员归还到你的供应堆中。直到那时为止，你都不能将其用于家庭增长(作为新生儿)。</div>",
+        "mini": false
+    },
+    "M54_AgriculturalImplement": {
+        "id": "M54_AgriculturalImplement",
+        "name": "Agricultural Implement",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Whenever you use a person to take the __Plough fields__ action, you can take a special action card immediately afterwards, as long as it has not already been used twice."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "wood": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "BoosterCategory",
+        "numbering": "M054",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“犁田”</span>或<span class=\"action-card-name-reference\">“耕种”</span>行动格后，你可以立即拿取一张正面朝上的特殊行动卡牌。<i>(特殊行动卡牌如常花费0或2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。)</i></div>",
+        "mini": false
+    },
+    "M55_ToolShed": {
+        "id": "M55_ToolShed",
+        "name": "Tool Shed",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Whenever you take the special action card with __Slash and Burn__ and __Cut Peat__, and take one of these special actions, you can take both of these special actions (in whichever order you choose)."
+        ],
+        "vp": 1,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Improvements",
+        "costs": [
+            {
+                "wood": 1,
+                "clay": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "BoosterCategory",
+        "numbering": "M055",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>每轮仅限一次，你执行<span class=\"action-card-name-reference\">“刀耕火种”</span>/<span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动前或后，你还可以立即执行<span class=\"action-card-name-reference\">“切割泥炭”</span>/<span class=\"action-card-name-reference\">“刀耕火种”</span>特殊行动。</div>",
+        "mini": false
+    },
+    "M56_PeatCuttingRights": {
+        "id": "M56_PeatCuttingRights",
+        "name": "Peat-Cutting Rights",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Add 4 and 7 to the current round. Place 1 moor tile on each of the corresponding rounds. These tiles show that you can use the special action __Cut Peat__ at the start of the round."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "1 Horse",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "BoosterCategory",
+        "numbering": "M056",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>将目前的轮数加上4和7并在对应的轮次格上各放置1个燃料。在这些轮开始时，你可以丢弃该燃料并通过拿取对应的特殊行动卡牌来执行<span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动。</div>",
+        "mini": false
+    },
+    "M57_Taps": {
+        "id": "M57_Taps",
+        "name": "Taps",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You can take an available special action card even after you have already placed all your person markers, when it would be your turn again. Then the work phase is over for you."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Improvements",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "BoosterCategory",
+        "numbering": "M057",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>每个工作阶段中，你放置你全部的家庭成员后，当将要再次到你的回合时，你获得正好一个可以拿取一张正面朝上的特殊行动卡牌的回合。<i>(特殊行动卡牌如常花费0或2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。)</i></div>",
+        "mini": false
+    },
+    "M58_PeatFertilizer": {
+        "id": "M58_PeatFertilizer",
+        "name": "Peat Fertilizer",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Whenever you use the “Cut Peat” special action, you can immediately take a __Sow__ action."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Fields",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "BoosterCategory",
+        "numbering": "M058",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>每次你执行<span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动后，你还可以执行一次<span class=\"action-card-name-reference\">“播种”</span>行动。</div>",
+        "mini": false
+    },
+    "M59_NaturesFertilizer": {
+        "id": "M59_NaturesFertilizer",
+        "name": "Nature’s Fertilizer",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Whenever you use the __Slash and Burn__ special action, you immediately receive a __Sow__ action for that field only. This also applies if you turn 1 moor tile into a field using minor improvement."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "food": 2
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "BoosterCategory",
+        "numbering": "M059",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>每次你执行<span class=\"action-card-name-reference\">“刀耕火种”</span>特殊行动后，你还获得一次仅用于新农田的<span class=\"action-card-name-reference\">“播种”</span>行动。这还适用于当你通过次要发展卡牌将1个沼泽交换为1个农田板块时。</div>",
         "mini": false
     },
     "M95_FallowFields": {

@@ -505,9 +505,11 @@ footer {
     left: 30px;
     top: 13px;
 }
+
 .player-card .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
-  padding: 2px 9px 2px 5px;
+    padding: 2px 9px 2px 5px;
 }
+
 .player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container {
     vertical-align: bottom;
 }
@@ -576,6 +578,10 @@ footer {
 
 .player-card[data-id=M41_CattleCollar] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M48_ForestSwamp] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M55_ToolShed] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M56_PeatCuttingRights] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M58_PeatFertilizer] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M59_NaturesFertilizer] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:before {
     border-top-right-radius: 15px;
     background-image: url(img/minor_left_corner.png);
@@ -590,7 +596,8 @@ footer {
     width: 29px;
 }
 
-.player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:after {
+.player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:after,
+.player-card[data-id=M55_ToolShed] .player-card-resizable .player-card-inner .card-desc:after {
     border-top-left-radius: 15px;
     background-image: url(img/minor_right_corner.png);
     background-position: 0 0;
@@ -616,6 +623,20 @@ footer {
     width: 17px;
 }
 
+.player-card[data-id=M55_ToolShed] .card-bottom-right-corner {
+    position: absolute;
+    background-image: url(img/cut_peat.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100%;
+    bottom: 9px;
+    height: 17px;
+    right: 14px;
+    width: 17px;
+}
+
+.player-card[data-id=M55_ToolShed] .card-bottom-left-corner,
+.player-card[data-id=M59_NaturesFertilizer] .card-bottom-left-corner,
 .player-card[data-id=M41_CattleCollar] .card-bottom-left-corner {
     background-image: url(img/slash_and_burn.png);
     background-repeat: no-repeat;
@@ -801,8 +822,10 @@ footer {
     width: 29px;
 }
 
-.player-card[data-id="M11_PeatCharcoalKiln"] .card-bottom-left-corner,
-.player-card[data-id="M48_ForestSwamp"] .card-bottom-left-corner {
+.player-card[data-id=M56_PeatCuttingRights] .card-bottom-left-corner,
+.player-card[data-id=M11_PeatCharcoalKiln] .card-bottom-left-corner,
+.player-card[data-id=M58_PeatFertilizer] .card-bottom-left-corner,
+.player-card[data-id=M48_ForestSwamp] .card-bottom-left-corner {
     background-image: url(img/cut_peat.png);
     background-repeat: no-repeat;
     background-position: 0% 0%;
