@@ -32014,6 +32014,121 @@
         "description": "<div>在你农场版图四边其中之一放置一个扩充农场。扩充农场上的两个新的农场格子都必须与已存在的农场格子相邻。</div>",
         "mini": false
     },
+    "M51_MoorEnclosures": {
+        "id": "M51_MoorEnclosures",
+        "name": "Moor Enclosures",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Place 2 Moor tiles on this card. The card represents 2 additional, normal farmyard spaces. Place it beside your farmyard. Each of the new spaces must border an existing farmyard space. This expands your farm by 2 spaces."
+        ],
+        "vp": 1,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Clay House",
+        "costs": [
+            {
+                "stone": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M051",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>在你农场版图四边其中之一放置一个扩充农场，并在这两个新的农场格子上各放置1个沼泽。扩充农场上的两个新的农场格子都必须与已存在的农场格子相邻。</div>",
+        "mini": false
+    },
+    "M52_WeddingCoach": {
+        "id": "M52_WeddingCoach",
+        "name": "Wedding Coach",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "You can immediately carry out a __family growth even without space in your home__ action, but you do not place a person to take this action. Place the offspring on this card until the returning home phase."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "4 Horses",
+        "costs": [
+            {
+                "wood": 2,
+                "vegetable": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "BoosterCategory",
+        "numbering": "M052",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>当你打出本卡牌时，你可以立即执行一个<span class=\"action-card-name-reference\">“无需空房间的家庭增长”</span>行动，无需放置家庭成员。将新生儿放置在本卡牌上，直到回家阶段。</div>",
+        "mini": false
+    },
+    "M53_ForestHut": {
+        "id": "M53_ForestHut",
+        "name": "Forest Hut",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Immediately place 1 guest marker on one of your forest tiles. You will receive the guest marker when you use a special action to clear that forest tile. Then, in that same round, you can place the guest marker as you would a person. At the end of that round, return the guest marker to the supply."
+        ],
+        "vp": 1,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "wood": 2
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "BoosterCategory",
+        "numbering": "M053",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>从你供应堆拿取1个家庭成员，放置到一个森林上。一旦你移除该森林，你可以在该轮放置该家庭成员。在该轮的回家阶段，将该家庭成员归还到你的供应堆中。直到那时为止，你都不能将其用于家庭增长(作为新生儿)。</div>",
+        "mini": false
+    },
     "M95_FallowFields": {
         "id": "M95_FallowFields",
         "name": "Fallow Fields",

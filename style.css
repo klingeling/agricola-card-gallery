@@ -505,7 +505,9 @@ footer {
     left: 30px;
     top: 13px;
 }
-
+.player-card .player-card-resizable .player-card-inner .card-prerequisite .prerequisite-text {
+  padding: 2px 9px 2px 5px;
+}
 .player-card .player-card-resizable .player-card-inner .card-desc .card-desc-scroller .meeple-container {
     vertical-align: bottom;
 }
@@ -553,6 +555,7 @@ footer {
 .player-card[data-id=C46_Mandoline] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=E38_RodCollection] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=E81_AlchemistsLab] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=M49_SurveyorsMap] .player-card-resizable .player-card-inner .card-desc {
     font-size: 16px !important;
 }
@@ -570,9 +573,11 @@ footer {
     letter-spacing: -0.08em;
 }
 
-.player-card[data-id="M41_CattleCollar"] .player-card-resizable .player-card-inner .card-desc:before,
-.player-card[data-id="M48_ForestSwamp"] .player-card-resizable .player-card-inner .card-desc:before {
-    border-top-right-radius: 16px;
+
+.player-card[data-id=M41_CattleCollar] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M48_ForestSwamp] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:before {
+    border-top-right-radius: 15px;
     background-image: url(img/minor_left_corner.png);
     background-position: 0 0;
     background-size: 100%;
@@ -585,7 +590,33 @@ footer {
     width: 29px;
 }
 
-.player-card[data-id="M41_CattleCollar"] .card-bottom-left-corner {
+.player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:after {
+    border-top-left-radius: 15px;
+    background-image: url(img/minor_right_corner.png);
+    background-position: 0 0;
+    background-size: 100%;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    width: 29px;
+}
+
+.player-card[data-id=M53_ForestHut] .card-bottom-right-corner {
+    position: absolute;
+    background-image: url(img/slash_and_burn.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100%;
+    bottom: 9px;
+    height: 17px;
+    right: 14px;
+    width: 17px;
+}
+
+.player-card[data-id=M41_CattleCollar] .card-bottom-left-corner {
     background-image: url(img/slash_and_burn.png);
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -783,16 +814,17 @@ footer {
     width: 17px;
 }
 
+.player-card[data-id="M53_ForestHut"] .card-bottom-left-corner,
 .player-card[data-id="M12_ForestersLodge"] .card-bottom-left-corner {
     background-image: url(img/fell_trees.png);
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: 100%;
     bottom: 9px;
-    height: 19px;
-    left: 12px;
+    height: 17px;
+    left: 14px;
     position: absolute;
-    width: 19px;
+    width: 17px;
 }
 
 .player-card .resource-holder {
@@ -896,6 +928,44 @@ footer {
     position: absolute;
     background-repeat: no-repeat;
     background-image: url(img/M50_FarmExtension.png);
+    background-position: 0 0;
+    background-size: 100%;
+    bottom: 14px;
+    height: 42px;
+    right: 33%;
+    width: 80px;
+}
+
+.player-card[data-id="M51_MoorEnclosures"] .player-card-resizable .player-card-inner .card-numbering {
+    align-items: center;
+    background-image: url(img/M051.png);
+    background-position: 0 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 19.95px;
+    justify-content: center;
+    left: 3%;
+    position: absolute;
+    text-align: center;
+    top: 86.5px;
+    width: 42.95px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.player-card[data-id="M51_MoorEnclosures"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
+    display: block;
+    height: 133px;
+    line-height: 1;
+    font-size: 16px;
+}
+
+
+.player-card[data-id="M51_MoorEnclosures"] .card-bottom-right-corner {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(img/M51_MoorEnclosures.png);
     background-position: 0 0;
     background-size: 100%;
     bottom: 14px;

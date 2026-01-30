@@ -360,7 +360,6 @@ class CardGallery {
                 <div class="card-title">
                     ${card.name || ''}
                 </div>
-                <div class="card-numbering">${card.numbering || ''}</div>
                 <div class="card-bonus-vp-counter">${card.bonusVp || ''}</div>
                 ${card.players ? `<div class="card-players" data-n="${card.players}"></div>` : ''}
                 ${card.deck ? `<div class="card-deck" data-deck="${card.deck}"></div>` : ''}
@@ -371,6 +370,7 @@ class CardGallery {
                     ${this.formatCardCostHTML(card)}
                 </div>
                 ${prerequisite !== '' ? `<div class="card-prerequisite"><div class="prerequisite-text">${prerequisite}</div></div>` : ''}
+                <div class="card-numbering">${card.numbering || ''}</div>
                 <div class="card-desc">
                     <div class="card-desc-scroller">
                         ${this.formatCardDescription(card)}
