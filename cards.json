@@ -723,7 +723,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "sheep": "1"
+                "sheep": 1
             }
         ],
         "conditionalCost": null,
@@ -761,8 +761,8 @@
         "prerequisite": "Still in Wooden House",
         "costs": [
             {
-                "wood": "2",
-                "reed": "1"
+                "wood": 2,
+                "reed": 1
             }
         ],
         "conditionalCost": null,
@@ -787,7 +787,7 @@
     "A11_MudPatch": {
         "id": "A11_MudPatch",
         "name": "Mud Patch",
-        "state": "11",
+        "state": "0",
         "tooltip": [],
         "deck": "A",
         "players": null,
@@ -823,7 +823,7 @@
     "A12_DrinkingTrough": {
         "id": "A12_DrinkingTrough",
         "name": "Drinking Trough",
-        "state": "11",
+        "state": "0",
         "tooltip": [],
         "deck": "A",
         "players": null,
@@ -861,7 +861,7 @@
     "A13_RenovationCompany": {
         "id": "A13_RenovationCompany",
         "name": "Renovation Company",
-        "state": "11",
+        "state": "0",
         "tooltip": [],
         "deck": "A",
         "players": null,
@@ -912,7 +912,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -1024,7 +1024,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -1138,11 +1138,11 @@
         "prerequisite": "Play in Round 3 (5) or Before",
         "costs": [
             {
-                "grain": "1"
+                "grain": 1
             }
         ],
         "conditionalCost": {
-            "food": "1"
+            "food": 1
         },
         "costText": "",
         "fee": null,
@@ -1252,8 +1252,8 @@
         "prerequisite": "",
         "costs": [
             {
-                "clay": "2",
-                "reed": "1"
+                "clay": 2,
+                "reed": 1
             }
         ],
         "conditionalCost": null,
@@ -1329,8 +1329,8 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1",
-                "reed": "1"
+                "wood": 1,
+                "reed": 1
             }
         ],
         "conditionalCost": null,
@@ -1442,8 +1442,8 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1",
-                "clay": "1"
+                "wood": 1,
+                "clay": 1
             }
         ],
         "conditionalCost": null,
@@ -1667,7 +1667,7 @@
         "prerequisite": "2 Occupations",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -1855,8 +1855,8 @@
         "prerequisite": "2 Occupations",
         "costs": [
             {
-                "wood": "3",
-                "clay": "2"
+                "wood": 3,
+                "clay": 2
             }
         ],
         "conditionalCost": null,
@@ -1930,7 +1930,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -2194,7 +2194,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -2574,7 +2574,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -2690,7 +2690,7 @@
         "prerequisite": "Baking Improvement",
         "costs": [
             {
-                "reed": "1"
+                "reed": 1
             }
         ],
         "conditionalCost": null,
@@ -3034,7 +3034,7 @@
         "prerequisite": "3 Fields",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -5334,7 +5334,7 @@
     "A138_Harpooner": {
         "id": "A138_Harpooner",
         "name": "Harpooner",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "A",
         "players": "3+",
@@ -5730,7 +5730,7 @@
     "A150_Stagehand": {
         "id": "A150_Stagehand",
         "name": "Stagehand",
-        "state": "7",
+        "state": "0",
         "tooltip": [],
         "deck": "A",
         "players": "4+",
@@ -5895,7 +5895,7 @@
     "A155_Conjurer": {
         "id": "A155_Conjurer",
         "name": "Conjurer",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "A",
         "players": "4+",
@@ -6027,7 +6027,7 @@
     "A159_JoineroftheSea": {
         "id": "A159_JoineroftheSea",
         "name": "Joiner of the Sea",
-        "state": "8",
+        "state": "0",
         "tooltip": [],
         "deck": "A",
         "players": "4+",
@@ -6896,7 +6896,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -7010,7 +7010,7 @@
         "prerequisite": "2 Occ., 1 Resource After Payment",
         "costs": [
             {
-                "wood": "2"
+                "wood": 2
             }
         ],
         "conditionalCost": null,
@@ -7124,7 +7124,7 @@
         "prerequisite": "1 Occupation",
         "costs": [
             {
-                "wood": "3"
+                "wood": 3
             }
         ],
         "conditionalCost": null,
@@ -7346,7 +7346,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -7422,7 +7422,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "food": "2"
+                "food": 2
             }
         ],
         "conditionalCost": null,
@@ -7460,7 +7460,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "food": "1"
+                "food": 1
             }
         ],
         "conditionalCost": null,
@@ -7534,7 +7534,7 @@
         "prerequisite": "1 Grain Field",
         "costs": [
             {
-                "clay": "1"
+                "clay": 1
             }
         ],
         "conditionalCost": null,
@@ -9164,7 +9164,7 @@
         "prerequisite": "1 Occupation",
         "costs": [
             {
-                "clay": "1"
+                "clay": 1
             }
         ],
         "conditionalCost": null,
@@ -9392,7 +9392,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -11080,7 +11080,7 @@
     "B132_EstateMaster": {
         "id": "B132_EstateMaster",
         "name": "Estate Master",
-        "state": "8",
+        "state": "0",
         "tooltip": [],
         "deck": "B",
         "players": "3+",
@@ -11410,7 +11410,7 @@
     "B142_Greengrocer": {
         "id": "B142_Greengrocer",
         "name": "Greengrocer",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "B",
         "players": "3+",
@@ -11476,7 +11476,7 @@
     "B144_Collier": {
         "id": "B144_Collier",
         "name": "Collier",
-        "state": "3",
+        "state": "0",
         "tooltip": [],
         "deck": "B",
         "players": "3+",
@@ -11641,7 +11641,7 @@
     "B149_OpenAirFarmer": {
         "id": "B149_OpenAirFarmer",
         "name": "Open Air Farmer",
-        "state": "12",
+        "state": "0",
         "tooltip": [],
         "deck": "B",
         "players": "4+",
@@ -11740,7 +11740,7 @@
     "B152_JuniorArtist": {
         "id": "B152_JuniorArtist",
         "name": "Junior Artist",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "B",
         "players": "4+",
@@ -11872,7 +11872,7 @@
     "B156_StorehouseKeeper": {
         "id": "B156_StorehouseKeeper",
         "name": "Storehouse Keeper",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "B",
         "players": "4+",
@@ -12070,7 +12070,7 @@
     "B162_ForestClearer": {
         "id": "B162_ForestClearer",
         "name": "Forest Clearer",
-        "state": "11",
+        "state": "0",
         "tooltip": [],
         "deck": "B",
         "players": "4+",
@@ -12136,7 +12136,7 @@
     "B164_SheepWhisperer": {
         "id": "B164_SheepWhisperer",
         "name": "Sheep Whisperer",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "B",
         "players": "4+",
@@ -12652,7 +12652,7 @@
         "prerequisite": "2 Major Improvements",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -12950,7 +12950,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "2"
+                "wood": 2
             }
         ],
         "conditionalCost": null,
@@ -12988,7 +12988,7 @@
         "prerequisite": "3 Occupations",
         "costs": [
             {
-                "wood": "3"
+                "wood": 3
             }
         ],
         "conditionalCost": null,
@@ -13103,7 +13103,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "reed": "1"
+                "reed": 1
             }
         ],
         "conditionalCost": null,
@@ -13441,7 +13441,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "2"
+                "wood": 2
             }
         ],
         "conditionalCost": null,
@@ -14129,7 +14129,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -14241,7 +14241,7 @@
         "prerequisite": "Cooking Improvement",
         "costs": [
             {
-                "reed": "1"
+                "reed": 1
             }
         ],
         "conditionalCost": null,
@@ -14279,7 +14279,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "clay": "2"
+                "clay": 2
             }
         ],
         "conditionalCost": null,
@@ -14317,7 +14317,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "stable": "1"
+                "stable": 1
             }
         ],
         "conditionalCost": null,
@@ -14355,8 +14355,8 @@
         "prerequisite": "",
         "costs": [
             {
-                "clay": "1",
-                "reed": "1"
+                "clay": 1,
+                "reed": 1
             }
         ],
         "conditionalCost": null,
@@ -14543,7 +14543,7 @@
         "prerequisite": "Return the Clay/Stone Oven",
         "costs": [
             {
-                "clay": "2"
+                "clay": 2
             }
         ],
         "conditionalCost": null,
@@ -14619,7 +14619,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "clay": "2"
+                "clay": 2
             }
         ],
         "conditionalCost": null,
@@ -14657,8 +14657,8 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "2",
-                "clay": "1"
+                "wood": 2,
+                "clay": 1
             }
         ],
         "conditionalCost": null,
@@ -16863,7 +16863,7 @@
     "C127_Lover": {
         "id": "C127_Lover",
         "name": "Lover",
-        "state": "5",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "3+",
@@ -16896,7 +16896,7 @@
     "C128_WoodenHutExtender": {
         "id": "C128_WoodenHutExtender",
         "name": "Wooden Hut Extender",
-        "state": "4",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "3+",
@@ -16995,7 +16995,7 @@
     "C131_PrivateTeacher": {
         "id": "C131_PrivateTeacher",
         "name": "Private Teacher",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "3+",
@@ -17127,7 +17127,7 @@
     "C135_Constable": {
         "id": "C135_Constable",
         "name": "Constable",
-        "state": "5",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "3+",
@@ -17160,7 +17160,7 @@
     "C136_RanchProvost": {
         "id": "C136_RanchProvost",
         "name": "Ranch Provost",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "3+",
@@ -17259,7 +17259,7 @@
     "C139_BasketmakersWife": {
         "id": "C139_BasketmakersWife",
         "name": "Basketmaker's Wife",
-        "state": "5",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "3+",
@@ -17325,7 +17325,7 @@
     "C141_SheepProvider": {
         "id": "C141_SheepProvider",
         "name": "Sheep Provider",
-        "state": "3",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "3+",
@@ -17457,7 +17457,7 @@
     "C145_ForestReviewer": {
         "id": "C145_ForestReviewer",
         "name": "Forest Reviewer",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "3+",
@@ -17556,7 +17556,7 @@
     "C148_MudWallower": {
         "id": "C148_MudWallower",
         "name": "Mud Wallower",
-        "state": "9",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "4+",
@@ -17985,7 +17985,7 @@
     "C161_PotatoDigger": {
         "id": "C161_PotatoDigger",
         "name": "Potato Digger",
-        "state": "7",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "4+",
@@ -18018,7 +18018,7 @@
     "C162_ForestOwner": {
         "id": "C162_ForestOwner",
         "name": "Forest Owner",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "4+",
@@ -18117,7 +18117,7 @@
     "C165_GameCatcher": {
         "id": "C165_GameCatcher",
         "name": "Game Catcher",
-        "state": "8",
+        "state": "0",
         "tooltip": [],
         "deck": "C",
         "players": "4+",
@@ -18262,7 +18262,7 @@
         "prerequisite": "3 Fields in an \\\"L\\\" Shape",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -18748,7 +18748,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -18863,7 +18863,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -18940,7 +18940,7 @@
         "prerequisite": "1 Occupation",
         "costs": [
             {
-                "wood": "2"
+                "wood": 2
             }
         ],
         "conditionalCost": null,
@@ -19236,7 +19236,7 @@
         "prerequisite": "1 Occupation",
         "costs": [
             {
-                "food": "1"
+                "food": 1
             }
         ],
         "conditionalCost": null,
@@ -19350,7 +19350,7 @@
         "prerequisite": "3 Occupations",
         "costs": [
             {
-                "stone": "1"
+                "stone": 1
             }
         ],
         "conditionalCost": null,
@@ -19465,8 +19465,8 @@
         "prerequisite": "Still in Wooden House",
         "costs": [
             {
-                "wood": "3",
-                "stone": "1"
+                "wood": 3,
+                "stone": 1
             }
         ],
         "conditionalCost": null,
@@ -20338,7 +20338,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "wood": "1"
+                "wood": 1
             }
         ],
         "conditionalCost": null,
@@ -20496,8 +20496,8 @@
         "prerequisite": "Return the Pottery",
         "costs": [
             {
-                "clay": "1",
-                "stone": "1"
+                "clay": 1,
+                "stone": 1
             }
         ],
         "conditionalCost": null,
@@ -21015,7 +21015,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "food": "1"
+                "food": 1
             }
         ],
         "conditionalCost": null,
@@ -23302,7 +23302,7 @@
     "D142_PotatoPlanter": {
         "id": "D142_PotatoPlanter",
         "name": "Potato Planter",
-        "state": "7",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "3+",
@@ -23467,7 +23467,7 @@
     "D147_TrapBuilder": {
         "id": "D147_TrapBuilder",
         "name": "Trap Builder",
-        "state": "3",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "3+",
@@ -23500,7 +23500,7 @@
     "D148_DomesticianExpert": {
         "id": "D148_DomesticianExpert",
         "name": "Domestician Expert",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "4+",
@@ -23533,7 +23533,7 @@
     "D149_CasualWorker": {
         "id": "D149_CasualWorker",
         "name": "Casual Worker",
-        "state": "4",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "4+",
@@ -23599,7 +23599,7 @@
     "D151_SpinDoctor": {
         "id": "D151_SpinDoctor",
         "name": "Spin Doctor",
-        "state": "3",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "4+",
@@ -23830,7 +23830,7 @@
     "D158_BeanCounter": {
         "id": "D158_BeanCounter",
         "name": "Bean Counter",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "4+",
@@ -23863,7 +23863,7 @@
     "D159_ReedSeller": {
         "id": "D159_ReedSeller",
         "name": "Reed Seller",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "4+",
@@ -23896,7 +23896,7 @@
     "D160_Midwife": {
         "id": "D160_Midwife",
         "name": "Midwife",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "4+",
@@ -23929,7 +23929,7 @@
     "D161_CabbageBuyer": {
         "id": "D161_CabbageBuyer",
         "name": "Cabbage Buyer",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "D",
         "players": "4+",
@@ -26535,7 +26535,7 @@
         "prerequisite": "",
         "costs": [
             {
-                "stone": "3"
+                "stone": 3
             }
         ],
         "conditionalCost": null,
@@ -28821,7 +28821,7 @@
     "E130_Overachiever": {
         "id": "E130_Overachiever",
         "name": "Overachiever",
-        "state": "4",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "3+",
@@ -28989,7 +28989,7 @@
     "E135_Pickler": {
         "id": "E135_Pickler",
         "name": "Pickler",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "3+",
@@ -29187,7 +29187,7 @@
     "E141_VegetableVendor": {
         "id": "E141_VegetableVendor",
         "name": "Vegetable Vendor",
-        "state": "6",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "3+",
@@ -29388,7 +29388,7 @@
     "E147_AnimalDriver": {
         "id": "E147_AnimalDriver",
         "name": "Animal Driver",
-        "state": "10",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "3+",
@@ -29421,7 +29421,7 @@
     "E148_Lazybones": {
         "id": "E148_Lazybones",
         "name": "Lazybones",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "4+",
@@ -29454,7 +29454,7 @@
     "E149_MidnightFencer": {
         "id": "E149_MidnightFencer",
         "name": "Midnight Fencer",
-        "state": "9",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "4+",
@@ -29685,7 +29685,7 @@
     "E156_ClaypitOwner": {
         "id": "E156_ClaypitOwner",
         "name": "Claypit Owner",
-        "state": "1",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "4+",
@@ -29718,7 +29718,7 @@
     "E157_Usufructuary": {
         "id": "E157_Usufructuary",
         "name": "Usufructuary",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "4+",
@@ -29784,7 +29784,7 @@
     "E159_OldMiser": {
         "id": "E159_OldMiser",
         "name": "Old Miser",
-        "state": "4",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "4+",
@@ -29916,7 +29916,7 @@
     "E163_Patroness": {
         "id": "E163_Patroness",
         "name": "Patroness",
-        "state": "2",
+        "state": "0",
         "tooltip": [],
         "deck": "E",
         "players": "4+",
@@ -31826,6 +31826,192 @@
         "bread": false,
         "passing": false,
         "description": "<div>在第12和第13轮的轮次格上各放置1个森林。在这些轮开始时，你可以将该森林放在一个未使用的农场格子上。</div>",
+        "mini": false
+    },
+    "M46_Thicket": {
+        "id": "M46_Thicket",
+        "name": "Thicket",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Choose up to 2 forest tiles, and place 1 additional forest tile on top of each of them. You can remove 1 tile with the __Fell Trees__ special action—you cannot use the __Slash and Burn__ action on spaces with 2 forest tiles."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "4 Forests",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M046",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>选择至多2个你的森林，在它们上面各放置额外1个森林。你不能在这些农场格子上进行<span class=\"action-card-name-reference\">“刀耕火种”</span>特殊行动，除非你先用<span class=\"action-card-name-reference\">“伐木”</span>特殊行动移除上面的一个板块。</div>",
+        "mini": false
+    },
+    "M47_BogForest": {
+        "id": "M47_BogForest",
+        "name": "Bog Forest",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "mmediately place 1 forest tile on as many of your own moor tiles as you wish. You can only use the covered moor tiles once you have removed the forest tiles with the __Fell Trees__ special action. You cannot use __Slash and Burn__ on forest tiles that are on top of moor tiles."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "3 Improvements",
+        "costs": [
+            {
+                "food": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M047",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>在你任意个沼泽上各放置1个森林。你不能在这些农场格子上进行<span class=\"action-card-name-reference\">“刀耕火种”</span>特殊行动或使用这些农场格子上覆盖的沼泽，除非你先用<span class=\"action-card-name-reference\">“伐木”</span>特殊行动移除上面的森林。</div>",
+        "mini": false
+    },
+    "M48_ForestSwamp": {
+        "id": "M48_ForestSwamp",
+        "name": "Forest Swamp",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Whenever you use the __Cut Peat__ special action, turn over the moor tile that you remove. Add 4 to the current round and place the tile on the corresponding round space. At the start of the round, you can place the forest tile on an empty space in your farmyard."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "2 Major Improvements",
+        "costs": [
+            []
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M048",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>你每次进行<span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动时，将目前的轮数加上4，在该轮的轮次格放1个森林。在该轮开始时，你可以将该森林放在一个未使用的农场格子上。</div>",
+        "mini": false
+    },
+    "M49_SurveyorsMap": {
+        "id": "M49_SurveyorsMap",
+        "name": "Surveyor’s Map",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "Place a field tile on the space for round 11, a moor tile on round 12, and a forest tile on round 13. At the start of the rounds, you must either place the tile on an empty space in your farm or return it to the supply."
+        ],
+        "vp": 0,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "Play in Round 2 or Before",
+        "costs": [
+            {
+                "food": 2
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M049",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>在第11轮的轮次格上放置一个农田板块，在第12轮的轮次格上放置一个沼泽，在第13轮的轮次格上放置一个森林。在这些轮开始时，你可以将对应的板块放在一个未使用的农场格子上<i>(按照正常规则)</i>。</div>",
+        "mini": false
+    },
+    "M50_FarmExtension": {
+        "id": "M50_FarmExtension",
+        "name": "Farm Extension",
+        "state": "0",
+        "tooltip": [],
+        "deck": "M",
+        "players": null,
+        "desc": [
+            "This card gives you 2 additional spaces which you can use as normal farmyard spaces. Place it beside your farmyard. Each of the new spaces must border an existing farmyard space. This expands your famyard by 2 spaces."
+        ],
+        "vp": 1,
+        "extraVp": false,
+        "bonusVp": "",
+        "prerequisite": "",
+        "costs": [
+            {
+                "clay": 1
+            }
+        ],
+        "conditionalCost": null,
+        "costText": "",
+        "fee": null,
+        "type": "minor",
+        "category": "FarmCategory",
+        "numbering": "M050",
+        "holder": false,
+        "animalHolder": false,
+        "field": false,
+        "actionCard": false,
+        "stats": [],
+        "infobox": null,
+        "marked": false,
+        "cook": false,
+        "bread": false,
+        "passing": false,
+        "description": "<div>在你农场版图四边其中之一放置一个扩充农场。扩充农场上的两个新的农场格子都必须与已存在的农场格子相邻。</div>",
         "mini": false
     },
     "M95_FallowFields": {

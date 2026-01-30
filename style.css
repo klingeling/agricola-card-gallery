@@ -460,6 +460,10 @@ footer {
     letter-spacing: -0.08em;
 }
 
+.player-card .player-card-resizable {
+    transform-origin: top center;
+}
+
 .player-card[data-id=A21_FamilyFriendHome] .player-card-resizable .player-card-inner .card-title {
     font-size: 21px;
 }
@@ -548,7 +552,8 @@ footer {
 .player-card[data-id=C22_BasketChair] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=C46_Mandoline] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=E38_RodCollection] .player-card-resizable .player-card-inner .card-desc,
-.player-card[data-id=E81_AlchemistsLab] .player-card-resizable .player-card-inner .card-desc {
+.player-card[data-id=E81_AlchemistsLab] .player-card-resizable .player-card-inner .card-desc,
+.player-card[data-id=M49_SurveyorsMap] .player-card-resizable .player-card-inner .card-desc {
     font-size: 16px !important;
 }
 
@@ -565,7 +570,8 @@ footer {
     letter-spacing: -0.08em;
 }
 
-.player-card[data-id="M41_CattleCollar"] .player-card-resizable .player-card-inner .card-desc:before {
+.player-card[data-id="M41_CattleCollar"] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id="M48_ForestSwamp"] .player-card-resizable .player-card-inner .card-desc:before {
     border-top-right-radius: 16px;
     background-image: url(img/minor_left_corner.png);
     background-position: 0 0;
@@ -764,16 +770,17 @@ footer {
     width: 29px;
 }
 
-.player-card[data-id="M11_PeatCharcoalKiln"] .card-bottom-left-corner {
+.player-card[data-id="M11_PeatCharcoalKiln"] .card-bottom-left-corner,
+.player-card[data-id="M48_ForestSwamp"] .card-bottom-left-corner {
     background-image: url(img/cut_peat.png);
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: 100%;
     bottom: 9px;
-    height: 19px;
-    left: 12px;
+    height: 17px;
+    left: 14px;
     position: absolute;
-    width: 19px;
+    width: 17px;
 }
 
 .player-card[data-id="M12_ForestersLodge"] .card-bottom-left-corner {
@@ -860,6 +867,44 @@ footer {
     width: 44px;
 }
 
+.player-card[data-id="M50_FarmExtension"] .player-card-resizable .player-card-inner .card-numbering {
+    align-items: center;
+    background-image: url(img/M050.png);
+    background-position: 3px 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 31.95px;
+    justify-content: center;
+    left: 1%;
+    position: absolute;
+    text-align: center;
+    top: 76.5px;
+    width: 52.95px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.player-card[data-id="M50_FarmExtension"] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller {
+    display: block;
+    height: 135px;
+    font-size: 18px;
+}
+
+
+.player-card[data-id="M50_FarmExtension"] .card-bottom-right-corner {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-image: url(img/M50_FarmExtension.png);
+    background-position: 0 0;
+    background-size: 100%;
+    bottom: 14px;
+    height: 42px;
+    right: 33%;
+    width: 80px;
+}
+
+/* M系列 */
 .player-card.major[data-id="M1_HorseSlaughterhouse1"] .card-icon {
     position: absolute;
     clip-path: none;
@@ -1263,4 +1308,112 @@ footer {
     left: 39.5px;
     top: 50.35px;
     width: 158.25px;
+}
+
+.player-card.minor[data-id="M33_NightPasture"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M033.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 168px;
+    left: 34.7px;
+    top: 49.95px;
+    width: 164.65px;
+}
+
+.player-card.minor[data-id="M34_HomeWood"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M034.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0.1deg);
+    height: 165.1px;
+    left: 36.9px;
+    top: 50.45px;
+    width: 160.25px;
+}
+
+.player-card.minor[data-id="M35_HorseTrough"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M035.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 167.4px;
+    left: 36.5px;
+    top: 49.45px;
+    width: 164.05px;
+}
+
+.player-card.minor[data-id="M36_PeatMoss"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M036.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 171.1px;
+    left: 33px;
+    top: 48.15px;
+    width: 167.35px;
+}
+
+.player-card.minor[data-id="M37_BuildingPlan"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M037.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(-0.4deg);
+    height: 178.1px;
+    left: 30.2px;
+    top: 43.05px;
+    width: 173.55px;
+}
+
+.player-card.minor[data-id="M38_NatureReserve"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M038.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 167.1px;
+    left: 36.3px;
+    top: 48.45px;
+    width: 163.65px;
+}
+
+.player-card.minor[data-id="M39_SpecialPasture"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M039.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0.3deg);
+    height: 171.4px;
+    left: 33.7px;
+    top: 46.65px;
+    width: 167.95px;
+}
+
+.player-card.minor[data-id="M40_Moorfire"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M040.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 179.5px;
+    left: 28.4px;
+    top: 38.75px;
+    width: 176.65px;
+}
+
+.player-card.minor[data-id="M41_CattleCollar"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M041.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 169.1px;
+    left: 34.7px;
+    top: 48.15px;
+    width: 166.25px;
 }
