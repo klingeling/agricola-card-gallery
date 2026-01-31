@@ -533,7 +533,7 @@ html {
   display: flex;
   flex-flow: column;
   /* height: 142.2925px; */
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 .player-card .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller>div {

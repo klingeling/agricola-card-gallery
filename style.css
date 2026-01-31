@@ -526,10 +526,6 @@ footer {
     visibility: hidden;
 }
 
-.player-card[data-id=C103_GreenGrocer] .player-card-resizable .player-card-inner .card-desc .card-desc-scroller div b {
-    font-family: CalibriB;
-}
-
 .player-card .player-card-resizable .player-card-inner .card-desc {
     font-family: "AgricolaCustomTemp";
     font-size: 19px !important;
@@ -547,6 +543,7 @@ footer {
     font-size: 16px !important;
 }
 
+.player-card[data-id=M106_HorseButchery] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=M75_FuelStorage] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=M78_Barge] .player-card-resizable .player-card-inner .card-desc,
 .player-card[data-id=M83_CoalSeam] .player-card-resizable .player-card-inner .card-desc,
@@ -736,7 +733,7 @@ footer {
     background-image: url(img/horse.png);
     background-position: 100% 100%;
     background-size: contain;
-    height: 1.2em;
+    height: 1.0em;
     width: 1.5em;
 }
 
@@ -760,6 +757,7 @@ footer {
     font-family: CalibriB;
     font-size: 20px;
     font-weight: bolder;
+    white-space: nowrap;
 }
 
 .agricola-meeple.meeple-arrow-1x {
@@ -802,6 +800,7 @@ footer {
     overflow-y: unset;
 }
 
+.player-card[data-id=M101_ButchersBlock] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller .agricola-calibriB,
 .player-card[data-id=M31_LivestockMarket] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller .agricola-calibriB,
 .player-card[data-id=M81_PeatBoat] .player-card-resizable .player-card-inner .card-desc div.card-desc-scroller .agricola-calibriB {
     font-size: 18px;
@@ -1037,6 +1036,33 @@ footer {
     display: flex;
     font-size: 26px;
     overflow: hidden;
+}
+
+
+.player-card .player-card-resizable .player-card-inner .card-desc .agricola-leftmerge .meeple-container {
+    margin-right: 0.08em;
+    margin-left: -0.35em;
+}
+
+.player-card[data-id=M106_HorseButchery] .player-card-resizable .player-card-inner .card-desc .agricola-leftmerge {
+    margin-right: 0.08em;
+    margin-left: -0.85em;
+}
+
+
+.player-card .player-card-resizable .player-card-inner .card-desc .agricola-rightmerge .meeple-container {
+    margin-right: -0.35em;
+    margin-left: 0.08em;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-desc .agricola-leftmerge {
+    margin-right: 0.08em;
+    margin-left: -0.35em;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-desc .agricola-rightmerge {
+    margin-right: -0.35em;
+    margin-left: 0.08em;
 }
 
 /* M系列 */
