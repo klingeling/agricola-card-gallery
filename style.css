@@ -568,6 +568,9 @@ footer {
     letter-spacing: -0.08em;
 }
 
+.player-card[data-id=M113_LivingHistoryMuseum] .player-card-resizable .player-card-inner .card-desc .agricola-LivingHistoryMuseum {
+    font-size: 9px !important;
+}
 
 .player-card[data-id=M41_CattleCollar] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M48_ForestSwamp] .player-card-resizable .player-card-inner .card-desc:before,

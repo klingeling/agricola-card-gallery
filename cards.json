@@ -30635,7 +30635,7 @@
         "marked": false,
         "cook": false,
         "bread": false,
-        "description": "<div><span class=\"text\">这些主要发展少花费你1个建造资源：</span></div><div>井<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div> 砖土烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div><div>木工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div> 石造烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div></div><div>陶器工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div> 护理员屋<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div><div>制篮工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div></div>",
+        "description": "<div><span class=\"text\">这些主要发展少花费你1个建造资源：</span></div><div>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;井<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div><span>砖土烤炉</span><span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div><div>&ensp;&ensp;木工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>石造烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div></div><div>陶器工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>护理员屋<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div><div><span>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</span>制篮工坊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div></div>",
         "mini": false
     },
     "M14_RidingStables": {
@@ -34155,7 +34155,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>在任何时候，你可以使用你的<span class=\"action-card-name-reference\">“火炉”</span>和<span class=\"action-card-name-reference\">“灶台”</span>主要发展来将1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>转化成2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div><br><div class=\"agricola-calibriB\"><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div><div class=\"meeple-container agricola-rightmerge\"><div class=\"agricola-meeple meeple-food\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div>",
         "mini": false
     },
     "M108_GrainDistillery": {
@@ -34194,7 +34194,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div><span class=\"text\">收成：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div><div class=\"meeple-container agricola-leftmerge\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow-1x\"></div></div>5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div></div><div><span class=\"text\">游戏结束计分时任意次数：</span></div><div class=\"agricola-calibriB\">1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div><div class=\"meeple-container agricola-leftmerge\"><div class=\"agricola-meeple meeple-grain\"></div></div><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-arrow\"></div></div>1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-score\"></div></div></div>",
         "mini": false
     },
     "M109_Malthouse": {
@@ -34232,7 +34232,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>每次你执行<span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动时，你还可以将正好1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>转化成4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "M110_FarmCart": {
@@ -34270,7 +34270,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>每次你从一个累积格拿取至少5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>、3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>或2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>时，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>。</div>",
         "mini": false
     },
     "M111_NoTillFarming": {
@@ -34306,7 +34306,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>你可以在至多2个未使用的农场格子上种植<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>或<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>。即使你这么做，这些农场格子依然不视为农田，且依然视为未使用。在任何时候，你都可以丢弃这些农场格子上的作物。</div>",
         "mini": false
     },
     "M112_PeatAshFertilizer": {
@@ -34344,7 +34344,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>每次你执行<span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动前，你可以在所有含有<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>或<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>的农田和农场格子上，各放置额外1个相同类型的作物。<i>(不要在闲置的农田和农场格子上放置任何作物。)</i></div>",
         "mini": false
     },
     "M113_LivingHistoryMuseum": {
@@ -34380,7 +34380,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div><span class=\"text\">这些主要发展少花费<br>你1个建造资源：</span></div><div>供暖烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>乡村教堂<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div></div><div>垒砖烤炉<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>&ensp;家具摊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div></div><div>&ensp;&ensp;跑马场<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>&ensp;&ensp;&ensp;篮摊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div></div><div><span class=\"agricola-LivingHistoryMuseum\"><i>(*它起始位于泥木炭窑底下。)</i></span>&ensp;陶器摊<span class=\"agricola-calibriB\">1</span><div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div></div>",
         "mini": false
     },
     "M114_RiversideWoods": {
@@ -34416,7 +34416,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>有了这张卡牌，每次你使用<span class=\"action-card-name-reference\">“钓鱼”</span>累积格时，你每拥有一个含有至少1个森林的农场格子，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>，至多获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
         "mini": false
     },
     "M115_OakBark": {
@@ -34454,7 +34454,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>当你打出本卡牌时，你立即获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。每次你将<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-pig\"></div></div>、<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-cattle\"></div></div>、<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>转化成<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>时，你每转化一个动物，你额外获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
         "mini": false
     },
     "M116_MoorBirchTrees": {
@@ -34492,7 +34492,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>每次你执行<span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动时，你还获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
         "mini": false
     },
     "M117_Draughthorses": {
@@ -34528,7 +34528,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>每次你从一个累积格拿取正好3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>/至少4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>时，如果你拥有至少1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>，你可以支付正好1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>来额外获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>/2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
         "mini": false
     },
     "M118_TimberMill": {
@@ -34567,7 +34567,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>每次你执行<span class=\"action-card-name-reference\">“伐木”</span>特殊行动或从一个累积格拿取至少4<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>时，你额外获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。如果你支付1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>，你改为额外获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>，而不是1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>。</div>",
         "mini": false
     },
     "M119_AlderSwamp": {
@@ -34605,7 +34605,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“伐木”</span>特殊<br>行动时，你还任选<br>获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>或1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。</div>",
         "mini": false
     },
     "M120_RiverClay": {
@@ -34641,7 +34641,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“钓鱼”</span>累积格时，你还获得2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。</div>",
         "mini": false
     },
     "M121_Loam": {
@@ -34677,7 +34677,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>每个工作阶段中，当你执行<span class=\"action-card-name-reference\">“劳务市场”</span>特殊行动时，如果你只有1名家庭成员尚未放置，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>。</div>",
         "mini": false
     },
     "M122_WillowBank": {
@@ -34713,7 +34713,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>每次你执行<span class=\"action-card-name-reference\">“伐木”</span>特殊行动时，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。</div>",
         "mini": false
     },
     "M123_StoneQuarry": {
@@ -34751,7 +34751,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>在本卡牌上放置5<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>(3人游戏中仅放置3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>)。每次你执行<span class=\"action-card-name-reference\">“劳务市场”</span>特殊行动时，你还从本卡牌获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。</div>",
         "mini": false
     },
     "M124_StoneWagon": {
@@ -34789,7 +34789,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“临时工”</span>行动格时，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>。</div>",
         "mini": false
     },
     "M125_HardwareStore": {
@@ -34828,7 +34828,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>在本卡牌上放置3个“使用”标志。在任何时候，你都可以归还本卡牌上的1个“使用”标志，来获得你供应堆中没有的每种建造资源各1个。</div>",
         "mini": false
     },
     "M126_CooperativeStore": {
@@ -34867,7 +34867,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>在本卡牌上放置4个“使用”标志。在任何时候，你都可以归还本卡牌上的1个“使用”标志以及1个任选建造资源，以获得1个任意其他建造资源(<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-stone\"></div></div>除外)。</div>",
         "mini": false
     },
     "M127_Wheelbarrow": {
@@ -34905,7 +34905,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>你每次从一个累积格中拿取至少4个相同建造资源时，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-fuel\"></div></div>。你每次执行<span class=\"action-card-name-reference\">“切割泥炭”</span>特殊行动时，你还任选获得1个建造资源。</div>",
         "mini": false
     },
     "M128_Workbench": {
@@ -34943,7 +34943,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>在第13轮和第14轮结束时的收成的收割步骤中，你获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-wood\"></div></div>、2<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-clay\"></div></div>和1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-reed\"></div></div>。<i>(你可以使用这些来赚取奖励分数，例如从木工坊、陶器工坊或制篮工坊。)</i></div>",
         "mini": false
     },
     "M129_PlowhorseMarket": {
@@ -34981,7 +34981,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“犁田”</span>或<span class=\"action-card-name-reference\">“耕种”</span>行动格时，你还可以<br>用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买正好1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>。</div>",
         "mini": false
     },
     "M130_Nosebag": {
@@ -35019,7 +35019,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>你每次使用<span class=\"action-card-name-reference\">“谷物种子”</span>行动格时，你还获得1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-horse\"></div></div>。</div>",
         "mini": false
     },
     "M131_CattleStall": {
@@ -35058,7 +35058,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div></div>",
+        "description": "<div>将目前的轮数加上2、4、6和8，在这些轮的轮次格各放置1个任意动物。这些动物必须各不相同。在这些轮开始时，你可以用1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>购买该轮格子上的动物。</div>",
         "mini": false
     }
 }
