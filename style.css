@@ -572,15 +572,30 @@ footer {
     font-size: 9px !important;
 }
 
+.player-card[data-id=M105_OpenGrill] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M106_HorseButchery] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M109_Malthouse] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M112_PeatAshFertilizer] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M116_MoorBirchTrees] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M118_TimberMill] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M119_AlderSwamp] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M121_Loam] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M122_WillowBank] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M123_StoneQuarry] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M127_Wheelbarrow] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M41_CattleCollar] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M48_ForestSwamp] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M55_ToolShed] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M56_PeatCuttingRights] .player-card-resizable .player-card-inner .card-desc:before,
 .player-card[data-id=M58_PeatFertilizer] .player-card-resizable .player-card-inner .card-desc:before,
-.player-card[data-id=M59_NaturesFertilizer] .player-card-resizable .player-card-inner .card-desc:before,
-.player-card[data-id=M105_OpenGrill] .player-card-resizable .player-card-inner .card-desc:before,
-.player-card[data-id=M106_HorseButchery] .player-card-resizable .player-card-inner .card-desc:before,
-.player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:before {
+.player-card[data-id=M68_Church] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M70_MoorArchaeology] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M77_DryingField] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M83_CoalSeam] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M92_AridField] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M96_FallowLand] .player-card-resizable .player-card-inner .card-desc:before,
+.player-card[data-id=M59_NaturesFertilizer] .player-card-resizable .player-card-inner .card-desc:before {
     border-top-right-radius: 15px;
     background-image: url(img/minor_left_corner.png);
     background-position: 0 0;
@@ -594,6 +609,7 @@ footer {
     width: 30px;
 }
 
+.player-card[data-id=M96_FallowLand] .player-card-resizable .player-card-inner .card-desc:after,
 .player-card[data-id=M53_ForestHut] .player-card-resizable .player-card-inner .card-desc:after,
 .player-card[data-id=M55_ToolShed] .player-card-resizable .player-card-inner .card-desc:after {
     border-top-left-radius: 15px;
@@ -621,6 +637,7 @@ footer {
     width: 20px;
 }
 
+.player-card[data-id=M96_FallowLand] .card-bottom-right-corner,
 .player-card[data-id=M55_ToolShed] .card-bottom-right-corner {
     position: absolute;
     background-image: url(img/cut_peat.png);
@@ -823,10 +840,18 @@ footer {
     width: 29px;
 }
 
-.player-card[data-id=M56_PeatCuttingRights] .card-bottom-left-corner,
+.player-card[data-id=M109_Malthouse] .card-bottom-left-corner,
 .player-card[data-id=M11_PeatCharcoalKiln] .card-bottom-left-corner,
+.player-card[data-id=M112_PeatAshFertilizer] .card-bottom-left-corner,
+.player-card[data-id=M116_MoorBirchTrees] .card-bottom-left-corner,
+.player-card[data-id=M127_Wheelbarrow] .card-bottom-left-corner,
+.player-card[data-id=M48_ForestSwamp] .card-bottom-left-corner,
+.player-card[data-id=M56_PeatCuttingRights] .card-bottom-left-corner,
 .player-card[data-id=M58_PeatFertilizer] .card-bottom-left-corner,
-.player-card[data-id=M48_ForestSwamp] .card-bottom-left-corner {
+.player-card[data-id=M68_Church] .card-bottom-left-corner,
+.player-card[data-id=M70_MoorArchaeology] .card-bottom-left-corner,
+.player-card[data-id=M77_DryingField] .card-bottom-left-corner,
+.player-card[data-id=M92_AridField] .card-bottom-left-corner {
     background-image: url(img/cut_peat.png);
     background-repeat: no-repeat;
     background-position: 0% 0%;
@@ -838,7 +863,25 @@ footer {
     width: 20px;
 }
 
+.player-card[data-id=M83_CoalSeam] .card-bottom-left-corner,
+.player-card[data-id=M121_Loam] .card-bottom-left-corner,
+.player-card[data-id=M123_StoneQuarry] .card-bottom-left-corner {
+    background-image: url(img/hiring_fair.png);
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100%;
+    bottom: 9px;
+    height: 20px;
+    left: 14px;
+    position: absolute;
+    width: 20px;
+}
+
 .player-card[data-id="M53_ForestHut"] .card-bottom-left-corner,
+.player-card[data-id="M96_FallowLand"] .card-bottom-left-corner,
+.player-card[data-id="M118_TimberMill"] .card-bottom-left-corner,
+.player-card[data-id="M119_AlderSwamp"] .card-bottom-left-corner,
+.player-card[data-id="M122_WillowBank"] .card-bottom-left-corner,
 .player-card[data-id="M12_ForestersLodge"] .card-bottom-left-corner {
     background-image: url(img/fell_trees.png);
     background-repeat: no-repeat;
@@ -1580,4 +1623,220 @@ footer {
     left: 34.7px;
     top: 48.15px;
     width: 166.25px;
+}
+
+.player-card.minor[data-id="M42_DeepPlow"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M042.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 169.1px;
+    left: 35.7px;
+    top: 49.15px;
+    width: 165.25px;
+}
+
+.player-card.minor[data-id="M43_Wildfields"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M043.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 176.1px;
+    left: 31.7px;
+    top: 42.15px;
+    width: 172.25px;
+}
+
+.player-card.minor[data-id="M44_Swamp"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M044.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 171.1px;
+    left: 34.7px;
+    top: 43.15px;
+    width: 167.25px;
+}
+
+.player-card.minor[data-id="M45_TreeNursery"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M045.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(-0.3deg);
+    height: 174.1px;
+    left: 30.7px;
+    top: 45.15px;
+    width: 170.25px;
+}
+
+.player-card.minor[data-id="M46_Thicket"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M046.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(-0.3deg);
+    height: 181.1px;
+    left: 30.7px;
+    top: 41.15px;
+    width: 176.15px;
+}
+
+.player-card.minor[data-id="M47_BogForest"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M047.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 175.1px;
+    left: 31.7px;
+    top: 44.15px;
+    width: 173.25px;
+}
+
+.player-card.minor[data-id="M48_ForestSwamp"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M048.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 179.1px;
+    left: 30.7px;
+    top: 42.15px;
+    width: 175.25px;
+}
+
+.player-card.minor[data-id="M49_SurveyorsMap"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M049.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(-0.4deg);
+    height: 178.1px;
+    left: 30px;
+    top: 42.85px;
+    width: 173.75px;
+}
+
+.player-card.minor[data-id="M50_FarmExtension"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M050.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 172.1px;
+    left: 33.7px;
+    top: 46.15px;
+    width: 168.25px;
+}
+
+.player-card.minor[data-id="M51_MoorEnclosures"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M051.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 169.2px;
+    left: 35.3px;
+    top: 47.15px;
+    width: 166.15px;
+}
+
+.player-card.minor[data-id="M52_WeddingCoach"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M052.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 171px;
+    left: 34.2px;
+    top: 44.75px;
+    width: 167.35px;
+}
+
+.player-card.minor[data-id="M53_ForestHut"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M053.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 172.1px;
+    left: 34.3px;
+    top: 45.35px;
+    width: 167.05px;
+}
+
+.player-card.minor[data-id="M54_AgriculturalImplement"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M054.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 166.1px;
+    left: 35px;
+    top: 49.15px;
+    width: 164.15px;
+}
+
+.player-card.minor[data-id="M55_ToolShed"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M055.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 172.1px;
+    left: 33.7px;
+    top: 46.15px;
+    width: 167.35px;
+}
+
+.player-card.minor[data-id="M56_PeatCuttingRights"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M056.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 168.1px;
+    left: 35.5px;
+    top: 48.15px;
+    width: 164.35px;
+}
+
+.player-card.minor[data-id="M57_Taps"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M057.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 168.2px;
+    left: 36px;
+    top: 47.55px;
+    width: 164.65px;
+}
+
+.player-card.minor[data-id="M58_PeatFertilizer"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M058.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 170.6px;
+    left: 33.9px;
+    top: 46.15px;
+    width: 167.05px;
+}
+
+.player-card.minor[data-id="M59_NaturesFertilizer"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M059.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 194.1px;
+    left: 34.5px;
+    top: 34.15px;
+    width: 190.15px;
 }
