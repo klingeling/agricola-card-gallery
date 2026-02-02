@@ -1840,3 +1840,123 @@ footer {
     top: 34.15px;
     width: 190.15px;
 }
+
+.player-card.minor[data-id="M60_SowingMachine"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M060.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0.7deg);
+    height: 168.4px;
+    left: 34.9px;
+    top: 48.15px;
+    width: 165.35px;
+}
+
+.player-card.minor[data-id="M61_HayWagon"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M061.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0.4deg);
+    height: 168.4px;
+    left: 35.5px;
+    top: 49.15px;
+    width: 164.95px;
+}
+
+.player-card.minor[data-id="M62_HearthBrush"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M062.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0.4deg);
+    height: 169px;
+    left: 35.5px;
+    top: 47.75px;
+    width: 165.15px;
+}
+
+.player-card.minor[data-id="M63_PersonalLetter"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M063.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 171.2px;
+    left: 34.2px;
+    top: 45.95px;
+    width: 168.65px;
+}
+
+.player-card.minor[data-id="M64_FamilyBurialPlot"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M064.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 176.1px;
+    left: 32.8px;
+    top: 44.15px;
+    width: 170.65px;
+}
+
+.player-card.minor[data-id="M65_FireBrigade"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M065.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0.6deg);
+    height: 169.1px;
+    left: 36.5px;
+    top: 47.15px;
+    width: 163.95px;
+}
+
+.player-card.minor[data-id="M66_LandParcel"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M066.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 170.1px;
+    left: 35px;
+    top: 48.15px;
+    width: 166.35px;
+}
+
+.player-card.minor[data-id="M67_ChamberofCommerce"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M067.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 167.6px;
+    left: 35.8px;
+    top: 48.45px;
+    width: 163.75px;
+}
+
+.player-card.minor[data-id="M68_Church"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M068.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0.5deg);
+    height: 166.1px;
+    left: 33px;
+    top: 49.15px;
+    width: 170.05px;
+}
+
+.player-card.minor[data-id="M69_LeatherSaddle"] .player-card-resizable .player-card-inner .card-icon {
+    background-image: url(img/deckM/M069.png);
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: 100% 100%;
+    transform: rotate(0deg);
+    height: 167.6px;
+    left: 35.8px;
+    top: 48.45px;
+    width: 163.75px;
+}
