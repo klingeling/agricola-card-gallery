@@ -243,7 +243,7 @@ class CardGallery {
                 case 'name':
                     return a.name.localeCompare(b.name, 'zh');
                 case 'type':
-                    return a.type.localeCompare(b.type);
+                    return a.type.localeCompare(b.type) || a.numbering.localeCompare(b.numbering);
                 default:
                     return a.numbering.localeCompare(b.numbering);
             }
