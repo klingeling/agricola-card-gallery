@@ -844,3363 +844,3363 @@ html {
   line-height: 19px;
 }
 
-.player-card[data-numbering="A001"] .card-icon {
+.player-card[data-numbering^="A001"] .card-icon {
   background-image: url(img/deckA/A001.png);
 }
 
-.player-card[data-numbering="A002"] .card-icon {
+.player-card[data-numbering^="A002"] .card-icon {
   background-image: url(img/deckA/A002.png);
 }
 
-.player-card[data-numbering="A003"] .card-icon {
+.player-card[data-numbering^="A003"] .card-icon {
   background-image: url(img/deckA/A003.png);
 }
 
-.player-card[data-numbering="A004"] .card-icon {
+.player-card[data-numbering^="A004"] .card-icon {
   background-image: url(img/deckA/A004.png);
 }
 
-.player-card[data-numbering="A005"] .card-icon {
+.player-card[data-numbering^="A005"] .card-icon {
   background-image: url(img/deckA/A005.png);
 }
 
-.player-card[data-numbering="A006"] .card-icon {
+.player-card[data-numbering^="A006"] .card-icon {
   background-image: url(img/deckA/A006.png);
 }
 
-.player-card[data-numbering="A007"] .card-icon {
+.player-card[data-numbering^="A007"] .card-icon {
   background-image: url(img/deckA/A007.png);
 }
 
-.player-card[data-numbering="A008"] .card-icon {
+.player-card[data-numbering^="A008"] .card-icon {
   background-image: url(img/deckA/A008.png);
 }
 
-.player-card[data-numbering="A009"] .card-icon {
+.player-card[data-numbering^="A009"] .card-icon {
   background-image: url(img/deckA/A009.png);
 }
 
-.player-card[data-numbering="A010"] .card-icon {
+.player-card[data-numbering^="A010"] .card-icon {
   background-image: url(img/deckA/A010.png);
 }
 
-.player-card[data-numbering="A011"] .card-icon {
+.player-card[data-numbering^="A011"] .card-icon {
   background-image: url(img/deckA/A011.png);
 }
 
-.player-card[data-numbering="A012"] .card-icon {
+.player-card[data-numbering^="A012"] .card-icon {
   background-image: url(img/deckA/A012.png);
 }
 
-.player-card[data-numbering="A013"] .card-icon {
+.player-card[data-numbering^="A013"] .card-icon {
   background-image: url(img/deckA/A013.png);
 }
 
-.player-card[data-numbering="A014"] .card-icon {
+.player-card[data-numbering^="A014"] .card-icon {
   background-image: url(img/deckA/A014.png);
 }
 
-.player-card[data-numbering="A015"] .card-icon {
+.player-card[data-numbering^="A015"] .card-icon {
   background-image: url(img/deckA/A015.png);
 }
 
-.player-card[data-numbering="A016"] .card-icon {
+.player-card[data-numbering^="A016"] .card-icon {
   background-image: url(img/deckA/A016.png);
 }
 
-.player-card[data-numbering="A017"] .card-icon {
+.player-card[data-numbering^="A017"] .card-icon {
   background-image: url(img/deckA/A017.png);
 }
 
-.player-card[data-numbering="A018"] .card-icon {
+.player-card[data-numbering^="A018"] .card-icon {
   background-image: url(img/deckA/A018.png);
 }
 
-.player-card[data-numbering="A019"] .card-icon {
+.player-card[data-numbering^="A019"] .card-icon {
   background-image: url(img/deckA/A019.png);
 }
 
-.player-card[data-numbering="A020"] .card-icon {
+.player-card[data-numbering^="A020"] .card-icon {
   background-image: url(img/deckA/A020.png);
 }
 
-.player-card[data-numbering="A021"] .card-icon {
+.player-card[data-numbering^="A021"] .card-icon {
   background-image: url(img/deckA/A021.png);
 }
 
-.player-card[data-numbering="A022"] .card-icon {
+.player-card[data-numbering^="A022"] .card-icon {
   background-image: url(img/deckA/A022.png);
 }
 
-.player-card[data-numbering="A023"] .card-icon {
+.player-card[data-numbering^="A023"] .card-icon {
   background-image: url(img/deckA/A023.png);
 }
 
-.player-card[data-numbering="A024"] .card-icon {
+.player-card[data-numbering^="A024"] .card-icon {
   background-image: url(img/deckA/A024.png);
 }
 
-.player-card[data-numbering="A025"] .card-icon {
+.player-card[data-numbering^="A025"] .card-icon {
   background-image: url(img/deckA/A025.png);
 }
 
-.player-card[data-numbering="A026"] .card-icon {
+.player-card[data-numbering^="A026"] .card-icon {
   background-image: url(img/deckA/A026.png);
 }
 
-.player-card[data-numbering="A027"] .card-icon {
+.player-card[data-numbering^="A027"] .card-icon {
   background-image: url(img/deckA/A027.png);
 }
 
-.player-card[data-numbering="A028"] .card-icon {
+.player-card[data-numbering^="A028"] .card-icon {
   background-image: url(img/deckA/A028.png);
 }
 
-.player-card[data-numbering="A029"] .card-icon {
+.player-card[data-numbering^="A029"] .card-icon {
   background-image: url(img/deckA/A029.png);
 }
 
-.player-card[data-numbering="A030"] .card-icon {
+.player-card[data-numbering^="A030"] .card-icon {
   background-image: url(img/deckA/A030.png);
 }
 
-.player-card[data-numbering="A031"] .card-icon {
+.player-card[data-numbering^="A031"] .card-icon {
   background-image: url(img/deckA/A031.png);
 }
 
-.player-card[data-numbering="A032"] .card-icon {
+.player-card[data-numbering^="A032"] .card-icon {
   background-image: url(img/deckA/A032.png);
 }
 
-.player-card[data-numbering="A033"] .card-icon {
+.player-card[data-numbering^="A033"] .card-icon {
   background-image: url(img/deckA/A033.png);
 }
 
-.player-card[data-numbering="A034"] .card-icon {
+.player-card[data-numbering^="A034"] .card-icon {
   background-image: url(img/deckA/A034.png);
 }
 
-.player-card[data-numbering="A035"] .card-icon {
+.player-card[data-numbering^="A035"] .card-icon {
   background-image: url(img/deckA/A035.png);
 }
 
-.player-card[data-numbering="A036"] .card-icon {
+.player-card[data-numbering^="A036"] .card-icon {
   background-image: url(img/deckA/A036.png);
 }
 
-.player-card[data-numbering="A037"] .card-icon {
+.player-card[data-numbering^="A037"] .card-icon {
   background-image: url(img/deckA/A037.png);
 }
 
-.player-card[data-numbering="A038"] .card-icon {
+.player-card[data-numbering^="A038"] .card-icon {
   background-image: url(img/deckA/A038.png);
 }
 
-.player-card[data-numbering="A039"] .card-icon {
+.player-card[data-numbering^="A039"] .card-icon {
   background-image: url(img/deckA/A039.png);
 }
 
-.player-card[data-numbering="A040"] .card-icon {
+.player-card[data-numbering^="A040"] .card-icon {
   background-image: url(img/deckA/A040.png);
 }
 
-.player-card[data-numbering="A041"] .card-icon {
+.player-card[data-numbering^="A041"] .card-icon {
   background-image: url(img/deckA/A041.png);
 }
 
-.player-card[data-numbering="A042"] .card-icon {
+.player-card[data-numbering^="A042"] .card-icon {
   background-image: url(img/deckA/A042.png);
 }
 
-.player-card[data-numbering="A043"] .card-icon {
+.player-card[data-numbering^="A043"] .card-icon {
   background-image: url(img/deckA/A043.png);
 }
 
-.player-card[data-numbering="A044"] .card-icon {
+.player-card[data-numbering^="A044"] .card-icon {
   background-image: url(img/deckA/A044.png);
 }
 
-.player-card[data-numbering="A045"] .card-icon {
+.player-card[data-numbering^="A045"] .card-icon {
   background-image: url(img/deckA/A045.png);
 }
 
-.player-card[data-numbering="A046"] .card-icon {
+.player-card[data-numbering^="A046"] .card-icon {
   background-image: url(img/deckA/A046.png);
 }
 
-.player-card[data-numbering="A047"] .card-icon {
+.player-card[data-numbering^="A047"] .card-icon {
   background-image: url(img/deckA/A047.png);
 }
 
-.player-card[data-numbering="A048"] .card-icon {
+.player-card[data-numbering^="A048"] .card-icon {
   background-image: url(img/deckA/A048.png);
 }
 
-.player-card[data-numbering="A049"] .card-icon {
+.player-card[data-numbering^="A049"] .card-icon {
   background-image: url(img/deckA/A049.png);
 }
 
-.player-card[data-numbering="A050"] .card-icon {
+.player-card[data-numbering^="A050"] .card-icon {
   background-image: url(img/deckA/A050.png);
 }
 
-.player-card[data-numbering="A051"] .card-icon {
+.player-card[data-numbering^="A051"] .card-icon {
   background-image: url(img/deckA/A051.png);
 }
 
-.player-card[data-numbering="A052"] .card-icon {
+.player-card[data-numbering^="A052"] .card-icon {
   background-image: url(img/deckA/A052.png);
 }
 
-.player-card[data-numbering="A053"] .card-icon {
+.player-card[data-numbering^="A053"] .card-icon {
   background-image: url(img/deckA/A053.png);
 }
 
-.player-card[data-numbering="A054"] .card-icon {
+.player-card[data-numbering^="A054"] .card-icon {
   background-image: url(img/deckA/A054.png);
 }
 
-.player-card[data-numbering="A055"] .card-icon {
+.player-card[data-numbering^="A055"] .card-icon {
   background-image: url(img/deckA/A055.png);
 }
 
-.player-card[data-numbering="A056"] .card-icon {
+.player-card[data-numbering^="A056"] .card-icon {
   background-image: url(img/deckA/A056.png);
 }
 
-.player-card[data-numbering="A057"] .card-icon {
+.player-card[data-numbering^="A057"] .card-icon {
   background-image: url(img/deckA/A057.png);
 }
 
-.player-card[data-numbering="A058"] .card-icon {
+.player-card[data-numbering^="A058"] .card-icon {
   background-image: url(img/deckA/A058.png);
 }
 
-.player-card[data-numbering="A059"] .card-icon {
+.player-card[data-numbering^="A059"] .card-icon {
   background-image: url(img/deckA/A059.png);
 }
 
-.player-card[data-numbering="A060"] .card-icon {
+.player-card[data-numbering^="A060"] .card-icon {
   background-image: url(img/deckA/A060.png);
 }
 
-.player-card[data-numbering="A061"] .card-icon {
+.player-card[data-numbering^="A061"] .card-icon {
   background-image: url(img/deckA/A061.png);
 }
 
-.player-card[data-numbering="A062"] .card-icon {
+.player-card[data-numbering^="A062"] .card-icon {
   background-image: url(img/deckA/A062.png);
 }
 
-.player-card[data-numbering="A063"] .card-icon {
+.player-card[data-numbering^="A063"] .card-icon {
   background-image: url(img/deckA/A063.png);
 }
 
-.player-card[data-numbering="A064"] .card-icon {
+.player-card[data-numbering^="A064"] .card-icon {
   background-image: url(img/deckA/A064.png);
 }
 
-.player-card[data-numbering="A065"] .card-icon {
+.player-card[data-numbering^="A065"] .card-icon {
   background-image: url(img/deckA/A065.png);
 }
 
-.player-card[data-numbering="A066"] .card-icon {
+.player-card[data-numbering^="A066"] .card-icon {
   background-image: url(img/deckA/A066.png);
 }
 
-.player-card[data-numbering="A067"] .card-icon {
+.player-card[data-numbering^="A067"] .card-icon {
   background-image: url(img/deckA/A067.png);
 }
 
-.player-card[data-numbering="A068"] .card-icon {
+.player-card[data-numbering^="A068"] .card-icon {
   background-image: url(img/deckA/A068.png);
 }
 
-.player-card[data-numbering="A069"] .card-icon {
+.player-card[data-numbering^="A069"] .card-icon {
   background-image: url(img/deckA/A069.png);
 }
 
-.player-card[data-numbering="A070"] .card-icon {
+.player-card[data-numbering^="A070"] .card-icon {
   background-image: url(img/deckA/A070.png);
 }
 
-.player-card[data-numbering="A071"] .card-icon {
+.player-card[data-numbering^="A071"] .card-icon {
   background-image: url(img/deckA/A071.png);
 }
 
-.player-card[data-numbering="A072"] .card-icon {
+.player-card[data-numbering^="A072"] .card-icon {
   background-image: url(img/deckA/A072.png);
 }
 
-.player-card[data-numbering="A073"] .card-icon {
+.player-card[data-numbering^="A073"] .card-icon {
   background-image: url(img/deckA/A073.png);
 }
 
-.player-card[data-numbering="A074"] .card-icon {
+.player-card[data-numbering^="A074"] .card-icon {
   background-image: url(img/deckA/A074.png);
 }
 
-.player-card[data-numbering="A075"] .card-icon {
+.player-card[data-numbering^="A075"] .card-icon {
   background-image: url(img/deckA/A075.png);
 }
 
-.player-card[data-numbering="A076"] .card-icon {
+.player-card[data-numbering^="A076"] .card-icon {
   background-image: url(img/deckA/A076.png);
 }
 
-.player-card[data-numbering="A077"] .card-icon {
+.player-card[data-numbering^="A077"] .card-icon {
   background-image: url(img/deckA/A077.png);
 }
 
-.player-card[data-numbering="A078"] .card-icon {
+.player-card[data-numbering^="A078"] .card-icon {
   background-image: url(img/deckA/A078.png);
 }
 
-.player-card[data-numbering="A079"] .card-icon {
+.player-card[data-numbering^="A079"] .card-icon {
   background-image: url(img/deckA/A079.png);
 }
 
-.player-card[data-numbering="A080"] .card-icon {
+.player-card[data-numbering^="A080"] .card-icon {
   background-image: url(img/deckA/A080.png);
 }
 
-.player-card[data-numbering="A081"] .card-icon {
+.player-card[data-numbering^="A081"] .card-icon {
   background-image: url(img/deckA/A081.png);
 }
 
-.player-card[data-numbering="A082"] .card-icon {
+.player-card[data-numbering^="A082"] .card-icon {
   background-image: url(img/deckA/A082.png);
 }
 
-.player-card[data-numbering="A083"] .card-icon {
+.player-card[data-numbering^="A083"] .card-icon {
   background-image: url(img/deckA/A083.png);
 }
 
-.player-card[data-numbering="A084"] .card-icon {
+.player-card[data-numbering^="A084"] .card-icon {
   background-image: url(img/deckA/A084.png);
 }
 
-.player-card[data-numbering="A085"] .card-icon {
+.player-card[data-numbering^="A085"] .card-icon {
   background-image: url(img/deckA/A085.png);
 }
 
-.player-card[data-numbering="A086"] .card-icon {
+.player-card[data-numbering^="A086"] .card-icon {
   background-image: url(img/deckA/A086.png);
 }
 
-.player-card[data-numbering="A087"] .card-icon {
+.player-card[data-numbering^="A087"] .card-icon {
   background-image: url(img/deckA/A087.png);
 }
 
-.player-card[data-numbering="A088"] .card-icon {
+.player-card[data-numbering^="A088"] .card-icon {
   background-image: url(img/deckA/A088.png);
 }
 
-.player-card[data-numbering="A089"] .card-icon {
+.player-card[data-numbering^="A089"] .card-icon {
   background-image: url(img/deckA/A089.png);
 }
 
-.player-card[data-numbering="A090"] .card-icon {
+.player-card[data-numbering^="A090"] .card-icon {
   background-image: url(img/deckA/A090.png);
 }
 
-.player-card[data-numbering="A091"] .card-icon {
+.player-card[data-numbering^="A091"] .card-icon {
   background-image: url(img/deckA/A091.png);
 }
 
-.player-card[data-numbering="A092"] .card-icon {
+.player-card[data-numbering^="A092"] .card-icon {
   background-image: url(img/deckA/A092.png);
 }
 
-.player-card[data-numbering="A093"] .card-icon {
+.player-card[data-numbering^="A093"] .card-icon {
   background-image: url(img/deckA/A093.png);
 }
 
-.player-card[data-numbering="A094"] .card-icon {
+.player-card[data-numbering^="A094"] .card-icon {
   background-image: url(img/deckA/A094.png);
 }
 
-.player-card[data-numbering="A095"] .card-icon {
+.player-card[data-numbering^="A095"] .card-icon {
   background-image: url(img/deckA/A095.png);
 }
 
-.player-card[data-numbering="A096"] .card-icon {
+.player-card[data-numbering^="A096"] .card-icon {
   background-image: url(img/deckA/A096.png);
 }
 
-.player-card[data-numbering="A097"] .card-icon {
+.player-card[data-numbering^="A097"] .card-icon {
   background-image: url(img/deckA/A097.png);
 }
 
-.player-card[data-numbering="A098"] .card-icon {
+.player-card[data-numbering^="A098"] .card-icon {
   background-image: url(img/deckA/A098.png);
 }
 
-.player-card[data-numbering="A099"] .card-icon {
+.player-card[data-numbering^="A099"] .card-icon {
   background-image: url(img/deckA/A099.png);
 }
 
-.player-card[data-numbering="A100"] .card-icon {
+.player-card[data-numbering^="A100"] .card-icon {
   background-image: url(img/deckA/A100.png);
 }
 
-.player-card[data-numbering="A101"] .card-icon {
+.player-card[data-numbering^="A101"] .card-icon {
   background-image: url(img/deckA/A101.png);
 }
 
-.player-card[data-numbering="A102"] .card-icon {
+.player-card[data-numbering^="A102"] .card-icon {
   background-image: url(img/deckA/A102.png);
 }
 
-.player-card[data-numbering="A103"] .card-icon {
+.player-card[data-numbering^="A103"] .card-icon {
   background-image: url(img/deckA/A103.png);
 }
 
-.player-card[data-numbering="A104"] .card-icon {
+.player-card[data-numbering^="A104"] .card-icon {
   background-image: url(img/deckA/A104.png);
 }
 
-.player-card[data-numbering="A105"] .card-icon {
+.player-card[data-numbering^="A105"] .card-icon {
   background-image: url(img/deckA/A105.png);
 }
 
-.player-card[data-numbering="A106"] .card-icon {
+.player-card[data-numbering^="A106"] .card-icon {
   background-image: url(img/deckA/A106.png);
 }
 
-.player-card[data-numbering="A107"] .card-icon {
+.player-card[data-numbering^="A107"] .card-icon {
   background-image: url(img/deckA/A107.png);
 }
 
-.player-card[data-numbering="A108"] .card-icon {
+.player-card[data-numbering^="A108"] .card-icon {
   background-image: url(img/deckA/A108.png);
 }
 
-.player-card[data-numbering="A109"] .card-icon {
+.player-card[data-numbering^="A109"] .card-icon {
   background-image: url(img/deckA/A109.png);
 }
 
-.player-card[data-numbering="A110"] .card-icon {
+.player-card[data-numbering^="A110"] .card-icon {
   background-image: url(img/deckA/A110.png);
 }
 
-.player-card[data-numbering="A111"] .card-icon {
+.player-card[data-numbering^="A111"] .card-icon {
   background-image: url(img/deckA/A111.png);
 }
 
-.player-card[data-numbering="A112"] .card-icon {
+.player-card[data-numbering^="A112"] .card-icon {
   background-image: url(img/deckA/A112.png);
 }
 
-.player-card[data-numbering="A113"] .card-icon {
+.player-card[data-numbering^="A113"] .card-icon {
   background-image: url(img/deckA/A113.png);
 }
 
-.player-card[data-numbering="A114"] .card-icon {
+.player-card[data-numbering^="A114"] .card-icon {
   background-image: url(img/deckA/A114.png);
 }
 
-.player-card[data-numbering="A115"] .card-icon {
+.player-card[data-numbering^="A115"] .card-icon {
   background-image: url(img/deckA/A115.png);
 }
 
-.player-card[data-numbering="A116"] .card-icon {
+.player-card[data-numbering^="A116"] .card-icon {
   background-image: url(img/deckA/A116.png);
 }
 
-.player-card[data-numbering="A117"] .card-icon {
+.player-card[data-numbering^="A117"] .card-icon {
   background-image: url(img/deckA/A117.png);
 }
 
-.player-card[data-numbering="A118"] .card-icon {
+.player-card[data-numbering^="A118"] .card-icon {
   background-image: url(img/deckA/A118.png);
 }
 
-.player-card[data-numbering="A119"] .card-icon {
+.player-card[data-numbering^="A119"] .card-icon {
   background-image: url(img/deckA/A119.png);
 }
 
-.player-card[data-numbering="A120"] .card-icon {
+.player-card[data-numbering^="A120"] .card-icon {
   background-image: url(img/deckA/A120.png);
 }
 
-.player-card[data-numbering="A121"] .card-icon {
+.player-card[data-numbering^="A121"] .card-icon {
   background-image: url(img/deckA/A121.png);
 }
 
-.player-card[data-numbering="A122"] .card-icon {
+.player-card[data-numbering^="A122"] .card-icon {
   background-image: url(img/deckA/A122.png);
 }
 
-.player-card[data-numbering="A123"] .card-icon {
+.player-card[data-numbering^="A123"] .card-icon {
   background-image: url(img/deckA/A123.png);
 }
 
-.player-card[data-numbering="A124"] .card-icon {
+.player-card[data-numbering^="A124"] .card-icon {
   background-image: url(img/deckA/A124.png);
 }
 
-.player-card[data-numbering="A125"] .card-icon {
+.player-card[data-numbering^="A125"] .card-icon {
   background-image: url(img/deckA/A125.png);
 }
 
-.player-card[data-numbering="A126"] .card-icon {
+.player-card[data-numbering^="A126"] .card-icon {
   background-image: url(img/deckA/A126.png);
 }
 
-.player-card[data-numbering="A127"] .card-icon {
+.player-card[data-numbering^="A127"] .card-icon {
   background-image: url(img/deckA/A127.png);
 }
 
-.player-card[data-numbering="A128"] .card-icon {
+.player-card[data-numbering^="A128"] .card-icon {
   background-image: url(img/deckA/A128.png);
 }
 
-.player-card[data-numbering="A129"] .card-icon {
+.player-card[data-numbering^="A129"] .card-icon {
   background-image: url(img/deckA/A129.png);
 }
 
-.player-card[data-numbering="A130"] .card-icon {
+.player-card[data-numbering^="A130"] .card-icon {
   background-image: url(img/deckA/A130.png);
 }
 
-.player-card[data-numbering="A131"] .card-icon {
+.player-card[data-numbering^="A131"] .card-icon {
   background-image: url(img/deckA/A131.png);
 }
 
-.player-card[data-numbering="A132"] .card-icon {
+.player-card[data-numbering^="A132"] .card-icon {
   background-image: url(img/deckA/A132.png);
 }
 
-.player-card[data-numbering="A133"] .card-icon {
+.player-card[data-numbering^="A133"] .card-icon {
   background-image: url(img/deckA/A133.png);
 }
 
-.player-card[data-numbering="A134"] .card-icon {
+.player-card[data-numbering^="A134"] .card-icon {
   background-image: url(img/deckA/A134.png);
 }
 
-.player-card[data-numbering="A135"] .card-icon {
+.player-card[data-numbering^="A135"] .card-icon {
   background-image: url(img/deckA/A135.png);
 }
 
-.player-card[data-numbering="A136"] .card-icon {
+.player-card[data-numbering^="A136"] .card-icon {
   background-image: url(img/deckA/A136.png);
 }
 
-.player-card[data-numbering="A137"] .card-icon {
+.player-card[data-numbering^="A137"] .card-icon {
   background-image: url(img/deckA/A137.png);
 }
 
-.player-card[data-numbering="A138"] .card-icon {
+.player-card[data-numbering^="A138"] .card-icon {
   background-image: url(img/deckA/A138.png);
 }
 
-.player-card[data-numbering="A139"] .card-icon {
+.player-card[data-numbering^="A139"] .card-icon {
   background-image: url(img/deckA/A139.png);
 }
 
-.player-card[data-numbering="A140"] .card-icon {
+.player-card[data-numbering^="A140"] .card-icon {
   background-image: url(img/deckA/A140.png);
 }
 
-.player-card[data-numbering="A141"] .card-icon {
+.player-card[data-numbering^="A141"] .card-icon {
   background-image: url(img/deckA/A141.png);
 }
 
-.player-card[data-numbering="A142"] .card-icon {
+.player-card[data-numbering^="A142"] .card-icon {
   background-image: url(img/deckA/A142.png);
 }
 
-.player-card[data-numbering="A143"] .card-icon {
+.player-card[data-numbering^="A143"] .card-icon {
   background-image: url(img/deckA/A143.png);
 }
 
-.player-card[data-numbering="A144"] .card-icon {
+.player-card[data-numbering^="A144"] .card-icon {
   background-image: url(img/deckA/A144.png);
 }
 
-.player-card[data-numbering="A145"] .card-icon {
+.player-card[data-numbering^="A145"] .card-icon {
   background-image: url(img/deckA/A145.png);
 }
 
-.player-card[data-numbering="A146"] .card-icon {
+.player-card[data-numbering^="A146"] .card-icon {
   background-image: url(img/deckA/A146.png);
 }
 
-.player-card[data-numbering="A147"] .card-icon {
+.player-card[data-numbering^="A147"] .card-icon {
   background-image: url(img/deckA/A147.png);
 }
 
-.player-card[data-numbering="A148"] .card-icon {
+.player-card[data-numbering^="A148"] .card-icon {
   background-image: url(img/deckA/A148.png);
 }
 
-.player-card[data-numbering="A149"] .card-icon {
+.player-card[data-numbering^="A149"] .card-icon {
   background-image: url(img/deckA/A149.png);
 }
 
-.player-card[data-numbering="A150"] .card-icon {
+.player-card[data-numbering^="A150"] .card-icon {
   background-image: url(img/deckA/A150.png);
 }
 
-.player-card[data-numbering="A151"] .card-icon {
+.player-card[data-numbering^="A151"] .card-icon {
   background-image: url(img/deckA/A151.png);
 }
 
-.player-card[data-numbering="A152"] .card-icon {
+.player-card[data-numbering^="A152"] .card-icon {
   background-image: url(img/deckA/A152.png);
 }
 
-.player-card[data-numbering="A153"] .card-icon {
+.player-card[data-numbering^="A153"] .card-icon {
   background-image: url(img/deckA/A153.png);
 }
 
-.player-card[data-numbering="A154"] .card-icon {
+.player-card[data-numbering^="A154"] .card-icon {
   background-image: url(img/deckA/A154.png);
 }
 
-.player-card[data-numbering="A155"] .card-icon {
+.player-card[data-numbering^="A155"] .card-icon {
   background-image: url(img/deckA/A155.png);
 }
 
-.player-card[data-numbering="A156"] .card-icon {
+.player-card[data-numbering^="A156"] .card-icon {
   background-image: url(img/deckA/A156.png);
 }
 
-.player-card[data-numbering="A157"] .card-icon {
+.player-card[data-numbering^="A157"] .card-icon {
   background-image: url(img/deckA/A157.png);
 }
 
-.player-card[data-numbering="A158"] .card-icon {
+.player-card[data-numbering^="A158"] .card-icon {
   background-image: url(img/deckA/A158.png);
 }
 
-.player-card[data-numbering="A159"] .card-icon {
+.player-card[data-numbering^="A159"] .card-icon {
   background-image: url(img/deckA/A159.png);
 }
 
-.player-card[data-numbering="A160"] .card-icon {
+.player-card[data-numbering^="A160"] .card-icon {
   background-image: url(img/deckA/A160.png);
 }
 
-.player-card[data-numbering="A161"] .card-icon {
+.player-card[data-numbering^="A161"] .card-icon {
   background-image: url(img/deckA/A161.png);
 }
 
-.player-card[data-numbering="A162"] .card-icon {
+.player-card[data-numbering^="A162"] .card-icon {
   background-image: url(img/deckA/A162.png);
 }
 
-.player-card[data-numbering="A163"] .card-icon {
+.player-card[data-numbering^="A163"] .card-icon {
   background-image: url(img/deckA/A163.png);
 }
 
-.player-card[data-numbering="A164"] .card-icon {
+.player-card[data-numbering^="A164"] .card-icon {
   background-image: url(img/deckA/A164.png);
 }
 
-.player-card[data-numbering="A165"] .card-icon {
+.player-card[data-numbering^="A165"] .card-icon {
   background-image: url(img/deckA/A165.png);
 }
 
-.player-card[data-numbering="A166"] .card-icon {
+.player-card[data-numbering^="A166"] .card-icon {
   background-image: url(img/deckA/A166.png);
 }
 
-.player-card[data-numbering="A167"] .card-icon {
+.player-card[data-numbering^="A167"] .card-icon {
   background-image: url(img/deckA/A167.png);
 }
 
-.player-card[data-numbering="A168"] .card-icon {
+.player-card[data-numbering^="A168"] .card-icon {
   background-image: url(img/deckA/A168.png);
 }
 
-.player-card[data-numbering="B001"] .card-icon {
+.player-card[data-numbering^="B001"] .card-icon {
   background-image: url(img/deckB/B001.png);
 }
 
-.player-card[data-numbering="B002"] .card-icon {
+.player-card[data-numbering^="B002"] .card-icon {
   background-image: url(img/deckB/B002.png);
 }
 
-.player-card[data-numbering="B003"] .card-icon {
+.player-card[data-numbering^="B003"] .card-icon {
   background-image: url(img/deckB/B003.png);
 }
 
-.player-card[data-numbering="B004"] .card-icon {
+.player-card[data-numbering^="B004"] .card-icon {
   background-image: url(img/deckB/B004.png);
 }
 
-.player-card[data-numbering="B005"] .card-icon {
+.player-card[data-numbering^="B005"] .card-icon {
   background-image: url(img/deckB/B005.png);
 }
 
-.player-card[data-numbering="B006"] .card-icon {
+.player-card[data-numbering^="B006"] .card-icon {
   background-image: url(img/deckB/B006.png);
 }
 
-.player-card[data-numbering="B007"] .card-icon {
+.player-card[data-numbering^="B007"] .card-icon {
   background-image: url(img/deckB/B007.png);
 }
 
-.player-card[data-numbering="B008"] .card-icon {
+.player-card[data-numbering^="B008"] .card-icon {
   background-image: url(img/deckB/B008.png);
 }
 
-.player-card[data-numbering="B009"] .card-icon {
+.player-card[data-numbering^="B009"] .card-icon {
   background-image: url(img/deckB/B009.png);
 }
 
-.player-card[data-numbering="B010"] .card-icon {
+.player-card[data-numbering^="B010"] .card-icon {
   background-image: url(img/deckB/B010.png);
 }
 
-.player-card[data-numbering="B011"] .card-icon {
+.player-card[data-numbering^="B011"] .card-icon {
   background-image: url(img/deckB/B011.png);
 }
 
-.player-card[data-numbering="B012"] .card-icon {
+.player-card[data-numbering^="B012"] .card-icon {
   background-image: url(img/deckB/B012.png);
 }
 
-.player-card[data-numbering="B013"] .card-icon {
+.player-card[data-numbering^="B013"] .card-icon {
   background-image: url(img/deckB/B013.png);
 }
 
-.player-card[data-numbering="B014"] .card-icon {
+.player-card[data-numbering^="B014"] .card-icon {
   background-image: url(img/deckB/B014.png);
 }
 
-.player-card[data-numbering="B015"] .card-icon {
+.player-card[data-numbering^="B015"] .card-icon {
   background-image: url(img/deckB/B015.png);
 }
 
-.player-card[data-numbering="B016"] .card-icon {
+.player-card[data-numbering^="B016"] .card-icon {
   background-image: url(img/deckB/B016.png);
 }
 
-.player-card[data-numbering="B017"] .card-icon {
+.player-card[data-numbering^="B017"] .card-icon {
   background-image: url(img/deckB/B017.png);
 }
 
-.player-card[data-numbering="B018"] .card-icon {
+.player-card[data-numbering^="B018"] .card-icon {
   background-image: url(img/deckB/B018.png);
 }
 
-.player-card[data-numbering="B019"] .card-icon {
+.player-card[data-numbering^="B019"] .card-icon {
   background-image: url(img/deckB/B019.png);
 }
 
-.player-card[data-numbering="B020"] .card-icon {
+.player-card[data-numbering^="B020"] .card-icon {
   background-image: url(img/deckB/B020.png);
 }
 
-.player-card[data-numbering="B021"] .card-icon {
+.player-card[data-numbering^="B021"] .card-icon {
   background-image: url(img/deckB/B021.png);
 }
 
-.player-card[data-numbering="B022"] .card-icon {
+.player-card[data-numbering^="B022"] .card-icon {
   background-image: url(img/deckB/B022.png);
 }
 
-.player-card[data-numbering="B023"] .card-icon {
+.player-card[data-numbering^="B023"] .card-icon {
   background-image: url(img/deckB/B023.png);
 }
 
-.player-card[data-numbering="B024"] .card-icon {
+.player-card[data-numbering^="B024"] .card-icon {
   background-image: url(img/deckB/B024.png);
 }
 
-.player-card[data-numbering="B025"] .card-icon {
+.player-card[data-numbering^="B025"] .card-icon {
   background-image: url(img/deckB/B025.png);
 }
 
-.player-card[data-numbering="B026"] .card-icon {
+.player-card[data-numbering^="B026"] .card-icon {
   background-image: url(img/deckB/B026.png);
 }
 
-.player-card[data-numbering="B027"] .card-icon {
+.player-card[data-numbering^="B027"] .card-icon {
   background-image: url(img/deckB/B027.png);
 }
 
-.player-card[data-numbering="B028"] .card-icon {
+.player-card[data-numbering^="B028"] .card-icon {
   background-image: url(img/deckB/B028.png);
 }
 
-.player-card[data-numbering="B029"] .card-icon {
+.player-card[data-numbering^="B029"] .card-icon {
   background-image: url(img/deckB/B029.png);
 }
 
-.player-card[data-numbering="B030"] .card-icon {
+.player-card[data-numbering^="B030"] .card-icon {
   background-image: url(img/deckB/B030.png);
 }
 
-.player-card[data-numbering="B031"] .card-icon {
+.player-card[data-numbering^="B031"] .card-icon {
   background-image: url(img/deckB/B031.png);
 }
 
-.player-card[data-numbering="B032"] .card-icon {
+.player-card[data-numbering^="B032"] .card-icon {
   background-image: url(img/deckB/B032.png);
 }
 
-.player-card[data-numbering="B033"] .card-icon {
+.player-card[data-numbering^="B033"] .card-icon {
   background-image: url(img/deckB/B033.png);
 }
 
-.player-card[data-numbering="B034"] .card-icon {
+.player-card[data-numbering^="B034"] .card-icon {
   background-image: url(img/deckB/B034.png);
 }
 
-.player-card[data-numbering="B035"] .card-icon {
+.player-card[data-numbering^="B035"] .card-icon {
   background-image: url(img/deckB/B035.png);
 }
 
-.player-card[data-numbering="B036"] .card-icon {
+.player-card[data-numbering^="B036"] .card-icon {
   background-image: url(img/deckB/B036.png);
 }
 
-.player-card[data-numbering="B037"] .card-icon {
+.player-card[data-numbering^="B037"] .card-icon {
   background-image: url(img/deckB/B037.png);
 }
 
-.player-card[data-numbering="B038"] .card-icon {
+.player-card[data-numbering^="B038"] .card-icon {
   background-image: url(img/deckB/B038.png);
 }
 
-.player-card[data-numbering="B039"] .card-icon {
+.player-card[data-numbering^="B039"] .card-icon {
   background-image: url(img/deckB/B039.png);
 }
 
-.player-card[data-numbering="B040"] .card-icon {
+.player-card[data-numbering^="B040"] .card-icon {
   background-image: url(img/deckB/B040.png);
 }
 
-.player-card[data-numbering="B041"] .card-icon {
+.player-card[data-numbering^="B041"] .card-icon {
   background-image: url(img/deckB/B041.png);
 }
 
-.player-card[data-numbering="B042"] .card-icon {
+.player-card[data-numbering^="B042"] .card-icon {
   background-image: url(img/deckB/B042.png);
 }
 
-.player-card[data-numbering="B043"] .card-icon {
+.player-card[data-numbering^="B043"] .card-icon {
   background-image: url(img/deckB/B043.png);
 }
 
-.player-card[data-numbering="B044"] .card-icon {
+.player-card[data-numbering^="B044"] .card-icon {
   background-image: url(img/deckB/B044.png);
 }
 
-.player-card[data-numbering="B045"] .card-icon {
+.player-card[data-numbering^="B045"] .card-icon {
   background-image: url(img/deckB/B045.png);
 }
 
-.player-card[data-numbering="B046"] .card-icon {
+.player-card[data-numbering^="B046"] .card-icon {
   background-image: url(img/deckB/B046.png);
 }
 
-.player-card[data-numbering="B047"] .card-icon {
+.player-card[data-numbering^="B047"] .card-icon {
   background-image: url(img/deckB/B047.png);
 }
 
-.player-card[data-numbering="B048"] .card-icon {
+.player-card[data-numbering^="B048"] .card-icon {
   background-image: url(img/deckB/B048.png);
 }
 
-.player-card[data-numbering="B049"] .card-icon {
+.player-card[data-numbering^="B049"] .card-icon {
   background-image: url(img/deckB/B049.png);
 }
 
-.player-card[data-numbering="B050"] .card-icon {
+.player-card[data-numbering^="B050"] .card-icon {
   background-image: url(img/deckB/B050.png);
 }
 
-.player-card[data-numbering="B051"] .card-icon {
+.player-card[data-numbering^="B051"] .card-icon {
   background-image: url(img/deckB/B051.png);
 }
 
-.player-card[data-numbering="B052"] .card-icon {
+.player-card[data-numbering^="B052"] .card-icon {
   background-image: url(img/deckB/B052.png);
 }
 
-.player-card[data-numbering="B053"] .card-icon {
+.player-card[data-numbering^="B053"] .card-icon {
   background-image: url(img/deckB/B053.png);
 }
 
-.player-card[data-numbering="B054"] .card-icon {
+.player-card[data-numbering^="B054"] .card-icon {
   background-image: url(img/deckB/B054.png);
 }
 
-.player-card[data-numbering="B055"] .card-icon {
+.player-card[data-numbering^="B055"] .card-icon {
   background-image: url(img/deckB/B055.png);
 }
 
-.player-card[data-numbering="B056"] .card-icon {
+.player-card[data-numbering^="B056"] .card-icon {
   background-image: url(img/deckB/B056.png);
 }
 
-.player-card[data-numbering="B057"] .card-icon {
+.player-card[data-numbering^="B057"] .card-icon {
   background-image: url(img/deckB/B057.png);
 }
 
-.player-card[data-numbering="B058"] .card-icon {
+.player-card[data-numbering^="B058"] .card-icon {
   background-image: url(img/deckB/B058.png);
 }
 
-.player-card[data-numbering="B059"] .card-icon {
+.player-card[data-numbering^="B059"] .card-icon {
   background-image: url(img/deckB/B059.png);
 }
 
-.player-card[data-numbering="B060"] .card-icon {
+.player-card[data-numbering^="B060"] .card-icon {
   background-image: url(img/deckB/B060.png);
 }
 
-.player-card[data-numbering="B061"] .card-icon {
+.player-card[data-numbering^="B061"] .card-icon {
   background-image: url(img/deckB/B061.png);
 }
 
-.player-card[data-numbering="B062"] .card-icon {
+.player-card[data-numbering^="B062"] .card-icon {
   background-image: url(img/deckB/B062.png);
 }
 
-.player-card[data-numbering="B063"] .card-icon {
+.player-card[data-numbering^="B063"] .card-icon {
   background-image: url(img/deckB/B063.png);
 }
 
-.player-card[data-numbering="B064"] .card-icon {
+.player-card[data-numbering^="B064"] .card-icon {
   background-image: url(img/deckB/B064.png);
 }
 
-.player-card[data-numbering="B065"] .card-icon {
+.player-card[data-numbering^="B065"] .card-icon {
   background-image: url(img/deckB/B065.png);
 }
 
-.player-card[data-numbering="B066"] .card-icon {
+.player-card[data-numbering^="B066"] .card-icon {
   background-image: url(img/deckB/B066.png);
 }
 
-.player-card[data-numbering="B067"] .card-icon {
+.player-card[data-numbering^="B067"] .card-icon {
   background-image: url(img/deckB/B067.png);
 }
 
-.player-card[data-numbering="B068"] .card-icon {
+.player-card[data-numbering^="B068"] .card-icon {
   background-image: url(img/deckB/B068.png);
 }
 
-.player-card[data-numbering="B069"] .card-icon {
+.player-card[data-numbering^="B069"] .card-icon {
   background-image: url(img/deckB/B069.png);
 }
 
-.player-card[data-numbering="B070"] .card-icon {
+.player-card[data-numbering^="B070"] .card-icon {
   background-image: url(img/deckB/B070.png);
 }
 
-.player-card[data-numbering="B071"] .card-icon {
+.player-card[data-numbering^="B071"] .card-icon {
   background-image: url(img/deckB/B071.png);
 }
 
-.player-card[data-numbering="B072"] .card-icon {
+.player-card[data-numbering^="B072"] .card-icon {
   background-image: url(img/deckB/B072.png);
 }
 
-.player-card[data-numbering="B073"] .card-icon {
+.player-card[data-numbering^="B073"] .card-icon {
   background-image: url(img/deckB/B073.png);
 }
 
-.player-card[data-numbering="B074"] .card-icon {
+.player-card[data-numbering^="B074"] .card-icon {
   background-image: url(img/deckB/B074.png);
 }
 
-.player-card[data-numbering="B075"] .card-icon {
+.player-card[data-numbering^="B075"] .card-icon {
   background-image: url(img/deckB/B075.png);
 }
 
-.player-card[data-numbering="B076"] .card-icon {
+.player-card[data-numbering^="B076"] .card-icon {
   background-image: url(img/deckB/B076.png);
 }
 
-.player-card[data-numbering="B077"] .card-icon {
+.player-card[data-numbering^="B077"] .card-icon {
   background-image: url(img/deckB/B077.png);
 }
 
-.player-card[data-numbering="B078"] .card-icon {
+.player-card[data-numbering^="B078"] .card-icon {
   background-image: url(img/deckB/B078.png);
 }
 
-.player-card[data-numbering="B079"] .card-icon {
+.player-card[data-numbering^="B079"] .card-icon {
   background-image: url(img/deckB/B079.png);
 }
 
-.player-card[data-numbering="B080"] .card-icon {
+.player-card[data-numbering^="B080"] .card-icon {
   background-image: url(img/deckB/B080.png);
 }
 
-.player-card[data-numbering="B081"] .card-icon {
+.player-card[data-numbering^="B081"] .card-icon {
   background-image: url(img/deckB/B081.png);
 }
 
-.player-card[data-numbering="B082"] .card-icon {
+.player-card[data-numbering^="B082"] .card-icon {
   background-image: url(img/deckB/B082.png);
 }
 
-.player-card[data-numbering="B083"] .card-icon {
+.player-card[data-numbering^="B083"] .card-icon {
   background-image: url(img/deckB/B083.png);
 }
 
-.player-card[data-numbering="B084"] .card-icon {
+.player-card[data-numbering^="B084"] .card-icon {
   background-image: url(img/deckB/B084.png);
 }
 
-.player-card[data-numbering="B085"] .card-icon {
+.player-card[data-numbering^="B085"] .card-icon {
   background-image: url(img/deckB/B085.png);
 }
 
-.player-card[data-numbering="B086"] .card-icon {
+.player-card[data-numbering^="B086"] .card-icon {
   background-image: url(img/deckB/B086.png);
 }
 
-.player-card[data-numbering="B087"] .card-icon {
+.player-card[data-numbering^="B087"] .card-icon {
   background-image: url(img/deckB/B087.png);
 }
 
-.player-card[data-numbering="B088"] .card-icon {
+.player-card[data-numbering^="B088"] .card-icon {
   background-image: url(img/deckB/B088.png);
 }
 
-.player-card[data-numbering="B089"] .card-icon {
+.player-card[data-numbering^="B089"] .card-icon {
   background-image: url(img/deckB/B089.png);
 }
 
-.player-card[data-numbering="B090"] .card-icon {
+.player-card[data-numbering^="B090"] .card-icon {
   background-image: url(img/deckB/B090.png);
 }
 
-.player-card[data-numbering="B091"] .card-icon {
+.player-card[data-numbering^="B091"] .card-icon {
   background-image: url(img/deckB/B091.png);
 }
 
-.player-card[data-numbering="B092"] .card-icon {
+.player-card[data-numbering^="B092"] .card-icon {
   background-image: url(img/deckB/B092.png);
 }
 
-.player-card[data-numbering="B093"] .card-icon {
+.player-card[data-numbering^="B093"] .card-icon {
   background-image: url(img/deckB/B093.png);
 }
 
-.player-card[data-numbering="B094"] .card-icon {
+.player-card[data-numbering^="B094"] .card-icon {
   background-image: url(img/deckB/B094.png);
 }
 
-.player-card[data-numbering="B095"] .card-icon {
+.player-card[data-numbering^="B095"] .card-icon {
   background-image: url(img/deckB/B095.png);
 }
 
-.player-card[data-numbering="B096"] .card-icon {
+.player-card[data-numbering^="B096"] .card-icon {
   background-image: url(img/deckB/B096.png);
 }
 
-.player-card[data-numbering="B097"] .card-icon {
+.player-card[data-numbering^="B097"] .card-icon {
   background-image: url(img/deckB/B097.png);
 }
 
-.player-card[data-numbering="B098"] .card-icon {
+.player-card[data-numbering^="B098"] .card-icon {
   background-image: url(img/deckB/B098.png);
 }
 
-.player-card[data-numbering="B099"] .card-icon {
+.player-card[data-numbering^="B099"] .card-icon {
   background-image: url(img/deckB/B099.png);
 }
 
-.player-card[data-numbering="B100"] .card-icon {
+.player-card[data-numbering^="B100"] .card-icon {
   background-image: url(img/deckB/B100.png);
 }
 
-.player-card[data-numbering="B101"] .card-icon {
+.player-card[data-numbering^="B101"] .card-icon {
   background-image: url(img/deckB/B101.png);
 }
 
-.player-card[data-numbering="B102"] .card-icon {
+.player-card[data-numbering^="B102"] .card-icon {
   background-image: url(img/deckB/B102.png);
 }
 
-.player-card[data-numbering="B103"] .card-icon {
+.player-card[data-numbering^="B103"] .card-icon {
   background-image: url(img/deckB/B103.png);
 }
 
-.player-card[data-numbering="B104"] .card-icon {
+.player-card[data-numbering^="B104"] .card-icon {
   background-image: url(img/deckB/B104.png);
 }
 
-.player-card[data-numbering="B105"] .card-icon {
+.player-card[data-numbering^="B105"] .card-icon {
   background-image: url(img/deckB/B105.png);
 }
 
-.player-card[data-numbering="B106"] .card-icon {
+.player-card[data-numbering^="B106"] .card-icon {
   background-image: url(img/deckB/B106.png);
 }
 
-.player-card[data-numbering="B107"] .card-icon {
+.player-card[data-numbering^="B107"] .card-icon {
   background-image: url(img/deckB/B107.png);
 }
 
-.player-card[data-numbering="B108"] .card-icon {
+.player-card[data-numbering^="B108"] .card-icon {
   background-image: url(img/deckB/B108.png);
 }
 
-.player-card[data-numbering="B109"] .card-icon {
+.player-card[data-numbering^="B109"] .card-icon {
   background-image: url(img/deckB/B109.png);
 }
 
-.player-card[data-numbering="B110"] .card-icon {
+.player-card[data-numbering^="B110"] .card-icon {
   background-image: url(img/deckB/B110.png);
 }
 
-.player-card[data-numbering="B111"] .card-icon {
+.player-card[data-numbering^="B111"] .card-icon {
   background-image: url(img/deckB/B111.png);
 }
 
-.player-card[data-numbering="B112"] .card-icon {
+.player-card[data-numbering^="B112"] .card-icon {
   background-image: url(img/deckB/B112.png);
 }
 
-.player-card[data-numbering="B113"] .card-icon {
+.player-card[data-numbering^="B113"] .card-icon {
   background-image: url(img/deckB/B113.png);
 }
 
-.player-card[data-numbering="B114"] .card-icon {
+.player-card[data-numbering^="B114"] .card-icon {
   background-image: url(img/deckB/B114.png);
 }
 
-.player-card[data-numbering="B115"] .card-icon {
+.player-card[data-numbering^="B115"] .card-icon {
   background-image: url(img/deckB/B115.png);
 }
 
-.player-card[data-numbering="B116"] .card-icon {
+.player-card[data-numbering^="B116"] .card-icon {
   background-image: url(img/deckB/B116.png);
 }
 
-.player-card[data-numbering="B117"] .card-icon {
+.player-card[data-numbering^="B117"] .card-icon {
   background-image: url(img/deckB/B117.png);
 }
 
-.player-card[data-numbering="B118"] .card-icon {
+.player-card[data-numbering^="B118"] .card-icon {
   background-image: url(img/deckB/B118.png);
 }
 
-.player-card[data-numbering="B119"] .card-icon {
+.player-card[data-numbering^="B119"] .card-icon {
   background-image: url(img/deckB/B119.png);
 }
 
-.player-card[data-numbering="B120"] .card-icon {
+.player-card[data-numbering^="B120"] .card-icon {
   background-image: url(img/deckB/B120.png);
 }
 
-.player-card[data-numbering="B121"] .card-icon {
+.player-card[data-numbering^="B121"] .card-icon {
   background-image: url(img/deckB/B121.png);
 }
 
-.player-card[data-numbering="B122"] .card-icon {
+.player-card[data-numbering^="B122"] .card-icon {
   background-image: url(img/deckB/B122.png);
 }
 
-.player-card[data-numbering="B123"] .card-icon {
+.player-card[data-numbering^="B123"] .card-icon {
   background-image: url(img/deckB/B123.png);
 }
 
-.player-card[data-numbering="B124"] .card-icon {
+.player-card[data-numbering^="B124"] .card-icon {
   background-image: url(img/deckB/B124.png);
 }
 
-.player-card[data-numbering="B125"] .card-icon {
+.player-card[data-numbering^="B125"] .card-icon {
   background-image: url(img/deckB/B125.png);
 }
 
-.player-card[data-numbering="B126"] .card-icon {
+.player-card[data-numbering^="B126"] .card-icon {
   background-image: url(img/deckB/B126.png);
 }
 
-.player-card[data-numbering="B127"] .card-icon {
+.player-card[data-numbering^="B127"] .card-icon {
   background-image: url(img/deckB/B127.png);
 }
 
-.player-card[data-numbering="B128"] .card-icon {
+.player-card[data-numbering^="B128"] .card-icon {
   background-image: url(img/deckB/B128.png);
 }
 
-.player-card[data-numbering="B129"] .card-icon {
+.player-card[data-numbering^="B129"] .card-icon {
   background-image: url(img/deckB/B129.png);
 }
 
-.player-card[data-numbering="B130"] .card-icon {
+.player-card[data-numbering^="B130"] .card-icon {
   background-image: url(img/deckB/B130.png);
 }
 
-.player-card[data-numbering="B131"] .card-icon {
+.player-card[data-numbering^="B131"] .card-icon {
   background-image: url(img/deckB/B131.png);
 }
 
-.player-card[data-numbering="B132"] .card-icon {
+.player-card[data-numbering^="B132"] .card-icon {
   background-image: url(img/deckB/B132.png);
 }
 
-.player-card[data-numbering="B133"] .card-icon {
+.player-card[data-numbering^="B133"] .card-icon {
   background-image: url(img/deckB/B133.png);
 }
 
-.player-card[data-numbering="B134"] .card-icon {
+.player-card[data-numbering^="B134"] .card-icon {
   background-image: url(img/deckB/B134.png);
 }
 
-.player-card[data-numbering="B135"] .card-icon {
+.player-card[data-numbering^="B135"] .card-icon {
   background-image: url(img/deckB/B135.png);
 }
 
-.player-card[data-numbering="B136"] .card-icon {
+.player-card[data-numbering^="B136"] .card-icon {
   background-image: url(img/deckB/B136.png);
 }
 
-.player-card[data-numbering="B137"] .card-icon {
+.player-card[data-numbering^="B137"] .card-icon {
   background-image: url(img/deckB/B137.png);
 }
 
-.player-card[data-numbering="B138"] .card-icon {
+.player-card[data-numbering^="B138"] .card-icon {
   background-image: url(img/deckB/B138.png);
 }
 
-.player-card[data-numbering="B139"] .card-icon {
+.player-card[data-numbering^="B139"] .card-icon {
   background-image: url(img/deckB/B139.png);
 }
 
-.player-card[data-numbering="B140"] .card-icon {
+.player-card[data-numbering^="B140"] .card-icon {
   background-image: url(img/deckB/B140.png);
 }
 
-.player-card[data-numbering="B141"] .card-icon {
+.player-card[data-numbering^="B141"] .card-icon {
   background-image: url(img/deckB/B141.png);
 }
 
-.player-card[data-numbering="B142"] .card-icon {
+.player-card[data-numbering^="B142"] .card-icon {
   background-image: url(img/deckB/B142.png);
 }
 
-.player-card[data-numbering="B143"] .card-icon {
+.player-card[data-numbering^="B143"] .card-icon {
   background-image: url(img/deckB/B143.png);
 }
 
-.player-card[data-numbering="B144"] .card-icon {
+.player-card[data-numbering^="B144"] .card-icon {
   background-image: url(img/deckB/B144.png);
 }
 
-.player-card[data-numbering="B145"] .card-icon {
+.player-card[data-numbering^="B145"] .card-icon {
   background-image: url(img/deckB/B145.png);
 }
 
-.player-card[data-numbering="B146"] .card-icon {
+.player-card[data-numbering^="B146"] .card-icon {
   background-image: url(img/deckB/B146.png);
 }
 
-.player-card[data-numbering="B147"] .card-icon {
+.player-card[data-numbering^="B147"] .card-icon {
   background-image: url(img/deckB/B147.png);
 }
 
-.player-card[data-numbering="B148"] .card-icon {
+.player-card[data-numbering^="B148"] .card-icon {
   background-image: url(img/deckB/B148.png);
 }
 
-.player-card[data-numbering="B149"] .card-icon {
+.player-card[data-numbering^="B149"] .card-icon {
   background-image: url(img/deckB/B149.png);
 }
 
-.player-card[data-numbering="B150"] .card-icon {
+.player-card[data-numbering^="B150"] .card-icon {
   background-image: url(img/deckB/B150.png);
 }
 
-.player-card[data-numbering="B151"] .card-icon {
+.player-card[data-numbering^="B151"] .card-icon {
   background-image: url(img/deckB/B151.png);
 }
 
-.player-card[data-numbering="B152"] .card-icon {
+.player-card[data-numbering^="B152"] .card-icon {
   background-image: url(img/deckB/B152.png);
 }
 
-.player-card[data-numbering="B153"] .card-icon {
+.player-card[data-numbering^="B153"] .card-icon {
   background-image: url(img/deckB/B153.png);
 }
 
-.player-card[data-numbering="B154"] .card-icon {
+.player-card[data-numbering^="B154"] .card-icon {
   background-image: url(img/deckB/B154.png);
 }
 
-.player-card[data-numbering="B155"] .card-icon {
+.player-card[data-numbering^="B155"] .card-icon {
   background-image: url(img/deckB/B155.png);
 }
 
-.player-card[data-numbering="B156"] .card-icon {
+.player-card[data-numbering^="B156"] .card-icon {
   background-image: url(img/deckB/B156.png);
 }
 
-.player-card[data-numbering="B157"] .card-icon {
+.player-card[data-numbering^="B157"] .card-icon {
   background-image: url(img/deckB/B157.png);
 }
 
-.player-card[data-numbering="B158"] .card-icon {
+.player-card[data-numbering^="B158"] .card-icon {
   background-image: url(img/deckB/B158.png);
 }
 
-.player-card[data-numbering="B159"] .card-icon {
+.player-card[data-numbering^="B159"] .card-icon {
   background-image: url(img/deckB/B159.png);
 }
 
-.player-card[data-numbering="B160"] .card-icon {
+.player-card[data-numbering^="B160"] .card-icon {
   background-image: url(img/deckB/B160.png);
 }
 
-.player-card[data-numbering="B161"] .card-icon {
+.player-card[data-numbering^="B161"] .card-icon {
   background-image: url(img/deckB/B161.png);
 }
 
-.player-card[data-numbering="B162"] .card-icon {
+.player-card[data-numbering^="B162"] .card-icon {
   background-image: url(img/deckB/B162.png);
 }
 
-.player-card[data-numbering="B163"] .card-icon {
+.player-card[data-numbering^="B163"] .card-icon {
   background-image: url(img/deckB/B163.png);
 }
 
-.player-card[data-numbering="B164"] .card-icon {
+.player-card[data-numbering^="B164"] .card-icon {
   background-image: url(img/deckB/B164.png);
 }
 
-.player-card[data-numbering="B165"] .card-icon {
+.player-card[data-numbering^="B165"] .card-icon {
   background-image: url(img/deckB/B165.png);
 }
 
-.player-card[data-numbering="B166"] .card-icon {
+.player-card[data-numbering^="B166"] .card-icon {
   background-image: url(img/deckB/B166.png);
 }
 
-.player-card[data-numbering="B167"] .card-icon {
+.player-card[data-numbering^="B167"] .card-icon {
   background-image: url(img/deckB/B167.png);
 }
 
-.player-card[data-numbering="B168"] .card-icon {
+.player-card[data-numbering^="B168"] .card-icon {
   background-image: url(img/deckB/B168.png);
 }
 
-.player-card[data-numbering="C001"] .card-icon {
+.player-card[data-numbering^="C001"] .card-icon {
   background-image: url(img/deckC/C001.png);
 }
 
-.player-card[data-numbering="C002"] .card-icon {
+.player-card[data-numbering^="C002"] .card-icon {
   background-image: url(img/deckC/C002.png);
 }
 
-.player-card[data-numbering="C003"] .card-icon {
+.player-card[data-numbering^="C003"] .card-icon {
   background-image: url(img/deckC/C003.png);
 }
 
-.player-card[data-numbering="C004"] .card-icon {
+.player-card[data-numbering^="C004"] .card-icon {
   background-image: url(img/deckC/C004.png);
 }
 
-.player-card[data-numbering="C005"] .card-icon {
+.player-card[data-numbering^="C005"] .card-icon {
   background-image: url(img/deckC/C005.png);
 }
 
-.player-card[data-numbering="C006"] .card-icon {
+.player-card[data-numbering^="C006"] .card-icon {
   background-image: url(img/deckC/C006.png);
 }
 
-.player-card[data-numbering="C007"] .card-icon {
+.player-card[data-numbering^="C007"] .card-icon {
   background-image: url(img/deckC/C007.png);
 }
 
-.player-card[data-numbering="C008"] .card-icon {
+.player-card[data-numbering^="C008"] .card-icon {
   background-image: url(img/deckC/C008.png);
 }
 
-.player-card[data-numbering="C009"] .card-icon {
+.player-card[data-numbering^="C009"] .card-icon {
   background-image: url(img/deckC/C009.png);
 }
 
-.player-card[data-numbering="C010"] .card-icon {
+.player-card[data-numbering^="C010"] .card-icon {
   background-image: url(img/deckC/C010.png);
 }
 
-.player-card[data-numbering="C011"] .card-icon {
+.player-card[data-numbering^="C011"] .card-icon {
   background-image: url(img/deckC/C011.png);
 }
 
-.player-card[data-numbering="C012"] .card-icon {
+.player-card[data-numbering^="C012"] .card-icon {
   background-image: url(img/deckC/C012.png);
 }
 
-.player-card[data-numbering="C013"] .card-icon {
+.player-card[data-numbering^="C013"] .card-icon {
   background-image: url(img/deckC/C013.png);
 }
 
-.player-card[data-numbering="C014"] .card-icon {
+.player-card[data-numbering^="C014"] .card-icon {
   background-image: url(img/deckC/C014.png);
 }
 
-.player-card[data-numbering="C015"] .card-icon {
+.player-card[data-numbering^="C015"] .card-icon {
   background-image: url(img/deckC/C015.png);
 }
 
-.player-card[data-numbering="C016"] .card-icon {
+.player-card[data-numbering^="C016"] .card-icon {
   background-image: url(img/deckC/C016.png);
 }
 
-.player-card[data-numbering="C017"] .card-icon {
+.player-card[data-numbering^="C017"] .card-icon {
   background-image: url(img/deckC/C017.png);
 }
 
-.player-card[data-numbering="C018"] .card-icon {
+.player-card[data-numbering^="C018"] .card-icon {
   background-image: url(img/deckC/C018.png);
 }
 
-.player-card[data-numbering="C019"] .card-icon {
+.player-card[data-numbering^="C019"] .card-icon {
   background-image: url(img/deckC/C019.png);
 }
 
-.player-card[data-numbering="C020"] .card-icon {
+.player-card[data-numbering^="C020"] .card-icon {
   background-image: url(img/deckC/C020.png);
 }
 
-.player-card[data-numbering="C021"] .card-icon {
+.player-card[data-numbering^="C021"] .card-icon {
   background-image: url(img/deckC/C021.png);
 }
 
-.player-card[data-numbering="C022"] .card-icon {
+.player-card[data-numbering^="C022"] .card-icon {
   background-image: url(img/deckC/C022.png);
 }
 
-.player-card[data-numbering="C023"] .card-icon {
+.player-card[data-numbering^="C023"] .card-icon {
   background-image: url(img/deckC/C023.png);
 }
 
-.player-card[data-numbering="C024"] .card-icon {
+.player-card[data-numbering^="C024"] .card-icon {
   background-image: url(img/deckC/C024.png);
 }
 
-.player-card[data-numbering="C025"] .card-icon {
+.player-card[data-numbering^="C025"] .card-icon {
   background-image: url(img/deckC/C025.png);
 }
 
-.player-card[data-numbering="C026"] .card-icon {
+.player-card[data-numbering^="C026"] .card-icon {
   background-image: url(img/deckC/C026.png);
 }
 
-.player-card[data-numbering="C027"] .card-icon {
+.player-card[data-numbering^="C027"] .card-icon {
   background-image: url(img/deckC/C027.png);
 }
 
-.player-card[data-numbering="C028"] .card-icon {
+.player-card[data-numbering^="C028"] .card-icon {
   background-image: url(img/deckC/C028.png);
 }
 
-.player-card[data-numbering="C029"] .card-icon {
+.player-card[data-numbering^="C029"] .card-icon {
   background-image: url(img/deckC/C029.png);
 }
 
-.player-card[data-numbering="C030"] .card-icon {
+.player-card[data-numbering^="C030"] .card-icon {
   background-image: url(img/deckC/C030.png);
 }
 
-.player-card[data-numbering="C031"] .card-icon {
+.player-card[data-numbering^="C031"] .card-icon {
   background-image: url(img/deckC/C031.png);
 }
 
-.player-card[data-numbering="C032"] .card-icon {
+.player-card[data-numbering^="C032"] .card-icon {
   background-image: url(img/deckC/C032.png);
 }
 
-.player-card[data-numbering="C033"] .card-icon {
+.player-card[data-numbering^="C033"] .card-icon {
   background-image: url(img/deckC/C033.png);
 }
 
-.player-card[data-numbering="C034"] .card-icon {
+.player-card[data-numbering^="C034"] .card-icon {
   background-image: url(img/deckC/C034.png);
 }
 
-.player-card[data-numbering="C035"] .card-icon {
+.player-card[data-numbering^="C035"] .card-icon {
   background-image: url(img/deckC/C035.png);
 }
 
-.player-card[data-numbering="C036"] .card-icon {
+.player-card[data-numbering^="C036"] .card-icon {
   background-image: url(img/deckC/C036.png);
 }
 
-.player-card[data-numbering="C037"] .card-icon {
+.player-card[data-numbering^="C037"] .card-icon {
   background-image: url(img/deckC/C037.png);
 }
 
-.player-card[data-numbering="C038"] .card-icon {
+.player-card[data-numbering^="C038"] .card-icon {
   background-image: url(img/deckC/C038.png);
 }
 
-.player-card[data-numbering="C039"] .card-icon {
+.player-card[data-numbering^="C039"] .card-icon {
   background-image: url(img/deckC/C039.png);
 }
 
-.player-card[data-numbering="C040"] .card-icon {
+.player-card[data-numbering^="C040"] .card-icon {
   background-image: url(img/deckC/C040.png);
 }
 
-.player-card[data-numbering="C041"] .card-icon {
+.player-card[data-numbering^="C041"] .card-icon {
   background-image: url(img/deckC/C041.png);
 }
 
-.player-card[data-numbering="C042"] .card-icon {
+.player-card[data-numbering^="C042"] .card-icon {
   background-image: url(img/deckC/C042.png);
 }
 
-.player-card[data-numbering="C043"] .card-icon {
+.player-card[data-numbering^="C043"] .card-icon {
   background-image: url(img/deckC/C043.png);
 }
 
-.player-card[data-numbering="C044"] .card-icon {
+.player-card[data-numbering^="C044"] .card-icon {
   background-image: url(img/deckC/C044.png);
 }
 
-.player-card[data-numbering="C045"] .card-icon {
+.player-card[data-numbering^="C045"] .card-icon {
   background-image: url(img/deckC/C045.png);
 }
 
-.player-card[data-numbering="C046"] .card-icon {
+.player-card[data-numbering^="C046"] .card-icon {
   background-image: url(img/deckC/C046.png);
 }
 
-.player-card[data-numbering="C047"] .card-icon {
+.player-card[data-numbering^="C047"] .card-icon {
   background-image: url(img/deckC/C047.png);
 }
 
-.player-card[data-numbering="C048"] .card-icon {
+.player-card[data-numbering^="C048"] .card-icon {
   background-image: url(img/deckC/C048.png);
 }
 
-.player-card[data-numbering="C049"] .card-icon {
+.player-card[data-numbering^="C049"] .card-icon {
   background-image: url(img/deckC/C049.png);
 }
 
-.player-card[data-numbering="C050"] .card-icon {
+.player-card[data-numbering^="C050"] .card-icon {
   background-image: url(img/deckC/C050.png);
 }
 
-.player-card[data-numbering="C051"] .card-icon {
+.player-card[data-numbering^="C051"] .card-icon {
   background-image: url(img/deckC/C051.png);
 }
 
-.player-card[data-numbering="C052"] .card-icon {
+.player-card[data-numbering^="C052"] .card-icon {
   background-image: url(img/deckC/C052.png);
 }
 
-.player-card[data-numbering="C053"] .card-icon {
+.player-card[data-numbering^="C053"] .card-icon {
   background-image: url(img/deckC/C053.png);
 }
 
-.player-card[data-numbering="C054"] .card-icon {
+.player-card[data-numbering^="C054"] .card-icon {
   background-image: url(img/deckC/C054.png);
 }
 
-.player-card[data-numbering="C055"] .card-icon {
+.player-card[data-numbering^="C055"] .card-icon {
   background-image: url(img/deckC/C055.png);
 }
 
-.player-card[data-numbering="C056"] .card-icon {
+.player-card[data-numbering^="C056"] .card-icon {
   background-image: url(img/deckC/C056.png);
 }
 
-.player-card[data-numbering="C057"] .card-icon {
+.player-card[data-numbering^="C057"] .card-icon {
   background-image: url(img/deckC/C057.png);
 }
 
-.player-card[data-numbering="C058"] .card-icon {
+.player-card[data-numbering^="C058"] .card-icon {
   background-image: url(img/deckC/C058.png);
 }
 
-.player-card[data-numbering="C059"] .card-icon {
+.player-card[data-numbering^="C059"] .card-icon {
   background-image: url(img/deckC/C059.png);
 }
 
-.player-card[data-numbering="C060"] .card-icon {
+.player-card[data-numbering^="C060"] .card-icon {
   background-image: url(img/deckC/C060.png);
 }
 
-.player-card[data-numbering="C061"] .card-icon {
+.player-card[data-numbering^="C061"] .card-icon {
   background-image: url(img/deckC/C061.png);
 }
 
-.player-card[data-numbering="C062"] .card-icon {
+.player-card[data-numbering^="C062"] .card-icon {
   background-image: url(img/deckC/C062.png);
 }
 
-.player-card[data-numbering="C063"] .card-icon {
+.player-card[data-numbering^="C063"] .card-icon {
   background-image: url(img/deckC/C063.png);
 }
 
-.player-card[data-numbering="C064"] .card-icon {
+.player-card[data-numbering^="C064"] .card-icon {
   background-image: url(img/deckC/C064.png);
 }
 
-.player-card[data-numbering="C065"] .card-icon {
+.player-card[data-numbering^="C065"] .card-icon {
   background-image: url(img/deckC/C065.png);
 }
 
-.player-card[data-numbering="C066"] .card-icon {
+.player-card[data-numbering^="C066"] .card-icon {
   background-image: url(img/deckC/C066.png);
 }
 
-.player-card[data-numbering="C067"] .card-icon {
+.player-card[data-numbering^="C067"] .card-icon {
   background-image: url(img/deckC/C067.png);
 }
 
-.player-card[data-numbering="C068"] .card-icon {
+.player-card[data-numbering^="C068"] .card-icon {
   background-image: url(img/deckC/C068.png);
 }
 
-.player-card[data-numbering="C069"] .card-icon {
+.player-card[data-numbering^="C069"] .card-icon {
   background-image: url(img/deckC/C069.png);
 }
 
-.player-card[data-numbering="C070"] .card-icon {
+.player-card[data-numbering^="C070"] .card-icon {
   background-image: url(img/deckC/C070.png);
 }
 
-.player-card[data-numbering="C071"] .card-icon {
+.player-card[data-numbering^="C071"] .card-icon {
   background-image: url(img/deckC/C071.png);
 }
 
-.player-card[data-numbering="C072"] .card-icon {
+.player-card[data-numbering^="C072"] .card-icon {
   background-image: url(img/deckC/C072.png);
 }
 
-.player-card[data-numbering="C073"] .card-icon {
+.player-card[data-numbering^="C073"] .card-icon {
   background-image: url(img/deckC/C073.png);
 }
 
-.player-card[data-numbering="C074"] .card-icon {
+.player-card[data-numbering^="C074"] .card-icon {
   background-image: url(img/deckC/C074.png);
 }
 
-.player-card[data-numbering="C075"] .card-icon {
+.player-card[data-numbering^="C075"] .card-icon {
   background-image: url(img/deckC/C075.png);
 }
 
-.player-card[data-numbering="C076"] .card-icon {
+.player-card[data-numbering^="C076"] .card-icon {
   background-image: url(img/deckC/C076.png);
 }
 
-.player-card[data-numbering="C077"] .card-icon {
+.player-card[data-numbering^="C077"] .card-icon {
   background-image: url(img/deckC/C077.png);
 }
 
-.player-card[data-numbering="C078"] .card-icon {
+.player-card[data-numbering^="C078"] .card-icon {
   background-image: url(img/deckC/C078.png);
 }
 
-.player-card[data-numbering="C079"] .card-icon {
+.player-card[data-numbering^="C079"] .card-icon {
   background-image: url(img/deckC/C079.png);
 }
 
-.player-card[data-numbering="C080"] .card-icon {
+.player-card[data-numbering^="C080"] .card-icon {
   background-image: url(img/deckC/C080.png);
 }
 
-.player-card[data-numbering="C081"] .card-icon {
+.player-card[data-numbering^="C081"] .card-icon {
   background-image: url(img/deckC/C081.png);
 }
 
-.player-card[data-numbering="C082"] .card-icon {
+.player-card[data-numbering^="C082"] .card-icon {
   background-image: url(img/deckC/C082.png);
 }
 
-.player-card[data-numbering="C083"] .card-icon {
+.player-card[data-numbering^="C083"] .card-icon {
   background-image: url(img/deckC/C083.png);
 }
 
-.player-card[data-numbering="C084"] .card-icon {
+.player-card[data-numbering^="C084"] .card-icon {
   background-image: url(img/deckC/C084.png);
 }
 
-.player-card[data-numbering="C085"] .card-icon {
+.player-card[data-numbering^="C085"] .card-icon {
   background-image: url(img/deckC/C085.png);
 }
 
-.player-card[data-numbering="C086"] .card-icon {
+.player-card[data-numbering^="C086"] .card-icon {
   background-image: url(img/deckC/C086.png);
 }
 
-.player-card[data-numbering="C087"] .card-icon {
+.player-card[data-numbering^="C087"] .card-icon {
   background-image: url(img/deckC/C087.png);
 }
 
-.player-card[data-numbering="C088"] .card-icon {
+.player-card[data-numbering^="C088"] .card-icon {
   background-image: url(img/deckC/C088.png);
 }
 
-.player-card[data-numbering="C089"] .card-icon {
+.player-card[data-numbering^="C089"] .card-icon {
   background-image: url(img/deckC/C089.png);
 }
 
-.player-card[data-numbering="C090"] .card-icon {
+.player-card[data-numbering^="C090"] .card-icon {
   background-image: url(img/deckC/C090.png);
 }
 
-.player-card[data-numbering="C091"] .card-icon {
+.player-card[data-numbering^="C091"] .card-icon {
   background-image: url(img/deckC/C091.png);
 }
 
-.player-card[data-numbering="C092"] .card-icon {
+.player-card[data-numbering^="C092"] .card-icon {
   background-image: url(img/deckC/C092.png);
 }
 
-.player-card[data-numbering="C093"] .card-icon {
+.player-card[data-numbering^="C093"] .card-icon {
   background-image: url(img/deckC/C093.png);
 }
 
-.player-card[data-numbering="C094"] .card-icon {
+.player-card[data-numbering^="C094"] .card-icon {
   background-image: url(img/deckC/C094.png);
 }
 
-.player-card[data-numbering="C095"] .card-icon {
+.player-card[data-numbering^="C095"] .card-icon {
   background-image: url(img/deckC/C095.png);
 }
 
-.player-card[data-numbering="C096"] .card-icon {
+.player-card[data-numbering^="C096"] .card-icon {
   background-image: url(img/deckC/C096.png);
 }
 
-.player-card[data-numbering="C097"] .card-icon {
+.player-card[data-numbering^="C097"] .card-icon {
   background-image: url(img/deckC/C097.png);
 }
 
-.player-card[data-numbering="C098"] .card-icon {
+.player-card[data-numbering^="C098"] .card-icon {
   background-image: url(img/deckC/C098.png);
 }
 
-.player-card[data-numbering="C099"] .card-icon {
+.player-card[data-numbering^="C099"] .card-icon {
   background-image: url(img/deckC/C099.png);
 }
 
-.player-card[data-numbering="C100"] .card-icon {
+.player-card[data-numbering^="C100"] .card-icon {
   background-image: url(img/deckC/C100.png);
 }
 
-.player-card[data-numbering="C101"] .card-icon {
+.player-card[data-numbering^="C101"] .card-icon {
   background-image: url(img/deckC/C101.png);
 }
 
-.player-card[data-numbering="C102"] .card-icon {
+.player-card[data-numbering^="C102"] .card-icon {
   background-image: url(img/deckC/C102.png);
 }
 
-.player-card[data-numbering="C103"] .card-icon {
+.player-card[data-numbering^="C103"] .card-icon {
   background-image: url(img/deckC/C103.png);
 }
 
-.player-card[data-numbering="C104"] .card-icon {
+.player-card[data-numbering^="C104"] .card-icon {
   background-image: url(img/deckC/C104.png);
 }
 
-.player-card[data-numbering="C105"] .card-icon {
+.player-card[data-numbering^="C105"] .card-icon {
   background-image: url(img/deckC/C105.png);
 }
 
-.player-card[data-numbering="C106"] .card-icon {
+.player-card[data-numbering^="C106"] .card-icon {
   background-image: url(img/deckC/C106.png);
 }
 
-.player-card[data-numbering="C107"] .card-icon {
+.player-card[data-numbering^="C107"] .card-icon {
   background-image: url(img/deckC/C107.png);
 }
 
-.player-card[data-numbering="C108"] .card-icon {
+.player-card[data-numbering^="C108"] .card-icon {
   background-image: url(img/deckC/C108.png);
 }
 
-.player-card[data-numbering="C109"] .card-icon {
+.player-card[data-numbering^="C109"] .card-icon {
   background-image: url(img/deckC/C109.png);
 }
 
-.player-card[data-numbering="C110"] .card-icon {
+.player-card[data-numbering^="C110"] .card-icon {
   background-image: url(img/deckC/C110.png);
 }
 
-.player-card[data-numbering="C111"] .card-icon {
+.player-card[data-numbering^="C111"] .card-icon {
   background-image: url(img/deckC/C111.png);
 }
 
-.player-card[data-numbering="C112"] .card-icon {
+.player-card[data-numbering^="C112"] .card-icon {
   background-image: url(img/deckC/C112.png);
 }
 
-.player-card[data-numbering="C113"] .card-icon {
+.player-card[data-numbering^="C113"] .card-icon {
   background-image: url(img/deckC/C113.png);
 }
 
-.player-card[data-numbering="C114"] .card-icon {
+.player-card[data-numbering^="C114"] .card-icon {
   background-image: url(img/deckC/C114.png);
 }
 
-.player-card[data-numbering="C115"] .card-icon {
+.player-card[data-numbering^="C115"] .card-icon {
   background-image: url(img/deckC/C115.png);
 }
 
-.player-card[data-numbering="C116"] .card-icon {
+.player-card[data-numbering^="C116"] .card-icon {
   background-image: url(img/deckC/C116.png);
 }
 
-.player-card[data-numbering="C117"] .card-icon {
+.player-card[data-numbering^="C117"] .card-icon {
   background-image: url(img/deckC/C117.png);
 }
 
-.player-card[data-numbering="C118"] .card-icon {
+.player-card[data-numbering^="C118"] .card-icon {
   background-image: url(img/deckC/C118.png);
 }
 
-.player-card[data-numbering="C119"] .card-icon {
+.player-card[data-numbering^="C119"] .card-icon {
   background-image: url(img/deckC/C119.png);
 }
 
-.player-card[data-numbering="C120"] .card-icon {
+.player-card[data-numbering^="C120"] .card-icon {
   background-image: url(img/deckC/C120.png);
 }
 
-.player-card[data-numbering="C121"] .card-icon {
+.player-card[data-numbering^="C121"] .card-icon {
   background-image: url(img/deckC/C121.png);
 }
 
-.player-card[data-numbering="C122"] .card-icon {
+.player-card[data-numbering^="C122"] .card-icon {
   background-image: url(img/deckC/C122.png);
 }
 
-.player-card[data-numbering="C123"] .card-icon {
+.player-card[data-numbering^="C123"] .card-icon {
   background-image: url(img/deckC/C123.png);
 }
 
-.player-card[data-numbering="C124"] .card-icon {
+.player-card[data-numbering^="C124"] .card-icon {
   background-image: url(img/deckC/C124.png);
 }
 
-.player-card[data-numbering="C125"] .card-icon {
+.player-card[data-numbering^="C125"] .card-icon {
   background-image: url(img/deckC/C125.png);
 }
 
-.player-card[data-numbering="C126"] .card-icon {
+.player-card[data-numbering^="C126"] .card-icon {
   background-image: url(img/deckC/C126.png);
 }
 
-.player-card[data-numbering="C127"] .card-icon {
+.player-card[data-numbering^="C127"] .card-icon {
   background-image: url(img/deckC/C127.png);
 }
 
-.player-card[data-numbering="C128"] .card-icon {
+.player-card[data-numbering^="C128"] .card-icon {
   background-image: url(img/deckC/C128.png);
 }
 
-.player-card[data-numbering="C129"] .card-icon {
+.player-card[data-numbering^="C129"] .card-icon {
   background-image: url(img/deckC/C129.png);
 }
 
-.player-card[data-numbering="C130"] .card-icon {
+.player-card[data-numbering^="C130"] .card-icon {
   background-image: url(img/deckC/C130.png);
 }
 
-.player-card[data-numbering="C131"] .card-icon {
+.player-card[data-numbering^="C131"] .card-icon {
   background-image: url(img/deckC/C131.png);
 }
 
-.player-card[data-numbering="C132"] .card-icon {
+.player-card[data-numbering^="C132"] .card-icon {
   background-image: url(img/deckC/C132.png);
 }
 
-.player-card[data-numbering="C133"] .card-icon {
+.player-card[data-numbering^="C133"] .card-icon {
   background-image: url(img/deckC/C133.png);
 }
 
-.player-card[data-numbering="C134"] .card-icon {
+.player-card[data-numbering^="C134"] .card-icon {
   background-image: url(img/deckC/C134.png);
 }
 
-.player-card[data-numbering="C135"] .card-icon {
+.player-card[data-numbering^="C135"] .card-icon {
   background-image: url(img/deckC/C135.png);
 }
 
-.player-card[data-numbering="C136"] .card-icon {
+.player-card[data-numbering^="C136"] .card-icon {
   background-image: url(img/deckC/C136.png);
 }
 
-.player-card[data-numbering="C137"] .card-icon {
+.player-card[data-numbering^="C137"] .card-icon {
   background-image: url(img/deckC/C137.png);
 }
 
-.player-card[data-numbering="C138"] .card-icon {
+.player-card[data-numbering^="C138"] .card-icon {
   background-image: url(img/deckC/C138.png);
 }
 
-.player-card[data-numbering="C139"] .card-icon {
+.player-card[data-numbering^="C139"] .card-icon {
   background-image: url(img/deckC/C139.png);
 }
 
-.player-card[data-numbering="C140"] .card-icon {
+.player-card[data-numbering^="C140"] .card-icon {
   background-image: url(img/deckC/C140.png);
 }
 
-.player-card[data-numbering="C141"] .card-icon {
+.player-card[data-numbering^="C141"] .card-icon {
   background-image: url(img/deckC/C141.png);
 }
 
-.player-card[data-numbering="C142"] .card-icon {
+.player-card[data-numbering^="C142"] .card-icon {
   background-image: url(img/deckC/C142.png);
 }
 
-.player-card[data-numbering="C143"] .card-icon {
+.player-card[data-numbering^="C143"] .card-icon {
   background-image: url(img/deckC/C143.png);
 }
 
-.player-card[data-numbering="C144"] .card-icon {
+.player-card[data-numbering^="C144"] .card-icon {
   background-image: url(img/deckC/C144.png);
 }
 
-.player-card[data-numbering="C145"] .card-icon {
+.player-card[data-numbering^="C145"] .card-icon {
   background-image: url(img/deckC/C145.png);
 }
 
-.player-card[data-numbering="C146"] .card-icon {
+.player-card[data-numbering^="C146"] .card-icon {
   background-image: url(img/deckC/C146.png);
 }
 
-.player-card[data-numbering="C147"] .card-icon {
+.player-card[data-numbering^="C147"] .card-icon {
   background-image: url(img/deckC/C147.png);
 }
 
-.player-card[data-numbering="C148"] .card-icon {
+.player-card[data-numbering^="C148"] .card-icon {
   background-image: url(img/deckC/C148.png);
 }
 
-.player-card[data-numbering="C149"] .card-icon {
+.player-card[data-numbering^="C149"] .card-icon {
   background-image: url(img/deckC/C149.png);
 }
 
-.player-card[data-numbering="C150"] .card-icon {
+.player-card[data-numbering^="C150"] .card-icon {
   background-image: url(img/deckC/C150.png);
 }
 
-.player-card[data-numbering="C151"] .card-icon {
+.player-card[data-numbering^="C151"] .card-icon {
   background-image: url(img/deckC/C151.png);
 }
 
-.player-card[data-numbering="C152"] .card-icon {
+.player-card[data-numbering^="C152"] .card-icon {
   background-image: url(img/deckC/C152.png);
 }
 
-.player-card[data-numbering="C153"] .card-icon {
+.player-card[data-numbering^="C153"] .card-icon {
   background-image: url(img/deckC/C153.png);
 }
 
-.player-card[data-numbering="C154"] .card-icon {
+.player-card[data-numbering^="C154"] .card-icon {
   background-image: url(img/deckC/C154.png);
 }
 
-.player-card[data-numbering="C155"] .card-icon {
+.player-card[data-numbering^="C155"] .card-icon {
   background-image: url(img/deckC/C155.png);
 }
 
-.player-card[data-numbering="C156"] .card-icon {
+.player-card[data-numbering^="C156"] .card-icon {
   background-image: url(img/deckC/C156.png);
 }
 
-.player-card[data-numbering="C157"] .card-icon {
+.player-card[data-numbering^="C157"] .card-icon {
   background-image: url(img/deckC/C157.png);
 }
 
-.player-card[data-numbering="C158"] .card-icon {
+.player-card[data-numbering^="C158"] .card-icon {
   background-image: url(img/deckC/C158.png);
 }
 
-.player-card[data-numbering="C159"] .card-icon {
+.player-card[data-numbering^="C159"] .card-icon {
   background-image: url(img/deckC/C159.png);
 }
 
-.player-card[data-numbering="C160"] .card-icon {
+.player-card[data-numbering^="C160"] .card-icon {
   background-image: url(img/deckC/C160.png);
 }
 
-.player-card[data-numbering="C161"] .card-icon {
+.player-card[data-numbering^="C161"] .card-icon {
   background-image: url(img/deckC/C161.png);
 }
 
-.player-card[data-numbering="C162"] .card-icon {
+.player-card[data-numbering^="C162"] .card-icon {
   background-image: url(img/deckC/C162.png);
 }
 
-.player-card[data-numbering="C163"] .card-icon {
+.player-card[data-numbering^="C163"] .card-icon {
   background-image: url(img/deckC/C163.png);
 }
 
-.player-card[data-numbering="C164"] .card-icon {
+.player-card[data-numbering^="C164"] .card-icon {
   background-image: url(img/deckC/C164.png);
 }
 
-.player-card[data-numbering="C165"] .card-icon {
+.player-card[data-numbering^="C165"] .card-icon {
   background-image: url(img/deckC/C165.png);
 }
 
-.player-card[data-numbering="C166"] .card-icon {
+.player-card[data-numbering^="C166"] .card-icon {
   background-image: url(img/deckC/C166.png);
 }
 
-.player-card[data-numbering="C167"] .card-icon {
+.player-card[data-numbering^="C167"] .card-icon {
   background-image: url(img/deckC/C167.png);
 }
 
-.player-card[data-numbering="C168"] .card-icon {
+.player-card[data-numbering^="C168"] .card-icon {
   background-image: url(img/deckC/C168.png);
 }
 
-.player-card[data-numbering="D001"] .card-icon {
+.player-card[data-numbering^="D001"] .card-icon {
   background-image: url(img/deckD/D001.png);
 }
 
-.player-card[data-numbering="D002"] .card-icon {
+.player-card[data-numbering^="D002"] .card-icon {
   background-image: url(img/deckD/D002.png);
 }
 
-.player-card[data-numbering="D003"] .card-icon {
+.player-card[data-numbering^="D003"] .card-icon {
   background-image: url(img/deckD/D003.png);
 }
 
-.player-card[data-numbering="D004"] .card-icon {
+.player-card[data-numbering^="D004"] .card-icon {
   background-image: url(img/deckD/D004.png);
 }
 
-.player-card[data-numbering="D005"] .card-icon {
+.player-card[data-numbering^="D005"] .card-icon {
   background-image: url(img/deckD/D005.png);
 }
 
-.player-card[data-numbering="D006"] .card-icon {
+.player-card[data-numbering^="D006"] .card-icon {
   background-image: url(img/deckD/D006.png);
 }
 
-.player-card[data-numbering="D007"] .card-icon {
+.player-card[data-numbering^="D007"] .card-icon {
   background-image: url(img/deckD/D007.png);
 }
 
-.player-card[data-numbering="D008"] .card-icon {
+.player-card[data-numbering^="D008"] .card-icon {
   background-image: url(img/deckD/D008.png);
 }
 
-.player-card[data-numbering="D009"] .card-icon {
+.player-card[data-numbering^="D009"] .card-icon {
   background-image: url(img/deckD/D009.png);
 }
 
-.player-card[data-numbering="D010"] .card-icon {
+.player-card[data-numbering^="D010"] .card-icon {
   background-image: url(img/deckD/D010.png);
 }
 
-.player-card[data-numbering="D011"] .card-icon {
+.player-card[data-numbering^="D011"] .card-icon {
   background-image: url(img/deckD/D011.png);
 }
 
-.player-card[data-numbering="D012"] .card-icon {
+.player-card[data-numbering^="D012"] .card-icon {
   background-image: url(img/deckD/D012.png);
 }
 
-.player-card[data-numbering="D013"] .card-icon {
+.player-card[data-numbering^="D013"] .card-icon {
   background-image: url(img/deckD/D013.png);
 }
 
-.player-card[data-numbering="D014"] .card-icon {
+.player-card[data-numbering^="D014"] .card-icon {
   background-image: url(img/deckD/D014.png);
 }
 
-.player-card[data-numbering="D015"] .card-icon {
+.player-card[data-numbering^="D015"] .card-icon {
   background-image: url(img/deckD/D015.png);
 }
 
-.player-card[data-numbering="D016"] .card-icon {
+.player-card[data-numbering^="D016"] .card-icon {
   background-image: url(img/deckD/D016.png);
 }
 
-.player-card[data-numbering="D017"] .card-icon {
+.player-card[data-numbering^="D017"] .card-icon {
   background-image: url(img/deckD/D017.png);
 }
 
-.player-card[data-numbering="D018"] .card-icon {
+.player-card[data-numbering^="D018"] .card-icon {
   background-image: url(img/deckD/D018.png);
 }
 
-.player-card[data-numbering="D019"] .card-icon {
+.player-card[data-numbering^="D019"] .card-icon {
   background-image: url(img/deckD/D019.png);
 }
 
-.player-card[data-numbering="D020"] .card-icon {
+.player-card[data-numbering^="D020"] .card-icon {
   background-image: url(img/deckD/D020.png);
 }
 
-.player-card[data-numbering="D021"] .card-icon {
+.player-card[data-numbering^="D021"] .card-icon {
   background-image: url(img/deckD/D021.png);
 }
 
-.player-card[data-numbering="D022"] .card-icon {
+.player-card[data-numbering^="D022"] .card-icon {
   background-image: url(img/deckD/D022.png);
 }
 
-.player-card[data-numbering="D023"] .card-icon {
+.player-card[data-numbering^="D023"] .card-icon {
   background-image: url(img/deckD/D023.png);
 }
 
-.player-card[data-numbering="D024"] .card-icon {
+.player-card[data-numbering^="D024"] .card-icon {
   background-image: url(img/deckD/D024.png);
 }
 
-.player-card[data-numbering="D025"] .card-icon {
+.player-card[data-numbering^="D025"] .card-icon {
   background-image: url(img/deckD/D025.png);
 }
 
-.player-card[data-numbering="D026"] .card-icon {
+.player-card[data-numbering^="D026"] .card-icon {
   background-image: url(img/deckD/D026.png);
 }
 
-.player-card[data-numbering="D027"] .card-icon {
+.player-card[data-numbering^="D027"] .card-icon {
   background-image: url(img/deckD/D027.png);
 }
 
-.player-card[data-numbering="D028"] .card-icon {
+.player-card[data-numbering^="D028"] .card-icon {
   background-image: url(img/deckD/D028.png);
 }
 
-.player-card[data-numbering="D029"] .card-icon {
+.player-card[data-numbering^="D029"] .card-icon {
   background-image: url(img/deckD/D029.png);
 }
 
-.player-card[data-numbering="D030"] .card-icon {
+.player-card[data-numbering^="D030"] .card-icon {
   background-image: url(img/deckD/D030.png);
 }
 
-.player-card[data-numbering="D031"] .card-icon {
+.player-card[data-numbering^="D031"] .card-icon {
   background-image: url(img/deckD/D031.png);
 }
 
-.player-card[data-numbering="D032"] .card-icon {
+.player-card[data-numbering^="D032"] .card-icon {
   background-image: url(img/deckD/D032.png);
 }
 
-.player-card[data-numbering="D033"] .card-icon {
+.player-card[data-numbering^="D033"] .card-icon {
   background-image: url(img/deckD/D033.png);
 }
 
-.player-card[data-numbering="D034"] .card-icon {
+.player-card[data-numbering^="D034"] .card-icon {
   background-image: url(img/deckD/D034.png);
 }
 
-.player-card[data-numbering="D035"] .card-icon {
+.player-card[data-numbering^="D035"] .card-icon {
   background-image: url(img/deckD/D035.png);
 }
 
-.player-card[data-numbering="D036"] .card-icon {
+.player-card[data-numbering^="D036"] .card-icon {
   background-image: url(img/deckD/D036.png);
 }
 
-.player-card[data-numbering="D037"] .card-icon {
+.player-card[data-numbering^="D037"] .card-icon {
   background-image: url(img/deckD/D037.png);
 }
 
-.player-card[data-numbering="D038"] .card-icon {
+.player-card[data-numbering^="D038"] .card-icon {
   background-image: url(img/deckD/D038.png);
 }
 
-.player-card[data-numbering="D039"] .card-icon {
+.player-card[data-numbering^="D039"] .card-icon {
   background-image: url(img/deckD/D039.png);
 }
 
-.player-card[data-numbering="D040"] .card-icon {
+.player-card[data-numbering^="D040"] .card-icon {
   background-image: url(img/deckD/D040.png);
 }
 
-.player-card[data-numbering="D041"] .card-icon {
+.player-card[data-numbering^="D041"] .card-icon {
   background-image: url(img/deckD/D041.png);
 }
 
-.player-card[data-numbering="D042"] .card-icon {
+.player-card[data-numbering^="D042"] .card-icon {
   background-image: url(img/deckD/D042.png);
 }
 
-.player-card[data-numbering="D043"] .card-icon {
+.player-card[data-numbering^="D043"] .card-icon {
   background-image: url(img/deckD/D043.png);
 }
 
-.player-card[data-numbering="D044"] .card-icon {
+.player-card[data-numbering^="D044"] .card-icon {
   background-image: url(img/deckD/D044.png);
 }
 
-.player-card[data-numbering="D045"] .card-icon {
+.player-card[data-numbering^="D045"] .card-icon {
   background-image: url(img/deckD/D045.png);
 }
 
-.player-card[data-numbering="D046"] .card-icon {
+.player-card[data-numbering^="D046"] .card-icon {
   background-image: url(img/deckD/D046.png);
 }
 
-.player-card[data-numbering="D047"] .card-icon {
+.player-card[data-numbering^="D047"] .card-icon {
   background-image: url(img/deckD/D047.png);
 }
 
-.player-card[data-numbering="D048"] .card-icon {
+.player-card[data-numbering^="D048"] .card-icon {
   background-image: url(img/deckD/D048.png);
 }
 
-.player-card[data-numbering="D049"] .card-icon {
+.player-card[data-numbering^="D049"] .card-icon {
   background-image: url(img/deckD/D049.png);
 }
 
-.player-card[data-numbering="D050"] .card-icon {
+.player-card[data-numbering^="D050"] .card-icon {
   background-image: url(img/deckD/D050.png);
 }
 
-.player-card[data-numbering="D051"] .card-icon {
+.player-card[data-numbering^="D051"] .card-icon {
   background-image: url(img/deckD/D051.png);
 }
 
-.player-card[data-numbering="D052"] .card-icon {
+.player-card[data-numbering^="D052"] .card-icon {
   background-image: url(img/deckD/D052.png);
 }
 
-.player-card[data-numbering="D053"] .card-icon {
+.player-card[data-numbering^="D053"] .card-icon {
   background-image: url(img/deckD/D053.png);
 }
 
-.player-card[data-numbering="D054"] .card-icon {
+.player-card[data-numbering^="D054"] .card-icon {
   background-image: url(img/deckD/D054.png);
 }
 
-.player-card[data-numbering="D055"] .card-icon {
+.player-card[data-numbering^="D055"] .card-icon {
   background-image: url(img/deckD/D055.png);
 }
 
-.player-card[data-numbering="D056"] .card-icon {
+.player-card[data-numbering^="D056"] .card-icon {
   background-image: url(img/deckD/D056.png);
 }
 
-.player-card[data-numbering="D057"] .card-icon {
+.player-card[data-numbering^="D057"] .card-icon {
   background-image: url(img/deckD/D057.png);
 }
 
-.player-card[data-numbering="D058"] .card-icon {
+.player-card[data-numbering^="D058"] .card-icon {
   background-image: url(img/deckD/D058.png);
 }
 
-.player-card[data-numbering="D059"] .card-icon {
+.player-card[data-numbering^="D059"] .card-icon {
   background-image: url(img/deckD/D059.png);
 }
 
-.player-card[data-numbering="D060"] .card-icon {
+.player-card[data-numbering^="D060"] .card-icon {
   background-image: url(img/deckD/D060.png);
 }
 
-.player-card[data-numbering="D061"] .card-icon {
+.player-card[data-numbering^="D061"] .card-icon {
   background-image: url(img/deckD/D061.png);
 }
 
-.player-card[data-numbering="D062"] .card-icon {
+.player-card[data-numbering^="D062"] .card-icon {
   background-image: url(img/deckD/D062.png);
 }
 
-.player-card[data-numbering="D063"] .card-icon {
+.player-card[data-numbering^="D063"] .card-icon {
   background-image: url(img/deckD/D063.png);
 }
 
-.player-card[data-numbering="D064"] .card-icon {
+.player-card[data-numbering^="D064"] .card-icon {
   background-image: url(img/deckD/D064.png);
 }
 
-.player-card[data-numbering="D065"] .card-icon {
+.player-card[data-numbering^="D065"] .card-icon {
   background-image: url(img/deckD/D065.png);
 }
 
-.player-card[data-numbering="D066"] .card-icon {
+.player-card[data-numbering^="D066"] .card-icon {
   background-image: url(img/deckD/D066.png);
 }
 
-.player-card[data-numbering="D067"] .card-icon {
+.player-card[data-numbering^="D067"] .card-icon {
   background-image: url(img/deckD/D067.png);
 }
 
-.player-card[data-numbering="D068"] .card-icon {
+.player-card[data-numbering^="D068"] .card-icon {
   background-image: url(img/deckD/D068.png);
 }
 
-.player-card[data-numbering="D069"] .card-icon {
+.player-card[data-numbering^="D069"] .card-icon {
   background-image: url(img/deckD/D069.png);
 }
 
-.player-card[data-numbering="D070"] .card-icon {
+.player-card[data-numbering^="D070"] .card-icon {
   background-image: url(img/deckD/D070.png);
 }
 
-.player-card[data-numbering="D071"] .card-icon {
+.player-card[data-numbering^="D071"] .card-icon {
   background-image: url(img/deckD/D071.png);
 }
 
-.player-card[data-numbering="D072"] .card-icon {
+.player-card[data-numbering^="D072"] .card-icon {
   background-image: url(img/deckD/D072.png);
 }
 
-.player-card[data-numbering="D073"] .card-icon {
+.player-card[data-numbering^="D073"] .card-icon {
   background-image: url(img/deckD/D073.png);
 }
 
-.player-card[data-numbering="D074"] .card-icon {
+.player-card[data-numbering^="D074"] .card-icon {
   background-image: url(img/deckD/D074.png);
 }
 
-.player-card[data-numbering="D075"] .card-icon {
+.player-card[data-numbering^="D075"] .card-icon {
   background-image: url(img/deckD/D075.png);
 }
 
-.player-card[data-numbering="D076"] .card-icon {
+.player-card[data-numbering^="D076"] .card-icon {
   background-image: url(img/deckD/D076.png);
 }
 
-.player-card[data-numbering="D077"] .card-icon {
+.player-card[data-numbering^="D077"] .card-icon {
   background-image: url(img/deckD/D077.png);
 }
 
-.player-card[data-numbering="D078"] .card-icon {
+.player-card[data-numbering^="D078"] .card-icon {
   background-image: url(img/deckD/D078.png);
 }
 
-.player-card[data-numbering="D079"] .card-icon {
+.player-card[data-numbering^="D079"] .card-icon {
   background-image: url(img/deckD/D079.png);
 }
 
-.player-card[data-numbering="D080"] .card-icon {
+.player-card[data-numbering^="D080"] .card-icon {
   background-image: url(img/deckD/D080.png);
 }
 
-.player-card[data-numbering="D081"] .card-icon {
+.player-card[data-numbering^="D081"] .card-icon {
   background-image: url(img/deckD/D081.png);
 }
 
-.player-card[data-numbering="D082"] .card-icon {
+.player-card[data-numbering^="D082"] .card-icon {
   background-image: url(img/deckD/D082.png);
 }
 
-.player-card[data-numbering="D083"] .card-icon {
+.player-card[data-numbering^="D083"] .card-icon {
   background-image: url(img/deckD/D083.png);
 }
 
-.player-card[data-numbering="D084"] .card-icon {
+.player-card[data-numbering^="D084"] .card-icon {
   background-image: url(img/deckD/D084.png);
 }
 
-.player-card[data-numbering="D085"] .card-icon {
+.player-card[data-numbering^="D085"] .card-icon {
   background-image: url(img/deckD/D085.png);
 }
 
-.player-card[data-numbering="D086"] .card-icon {
+.player-card[data-numbering^="D086"] .card-icon {
   background-image: url(img/deckD/D086.png);
 }
 
-.player-card[data-numbering="D087"] .card-icon {
+.player-card[data-numbering^="D087"] .card-icon {
   background-image: url(img/deckD/D087.png);
 }
 
-.player-card[data-numbering="D088"] .card-icon {
+.player-card[data-numbering^="D088"] .card-icon {
   background-image: url(img/deckD/D088.png);
 }
 
-.player-card[data-numbering="D089"] .card-icon {
+.player-card[data-numbering^="D089"] .card-icon {
   background-image: url(img/deckD/D089.png);
 }
 
-.player-card[data-numbering="D090"] .card-icon {
+.player-card[data-numbering^="D090"] .card-icon {
   background-image: url(img/deckD/D090.png);
 }
 
-.player-card[data-numbering="D091"] .card-icon {
+.player-card[data-numbering^="D091"] .card-icon {
   background-image: url(img/deckD/D091.png);
 }
 
-.player-card[data-numbering="D092"] .card-icon {
+.player-card[data-numbering^="D092"] .card-icon {
   background-image: url(img/deckD/D092.png);
 }
 
-.player-card[data-numbering="D093"] .card-icon {
+.player-card[data-numbering^="D093"] .card-icon {
   background-image: url(img/deckD/D093.png);
 }
 
-.player-card[data-numbering="D094"] .card-icon {
+.player-card[data-numbering^="D094"] .card-icon {
   background-image: url(img/deckD/D094.png);
 }
 
-.player-card[data-numbering="D095"] .card-icon {
+.player-card[data-numbering^="D095"] .card-icon {
   background-image: url(img/deckD/D095.png);
 }
 
-.player-card[data-numbering="D096"] .card-icon {
+.player-card[data-numbering^="D096"] .card-icon {
   background-image: url(img/deckD/D096.png);
 }
 
-.player-card[data-numbering="D097"] .card-icon {
+.player-card[data-numbering^="D097"] .card-icon {
   background-image: url(img/deckD/D097.png);
 }
 
-.player-card[data-numbering="D098"] .card-icon {
+.player-card[data-numbering^="D098"] .card-icon {
   background-image: url(img/deckD/D098.png);
 }
 
-.player-card[data-numbering="D099"] .card-icon {
+.player-card[data-numbering^="D099"] .card-icon {
   background-image: url(img/deckD/D099.png);
 }
 
-.player-card[data-numbering="D100"] .card-icon {
+.player-card[data-numbering^="D100"] .card-icon {
   background-image: url(img/deckD/D100.png);
 }
 
-.player-card[data-numbering="D101"] .card-icon {
+.player-card[data-numbering^="D101"] .card-icon {
   background-image: url(img/deckD/D101.png);
 }
 
-.player-card[data-numbering="D102"] .card-icon {
+.player-card[data-numbering^="D102"] .card-icon {
   background-image: url(img/deckD/D102.png);
 }
 
-.player-card[data-numbering="D103"] .card-icon {
+.player-card[data-numbering^="D103"] .card-icon {
   background-image: url(img/deckD/D103.png);
 }
 
-.player-card[data-numbering="D104"] .card-icon {
+.player-card[data-numbering^="D104"] .card-icon {
   background-image: url(img/deckD/D104.png);
 }
 
-.player-card[data-numbering="D105"] .card-icon {
+.player-card[data-numbering^="D105"] .card-icon {
   background-image: url(img/deckD/D105.png);
 }
 
-.player-card[data-numbering="D106"] .card-icon {
+.player-card[data-numbering^="D106"] .card-icon {
   background-image: url(img/deckD/D106.png);
 }
 
-.player-card[data-numbering="D107"] .card-icon {
+.player-card[data-numbering^="D107"] .card-icon {
   background-image: url(img/deckD/D107.png);
 }
 
-.player-card[data-numbering="D108"] .card-icon {
+.player-card[data-numbering^="D108"] .card-icon {
   background-image: url(img/deckD/D108.png);
 }
 
-.player-card[data-numbering="D109"] .card-icon {
+.player-card[data-numbering^="D109"] .card-icon {
   background-image: url(img/deckD/D109.png);
 }
 
-.player-card[data-numbering="D110"] .card-icon {
+.player-card[data-numbering^="D110"] .card-icon {
   background-image: url(img/deckD/D110.png);
 }
 
-.player-card[data-numbering="D111"] .card-icon {
+.player-card[data-numbering^="D111"] .card-icon {
   background-image: url(img/deckD/D111.png);
 }
 
-.player-card[data-numbering="D112"] .card-icon {
+.player-card[data-numbering^="D112"] .card-icon {
   background-image: url(img/deckD/D112.png);
 }
 
-.player-card[data-numbering="D113"] .card-icon {
+.player-card[data-numbering^="D113"] .card-icon {
   background-image: url(img/deckD/D113.png);
 }
 
-.player-card[data-numbering="D114"] .card-icon {
+.player-card[data-numbering^="D114"] .card-icon {
   background-image: url(img/deckD/D114.png);
 }
 
-.player-card[data-numbering="D115"] .card-icon {
+.player-card[data-numbering^="D115"] .card-icon {
   background-image: url(img/deckD/D115.png);
 }
 
-.player-card[data-numbering="D116"] .card-icon {
+.player-card[data-numbering^="D116"] .card-icon {
   background-image: url(img/deckD/D116.png);
 }
 
-.player-card[data-numbering="D117"] .card-icon {
+.player-card[data-numbering^="D117"] .card-icon {
   background-image: url(img/deckD/D117.png);
 }
 
-.player-card[data-numbering="D118"] .card-icon {
+.player-card[data-numbering^="D118"] .card-icon {
   background-image: url(img/deckD/D118.png);
 }
 
-.player-card[data-numbering="D119"] .card-icon {
+.player-card[data-numbering^="D119"] .card-icon {
   background-image: url(img/deckD/D119.png);
 }
 
-.player-card[data-numbering="D120"] .card-icon {
+.player-card[data-numbering^="D120"] .card-icon {
   background-image: url(img/deckD/D120.png);
 }
 
-.player-card[data-numbering="D121"] .card-icon {
+.player-card[data-numbering^="D121"] .card-icon {
   background-image: url(img/deckD/D121.png);
 }
 
-.player-card[data-numbering="D122"] .card-icon {
+.player-card[data-numbering^="D122"] .card-icon {
   background-image: url(img/deckD/D122.png);
 }
 
-.player-card[data-numbering="D123"] .card-icon {
+.player-card[data-numbering^="D123"] .card-icon {
   background-image: url(img/deckD/D123.png);
 }
 
-.player-card[data-numbering="D124"] .card-icon {
+.player-card[data-numbering^="D124"] .card-icon {
   background-image: url(img/deckD/D124.png);
 }
 
-.player-card[data-numbering="D125"] .card-icon {
+.player-card[data-numbering^="D125"] .card-icon {
   background-image: url(img/deckD/D125.png);
 }
 
-.player-card[data-numbering="D126"] .card-icon {
+.player-card[data-numbering^="D126"] .card-icon {
   background-image: url(img/deckD/D126.png);
 }
 
-.player-card[data-numbering="D127"] .card-icon {
+.player-card[data-numbering^="D127"] .card-icon {
   background-image: url(img/deckD/D127.png);
 }
 
-.player-card[data-numbering="D128"] .card-icon {
+.player-card[data-numbering^="D128"] .card-icon {
   background-image: url(img/deckD/D128.png);
 }
 
-.player-card[data-numbering="D129"] .card-icon {
+.player-card[data-numbering^="D129"] .card-icon {
   background-image: url(img/deckD/D129.png);
 }
 
-.player-card[data-numbering="D130"] .card-icon {
+.player-card[data-numbering^="D130"] .card-icon {
   background-image: url(img/deckD/D130.png);
 }
 
-.player-card[data-numbering="D131"] .card-icon {
+.player-card[data-numbering^="D131"] .card-icon {
   background-image: url(img/deckD/D131.png);
 }
 
-.player-card[data-numbering="D132"] .card-icon {
+.player-card[data-numbering^="D132"] .card-icon {
   background-image: url(img/deckD/D132.png);
 }
 
-.player-card[data-numbering="D133"] .card-icon {
+.player-card[data-numbering^="D133"] .card-icon {
   background-image: url(img/deckD/D133.png);
 }
 
-.player-card[data-numbering="D134"] .card-icon {
+.player-card[data-numbering^="D134"] .card-icon {
   background-image: url(img/deckD/D134.png);
 }
 
-.player-card[data-numbering="D135"] .card-icon {
+.player-card[data-numbering^="D135"] .card-icon {
   background-image: url(img/deckD/D135.png);
 }
 
-.player-card[data-numbering="D136"] .card-icon {
+.player-card[data-numbering^="D136"] .card-icon {
   background-image: url(img/deckD/D136.png);
 }
 
-.player-card[data-numbering="D137"] .card-icon {
+.player-card[data-numbering^="D137"] .card-icon {
   background-image: url(img/deckD/D137.png);
 }
 
-.player-card[data-numbering="D138"] .card-icon {
+.player-card[data-numbering^="D138"] .card-icon {
   background-image: url(img/deckD/D138.png);
 }
 
-.player-card[data-numbering="D139"] .card-icon {
+.player-card[data-numbering^="D139"] .card-icon {
   background-image: url(img/deckD/D139.png);
 }
 
-.player-card[data-numbering="D140"] .card-icon {
+.player-card[data-numbering^="D140"] .card-icon {
   background-image: url(img/deckD/D140.png);
 }
 
-.player-card[data-numbering="D141"] .card-icon {
+.player-card[data-numbering^="D141"] .card-icon {
   background-image: url(img/deckD/D141.png);
 }
 
-.player-card[data-numbering="D142"] .card-icon {
+.player-card[data-numbering^="D142"] .card-icon {
   background-image: url(img/deckD/D142.png);
 }
 
-.player-card[data-numbering="D143"] .card-icon {
+.player-card[data-numbering^="D143"] .card-icon {
   background-image: url(img/deckD/D143.png);
 }
 
-.player-card[data-numbering="D144"] .card-icon {
+.player-card[data-numbering^="D144"] .card-icon {
   background-image: url(img/deckD/D144.png);
 }
 
-.player-card[data-numbering="D145"] .card-icon {
+.player-card[data-numbering^="D145"] .card-icon {
   background-image: url(img/deckD/D145.png);
 }
 
-.player-card[data-numbering="D146"] .card-icon {
+.player-card[data-numbering^="D146"] .card-icon {
   background-image: url(img/deckD/D146.png);
 }
 
-.player-card[data-numbering="D147"] .card-icon {
+.player-card[data-numbering^="D147"] .card-icon {
   background-image: url(img/deckD/D147.png);
 }
 
-.player-card[data-numbering="D148"] .card-icon {
+.player-card[data-numbering^="D148"] .card-icon {
   background-image: url(img/deckD/D148.png);
 }
 
-.player-card[data-numbering="D149"] .card-icon {
+.player-card[data-numbering^="D149"] .card-icon {
   background-image: url(img/deckD/D149.png);
 }
 
-.player-card[data-numbering="D150"] .card-icon {
+.player-card[data-numbering^="D150"] .card-icon {
   background-image: url(img/deckD/D150.png);
 }
 
-.player-card[data-numbering="D151"] .card-icon {
+.player-card[data-numbering^="D151"] .card-icon {
   background-image: url(img/deckD/D151.png);
 }
 
-.player-card[data-numbering="D152"] .card-icon {
+.player-card[data-numbering^="D152"] .card-icon {
   background-image: url(img/deckD/D152.png);
 }
 
-.player-card[data-numbering="D153"] .card-icon {
+.player-card[data-numbering^="D153"] .card-icon {
   background-image: url(img/deckD/D153.png);
 }
 
-.player-card[data-numbering="D154"] .card-icon {
+.player-card[data-numbering^="D154"] .card-icon {
   background-image: url(img/deckD/D154.png);
 }
 
-.player-card[data-numbering="D155"] .card-icon {
+.player-card[data-numbering^="D155"] .card-icon {
   background-image: url(img/deckD/D155.png);
 }
 
-.player-card[data-numbering="D156"] .card-icon {
+.player-card[data-numbering^="D156"] .card-icon {
   background-image: url(img/deckD/D156.png);
 }
 
-.player-card[data-numbering="D157"] .card-icon {
+.player-card[data-numbering^="D157"] .card-icon {
   background-image: url(img/deckD/D157.png);
 }
 
-.player-card[data-numbering="D158"] .card-icon {
+.player-card[data-numbering^="D158"] .card-icon {
   background-image: url(img/deckD/D158.png);
 }
 
-.player-card[data-numbering="D159"] .card-icon {
+.player-card[data-numbering^="D159"] .card-icon {
   background-image: url(img/deckD/D159.png);
 }
 
-.player-card[data-numbering="D160"] .card-icon {
+.player-card[data-numbering^="D160"] .card-icon {
   background-image: url(img/deckD/D160.png);
 }
 
-.player-card[data-numbering="D161"] .card-icon {
+.player-card[data-numbering^="D161"] .card-icon {
   background-image: url(img/deckD/D161.png);
 }
 
-.player-card[data-numbering="D162"] .card-icon {
+.player-card[data-numbering^="D162"] .card-icon {
   background-image: url(img/deckD/D162.png);
 }
 
-.player-card[data-numbering="D163"] .card-icon {
+.player-card[data-numbering^="D163"] .card-icon {
   background-image: url(img/deckD/D163.png);
 }
 
-.player-card[data-numbering="D164"] .card-icon {
+.player-card[data-numbering^="D164"] .card-icon {
   background-image: url(img/deckD/D164.png);
 }
 
-.player-card[data-numbering="D165"] .card-icon {
+.player-card[data-numbering^="D165"] .card-icon {
   background-image: url(img/deckD/D165.png);
 }
 
-.player-card[data-numbering="D166"] .card-icon {
+.player-card[data-numbering^="D166"] .card-icon {
   background-image: url(img/deckD/D166.png);
 }
 
-.player-card[data-numbering="D167"] .card-icon {
+.player-card[data-numbering^="D167"] .card-icon {
   background-image: url(img/deckD/D167.png);
 }
 
-.player-card[data-numbering="D168"] .card-icon {
+.player-card[data-numbering^="D168"] .card-icon {
   background-image: url(img/deckD/D168.png);
 }
 
-.player-card[data-numbering="E001"] .card-icon {
+.player-card[data-numbering^="E001"] .card-icon {
   background-image: url(img/deckE/E001.png);
 }
 
-.player-card[data-numbering="E002"] .card-icon {
+.player-card[data-numbering^="E002"] .card-icon {
   background-image: url(img/deckE/E002.png);
 }
 
-.player-card[data-numbering="E003"] .card-icon {
+.player-card[data-numbering^="E003"] .card-icon {
   background-image: url(img/deckE/E003.png);
 }
 
-.player-card[data-numbering="E004"] .card-icon {
+.player-card[data-numbering^="E004"] .card-icon {
   background-image: url(img/deckE/E004.png);
 }
 
-.player-card[data-numbering="E005"] .card-icon {
+.player-card[data-numbering^="E005"] .card-icon {
   background-image: url(img/deckE/E005.png);
 }
 
-.player-card[data-numbering="E006"] .card-icon {
+.player-card[data-numbering^="E006"] .card-icon {
   background-image: url(img/deckE/E006.png);
 }
 
-.player-card[data-numbering="E007"] .card-icon {
+.player-card[data-numbering^="E007"] .card-icon {
   background-image: url(img/deckE/E007.png);
 }
 
-.player-card[data-numbering="E008"] .card-icon {
+.player-card[data-numbering^="E008"] .card-icon {
   background-image: url(img/deckE/E008.png);
 }
 
-.player-card[data-numbering="E009"] .card-icon {
+.player-card[data-numbering^="E009"] .card-icon {
   background-image: url(img/deckE/E009.png);
 }
 
-.player-card[data-numbering="E010"] .card-icon {
+.player-card[data-numbering^="E010"] .card-icon {
   background-image: url(img/deckE/E010.png);
 }
 
-.player-card[data-numbering="E011"] .card-icon {
+.player-card[data-numbering^="E011"] .card-icon {
   background-image: url(img/deckE/E011.png);
 }
 
-.player-card[data-numbering="E012"] .card-icon {
+.player-card[data-numbering^="E012"] .card-icon {
   background-image: url(img/deckE/E012.png);
 }
 
-.player-card[data-numbering="E013"] .card-icon {
+.player-card[data-numbering^="E013"] .card-icon {
   background-image: url(img/deckE/E013.png);
 }
 
-.player-card[data-numbering="E014"] .card-icon {
+.player-card[data-numbering^="E014"] .card-icon {
   background-image: url(img/deckE/E014.png);
 }
 
-.player-card[data-numbering="E015"] .card-icon {
+.player-card[data-numbering^="E015"] .card-icon {
   background-image: url(img/deckE/E015.png);
 }
 
-.player-card[data-numbering="E016"] .card-icon {
+.player-card[data-numbering^="E016"] .card-icon {
   background-image: url(img/deckE/E016.png);
 }
 
-.player-card[data-numbering="E017"] .card-icon {
+.player-card[data-numbering^="E017"] .card-icon {
   background-image: url(img/deckE/E017.png);
 }
 
-.player-card[data-numbering="E018"] .card-icon {
+.player-card[data-numbering^="E018"] .card-icon {
   background-image: url(img/deckE/E018.png);
 }
 
-.player-card[data-numbering="E019"] .card-icon {
+.player-card[data-numbering^="E019"] .card-icon {
   background-image: url(img/deckE/E019.png);
 }
 
-.player-card[data-numbering="E020"] .card-icon {
+.player-card[data-numbering^="E020"] .card-icon {
   background-image: url(img/deckE/E020.png);
 }
 
-.player-card[data-numbering="E021"] .card-icon {
+.player-card[data-numbering^="E021"] .card-icon {
   background-image: url(img/deckE/E021.png);
 }
 
-.player-card[data-numbering="E022"] .card-icon {
+.player-card[data-numbering^="E022"] .card-icon {
   background-image: url(img/deckE/E022.png);
 }
 
-.player-card[data-numbering="E023"] .card-icon {
+.player-card[data-numbering^="E023"] .card-icon {
   background-image: url(img/deckE/E023.png);
 }
 
-.player-card[data-numbering="E024"] .card-icon {
+.player-card[data-numbering^="E024"] .card-icon {
   background-image: url(img/deckE/E024.png);
 }
 
-.player-card[data-numbering="E025"] .card-icon {
+.player-card[data-numbering^="E025"] .card-icon {
   background-image: url(img/deckE/E025.png);
 }
 
-.player-card[data-numbering="E026"] .card-icon {
+.player-card[data-numbering^="E026"] .card-icon {
   background-image: url(img/deckE/E026.png);
 }
 
-.player-card[data-numbering="E027"] .card-icon {
+.player-card[data-numbering^="E027"] .card-icon {
   background-image: url(img/deckE/E027.png);
 }
 
-.player-card[data-numbering="E028"] .card-icon {
+.player-card[data-numbering^="E028"] .card-icon {
   background-image: url(img/deckE/E028.png);
 }
 
-.player-card[data-numbering="E029"] .card-icon {
+.player-card[data-numbering^="E029"] .card-icon {
   background-image: url(img/deckE/E029.png);
 }
 
-.player-card[data-numbering="E030"] .card-icon {
+.player-card[data-numbering^="E030"] .card-icon {
   background-image: url(img/deckE/E030.png);
 }
 
-.player-card[data-numbering="E031"] .card-icon {
+.player-card[data-numbering^="E031"] .card-icon {
   background-image: url(img/deckE/E031.png);
 }
 
-.player-card[data-numbering="E032"] .card-icon {
+.player-card[data-numbering^="E032"] .card-icon {
   background-image: url(img/deckE/E032.png);
 }
 
-.player-card[data-numbering="E033"] .card-icon {
+.player-card[data-numbering^="E033"] .card-icon {
   background-image: url(img/deckE/E033.png);
 }
 
-.player-card[data-numbering="E034"] .card-icon {
+.player-card[data-numbering^="E034"] .card-icon {
   background-image: url(img/deckE/E034.png);
 }
 
-.player-card[data-numbering="E035"] .card-icon {
+.player-card[data-numbering^="E035"] .card-icon {
   background-image: url(img/deckE/E035.png);
 }
 
-.player-card[data-numbering="E036"] .card-icon {
+.player-card[data-numbering^="E036"] .card-icon {
   background-image: url(img/deckE/E036.png);
 }
 
-.player-card[data-numbering="E037"] .card-icon {
+.player-card[data-numbering^="E037"] .card-icon {
   background-image: url(img/deckE/E037.png);
 }
 
-.player-card[data-numbering="E038"] .card-icon {
+.player-card[data-numbering^="E038"] .card-icon {
   background-image: url(img/deckE/E038.png);
 }
 
-.player-card[data-numbering="E039"] .card-icon {
+.player-card[data-numbering^="E039"] .card-icon {
   background-image: url(img/deckE/E039.png);
 }
 
-.player-card[data-numbering="E040"] .card-icon {
+.player-card[data-numbering^="E040"] .card-icon {
   background-image: url(img/deckE/E040.png);
 }
 
-.player-card[data-numbering="E041"] .card-icon {
+.player-card[data-numbering^="E041"] .card-icon {
   background-image: url(img/deckE/E041.png);
 }
 
-.player-card[data-numbering="E042"] .card-icon {
+.player-card[data-numbering^="E042"] .card-icon {
   background-image: url(img/deckE/E042.png);
 }
 
-.player-card[data-numbering="E043"] .card-icon {
+.player-card[data-numbering^="E043"] .card-icon {
   background-image: url(img/deckE/E043.png);
 }
 
-.player-card[data-numbering="E044"] .card-icon {
+.player-card[data-numbering^="E044"] .card-icon {
   background-image: url(img/deckE/E044.png);
 }
 
-.player-card[data-numbering="E045"] .card-icon {
+.player-card[data-numbering^="E045"] .card-icon {
   background-image: url(img/deckE/E045.png);
 }
 
-.player-card[data-numbering="E046"] .card-icon {
+.player-card[data-numbering^="E046"] .card-icon {
   background-image: url(img/deckE/E046.png);
 }
 
-.player-card[data-numbering="E047"] .card-icon {
+.player-card[data-numbering^="E047"] .card-icon {
   background-image: url(img/deckE/E047.png);
 }
 
-.player-card[data-numbering="E048"] .card-icon {
+.player-card[data-numbering^="E048"] .card-icon {
   background-image: url(img/deckE/E048.png);
 }
 
-.player-card[data-numbering="E049"] .card-icon {
+.player-card[data-numbering^="E049"] .card-icon {
   background-image: url(img/deckE/E049.png);
 }
 
-.player-card[data-numbering="E050"] .card-icon {
+.player-card[data-numbering^="E050"] .card-icon {
   background-image: url(img/deckE/E050.png);
 }
 
-.player-card[data-numbering="E051"] .card-icon {
+.player-card[data-numbering^="E051"] .card-icon {
   background-image: url(img/deckE/E051.png);
 }
 
-.player-card[data-numbering="E052"] .card-icon {
+.player-card[data-numbering^="E052"] .card-icon {
   background-image: url(img/deckE/E052.png);
 }
 
-.player-card[data-numbering="E053"] .card-icon {
+.player-card[data-numbering^="E053"] .card-icon {
   background-image: url(img/deckE/E053.png);
 }
 
-.player-card[data-numbering="E054"] .card-icon {
+.player-card[data-numbering^="E054"] .card-icon {
   background-image: url(img/deckE/E054.png);
 }
 
-.player-card[data-numbering="E055"] .card-icon {
+.player-card[data-numbering^="E055"] .card-icon {
   background-image: url(img/deckE/E055.png);
 }
 
-.player-card[data-numbering="E056"] .card-icon {
+.player-card[data-numbering^="E056"] .card-icon {
   background-image: url(img/deckE/E056.png);
 }
 
-.player-card[data-numbering="E057"] .card-icon {
+.player-card[data-numbering^="E057"] .card-icon {
   background-image: url(img/deckE/E057.png);
 }
 
-.player-card[data-numbering="E058"] .card-icon {
+.player-card[data-numbering^="E058"] .card-icon {
   background-image: url(img/deckE/E058.png);
 }
 
-.player-card[data-numbering="E059"] .card-icon {
+.player-card[data-numbering^="E059"] .card-icon {
   background-image: url(img/deckE/E059.png);
 }
 
-.player-card[data-numbering="E060"] .card-icon {
+.player-card[data-numbering^="E060"] .card-icon {
   background-image: url(img/deckE/E060.png);
 }
 
-.player-card[data-numbering="E061"] .card-icon {
+.player-card[data-numbering^="E061"] .card-icon {
   background-image: url(img/deckE/E061.png);
 }
 
-.player-card[data-numbering="E062"] .card-icon {
+.player-card[data-numbering^="E062"] .card-icon {
   background-image: url(img/deckE/E062.png);
 }
 
-.player-card[data-numbering="E063"] .card-icon {
+.player-card[data-numbering^="E063"] .card-icon {
   background-image: url(img/deckE/E063.png);
 }
 
-.player-card[data-numbering="E064"] .card-icon {
+.player-card[data-numbering^="E064"] .card-icon {
   background-image: url(img/deckE/E064.png);
 }
 
-.player-card[data-numbering="E065"] .card-icon {
+.player-card[data-numbering^="E065"] .card-icon {
   background-image: url(img/deckE/E065.png);
 }
 
-.player-card[data-numbering="E066"] .card-icon {
+.player-card[data-numbering^="E066"] .card-icon {
   background-image: url(img/deckE/E066.png);
 }
 
-.player-card[data-numbering="E067"] .card-icon {
+.player-card[data-numbering^="E067"] .card-icon {
   background-image: url(img/deckE/E067.png);
 }
 
-.player-card[data-numbering="E068"] .card-icon {
+.player-card[data-numbering^="E068"] .card-icon {
   background-image: url(img/deckE/E068.png);
 }
 
-.player-card[data-numbering="E069"] .card-icon {
+.player-card[data-numbering^="E069"] .card-icon {
   background-image: url(img/deckE/E069.png);
 }
 
-.player-card[data-numbering="E070"] .card-icon {
+.player-card[data-numbering^="E070"] .card-icon {
   background-image: url(img/deckE/E070.png);
 }
 
-.player-card[data-numbering="E071"] .card-icon {
+.player-card[data-numbering^="E071"] .card-icon {
   background-image: url(img/deckE/E071.png);
 }
 
-.player-card[data-numbering="E072"] .card-icon {
+.player-card[data-numbering^="E072"] .card-icon {
   background-image: url(img/deckE/E072.png);
 }
 
-.player-card[data-numbering="E073"] .card-icon {
+.player-card[data-numbering^="E073"] .card-icon {
   background-image: url(img/deckE/E073.png);
 }
 
-.player-card[data-numbering="E074"] .card-icon {
+.player-card[data-numbering^="E074"] .card-icon {
   background-image: url(img/deckE/E074.png);
 }
 
-.player-card[data-numbering="E075"] .card-icon {
+.player-card[data-numbering^="E075"] .card-icon {
   background-image: url(img/deckE/E075.png);
 }
 
-.player-card[data-numbering="E076"] .card-icon {
+.player-card[data-numbering^="E076"] .card-icon {
   background-image: url(img/deckE/E076.png);
 }
 
-.player-card[data-numbering="E077"] .card-icon {
+.player-card[data-numbering^="E077"] .card-icon {
   background-image: url(img/deckE/E077.png);
 }
 
-.player-card[data-numbering="E078"] .card-icon {
+.player-card[data-numbering^="E078"] .card-icon {
   background-image: url(img/deckE/E078.png);
 }
 
-.player-card[data-numbering="E079"] .card-icon {
+.player-card[data-numbering^="E079"] .card-icon {
   background-image: url(img/deckE/E079.png);
 }
 
-.player-card[data-numbering="E080"] .card-icon {
+.player-card[data-numbering^="E080"] .card-icon {
   background-image: url(img/deckE/E080.png);
 }
 
-.player-card[data-numbering="E081"] .card-icon {
+.player-card[data-numbering^="E081"] .card-icon {
   background-image: url(img/deckE/E081.png);
 }
 
-.player-card[data-numbering="E082"] .card-icon {
+.player-card[data-numbering^="E082"] .card-icon {
   background-image: url(img/deckE/E082.png);
 }
 
-.player-card[data-numbering="E083"] .card-icon {
+.player-card[data-numbering^="E083"] .card-icon {
   background-image: url(img/deckE/E083.png);
 }
 
-.player-card[data-numbering="E084"] .card-icon {
+.player-card[data-numbering^="E084"] .card-icon {
   background-image: url(img/deckE/E084.png);
 }
 
-.player-card[data-numbering="E085"] .card-icon {
+.player-card[data-numbering^="E085"] .card-icon {
   background-image: url(img/deckE/E085.png);
 }
 
-.player-card[data-numbering="E086"] .card-icon {
+.player-card[data-numbering^="E086"] .card-icon {
   background-image: url(img/deckE/E086.png);
 }
 
-.player-card[data-numbering="E087"] .card-icon {
+.player-card[data-numbering^="E087"] .card-icon {
   background-image: url(img/deckE/E087.png);
 }
 
-.player-card[data-numbering="E088"] .card-icon {
+.player-card[data-numbering^="E088"] .card-icon {
   background-image: url(img/deckE/E088.png);
 }
 
-.player-card[data-numbering="E089"] .card-icon {
+.player-card[data-numbering^="E089"] .card-icon {
   background-image: url(img/deckE/E089.png);
 }
 
-.player-card[data-numbering="E090"] .card-icon {
+.player-card[data-numbering^="E090"] .card-icon {
   background-image: url(img/deckE/E090.png);
 }
 
-.player-card[data-numbering="E091"] .card-icon {
+.player-card[data-numbering^="E091"] .card-icon {
   background-image: url(img/deckE/E091.png);
 }
 
-.player-card[data-numbering="E092"] .card-icon {
+.player-card[data-numbering^="E092"] .card-icon {
   background-image: url(img/deckE/E092.png);
 }
 
-.player-card[data-numbering="E093"] .card-icon {
+.player-card[data-numbering^="E093"] .card-icon {
   background-image: url(img/deckE/E093.png);
 }
 
-.player-card[data-numbering="E094"] .card-icon {
+.player-card[data-numbering^="E094"] .card-icon {
   background-image: url(img/deckE/E094.png);
 }
 
-.player-card[data-numbering="E095"] .card-icon {
+.player-card[data-numbering^="E095"] .card-icon {
   background-image: url(img/deckE/E095.png);
 }
 
-.player-card[data-numbering="E096"] .card-icon {
+.player-card[data-numbering^="E096"] .card-icon {
   background-image: url(img/deckE/E096.png);
 }
 
-.player-card[data-numbering="E097"] .card-icon {
+.player-card[data-numbering^="E097"] .card-icon {
   background-image: url(img/deckE/E097.png);
 }
 
-.player-card[data-numbering="E098"] .card-icon {
+.player-card[data-numbering^="E098"] .card-icon {
   background-image: url(img/deckE/E098.png);
 }
 
-.player-card[data-numbering="E099"] .card-icon {
+.player-card[data-numbering^="E099"] .card-icon {
   background-image: url(img/deckE/E099.png);
 }
 
-.player-card[data-numbering="E100"] .card-icon {
+.player-card[data-numbering^="E100"] .card-icon {
   background-image: url(img/deckE/E100.png);
 }
 
-.player-card[data-numbering="E101"] .card-icon {
+.player-card[data-numbering^="E101"] .card-icon {
   background-image: url(img/deckE/E101.png);
 }
 
-.player-card[data-numbering="E102"] .card-icon {
+.player-card[data-numbering^="E102"] .card-icon {
   background-image: url(img/deckE/E102.png);
 }
 
-.player-card[data-numbering="E103"] .card-icon {
+.player-card[data-numbering^="E103"] .card-icon {
   background-image: url(img/deckE/E103.png);
 }
 
-.player-card[data-numbering="E104"] .card-icon {
+.player-card[data-numbering^="E104"] .card-icon {
   background-image: url(img/deckE/E104.png);
 }
 
-.player-card[data-numbering="E105"] .card-icon {
+.player-card[data-numbering^="E105"] .card-icon {
   background-image: url(img/deckE/E105.png);
 }
 
-.player-card[data-numbering="E106"] .card-icon {
+.player-card[data-numbering^="E106"] .card-icon {
   background-image: url(img/deckE/E106.png);
 }
 
-.player-card[data-numbering="E107"] .card-icon {
+.player-card[data-numbering^="E107"] .card-icon {
   background-image: url(img/deckE/E107.png);
 }
 
-.player-card[data-numbering="E108"] .card-icon {
+.player-card[data-numbering^="E108"] .card-icon {
   background-image: url(img/deckE/E108.png);
 }
 
-.player-card[data-numbering="E109"] .card-icon {
+.player-card[data-numbering^="E109"] .card-icon {
   background-image: url(img/deckE/E109.png);
 }
 
-.player-card[data-numbering="E110"] .card-icon {
+.player-card[data-numbering^="E110"] .card-icon {
   background-image: url(img/deckE/E110.png);
 }
 
-.player-card[data-numbering="E111"] .card-icon {
+.player-card[data-numbering^="E111"] .card-icon {
   background-image: url(img/deckE/E111.png);
 }
 
-.player-card[data-numbering="E112"] .card-icon {
+.player-card[data-numbering^="E112"] .card-icon {
   background-image: url(img/deckE/E112.png);
 }
 
-.player-card[data-numbering="E113"] .card-icon {
+.player-card[data-numbering^="E113"] .card-icon {
   background-image: url(img/deckE/E113.png);
 }
 
-.player-card[data-numbering="E114"] .card-icon {
+.player-card[data-numbering^="E114"] .card-icon {
   background-image: url(img/deckE/E114.png);
 }
 
-.player-card[data-numbering="E115"] .card-icon {
+.player-card[data-numbering^="E115"] .card-icon {
   background-image: url(img/deckE/E115.png);
 }
 
-.player-card[data-numbering="E116"] .card-icon {
+.player-card[data-numbering^="E116"] .card-icon {
   background-image: url(img/deckE/E116.png);
 }
 
-.player-card[data-numbering="E117"] .card-icon {
+.player-card[data-numbering^="E117"] .card-icon {
   background-image: url(img/deckE/E117.png);
 }
 
-.player-card[data-numbering="E118"] .card-icon {
+.player-card[data-numbering^="E118"] .card-icon {
   background-image: url(img/deckE/E118.png);
 }
 
-.player-card[data-numbering="E119"] .card-icon {
+.player-card[data-numbering^="E119"] .card-icon {
   background-image: url(img/deckE/E119.png);
 }
 
-.player-card[data-numbering="E120"] .card-icon {
+.player-card[data-numbering^="E120"] .card-icon {
   background-image: url(img/deckE/E120.png);
 }
 
-.player-card[data-numbering="E121"] .card-icon {
+.player-card[data-numbering^="E121"] .card-icon {
   background-image: url(img/deckE/E121.png);
 }
 
-.player-card[data-numbering="E122"] .card-icon {
+.player-card[data-numbering^="E122"] .card-icon {
   background-image: url(img/deckE/E122.png);
 }
 
-.player-card[data-numbering="E123"] .card-icon {
+.player-card[data-numbering^="E123"] .card-icon {
   background-image: url(img/deckE/E123.png);
 }
 
-.player-card[data-numbering="E124"] .card-icon {
+.player-card[data-numbering^="E124"] .card-icon {
   background-image: url(img/deckE/E124.png);
 }
 
-.player-card[data-numbering="E125"] .card-icon {
+.player-card[data-numbering^="E125"] .card-icon {
   background-image: url(img/deckE/E125.png);
 }
 
-.player-card[data-numbering="E126"] .card-icon {
+.player-card[data-numbering^="E126"] .card-icon {
   background-image: url(img/deckE/E126.png);
 }
 
-.player-card[data-numbering="E127"] .card-icon {
+.player-card[data-numbering^="E127"] .card-icon {
   background-image: url(img/deckE/E127.png);
 }
 
-.player-card[data-numbering="E128"] .card-icon {
+.player-card[data-numbering^="E128"] .card-icon {
   background-image: url(img/deckE/E128.png);
 }
 
-.player-card[data-numbering="E129"] .card-icon {
+.player-card[data-numbering^="E129"] .card-icon {
   background-image: url(img/deckE/E129.png);
 }
 
-.player-card[data-numbering="E130"] .card-icon {
+.player-card[data-numbering^="E130"] .card-icon {
   background-image: url(img/deckE/E130.png);
 }
 
-.player-card[data-numbering="E131"] .card-icon {
+.player-card[data-numbering^="E131"] .card-icon {
   background-image: url(img/deckE/E131.png);
 }
 
-.player-card[data-numbering="E132"] .card-icon {
+.player-card[data-numbering^="E132"] .card-icon {
   background-image: url(img/deckE/E132.png);
 }
 
-.player-card[data-numbering="E133"] .card-icon {
+.player-card[data-numbering^="E133"] .card-icon {
   background-image: url(img/deckE/E133.png);
 }
 
-.player-card[data-numbering="E134"] .card-icon {
+.player-card[data-numbering^="E134"] .card-icon {
   background-image: url(img/deckE/E134.png);
 }
 
-.player-card[data-numbering="E135"] .card-icon {
+.player-card[data-numbering^="E135"] .card-icon {
   background-image: url(img/deckE/E135.png);
 }
 
-.player-card[data-numbering="E136"] .card-icon {
+.player-card[data-numbering^="E136"] .card-icon {
   background-image: url(img/deckE/E136.png);
 }
 
-.player-card[data-numbering="E137"] .card-icon {
+.player-card[data-numbering^="E137"] .card-icon {
   background-image: url(img/deckE/E137.png);
 }
 
-.player-card[data-numbering="E138"] .card-icon {
+.player-card[data-numbering^="E138"] .card-icon {
   background-image: url(img/deckE/E138.png);
 }
 
-.player-card[data-numbering="E139"] .card-icon {
+.player-card[data-numbering^="E139"] .card-icon {
   background-image: url(img/deckE/E139.png);
 }
 
-.player-card[data-numbering="E140"] .card-icon {
+.player-card[data-numbering^="E140"] .card-icon {
   background-image: url(img/deckE/E140.png);
 }
 
-.player-card[data-numbering="E141"] .card-icon {
+.player-card[data-numbering^="E141"] .card-icon {
   background-image: url(img/deckE/E141.png);
 }
 
-.player-card[data-numbering="E142"] .card-icon {
+.player-card[data-numbering^="E142"] .card-icon {
   background-image: url(img/deckE/E142.png);
 }
 
-.player-card[data-numbering="E143"] .card-icon {
+.player-card[data-numbering^="E143"] .card-icon {
   background-image: url(img/deckE/E143.png);
 }
 
-.player-card[data-numbering="E144"] .card-icon {
+.player-card[data-numbering^="E144"] .card-icon {
   background-image: url(img/deckE/E144.png);
 }
 
-.player-card[data-numbering="E145"] .card-icon {
+.player-card[data-numbering^="E145"] .card-icon {
   background-image: url(img/deckE/E145.png);
 }
 
-.player-card[data-numbering="E146"] .card-icon {
+.player-card[data-numbering^="E146"] .card-icon {
   background-image: url(img/deckE/E146.png);
 }
 
-.player-card[data-numbering="E147"] .card-icon {
+.player-card[data-numbering^="E147"] .card-icon {
   background-image: url(img/deckE/E147.png);
 }
 
-.player-card[data-numbering="E148"] .card-icon {
+.player-card[data-numbering^="E148"] .card-icon {
   background-image: url(img/deckE/E148.png);
 }
 
-.player-card[data-numbering="E149"] .card-icon {
+.player-card[data-numbering^="E149"] .card-icon {
   background-image: url(img/deckE/E149.png);
 }
 
-.player-card[data-numbering="E150"] .card-icon {
+.player-card[data-numbering^="E150"] .card-icon {
   background-image: url(img/deckE/E150.png);
 }
 
-.player-card[data-numbering="E151"] .card-icon {
+.player-card[data-numbering^="E151"] .card-icon {
   background-image: url(img/deckE/E151.png);
 }
 
-.player-card[data-numbering="E152"] .card-icon {
+.player-card[data-numbering^="E152"] .card-icon {
   background-image: url(img/deckE/E152.png);
 }
 
-.player-card[data-numbering="E153"] .card-icon {
+.player-card[data-numbering^="E153"] .card-icon {
   background-image: url(img/deckE/E153.png);
 }
 
-.player-card[data-numbering="E154"] .card-icon {
+.player-card[data-numbering^="E154"] .card-icon {
   background-image: url(img/deckE/E154.png);
 }
 
-.player-card[data-numbering="E155"] .card-icon {
+.player-card[data-numbering^="E155"] .card-icon {
   background-image: url(img/deckE/E155.png);
 }
 
-.player-card[data-numbering="E156"] .card-icon {
+.player-card[data-numbering^="E156"] .card-icon {
   background-image: url(img/deckE/E156.png);
 }
 
-.player-card[data-numbering="E157"] .card-icon {
+.player-card[data-numbering^="E157"] .card-icon {
   background-image: url(img/deckE/E157.png);
 }
 
-.player-card[data-numbering="E158"] .card-icon {
+.player-card[data-numbering^="E158"] .card-icon {
   background-image: url(img/deckE/E158.png);
 }
 
-.player-card[data-numbering="E159"] .card-icon {
+.player-card[data-numbering^="E159"] .card-icon {
   background-image: url(img/deckE/E159.png);
 }
 
-.player-card[data-numbering="E160"] .card-icon {
+.player-card[data-numbering^="E160"] .card-icon {
   background-image: url(img/deckE/E160.png);
 }
 
-.player-card[data-numbering="E161"] .card-icon {
+.player-card[data-numbering^="E161"] .card-icon {
   background-image: url(img/deckE/E161.png);
 }
 
-.player-card[data-numbering="E162"] .card-icon {
+.player-card[data-numbering^="E162"] .card-icon {
   background-image: url(img/deckE/E162.png);
 }
 
-.player-card[data-numbering="E163"] .card-icon {
+.player-card[data-numbering^="E163"] .card-icon {
   background-image: url(img/deckE/E163.png);
 }
 
-.player-card[data-numbering="E164"] .card-icon {
+.player-card[data-numbering^="E164"] .card-icon {
   background-image: url(img/deckE/E164.png);
 }
 
-.player-card[data-numbering="E165"] .card-icon {
+.player-card[data-numbering^="E165"] .card-icon {
   background-image: url(img/deckE/E165.png);
 }
 
-.player-card[data-numbering="E166"] .card-icon {
+.player-card[data-numbering^="E166"] .card-icon {
   background-image: url(img/deckE/E166.png);
 }
 
-.player-card[data-numbering="E167"] .card-icon {
+.player-card[data-numbering^="E167"] .card-icon {
   background-image: url(img/deckE/E167.png);
 }
 
-.player-card[data-numbering="E168"] .card-icon {
+.player-card[data-numbering^="E168"] .card-icon {
   background-image: url(img/deckE/E168.png);
 }
 
