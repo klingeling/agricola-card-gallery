@@ -424,7 +424,8 @@ footer {
     font-family: AgricolaCustomTemp;
     font-style: normal;
     font-weight: 400;
-    src: url(img/fonts/Agricola-Medium-Temp.ttf) format("truetype");
+    src: url(img/fonts/YRDZST-Medium.woff2) format("woff2");
+    /* src: url(img/fonts/Agricola-Medium-Temp.ttf) format("truetype"); */
 }
 
 @font-face {
@@ -432,6 +433,7 @@ footer {
     font-family: AgricolaCustomMedium;
     font-style: normal;
     font-weight: 400;
+    /* src: url(img/fonts/YRDZST-Medium.woff2) format("woff2"); */
     src: url(img/fonts/Agricola-Medium.ttf) format("truetype");
 }
 
@@ -2207,7 +2209,7 @@ footer {
     background-position-y: 0;
     background-size: 100% 100%;
     transform: rotate(0deg);
-height: 167.6px;
+    height: 167.6px;
     left: 35.8px;
     top: 47.45px;
     width: 165.25px;
@@ -2703,4 +2705,36 @@ height: 167.6px;
     left: 36.1px;
     top: 48.55px;
     width: 165.05px;
+}
+
+.agricola-meeple.meeple-meeple {
+    background-image: url(img/meeple.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1em;
+    position: relative;
+    top: 4px;
+    width: 0.6em;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-players[data-n="5+"] {
+    background-image: url(img/5players.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 4.5%;
+    position: absolute;
+    top: 160.975px;
+    height: 35.85px;
+    width: 35.85px;
+}
+
+.player-card .player-card-resizable .player-card-inner .card-players[data-n="6+"] {
+    background-image: url(img/6players.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    left: 4.5%;
+    position: absolute;
+    top: 160.975px;
+    height: 35.85px;
+    width: 35.85px;
 }
