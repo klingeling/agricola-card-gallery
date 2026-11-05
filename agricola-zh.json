@@ -440,7 +440,7 @@
     "At the start of scoring, you can place <FOOD> in empty fields. You get 1/2/3 bonus <SCORE> for each field in which you place 1/4/7 <FOOD>.": "游戏结束计分开始时，你可以在你的空农田中放置<FOOD>。每1块放置了1/4/7<FOOD>的农田，你获得1/2/3点奖励<SCORE>。",
     "At the start of scoring, you get a number of <VEGETABLE> equal to the smallest of the numbers of major improvements, minor improvements, and occupations you have.": "游戏结束计分时，你获得与你拥有的主要发展、次要发展和职业卡牌中最小数量相等的<VEGETABLE>。",
     "At the start of the breeding phase of each harvest, if you have at least 1 unfenced stable without an animal, you get 1 <SHEEP>.": "在每次收成的繁殖步骤开始时，如果你有至少1个没有动物的牧场外畜棚，你获得1<SHEEP>。",
-    "At the start of the field phase of each harvest, if you have at least 1 <GRAIN> field, 1 <VEGETABLE> field, and 1 empty field, you get 3 <FOOD>.": "在每次收成的收割步骤开始时，如果你至少有1<GRAIN>农田，１<VEGETABLE>农田，和1个闲置田地，获得3<FOOD>。",
+    "At the start of the field phase of each harvest, if you have at least 1 <GRAIN> field, 1 <VEGETABLE> field, and 1 empty field, you get 3 <FOOD>.": "在每次收成的收割步骤开始时，如果你至少有1<GRAIN>农田，1<VEGETABLE>农田，和1个闲置农田，获得3<FOOD>。",
     "At the start of the last harvest, you can take up to 2 of each other player's unbuilt fences and build them on your farm at no cost. (Your farm can then have over 15 fences.)": "在最后一次收成开始时，你可以从其他每位玩家处各拿取最多2个未建造的栅栏，并免费将它们建造在你的农场中。__(此后你的农场可以拥有超过15个栅栏。)__",
     "At the start of the next harvest, you get a __Family Growth__ action if you have room for the newborn.": "在下次收成开始时，如果你有房间给新生儿，你获得一次__“家庭增长”__行动。",
     "At the start of the returning home phase of each round, if both the __Day Laborer__ and __Grain Seeds__ action spaces are occupied, you get 1 <VEGETABLE>.": "在每轮的回家阶段开始时，如果__“临时工”__和__“谷物种子”__行动格都被占据，你获得1个<VEGETABLE>。",
