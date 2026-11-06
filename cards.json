@@ -9045,7 +9045,7 @@
         "cook": false,
         "bread": false,
         "passing": false,
-        "description": "<div>在每次收成的收割步骤开始时，如果你至少有1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>农田，１<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>农田，和1个闲置田地，获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
+        "description": "<div>在每次收成的收割步骤开始时，如果你至少有1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-grain\"></div></div>农田，1<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-vegetable\"></div></div>农田，和1个闲置农田，获得3<div class=\"meeple-container\"><div class=\"agricola-meeple meeple-food\"></div></div>。</div>",
         "mini": false
     },
     "B62_Pitchfork": {
